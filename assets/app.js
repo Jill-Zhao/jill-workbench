@@ -69,6 +69,7 @@ let SETTINGS = load(KEY_SET, { goal: 1500 });
 let curCat   = 'game';
 let curPlat  = 'all';
 let curImp   = 'all';
+let curViol  = 'all';
 let curStageFilter = '';
 let foodDate = ymd(new Date());
 let pickedFood = null;
@@ -115,6 +116,7 @@ function renderRankings(){
       </div>
       <div class="card-perf">${esc(a.performance)}</div>
       <div class="card-comment"><b>怎么用：</b>${esc(a.comment)}</div>
+      ${a.source ? `<div class="card-src"><a href="${esc(a.source)}" target="_blank" rel="noopener">🔗 信息来源（点击核实）</a></div>` : ''}
     </div>`).join('');
 }
 
@@ -125,6 +127,26 @@ function renderEvents(){
       <div class="tl-title">${esc(e.title)}</div>
       <div class="tl-sum">${esc(e.summary)}</div>
       <div class="tl-biz">${esc(e.bizValue)}</div>
+      ${e.source ? `<div class="tl-src"><a href="${esc(e.source)}" target="_blank" rel="noopener">🔗 信息来源（点击核实）</a></div>` : ''}
+    </div>`).join('');
+}
+
+/* 广告服务商侧小道消息 */
+function renderAgencyIntel(){
+  const list = INTEL.agencyIntel || [];
+  const box = $('#agencyIntelList');
+  if(!box) return;
+  if(!list.length){ box.innerHTML = '<div class="empty"><p>暂无渠道侧小道消息。</p></div>'; return; }
+  box.innerHTML = list.map(a => `
+    <div class="card agency-card">
+      <div class="pol-head">
+        <span class="tag tag-whisper">小道消息</span>
+        <span class="pol-title">${esc(a.title)}</span>
+        ${a.date ? `<span class="tag tag-soft">${esc(a.date)}</span>` : ''}
+      </div>
+      <div class="pol-detail">${esc(a.summary)}</div>
+      <div class="pol-biz"><strong>商务视角：</strong>${esc(a.bizValue)}</div>
+      ${a.source ? `<div class="card-src"><a href="${esc(a.source)}" target="_blank" rel="noopener">🔗 信息来源（点击核实）</a></div>` : ''}
     </div>`).join('');
 }
 
@@ -148,6 +170,7 @@ function renderPolicies(){
   let list = INTEL.policies || [];
   if(curPlat !== 'all') list = list.filter(p => p.platform === curPlat);
   if(curImp  !== 'all') list = list.filter(p => p.impact === curImp);
+  if(curViol !== 'all') list = list.filter(p => (p.categories||[]).some(c => c.indexOf(curViol) >= 0));
 
   const today = ymd(new Date());
   $('#policyList').innerHTML = list.length ? list.map(p => {
@@ -184,6 +207,10 @@ $$('#impactTabs .tab').forEach(t => t.addEventListener('click', ()=>{
   $$('#impactTabs .tab').forEach(x => x.classList.remove('active'));
   t.classList.add('active'); curImp = t.dataset.imp; renderPolicies();
 }));
+$$('#violTabs .tab').forEach(t => t.addEventListener('click', ()=>{
+  $$('#violTabs .tab').forEach(x => x.classList.remove('active'));
+  t.classList.add('active'); curViol = t.dataset.viol; renderPolicies();
+}));
 
 /* ============================================================
    模块三：出海线索池
@@ -192,7 +219,7 @@ function renderLeads(){
   const q = ($('#leadSearch').value || '').trim().toLowerCase();
   let list = INTEL.chinaGoingGlobal || [];
   if(q) list = list.filter(r =>
-    (r.product+r.company+r.category+r.markets+(r.hq||'')).toLowerCase().includes(q));
+    (r.product+r.company+r.category+r.markets+(r.hq||'')+(r.website||'')+(r.contact||'')+(r.agency||'')).toLowerCase().includes(q));
 
   const existing = new Set(CRM.map(c => c.company));
   const tb = $('#leadTable tbody');
@@ -206,11 +233,14 @@ function renderLeads(){
       <td class="td-mkt">${esc(r.markets)}</td>
       <td class="td-rev">${esc(r.revenue)}</td>
       <td class="td-recent">${esc(r.recent)}</td>
+      <td class="td-web">${r.website ? `<a href="${esc(r.website)}" target="_blank" rel="noopener">🌐 官网</a>` : '<span class="muted">暂无</span>'}</td>
+      <td class="td-contact">${esc(r.contact || '暂无公开数据')}</td>
+      <td class="td-agency">${esc(r.agency || '—')}</td>
       <td>${ added
         ? '<span class="mini-btn done">✓ 已在客户</span>'
         : `<button class="mini-btn" data-lead="${i}">+ 加为客户</button>` }</td>
     </tr>`;
-  }).join('') : '<tr><td colspan="8" style="text-align:center;padding:40px;color:#9aa1ad">没找到匹配的公司</td></tr>';
+  }).join('') : '<tr><td colspan="11" style="text-align:center;padding:40px;color:#9aa1ad">没找到匹配的公司</td></tr>';
 
   $$('[data-lead]', tb).forEach(btn => btn.addEventListener('click', ()=>{
     const r = list[+btn.dataset.lead];
@@ -701,6 +731,150 @@ $$('[data-close]').forEach(b => b.addEventListener('click', ()=>
 $$('.modal').forEach(m => m.addEventListener('click', e =>{
   if(e.target === m) m.classList.remove('show');
 }));
+/* ============================================================
+   今日饮食 · 图片识别（按钮 + 手动兜底）
+   ============================================================ */
+let photoItems = [];
+function ensureVisionSettings(){
+  if(typeof SETTINGS.visionUrl === 'string') return;
+  SETTINGS.visionUrl  = '';
+  SETTINGS.visionKey  = '';
+  SETTINGS.visionModel = 'gpt-4o-mini';
+}
+function setupPhoto(){
+  ensureVisionSettings();
+  const fileInput = $('#foodPhoto');
+  const btn = $('#btnPhoto');
+  if(!fileInput || !btn) return;
+  btn.addEventListener('click', ()=> fileInput.click());
+  fileInput.addEventListener('change', e =>{
+    const file = e.target.files && e.target.files[0];
+    if(!file) return;
+    const reader = new FileReader();
+    reader.onload = () => openPhotoModal(reader.result);
+    reader.readAsDataURL(file);
+    fileInput.value = '';
+  });
+}
+function openPhotoModal(dataUrl){
+  const modal = $('#photoModal');
+  if(!modal) return;
+  photoItems = [];
+  $('#photoPreview').src = dataUrl;
+  $('#photoFoodList').innerHTML = '';
+  $('#photoStatus').textContent = '';
+  modal.classList.add('show');
+  if(!SETTINGS.visionKey || !SETTINGS.visionUrl){
+    $('#photoStatus').textContent = '未配置识别接口，已为你打开手动填写（设置里填 Key 后可启用自动识别）';
+    setTimeout(()=>{ modal.classList.remove('show'); $('#btnCustomFood').click(); }, 900);
+    return;
+  }
+  $('#photoStatus').textContent = '识别中…';
+  recognizeFood(dataUrl).then(items =>{
+    photoItems = items || [];
+    if(!photoItems.length){
+      $('#photoStatus').textContent = '没识别到明确食物，换个角度或手动添加吧';
+      return;
+    }
+    $('#photoStatus').textContent = `识别到 ${photoItems.length} 样，确认份量后加入：`;
+    $('#photoFoodList').innerHTML = photoItems.map((it,i)=>{
+      const hit = matchFoodDb(it.name);
+      const g = it.grams || (hit ? hit.g : 100);
+      const kcal = hit ? Math.round(hit.k * g/100) : Math.round(it.kcal||0);
+      return `<div class="pf-item">
+        <div class="pf-name">${esc(it.name)} ${hit?`<span class="pf-tag">库匹配</span>`:`<span class="pf-tag warn">估算</span>`}</div>
+        <div class="pf-row">
+          <input class="input tiny" type="number" min="0" step="0.5" value="${g}" data-g="${i}"> <span>克</span>
+          <span class="pf-kcal" id="pfk${i}">≈ ${kcal} kcal</span>
+        </div>
+        <input type="hidden" id="pfn${i}" value="${esc(it.name)}">
+        <input type="hidden" id="pfh${i}" value="${hit?esc(hit.n):''}">
+      </div>`;
+    }).join('');
+    $('#photoFoodList').querySelectorAll('input[data-g]').forEach(inp=>{
+      inp.addEventListener('input', ()=>{
+        const i = +inp.dataset.g;
+        const hitName = $('#pfh'+i).value;
+        const hit = hitName ? FOOD_DB.find(f=>f.n===hitName) : null;
+        const kcal = hit ? Math.round(hit.k * (parseFloat(inp.value)||0)/100) : (photoItems[i].kcal||0);
+        $('#pfk'+i).textContent = '≈ ' + Math.round(kcal) + ' kcal';
+      });
+    });
+  }).catch(err=>{
+    $('#photoStatus').textContent = '识别失败：' + (err && err.message ? err.message : '网络或接口问题');
+  });
+}
+function matchFoodDb(name){
+  if(!name) return null;
+  const n = name.toLowerCase();
+  let hit = FOOD_DB.find(f => f.n.toLowerCase() === n);
+  if(hit) return hit;
+  hit = FOOD_DB.find(f => n.indexOf(f.n.toLowerCase())>=0 || f.n.toLowerCase().indexOf(n)>=0);
+  return hit || null;
+}
+async function recognizeFood(dataUrl){
+  const resp = await fetch(SETTINGS.visionUrl, {
+    method:'POST',
+    headers:{ 'Content-Type':'application/json', 'Authorization':'Bearer '+SETTINGS.visionKey },
+    body: JSON.stringify({
+      model: SETTINGS.visionModel || 'gpt-4o-mini',
+      messages:[{ role:'user', content:[
+        { type:'text', text:'请识别图片中的食物，返回 JSON 数组，每项含 name(中文食物名)、grams(估算克数)、kcal(估算热量)。只返回 JSON，不要多余解释。' },
+        { type:'image_url', image_url:{ url: dataUrl } }
+      ]}]
+    })
+  });
+  if(!resp.ok) throw new Error('HTTP '+resp.status);
+  const data = await resp.json();
+  const text = (data.choices && data.choices[0] && data.choices[0].message && data.choices[0].message.content) || '';
+  const m = text.match(/\[[\s\S]*\]/);
+  return m ? JSON.parse(m[0]) : [];
+}
+function setupVisionSettings(){
+  const btn = $('#btnVisionSettings');
+  if(!btn) return;
+  btn.addEventListener('click', ()=>{
+    ensureVisionSettings();
+    $('#vsUrl').value  = SETTINGS.visionUrl || '';
+    $('#vsKey').value  = SETTINGS.visionKey || '';
+    $('#vsModel').value= SETTINGS.visionModel || 'gpt-4o-mini';
+    $('#visionModal').classList.add('show');
+  });
+  $('#btnSaveVision').addEventListener('click', ()=>{
+    SETTINGS.visionUrl   = $('#vsUrl').value.trim();
+    SETTINGS.visionKey   = $('#vsKey').value.trim();
+    SETTINGS.visionModel = $('#vsModel').value.trim() || 'gpt-4o-mini';
+    save(KEY_SET, SETTINGS);
+    $('#visionModal').classList.remove('show');
+    toast(SETTINGS.visionKey ? '识别接口已保存，上传图片即可自动识别' : '已清空，图片识别将退回手动');
+  });
+  $('#btnAddPhotoFood').addEventListener('click', ()=>{
+    const items = $$('.pf-item', $('#photoFoodList'));
+    let added = 0;
+    items.forEach((el)=>{
+      const i = +$('input[data-g]', el).dataset.g;
+      const name = $('#pfn'+i).value;
+      const hitName = $('#pfh'+i).value;
+      const grams = parseFloat($('input[data-g]', el).value) || 0;
+      if(!name || !grams) return;
+      const hit = hitName ? FOOD_DB.find(f=>f.n===hitName) : null;
+      let item;
+      if(hit){
+        const r = grams/100;
+        item = { id: uid(), meal:$('#foodMeal').value, name:hit.n, desc:grams+' g',
+          kcal:hit.k*r, p:hit.p*r, f:hit.f*r, c:hit.c*r };
+      } else {
+        item = { id: uid(), meal:$('#foodMeal').value, name, desc:'图片估算 '+grams+' g',
+          kcal: Math.round(photoItems[i] ? (photoItems[i].kcal||0) : 0), p:0, f:0, c:0 };
+      }
+      FOOD[foodDate] = todayList().concat(item); added++;
+    });
+    if(added){ save(KEY_FOOD, FOOD); renderFood(); }
+    $('#photoModal').classList.remove('show');
+    toast(added ? `已加入 ${added} 样食物` : '没有可加入的食物');
+  });
+}
+
 document.addEventListener('keydown', e =>{
   if(e.key === 'Escape') $$('.modal.show').forEach(m => m.classList.remove('show'));
 });
@@ -715,8 +889,9 @@ function init(){
   $('#updatedAt').textContent = (INTEL.updatedAt || '').slice(5) || '—';
 
   fillStageSelects();
-  renderPulse(); renderRankings(); renderEvents();
+  renderPulse(); renderRankings(); renderEvents(); renderAgencyIntel();
   renderPolicies(); renderLeads(); renderCRM(); renderFood();
+  setupPhoto(); setupVisionSettings();
 
   // 逾期跟进提醒
   const due = CRM.filter(c => c.next && daysBetween(ymd(new Date()), c.next) <= 0);
@@ -730,7 +905,7 @@ window.JILL_APP = {
     CRM      = load(KEY_CRM, []);
     FOOD     = load(KEY_FOOD, {});
     SETTINGS = load(KEY_SET, { goal: 1500 });
-    renderLeads(); renderCRM(); renderFood();
+    renderLeads(); renderCRM(); renderFood(); renderAgencyIntel();
   }
 };
 

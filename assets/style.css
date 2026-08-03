@@ -439,3 +439,36 @@ textarea.input{resize:vertical;line-height:1.6}
 @supports (-webkit-touch-callout:none){
   .main{padding-bottom:calc(98px + env(safe-area-inset-bottom))}
 }
+
+/* ---------- 信息来源链接 ---------- */
+.card-src, .tl-src{margin-top:8px;font-size:12.5px}
+.card-src a, .tl-src a{
+  display:inline-flex;align-items:center;gap:3px;
+  color:var(--brand);text-decoration:none;font-weight:600;
+  background:var(--brand-soft);border:1px solid var(--brand-line);
+  padding:3px 9px;border-radius:999px;
+}
+.card-src a:hover, .tl-src a:hover{background:var(--brand);color:#fff;border-color:var(--brand)}
+
+/* ---------- 广告服务商小道消息 ---------- */
+.tag-whisper{background:#f3e8ff;color:#7b2fb5;border-color:#e3cdf7}
+.agency-card .pol-head .pol-title{color:#7b2fb5}
+
+/* ---------- 线索池新列 ---------- */
+.td-web a{color:var(--brand);text-decoration:none;font-weight:600;white-space:nowrap}
+.td-web a:hover{text-decoration:underline}
+.td-contact, .td-agency{font-size:12.5px;color:var(--txt-2);min-width:130px}
+.muted{color:var(--txt-3)}
+
+/* ---------- 图片识别弹窗 ---------- */
+.photo-preview{width:100%;max-height:240px;object-fit:cover;border-radius:var(--radius-sm);background:var(--panel-2);margin-bottom:10px}
+.photo-status{font-size:13px;color:var(--txt-2);margin-bottom:10px;min-height:18px}
+.photo-list{display:flex;flex-direction:column;gap:10px}
+.pf-item{border:1px solid var(--line);border-radius:var(--radius-sm);padding:10px 12px;background:var(--panel-2)}
+.pf-name{font-weight:600;display:flex;align-items:center;gap:8px}
+.pf-tag{font-size:11px;font-weight:600;color:var(--ok);background:var(--ok-soft);padding:1px 7px;border-radius:999px}
+.pf-tag.warn{color:var(--warn);background:var(--warn-soft)}
+.pf-row{display:flex;align-items:center;gap:8px;margin-top:8px;font-size:13px}
+.pf-row .input{width:90px}
+.pf-kcal{margin-left:auto;font-weight:600;color:var(--brand)}
+.btn-icon{padding:8px 11px;font-size:15px;line-height:1}
