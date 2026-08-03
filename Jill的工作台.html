@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#2563eb">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Jill工作台">
+<title>Jill 的工作台</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" href="assets/icons/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<link rel="stylesheet" href="assets/style.css">
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js').catch(() => {});
+}
+</script>
+</head>
+<body>
+
+<div class="app">
+
+  <!-- ============ 侧边栏 ============ -->
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-mark">J</div>
+      <div class="brand-text">
+        <div class="brand-title">Jill 的工作台</div>
+        <div class="brand-sub">易点天下 · 出海商务</div>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <button class="nav-item active" data-view="intel">
+        <span class="nav-ico">📊</span><span>行业情报</span>
+      </button>
+      <button class="nav-item" data-view="policy">
+        <span class="nav-ico">📋</span><span>媒体政策</span>
+        <span class="nav-badge" id="badgePolicy"></span>
+      </button>
+      <button class="nav-item" data-view="leads">
+        <span class="nav-ico">🌏</span><span>出海线索池</span>
+      </button>
+      <button class="nav-item" data-view="crm">
+        <span class="nav-ico">🤝</span><span>我的客户</span>
+        <span class="nav-badge" id="badgeCrm"></span>
+      </button>
+      <button class="nav-item" data-view="food">
+        <span class="nav-ico">🥗</span><span>今日饮食</span>
+      </button>
+    </nav>
+
+    <div class="sidebar-foot">
+      <div class="update-chip">
+        <span class="dot"></span>
+        <span>情报更新于 <b id="updatedAt">--</b></span>
+      </div>
+      <button class="btn-ghost btn-sm" id="btnBackup">备份 / 恢复数据</button>
+    </div>
+  </aside>
+
+  <!-- ============ 主区域 ============ -->
+  <main class="main">
+    <header class="topbar">
+      <div>
+        <h1 class="page-title" id="pageTitle">行业情报</h1>
+        <p class="page-sub" id="pageSub">每日海外榜单与热点，挑能用的看</p>
+      </div>
+      <div class="topbar-right">
+        <div class="today" id="todayStr"></div>
+      </div>
+    </header>
+
+    <!-- ---------- 视图：行业情报 ---------- -->
+    <section class="view active" id="view-intel">
+      <div class="pulse-grid" id="pulseGrid"></div>
+
+      <div class="split">
+        <div class="split-main">
+          <div class="section-head">
+            <h2>海外 App 榜单动态</h2>
+            <div class="tabs" id="catTabs">
+              <button class="tab active" data-cat="game">游戏</button>
+              <button class="tab" data-cat="finance">金融</button>
+              <button class="tab" data-cat="ai">AI 应用</button>
+              <button class="tab" data-cat="education">教育 / 内容</button>
+            </div>
+          </div>
+          <div id="rankList" class="card-list"></div>
+        </div>
+
+        <div class="split-side">
+          <div class="section-head"><h2>行业热点</h2></div>
+          <div id="eventList" class="timeline"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------- 视图：媒体政策 ---------- -->
+    <section class="view" id="view-policy">
+      <div class="filter-bar">
+        <div class="tabs" id="platTabs">
+          <button class="tab active" data-plat="all">全部平台</button>
+          <button class="tab" data-plat="Meta">Meta</button>
+          <button class="tab" data-plat="Google">Google</button>
+          <button class="tab" data-plat="TikTok">TikTok</button>
+        </div>
+        <div class="tabs subtle" id="impactTabs">
+          <button class="tab active" data-imp="all">全部影响</button>
+          <button class="tab" data-imp="高">仅看高影响</button>
+        </div>
+      </div>
+      <div id="policyList" class="card-list"></div>
+    </section>
+
+    <!-- ---------- 视图：出海线索池 ---------- -->
+    <section class="view" id="view-leads">
+      <div class="filter-bar">
+        <input class="input search" id="leadSearch" placeholder="搜索公司、产品、品类或市场…">
+        <span class="hint">点「加为客户」可一键存进「我的客户」</span>
+      </div>
+      <div class="table-wrap">
+        <table class="tbl" id="leadTable">
+          <thead>
+            <tr>
+              <th>产品</th><th>公司</th><th>总部</th><th>品类</th>
+              <th>主要市场</th><th>体量 / 收入</th><th>近期动态</th><th></th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ---------- 视图：客户 CRM ---------- -->
+    <section class="view" id="view-crm">
+      <div class="stage-bar" id="stageBar"></div>
+
+      <div class="filter-bar">
+        <input class="input search" id="crmSearch" placeholder="搜索客户公司、联系人、产品…">
+        <select class="input select" id="crmStageFilter">
+          <option value="">全部阶段</option>
+        </select>
+        <button class="btn-primary" id="btnAddClient">+ 新增客户</button>
+      </div>
+
+      <div id="crmList" class="crm-grid"></div>
+      <div class="empty" id="crmEmpty" style="display:none">
+        <div class="empty-ico">🤝</div>
+        <p>还没有客户记录。可以先去「出海线索池」挑几家，或直接点「新增客户」。</p>
+      </div>
+    </section>
+
+    <!-- ---------- 视图：饮食记录 ---------- -->
+    <section class="view" id="view-food">
+      <div class="food-top">
+        <div class="food-date">
+          <button class="btn-ghost btn-icon" id="foodPrev">‹</button>
+          <input type="date" class="input" id="foodDate">
+          <button class="btn-ghost btn-icon" id="foodNext">›</button>
+        </div>
+        <div class="food-goal">
+          <label>每日目标</label>
+          <input type="number" class="input tiny" id="goalInput" min="800" max="4000" step="50">
+          <span>kcal</span>
+        </div>
+      </div>
+
+      <div class="food-summary">
+        <div class="ring-wrap">
+          <svg class="ring" viewBox="0 0 120 120">
+            <circle class="ring-bg" cx="60" cy="60" r="52"></circle>
+            <circle class="ring-fg" id="ringFg" cx="60" cy="60" r="52"></circle>
+          </svg>
+          <div class="ring-center">
+            <div class="ring-num" id="kcalNum">0</div>
+            <div class="ring-lbl">kcal</div>
+          </div>
+        </div>
+        <div class="macro-list">
+          <div class="macro"><span class="macro-name">剩余额度</span><b id="kcalLeft">–</b></div>
+          <div class="macro"><span class="macro-name">蛋白质</span><b id="mProtein">0 g</b><div class="bar"><i id="barP"></i></div></div>
+          <div class="macro"><span class="macro-name">脂肪</span><b id="mFat">0 g</b><div class="bar"><i id="barF"></i></div></div>
+          <div class="macro"><span class="macro-name">碳水</span><b id="mCarb">0 g</b><div class="bar"><i id="barC"></i></div></div>
+        </div>
+        <div class="week-chart">
+          <div class="week-title">近 7 天</div>
+          <div class="bars" id="weekBars"></div>
+        </div>
+      </div>
+
+      <div class="food-add">
+        <div class="autocomplete">
+          <input class="input" id="foodSearch" placeholder="输入食物名，比如「米饭」「鸡胸肉」「奶茶」…" autocomplete="off">
+          <div class="ac-list" id="acList"></div>
+        </div>
+        <input type="number" class="input tiny" id="foodAmt" placeholder="份量" step="0.5" min="0">
+        <select class="input select" id="foodUnit">
+          <option value="unit">份</option>
+          <option value="g">克</option>
+        </select>
+        <select class="input select" id="foodMeal">
+          <option value="早餐">早餐</option>
+          <option value="午餐">午餐</option>
+          <option value="晚餐">晚餐</option>
+          <option value="加餐">加餐</option>
+        </select>
+        <button class="btn-primary" id="btnAddFood">记一笔</button>
+        <button class="btn-ghost" id="btnCustomFood">库里没有？手动填</button>
+      </div>
+
+      <div id="mealGroups"></div>
+
+      <div class="food-foot">
+        <button class="btn-ghost" id="btnAskFood">让 Mochi 点评今天的饮食</button>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<!-- ============ 客户编辑弹窗 ============ -->
+<div class="modal" id="clientModal">
+  <div class="modal-card wide">
+    <div class="modal-head">
+      <h3 id="clientModalTitle">新增客户</h3>
+      <button class="modal-x" data-close>×</button>
+    </div>
+    <div class="modal-body">
+      <div class="form-grid">
+        <label class="fld"><span>公司名称 <i>*</i></span><input class="input" id="fCompany" placeholder="例如：库洛游戏"></label>
+        <label class="fld"><span>主推产品</span><input class="input" id="fProduct" placeholder="例如：鸣潮"></label>
+        <label class="fld"><span>品类</span>
+          <select class="input" id="fCategory">
+            <option>游戏</option><option>金融</option><option>AI 应用</option>
+            <option>教育</option><option>电商</option><option>工具</option><option>其他</option>
+          </select>
+        </label>
+        <label class="fld"><span>目标市场</span><input class="input" id="fMarket" placeholder="例如：东南亚 / 中东"></label>
+        <label class="fld"><span>联系人</span><input class="input" id="fContact" placeholder="姓名"></label>
+        <label class="fld"><span>职位</span><input class="input" id="fTitle" placeholder="例如：海外发行负责人"></label>
+        <label class="fld"><span>联系方式</span><input class="input" id="fPhone" placeholder="微信 / 手机 / 邮箱"></label>
+        <label class="fld"><span>当前阶段</span><select class="input" id="fStage"></select></label>
+        <label class="fld"><span>下次跟进日期</span><input type="date" class="input" id="fNext"></label>
+        <label class="fld"><span>预估月投放预算</span><input class="input" id="fBudget" placeholder="例如：50 万 / 月，或填「未知」"></label>
+      </div>
+      <label class="fld full"><span>当前卡点（卡在哪一步、对方顾虑什么）</span>
+        <textarea class="input" id="fBlocker" rows="2" placeholder="例如：对方已有代理，只愿意给测试量；或：预算要等 Q4 才批"></textarea>
+      </label>
+      <label class="fld full"><span>跟进备注</span>
+        <textarea class="input" id="fNote" rows="2" placeholder="随手记，比如聊天要点、对方偏好"></textarea>
+      </label>
+      <label class="fld full"><span>Mochi 的跟进建议</span>
+        <textarea class="input" id="fAdvice" rows="4" placeholder="点下方按钮生成分析请求，把我的回复粘贴到这里存档"></textarea>
+      </label>
+      <button class="btn-ghost full-btn" id="btnGenPrompt">📋 生成分析请求（复制后发给 Mochi）</button>
+    </div>
+    <div class="modal-foot">
+      <button class="btn-danger" id="btnDeleteClient" style="display:none">删除客户</button>
+      <div class="spacer"></div>
+      <button class="btn-ghost" data-close>取消</button>
+      <button class="btn-primary" id="btnSaveClient">保存</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ 跟进记录弹窗 ============ -->
+<div class="modal" id="logModal">
+  <div class="modal-card">
+    <div class="modal-head">
+      <h3>添加跟进记录 · <span id="logCompany"></span></h3>
+      <button class="modal-x" data-close>×</button>
+    </div>
+    <div class="modal-body">
+      <label class="fld full"><span>这次沟通了什么</span>
+        <textarea class="input" id="logText" rows="4" placeholder="例如：微信初步沟通，对方表示 Q4 有东南亚计划，让我下周发个案例"></textarea>
+      </label>
+      <label class="fld full"><span>更新阶段</span><select class="input" id="logStage"></select></label>
+      <label class="fld full"><span>下次跟进</span><input type="date" class="input" id="logNext"></label>
+    </div>
+    <div class="modal-foot">
+      <div class="spacer"></div>
+      <button class="btn-ghost" data-close>取消</button>
+      <button class="btn-primary" id="btnSaveLog">保存记录</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ 自定义食物弹窗 ============ -->
+<div class="modal" id="customFoodModal">
+  <div class="modal-card">
+    <div class="modal-head">
+      <h3>手动添加食物</h3>
+      <button class="modal-x" data-close>×</button>
+    </div>
+    <div class="modal-body">
+      <div class="form-grid">
+        <label class="fld"><span>食物名称</span><input class="input" id="cfName" placeholder="例如：妈妈做的糖醋排骨"></label>
+        <label class="fld"><span>热量 (kcal)</span><input type="number" class="input" id="cfKcal" placeholder="估个数就行"></label>
+        <label class="fld"><span>蛋白质 (g)</span><input type="number" class="input" id="cfP" placeholder="不确定可留空"></label>
+        <label class="fld"><span>脂肪 (g)</span><input type="number" class="input" id="cfF" placeholder="不确定可留空"></label>
+        <label class="fld"><span>碳水 (g)</span><input type="number" class="input" id="cfC" placeholder="不确定可留空"></label>
+        <label class="fld"><span>归入</span><select class="input" id="cfMeal">
+          <option>早餐</option><option>午餐</option><option>晚餐</option><option>加餐</option>
+        </select></label>
+      </div>
+      <p class="tip">不知道热量？先随便填个大概，回头把菜名发给我，我帮你估。</p>
+    </div>
+    <div class="modal-foot">
+      <div class="spacer"></div>
+      <button class="btn-ghost" data-close>取消</button>
+      <button class="btn-primary" id="btnSaveCustomFood">添加</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ 备份弹窗 ============ -->
+<div class="modal" id="backupModal">
+  <div class="modal-card">
+    <div class="modal-head">
+      <h3>备份 / 恢复数据</h3>
+      <button class="modal-x" data-close>×</button>
+    </div>
+    <div class="modal-body">
+      <p class="tip">你的客户和饮食记录只存在这台电脑的浏览器里。建议每周导出一次备份文件，存到「备份」文件夹。</p>
+      <div class="backup-row">
+        <button class="btn-primary" id="btnExport">⬇ 导出备份文件</button>
+        <label class="btn-ghost file-btn">⬆ 导入备份文件<input type="file" id="importFile" accept=".json" hidden></label>
+      </div>
+      <p class="tip warn">导入会覆盖当前所有客户与饮食记录，请谨慎操作。</p>
+    </div>
+    <div class="modal-foot"><div class="spacer"></div><button class="btn-ghost" data-close>关闭</button></div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="data/intel.js"></script>
+<script src="data/food-db.js"></script>
+<script src="assets/sync.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
