@@ -217,7 +217,8 @@ $$('#violTabs .tab').forEach(t => t.addEventListener('click', ()=>{
    ============================================================ */
 function renderLeads(){
   const q = ($('#leadSearch').value || '').trim().toLowerCase();
-  let list = INTEL.chinaGoingGlobal || [];
+  // 易点天下是 Jill 自家公司，已合作的客户不进线索池（避免重复跟进）
+  let list = (INTEL.chinaGoingGlobal || []).filter(r => !(r.agency || '').includes('易点天下'));
   if(q) list = list.filter(r =>
     (r.product+r.company+r.category+r.markets+(r.hq||'')+(r.website||'')+(r.contact||'')+(r.agency||'')).toLowerCase().includes(q));
 
