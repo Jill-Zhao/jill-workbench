@@ -1,5 +1,5 @@
 /* Jill 工作台 Service Worker */
-const CACHE = 'jill-v1';
+const CACHE = 'jill-v2';
 const SHELL = [
   './',
   './Jill的工作台.html',
@@ -13,6 +13,7 @@ const SHELL = [
 // 每天会变的「数据文件」走 network-first，离线才回缓存
 const DATA = [
   './data/intel.js',
+  './data/xiaohongshu.js',
   './data/food-db.js'
 ];
 
