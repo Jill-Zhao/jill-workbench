@@ -47,6 +47,9 @@ if ('serviceWorker' in navigator) {
         <span class="nav-ico">🤝</span><span>我的客户</span>
         <span class="nav-badge" id="badgeCrm"></span>
       </button>
+      <button class="nav-item" data-view="xhs">
+        <span class="nav-ico">📕</span><span>小红书选题</span>
+      </button>
       <button class="nav-item" data-view="food">
         <span class="nav-ico">🥗</span><span>今日饮食</span>
       </button>
@@ -160,6 +163,41 @@ if ('serviceWorker' in navigator) {
       <div class="empty" id="crmEmpty" style="display:none">
         <div class="empty-ico">🤝</div>
         <p>还没有客户记录。可以先去「出海线索池」挑几家，或直接点「新增客户」。</p>
+      </div>
+    </section>
+
+    <!-- ---------- 视图：小红书选题 ---------- -->
+    <section class="view" id="view-xhs">
+      <div class="filter-bar">
+        <div class="tabs" id="xhsTabs">
+          <button class="tab active" data-xcat="all">全部选题</button>
+          <button class="tab" data-xcat="游戏">游戏</button>
+          <button class="tab" data-xcat="金融">金融</button>
+          <button class="tab" data-xcat="AI">AI</button>
+          <button class="tab" data-xcat="短剧">短剧</button>
+          <button class="tab" data-xcat="全品类">全品类</button>
+        </div>
+        <span class="hint">每日 10:00 自动推送 · 更新于 <b id="xhsUpdated">--</b></span>
+      </div>
+
+      <div class="card-list" id="xhsTopicList"></div>
+
+      <div class="section-head" style="margin-top:26px">
+        <h2>素材库</h2>
+        <span class="hint">上传你的知识文件，作为二创小红书的素材（存在本机）</span>
+      </div>
+      <div class="sync-panel">
+        <div class="xhs-mat-add">
+          <input class="input" id="xhsMatName" placeholder="素材名称，如「Q3 出海投放案例」">
+          <textarea class="input" id="xhsMatNote" rows="1" placeholder="可二创的点 / 备注（选填）"></textarea>
+          <label class="btn-ghost file-btn">📎 选文件<input type="file" id="xhsMatFile" accept=".pdf,.doc,.docx,.txt,.md,.ppt,.pptx,.key,.pdf" hidden></label>
+          <button class="btn-primary" id="btnAddMat">添加素材</button>
+        </div>
+        <div class="material-list" id="xhsMatList" style="margin-top:12px"></div>
+      </div>
+
+      <div class="food-foot" style="margin-top:18px">
+        <button class="btn-ghost" id="btnAskXhsAll">🤖 一次性生成今日全部图文（复制给 Mochi）</button>
       </div>
     </section>
 
@@ -387,6 +425,7 @@ if ('serviceWorker' in navigator) {
 <div class="toast" id="toast"></div>
 
 <script src="data/intel.js"></script>
+<script src="data/xiaohongshu.js"></script>
 <script src="data/food-db.js"></script>
 <script src="assets/sync.js"></script>
 <script src="assets/app.js"></script>

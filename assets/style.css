@@ -454,6 +454,21 @@ textarea.input{resize:vertical;line-height:1.6}
 .tag-whisper{background:#f3e8ff;color:#7b2fb5;border-color:#e3cdf7}
 .agency-card .pol-head .pol-title{color:#7b2fb5}
 
+/* ---------- 小红书选题 ---------- */
+.xhs-mat-add{display:flex;gap:9px;flex-wrap:wrap;align-items:flex-start}
+.xhs-mat-add .input{flex:1;min-width:200px}
+.xhs-topic-actions{display:flex;gap:7px;margin-top:11px;flex-wrap:wrap}
+.xhs-topic-actions button{flex:1;min-width:140px;justify-content:center}
+.material-list{display:flex;flex-direction:column;gap:9px}
+.material-item{display:flex;align-items:flex-start;gap:10px;background:var(--panel-2);
+  border:1px solid var(--line);border-radius:8px;padding:10px 12px}
+.material-item .mi-main{flex:1;min-width:0}
+.material-item .mi-name{font-weight:600;font-size:13px}
+.material-item .mi-note{font-size:12.3px;color:var(--txt-2);margin-top:2px;line-height:1.5}
+.material-item .mi-file{font-size:11px;color:var(--txt-3);margin-top:3px}
+.material-item .mi-del{color:var(--txt-3);font-size:17px;line-height:1;padding:2px 6px;border-radius:5px;cursor:pointer}
+.material-item .mi-del:hover{background:var(--danger-soft);color:var(--danger)}
+
 /* ---------- 线索池新列 ---------- */
 .td-web a{color:var(--brand);text-decoration:none;font-weight:600;white-space:nowrap}
 .td-web a:hover{text-decoration:underline}

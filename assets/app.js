@@ -10,12 +10,14 @@ const STAGES = ['待建联','初步接触','需求沟通','方案报价','商务
 const KEY_CRM  = 'jill_crm_v1';
 const KEY_FOOD = 'jill_food_v1';
 const KEY_SET  = 'jill_settings_v1';
+const KEY_XHS  = 'jill_xhs_v1';
 
 const PAGE_INFO = {
   intel : ['行业情报','每日海外榜单与热点，挑能用的看'],
   policy: ['媒体政策','Meta / Google / TikTok 广告规则变动，合规就是聊单切口'],
   leads : ['出海线索池','中国公司在海外的表现，这里全是潜在客户'],
   crm   : ['我的客户','建联进度、卡点和跟进建议'],
+  xhs   : ['小红书选题','每天 10:00 推送，帮你把内容做起来获客'],
   food  : ['今日饮食','记一笔，我帮你算热量']
 };
 
@@ -71,10 +73,13 @@ let curPlat  = 'all';
 let curImp   = 'all';
 let curViol  = 'all';
 let curStageFilter = '';
+let curXCat   = 'all';
 let foodDate = ymd(new Date());
 let pickedFood = null;
 let editingId  = null;
 let logId      = null;
+let XHS_MATERIALS = load(KEY_XHS, []);
+let pendingXhsFile = null;
 
 /* ============================================================
    导航
@@ -156,6 +161,115 @@ $$('#catTabs .tab').forEach(t => t.addEventListener('click', ()=>{
   curCat = t.dataset.cat;
   renderRankings();
 }));
+
+/* ============================================================
+   模块一·五：小红书选题（由「小红书行业选题」自动化每日推送）
+   ============================================================ */
+function renderXHS(){
+  const box = $('#xhsTopicList');
+  if(!box) return;
+  const X = window.XHS || {};
+  $('#xhsUpdated').textContent = (X.updatedAt || '').slice(5) || '—';
+
+  const topics = X.topics || [];
+  let view = topics.map((t,i) => ({ t, i }));
+  if(curXCat !== 'all') view = view.filter(o => (o.t.forClient || '').indexOf(curXCat) >= 0);
+
+  box.innerHTML = view.length ? view.map(o => `
+    <div class="card">
+      <div class="pol-head">
+        <span class="tag tag-brand">选题</span>
+        <span class="pol-title">${esc(o.t.angle)}</span>
+        ${o.t.forClient ? `<span class="tag tag-soft">${esc(o.t.forClient)}</span>` : ''}
+      </div>
+      <div class="card-comment"><b>为什么能火：</b>${esc(o.t.hot || '')}</div>
+      ${o.t.format ? `<div class="card-meta" style="margin-top:8px"><span>📐 形式：${esc(o.t.format)}</span></div>` : ''}
+      ${o.t.note ? `<div class="card-comment" style="margin-top:6px;color:var(--txt-3)"><b>写的时候：</b>${esc(o.t.note)}</div>` : ''}
+      ${o.t.source && o.t.source !== '暂无' ? `<div class="card-src"><a href="${esc(o.t.source)}" target="_blank" rel="noopener">🔗 参考来源</a></div>` : ''}
+      <div class="xhs-topic-actions">
+        <button class="btn-ghost" data-xgen="${o.i}">🤖 让 Mochi 生成图文</button>
+      </div>
+    </div>`).join('')
+    : (topics.length ? '<div class="empty"><p>这个品类今天没有选题。</p></div>'
+                     : '<div class="empty"><p>今天还没有推送选题。自动化每天 10:00 生成，稍后再来看。</p></div>');
+
+  $$('[data-xgen]', box).forEach(b => b.addEventListener('click', ()=>{
+    const t = (window.XHS.topics || [])[+b.dataset.xgen];
+    if(t) copyText(buildXhsPrompt(t));
+  }));
+
+  // 素材库
+  const matBox = $('#xhsMatList');
+  matBox.innerHTML = XHS_MATERIALS.length ? XHS_MATERIALS.map(m => `
+    <div class="material-item">
+      <div class="mi-main">
+        <div class="mi-name">${esc(m.name)}</div>
+        ${m.note ? `<div class="mi-note">${esc(m.note)}</div>` : ''}
+        ${m.file ? `<div class="mi-file">📎 ${esc(m.file)}</div>` : ''}
+      </div>
+      <span class="mi-del" data-md="${m.id}" title="删除">×</span>
+    </div>`).join('')
+    : '<div class="empty" style="padding:22px 10px"><p style="font-size:12.5px">还没有素材。把你的案例、白皮书、PPT 传上来，二创时更有料。</p></div>';
+
+  $$('[data-md]', matBox).forEach(el => el.addEventListener('click', ()=>{
+    XHS_MATERIALS = XHS_MATERIALS.filter(m => m.id !== el.dataset.md);
+    save(KEY_XHS, XHS_MATERIALS); renderXHS(); toast('已删除素材');
+  }));
+}
+
+$$('#xhsTabs .tab').forEach(t => t.addEventListener('click', ()=>{
+  $$('#xhsTabs .tab').forEach(x => x.classList.remove('active'));
+  t.classList.add('active'); curXCat = t.dataset.xcat; renderXHS();
+}));
+
+$('#btnAddMat').addEventListener('click', ()=>{
+  const name = $('#xhsMatName').value.trim();
+  if(!name){ toast('先填素材名称'); $('#xhsMatName').focus(); return; }
+  XHS_MATERIALS.unshift({ id: uid(), name, note: $('#xhsMatNote').value.trim(), file: pendingXhsFile, addedAt: ymd(new Date()) });
+  save(KEY_XHS, XHS_MATERIALS);
+  $('#xhsMatName').value = ''; $('#xhsMatNote').value = ''; pendingXhsFile = null; $('#xhsMatFile').value = '';
+  renderXHS(); toast('素材已加入素材库');
+});
+$('#xhsMatFile').addEventListener('change', e =>{
+  const f = e.target.files && e.target.files[0];
+  if(!f) return;
+  pendingXhsFile = f.name;
+  if(!$('#xhsMatName').value.trim()) $('#xhsMatName').value = f.name;
+  $('#xhsMatNote').focus();
+});
+
+function buildXhsPrompt(t){
+  const mats = XHS_MATERIALS;
+  const matSec = mats.length
+    ? '\n\n【我上传的素材，可用来二创】\n' + mats.map(m => '- ' + m.name + (m.note ? '：' + m.note : '')).join('\n')
+    : '';
+  return `我要发一条小红书来获客（我是易点天下出海广告商务，目标客户是国内想出海的互联网 / 游戏 / 金融公司）。请基于下面这个选题，帮我生成一篇可直接发的图文内容（含标题、正文、配图建议、话题标签 #）。
+
+【选题角度】${t.angle}
+【适合客户类型】${t.forClient || '全品类'}
+【形式】${t.format || '图文'}
+【为什么这个方向能火】${t.hot || ''}
+【写作提示】${t.note || ''}${matSec}
+
+要求：
+1. 站在「中小企业客户视角」，说他们关心的痛点和干货，别硬广
+2. 标题带痛点或反常识 + 具体数字 + 利益点
+3. 正文 300–500 字，结尾加一句获客钩子（如「需要海外投放方案，私信我」）
+4. 给出 3–5 张图的配图建议
+5. 最后给 5 个相关话题标签`;
+}
+
+$('#btnAskXhsAll').addEventListener('click', ()=>{
+  const topics = (window.XHS && window.XHS.topics) || [];
+  if(!topics.length){ toast('今天还没有选题'); return; }
+  const list = topics.map((t,i) => `${i+1}. ${t.angle}【${t.forClient || '全品类'}】`).join('\n');
+  const mats = XHS_MATERIALS;
+  const matSec = mats.length ? '\n\n【可用素材】\n' + mats.map(m => '- ' + m.name + (m.note ? '：' + m.note : '')).join('\n') : '';
+  copyText(`帮我为今天的小红书选题批量生成图文内容（我是易点天下出海广告商务，目标客户是国内想出海的互联网 / 游戏 / 金融公司）。每条都按「标题 + 正文 + 配图建议 + 话题标签」输出，站在中小企业客户视角，结尾带获客钩子。
+
+【今日选题】
+${list}${matSec}`);
+});
 
 /* ============================================================
    模块二：媒体政策
@@ -891,7 +1005,9 @@ function init(){
 
   fillStageSelects();
   renderPulse(); renderRankings(); renderEvents(); renderAgencyIntel();
-  renderPolicies(); renderLeads(); renderCRM(); renderFood();
+  renderPolicies(); renderLeads(); renderCRM();
+  renderXHS();
+  renderFood();
   setupPhoto(); setupVisionSettings();
 
   // 逾期跟进提醒
@@ -906,7 +1022,8 @@ window.JILL_APP = {
     CRM      = load(KEY_CRM, []);
     FOOD     = load(KEY_FOOD, {});
     SETTINGS = load(KEY_SET, { goal: 1500 });
-    renderLeads(); renderCRM(); renderFood(); renderAgencyIntel();
+    XHS_MATERIALS = load(KEY_XHS, []);
+    renderLeads(); renderCRM(); renderFood(); renderAgencyIntel(); renderXHS();
   }
 };
 
