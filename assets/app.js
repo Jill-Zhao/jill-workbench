@@ -74,6 +74,9 @@ let curImp   = 'all';
 let curViol  = 'all';
 let curStageFilter = '';
 let curXCat   = 'all';
+let curScale  = 'all';
+let curETag   = 'all';
+let curLScale = 'all';
 let foodDate = ymd(new Date());
 let pickedFood = null;
 let editingId  = null;
@@ -107,13 +110,17 @@ function renderPulse(){
 }
 
 function renderRankings(){
-  const list = (INTEL.appRankings && INTEL.appRankings[curCat]) || [];
-  if(!list.length){ $('#rankList').innerHTML = '<div class="empty"><p>这个品类今天暂无数据。</p></div>'; return; }
-  $('#rankList').innerHTML = list.map(a => `
+  let list = (INTEL.appRankings && INTEL.appRankings[curCat]) || [];
+  if(curScale !== 'all') list = list.filter(a => (a.tier || 'head') === curScale);
+  if(!list.length){ $('#rankList').innerHTML = '<div class="empty"><p>这个筛选条件下今天暂无数据。</p></div>'; return; }
+  $('#rankList').innerHTML = list.map(a => {
+    const tierBadge = a.tier === 'sme' ? '<span class="tag tag-sme">中小潜力</span>' : '';
+    return `
     <div class="card">
       <div class="card-top">
         <div class="card-name">${esc(a.name)}</div>
         ${a.isChinese ? '<span class="tag tag-cn">中国出海</span>' : '<span class="tag tag-soft">海外厂商</span>'}
+        ${tierBadge}
       </div>
       <div class="card-meta">
         <span>🏢 ${esc(a.publisher)}</span>
@@ -122,18 +129,43 @@ function renderRankings(){
       <div class="card-perf">${esc(a.performance)}</div>
       <div class="card-comment"><b>怎么用：</b>${esc(a.comment)}</div>
       ${a.source ? `<div class="card-src"><a href="${esc(a.source)}" target="_blank" rel="noopener">🔗 信息来源（点击核实）</a></div>` : ''}
-    </div>`).join('');
+    </div>`;
+  }).join('');
 }
 
 function renderEvents(){
-  $('#eventList').innerHTML = (INTEL.hotEvents||[]).map(e => `
+  let list = INTEL.hotEvents || [];
+  if(curETag === 'emerging') list = list.filter(e => e.tag === 'emerging' || e.tag === 'high-growth');
+  $('#eventList').innerHTML = list.map(e => {
+    const tagBadge = e.tag ? '<span class="tag tag-emerging">🌱 新兴机会</span>' : '';
+    return `
     <div class="tl-item">
       <div class="tl-date">${esc(e.date)}</div>
-      <div class="tl-title">${esc(e.title)}</div>
+      <div class="tl-title">${esc(e.title)} ${tagBadge}</div>
       <div class="tl-sum">${esc(e.summary)}</div>
       <div class="tl-biz">${esc(e.bizValue)}</div>
       ${e.source ? `<div class="tl-src"><a href="${esc(e.source)}" target="_blank" rel="noopener">🔗 信息来源（点击核实）</a></div>` : ''}
-    </div>`).join('');
+    </div>`;
+  }).join('');
+}
+
+/* 中小 App 投放痛点与切入点（SME 机会） */
+function renderSmeInsight(){
+  const box = $('#smeInsight');
+  if(!box) return;
+  const s = INTEL.smeInsight;
+  if(!s){ box.innerHTML = ''; return; }
+  const block = (title, items, cls) => `
+    <div class="sme-col ${cls}">
+      <div class="sme-col-title">${title}</div>
+      <ul class="sme-list">${items.map(i=>`<li>${esc(i)}</li>`).join('')}</ul>
+    </div>`;
+  box.innerHTML = `
+    <div class="sme-grid">
+      ${block('🚩 中小客户的投放痛点', s.painPoints, 'pain')}
+      ${block('💡 他们真正的需求', s.needs, 'need')}
+      ${block('🎯 你的切入点（怎么开口）', s.entryPoints, 'entry')}
+    </div>`;
 }
 
 /* 广告服务商侧小道消息 */
@@ -160,6 +192,27 @@ $$('#catTabs .tab').forEach(t => t.addEventListener('click', ()=>{
   t.classList.add('active');
   curCat = t.dataset.cat;
   renderRankings();
+}));
+
+$$('#scaleTabs .tab').forEach(t => t.addEventListener('click', ()=>{
+  $$('#scaleTabs .tab').forEach(x => x.classList.remove('active'));
+  t.classList.add('active');
+  curScale = t.dataset.scale;
+  renderRankings();
+}));
+
+$$('#eventTabs .tab').forEach(t => t.addEventListener('click', ()=>{
+  $$('#eventTabs .tab').forEach(x => x.classList.remove('active'));
+  t.classList.add('active');
+  curETag = t.dataset.etag;
+  renderEvents();
+}));
+
+$$('#leadScaleTabs .tab').forEach(t => t.addEventListener('click', ()=>{
+  $$('#leadScaleTabs .tab').forEach(x => x.classList.remove('active'));
+  t.classList.add('active');
+  curLScale = t.dataset.lscale;
+  renderLeads();
 }));
 
 /* ============================================================
@@ -370,6 +423,7 @@ function buildContactCell(r){
 function renderLeads(){
   const q = ($('#leadSearch').value || '').trim().toLowerCase();
   let list = INTEL.chinaGoingGlobal || [];
+  if(curLScale === 'sme') list = list.filter(r => r.scale === 'sme');
   if(q) list = list.filter(r => {
     const ppl = (r.contacts||[]).map(c=>`${c.name||''}${c.role||''}${c.email||''}${c.phone||''}`).join('');
     const chs = (r.channels||[]).map(c=>`${c.label||''}${c.email||''}${c.phone||''}`).join('');
@@ -387,6 +441,7 @@ function renderLeads(){
       : coop === 'not'
         ? '<span class="coop-badge coop-no">🟦 未合作</span>'
         : '<span class="coop-badge coop-pending">⚪ 待飞书核验</span>';
+    const scaleBadge = r.scale === 'sme' ? '<span class="coop-badge coop-sme">🚀 中小企业</span>' : '';
     const coopInfo = coop === 'cooperated'
       ? (r.coopModel ? esc(r.coopModel) : '（业务模式待补）')
       : (r.agency && r.agency !== '暂无公开数据' ? esc(r.agency) : '—');
@@ -397,7 +452,7 @@ function renderLeads(){
       <td class="td-mkt">${esc(r.hq||'—')}</td>
       <td class="td-mkt">${esc(r.category)}</td>
       <td class="td-mkt">${esc(r.markets)}</td>
-      <td class="td-coop">${coopBadge}</td>
+      <td class="td-coop">${coopBadge}${scaleBadge}</td>
       <td class="td-coopinfo">${coopInfo}</td>
       <td class="td-web">${r.website ? `<a href="${esc(r.website)}" target="_blank" rel="noopener">🌐 官网</a>` : '<span class="muted">暂无</span>'}</td>
       <td class="td-contact">${contacts}</td>
@@ -452,7 +507,49 @@ function mapCat(c){
   if(/工具/.test(c)) return '工具';
   return '其他';
 }
+
+/* 一键导出线索池联系方式 → Excel（实际为带 UTF-8 BOM 的 CSV，Excel 双击直接打开、中文不乱码，无需任何依赖，file:// 可用） */
+function exportLeadsExcel(){
+  const list = INTEL.chinaGoingGlobal || [];
+  if(!list.length){ toast('线索池是空的，没法导出'); return; }
+  const coopLabel = c => c==='cooperated' ? '已合作' : c==='not' ? '未合作' : '待飞书核验';
+  const cell = v => {
+    const s = (v==null ? '' : String(v));
+    return /[",\n\r]/.test(s) ? '"' + s.replace(/"/g,'""') + '"' : s;
+  };
+  const head = ['公司','产品','品类','总部','主要市场','合作状态','代理/合作模式','官网','最对口邮箱','最对口电话','全部邮箱','全部电话','实名联系人(姓名/职位)','备注'];
+  const rows = [head.map(cell)];
+  list.forEach(r => {
+    const chans = r.channels || [], cons = r.contacts || [];
+    const allMails  = chans.filter(c=>c.email).map(c=>c.email).concat(cons.filter(c=>c.email).map(c=>c.email));
+    const allPhones = chans.filter(c=>c.phone).map(c=>c.phone).concat(cons.filter(c=>c.phone).map(c=>c.phone));
+    const hot = chans.find(c => (/最对口|最直接/.test(c.label||'')) && (c.email||c.phone))
+            || cons.find(c => c.email||c.phone)
+            || chans.find(c => c.email||c.phone)
+            || {};
+    const names = cons.map(c => c.name + (c.role ? '('+c.role+')' : '')).join('; ');
+    const coop = r.cooperation || 'pending';
+    const coopInfo = coop==='cooperated' ? (r.coopModel||'') : (r.agency||'');
+    rows.push([
+      r.company, r.product, r.category, r.hq||'', r.markets, coopLabel(coop),
+      coopInfo, r.website||'', hot.email||'', hot.phone||'',
+      allMails.join('; '), allPhones.join('; '), names, r.contactNote||''
+    ].map(cell));
+  });
+  const csv = '﻿' + rows.map(r => r.join(',')).join('\r\n');
+  const blob = new Blob([csv], {type:'text/csv;charset=utf-8'});
+  let url;
+  try { url = URL.createObjectURL(blob); } catch(e){ url = 'data:text/csv;charset=utf-8,' + encodeURIComponent(csv); }
+  const a = document.createElement('a');
+  const d = new Date(), p = n => String(n).padStart(2,'0');
+  const fname = `出海线索联系方式_${d.getFullYear()}${p(d.getMonth()+1)}${p(d.getDate())}.csv`;
+  a.href = url; a.download = fname;
+  document.body.appendChild(a); a.click(); a.remove();
+  if(url.indexOf('blob:')===0) setTimeout(()=>URL.revokeObjectURL(url), 1500);
+  toast(`已导出 ${list.length} 家联系方式 → 用 Excel 打开 ${fname} 即可`);
+}
 $('#leadSearch').addEventListener('input', renderLeads);
+$('#btnExportLeads').addEventListener('click', exportLeadsExcel);
 
 /* ============================================================
    模块四：客户 CRM
@@ -1075,7 +1172,7 @@ function init(){
   $('#updatedAt').textContent = (INTEL.updatedAt || '').slice(5) || '—';
 
   fillStageSelects();
-  renderPulse(); renderRankings(); renderEvents(); renderAgencyIntel();
+  renderPulse(); renderRankings(); renderEvents(); renderSmeInsight(); renderAgencyIntel();
   renderPolicies(); renderLeads(); renderCRM();
   renderXHS();
   renderFood();
@@ -1094,7 +1191,7 @@ window.JILL_APP = {
     FOOD     = load(KEY_FOOD, {});
     SETTINGS = load(KEY_SET, { goal: 1500 });
     XHS_MATERIALS = load(KEY_XHS, []);
-    renderLeads(); renderCRM(); renderFood(); renderAgencyIntel(); renderXHS();
+    renderLeads(); renderCRM(); renderFood(); renderAgencyIntel(); renderXHS(); renderSmeInsight();
   }
 };
 

@@ -90,15 +90,29 @@ if ('serviceWorker' in navigator) {
               <button class="tab" data-cat="ai">AI 应用</button>
               <button class="tab" data-cat="education">教育 / 内容</button>
             </div>
+            <div class="tabs subtle" id="scaleTabs">
+              <button class="tab active" data-scale="all">全部规模</button>
+              <button class="tab" data-scale="head">头部大厂</button>
+              <button class="tab" data-scale="sme">中小潜力</button>
+            </div>
           </div>
           <div id="rankList" class="card-list"></div>
         </div>
 
         <div class="split-side">
-          <div class="section-head"><h2>行业热点</h2></div>
+          <div class="section-head">
+            <h2>行业热点</h2>
+            <div class="tabs subtle" id="eventTabs">
+              <button class="tab active" data-etag="all">全部热点</button>
+              <button class="tab" data-etag="emerging">🌱 新兴机会</button>
+            </div>
+          </div>
           <div id="eventList" class="timeline"></div>
         </div>
       </div>
+
+      <div class="section-head" style="margin-top:22px"><h2>中小 App 投放痛点与切入点（你的机会）</h2><span class="hint">头部之外，腰部 / 中小 App 的增速也是机会——配合榜单里「中小潜力」筛选看</span></div>
+      <div id="smeInsight" class="sme-insight"></div>
 
       <div class="section-head"><h2>广告服务商小道消息（渠道侧）</h2><span class="hint">代理商 / 渠道才先知道的风向，不一定是公开大新闻</span></div>
       <div id="agencyIntelList" class="card-list"></div>
@@ -131,7 +145,12 @@ if ('serviceWorker' in navigator) {
     <section class="view" id="view-leads">
       <div class="filter-bar">
         <input class="input search" id="leadSearch" placeholder="搜索公司、产品、品类、市场，也能直接搜邮箱／联系人…">
-        <span class="hint">⭐ 绿框＝最对口的部门邮箱｜邮箱点一下就能写邮件，「复制」按钮可直接粘贴｜点「加为客户」会把联系方式一起带进客户档案</span>
+        <button class="btn-primary" id="btnExportLeads">📥 导出联系方式</button>
+        <span class="hint">⭐ 绿框＝最对口的部门邮箱｜邮箱点一下就能写邮件，「复制」按钮可直接粘贴｜点「加为客户」会把联系方式一起带进客户档案｜「导出联系方式」可一键生成 Excel 清单</span>
+      </div>
+      <div class="tabs subtle" id="leadScaleTabs" style="margin:0 0 12px">
+        <button class="tab active" data-lscale="all">全部企业</button>
+        <button class="tab" data-lscale="sme">🚀 中小企业</button>
       </div>
       <div class="table-wrap">
         <table class="tbl" id="leadTable">
