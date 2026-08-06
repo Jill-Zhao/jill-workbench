@@ -331,31 +331,44 @@ $$('#violTabs .tab').forEach(t => t.addEventListener('click', ()=>{
    ============================================================ */
 function renderLeads(){
   const q = ($('#leadSearch').value || '').trim().toLowerCase();
-  // 易点天下是 Jill 自家公司，已合作的客户不进线索池（避免重复跟进）
-  let list = (INTEL.chinaGoingGlobal || []).filter(r => !(r.agency || '').includes('易点天下'));
+  let list = INTEL.chinaGoingGlobal || [];
   if(q) list = list.filter(r =>
-    (r.product+r.company+r.category+r.markets+(r.hq||'')+(r.website||'')+(r.contact||'')+(r.agency||'')).toLowerCase().includes(q));
+    (r.product+r.company+r.category+r.markets+(r.hq||'')+(r.website||'')+(r.agency||'')+(r.coopModel||'')+(r.contactNote||'')+(r.recent||''))
+    .toLowerCase().includes(q));
 
   const existing = new Set(CRM.map(c => c.company));
   const tb = $('#leadTable tbody');
   tb.innerHTML = list.length ? list.map((r,i) => {
     const added = existing.has(r.company);
+    const coop = r.cooperation || 'pending';
+    const coopBadge = coop === 'cooperated'
+      ? '<span class="coop-badge coop-yes">✅ 已合作</span>'
+      : coop === 'not'
+        ? '<span class="coop-badge coop-no">🟦 未合作</span>'
+        : '<span class="coop-badge coop-pending">⚪ 待飞书核验</span>';
+    const coopInfo = coop === 'cooperated'
+      ? (r.coopModel ? esc(r.coopModel) : '（业务模式待补）')
+      : (r.agency && r.agency !== '暂无公开数据' ? esc(r.agency) : '—');
+    const contacts = (r.contacts && r.contacts.length)
+      ? r.contacts.map(c => `<div class="lead-contact">${c.link ? `<a href="${esc(c.link)}" target="_blank" rel="noopener">${esc(c.name)}</a>` : esc(c.name)}<span class="lead-role">${esc(c.role||'')}</span></div>`).join('')
+      : `<span class="muted">${esc(r.contactNote || '未找到公开联系人')}</span>`;
     return `<tr>
       <td class="td-prod">${esc(r.product)}</td>
       <td class="td-comp">${esc(r.company)}</td>
       <td class="td-mkt">${esc(r.hq||'—')}</td>
       <td class="td-mkt">${esc(r.category)}</td>
       <td class="td-mkt">${esc(r.markets)}</td>
+      <td class="td-coop">${coopBadge}</td>
+      <td class="td-coopinfo">${coopInfo}</td>
+      <td class="td-web">${r.website ? `<a href="${esc(r.website)}" target="_blank" rel="noopener">🌐 官网</a>` : '<span class="muted">暂无</span>'}</td>
+      <td class="td-contact">${contacts}</td>
       <td class="td-rev">${esc(r.revenue)}</td>
       <td class="td-recent">${esc(r.recent)}</td>
-      <td class="td-web">${r.website ? `<a href="${esc(r.website)}" target="_blank" rel="noopener">🌐 官网</a>` : '<span class="muted">暂无</span>'}</td>
-      <td class="td-contact">${esc(r.contact || '暂无公开数据')}</td>
-      <td class="td-agency">${esc(r.agency || '—')}</td>
       <td>${ added
         ? '<span class="mini-btn done">✓ 已在客户</span>'
         : `<button class="mini-btn" data-lead="${i}">+ 加为客户</button>` }</td>
     </tr>`;
-  }).join('') : '<tr><td colspan="11" style="text-align:center;padding:40px;color:#9aa1ad">没找到匹配的公司</td></tr>';
+  }).join('') : '<tr><td colspan="12" style="text-align:center;padding:40px;color:#9aa1ad">没找到匹配的公司</td></tr>';
 
   $$('[data-lead]', tb).forEach(btn => btn.addEventListener('click', ()=>{
     const r = list[+btn.dataset.lead];
