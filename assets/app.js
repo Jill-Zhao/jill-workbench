@@ -329,12 +329,53 @@ $$('#violTabs .tab').forEach(t => t.addEventListener('click', ()=>{
 /* ============================================================
    模块三：出海线索池
    ============================================================ */
+/* 生成「联系方式」单元格：实名联系人 + 对口部门通道，邮箱/电话可点可复制 */
+function buildContactCell(r){
+  const bits = [];
+
+  // 1) 实名联系人（最有价值，排最前）
+  (r.contacts || []).forEach(c => {
+    const ways = [];
+    if(c.email)    ways.push(`<a class="cw cw-mail" href="mailto:${esc(c.email)}" title="点击写邮件">✉ ${esc(c.email)}</a><button class="cw-copy" data-copy="${esc(c.email)}" title="复制邮箱">复制</button>`);
+    if(c.phone)    ways.push(`<a class="cw cw-tel" href="tel:${esc(String(c.phone).replace(/[^\d+]/g,''))}" title="点击拨号">📞 ${esc(c.phone)}</a><button class="cw-copy" data-copy="${esc(c.phone)}" title="复制电话">复制</button>`);
+    if(c.linkedin) ways.push(`<a class="cw cw-in" href="${esc(c.linkedin)}" target="_blank" rel="noopener">in 领英主页</a>`);
+    bits.push(
+      `<div class="lead-person">
+         <div class="lp-head"><span class="lp-name">${esc(c.name)}</span><span class="lead-role">${esc(c.role||'')}</span></div>
+         ${ways.length ? `<div class="lp-ways">${ways.join('')}</div>` : `<div class="lp-none">仅知姓名职位，联系方式未公开</div>`}
+         ${c.source ? `<div class="lp-src">来源：${esc(c.source)}</div>` : ''}
+       </div>`);
+  });
+
+  // 2) 对口部门通道（公司公开邮箱/总机）
+  (r.channels || []).forEach(ch => {
+    const ways = [];
+    if(ch.email) ways.push(`<a class="cw cw-mail" href="mailto:${esc(ch.email)}" title="点击写邮件">✉ ${esc(ch.email)}</a><button class="cw-copy" data-copy="${esc(ch.email)}" title="复制邮箱">复制</button>`);
+    if(ch.phone) ways.push(`<a class="cw cw-tel" href="tel:${esc(String(ch.phone).replace(/[^\d+]/g,''))}" title="点击拨号">📞 ${esc(ch.phone)}</a><button class="cw-copy" data-copy="${esc(ch.phone)}" title="复制电话">复制</button>`);
+    if(!ways.length) return;
+    const hot = /最对口|最直接/.test(ch.label||'');
+    bits.push(
+      `<div class="lead-chan${hot?' is-hot':''}">
+         <div class="lc-label">${hot?'⭐ ':''}${esc(ch.label||'公开通道')}</div>
+         <div class="lp-ways">${ways.join('')}</div>
+         ${ch.source ? `<div class="lp-src">来源：${esc(ch.source)}</div>` : ''}
+       </div>`);
+  });
+
+  if(!bits.length) return `<span class="muted">${esc(r.contactNote || '未找到公开联系人')}</span>`;
+  if(r.contactNote) bits.push(`<div class="lead-note">💡 ${esc(r.contactNote)}</div>`);
+  return bits.join('');
+}
+
 function renderLeads(){
   const q = ($('#leadSearch').value || '').trim().toLowerCase();
   let list = INTEL.chinaGoingGlobal || [];
-  if(q) list = list.filter(r =>
-    (r.product+r.company+r.category+r.markets+(r.hq||'')+(r.website||'')+(r.agency||'')+(r.coopModel||'')+(r.contactNote||'')+(r.recent||''))
-    .toLowerCase().includes(q));
+  if(q) list = list.filter(r => {
+    const ppl = (r.contacts||[]).map(c=>`${c.name||''}${c.role||''}${c.email||''}${c.phone||''}`).join('');
+    const chs = (r.channels||[]).map(c=>`${c.label||''}${c.email||''}${c.phone||''}`).join('');
+    return (r.product+r.company+r.category+r.markets+(r.hq||'')+(r.website||'')+(r.agency||'')+(r.coopModel||'')+(r.contactNote||'')+(r.recent||'')+ppl+chs)
+      .toLowerCase().includes(q);
+  });
 
   const existing = new Set(CRM.map(c => c.company));
   const tb = $('#leadTable tbody');
@@ -349,9 +390,7 @@ function renderLeads(){
     const coopInfo = coop === 'cooperated'
       ? (r.coopModel ? esc(r.coopModel) : '（业务模式待补）')
       : (r.agency && r.agency !== '暂无公开数据' ? esc(r.agency) : '—');
-    const contacts = (r.contacts && r.contacts.length)
-      ? r.contacts.map(c => `<div class="lead-contact">${c.link ? `<a href="${esc(c.link)}" target="_blank" rel="noopener">${esc(c.name)}</a>` : esc(c.name)}<span class="lead-role">${esc(c.role||'')}</span></div>`).join('')
-      : `<span class="muted">${esc(r.contactNote || '未找到公开联系人')}</span>`;
+    const contacts = buildContactCell(r);
     return `<tr>
       <td class="td-prod">${esc(r.product)}</td>
       <td class="td-comp">${esc(r.company)}</td>
@@ -370,14 +409,33 @@ function renderLeads(){
     </tr>`;
   }).join('') : '<tr><td colspan="12" style="text-align:center;padding:40px;color:#9aa1ad">没找到匹配的公司</td></tr>';
 
+  $$('[data-copy]', tb).forEach(btn => btn.addEventListener('click', e => {
+    e.preventDefault(); e.stopPropagation();
+    const v = btn.dataset.copy;
+    copyText(v);
+    toast(`已复制：${v}`);
+    btn.textContent = '✓'; setTimeout(()=>{ btn.textContent = '复制'; }, 1200);
+  }));
+
   $$('[data-lead]', tb).forEach(btn => btn.addEventListener('click', ()=>{
     const r = list[+btn.dataset.lead];
+    // 把线索池里查到的联系方式一并带进客户档案，不用手抄
+    const p0 = (r.contacts || [])[0] || null;
+    const mailCh = (r.channels || []).find(c => c.email) || null;
+    const phoneCh = (r.channels || []).find(c => c.phone) || null;
+    const bestMail = (p0 && p0.email) || (mailCh && mailCh.email) || '';
+    const bestPhone = (p0 && p0.phone) || (phoneCh && phoneCh.phone) || '';
+    const wayLines = [];
+    if(bestMail)  wayLines.push(`邮箱：${bestMail}${(!p0||!p0.email) && mailCh ? `（${mailCh.label}）` : ''}`);
+    if(bestPhone) wayLines.push(`电话：${bestPhone}${(!p0||!p0.phone) && phoneCh ? `（${phoneCh.label}）` : ''}`);
+    if(r.website) wayLines.push(`官网：${r.website}`);
+
     CRM.unshift({
       id: uid(), company: r.company, product: r.product,
       category: mapCat(r.category), market: r.markets,
-      contact:'', title:'', phone:'',
+      contact: p0 ? p0.name : '', title: p0 ? p0.role : '', phone: bestPhone,
       stage:'待建联', next:'', budget:'',
-      blocker:'', note:`来自线索池 · ${r.revenue}｜${r.recent}`,
+      blocker:'', note:[`来自线索池 · ${r.revenue}｜${r.recent}`, ...wayLines].join('\n'),
       advice:'', logs:[], created: ymd(new Date())
     });
     save(KEY_CRM, CRM);
