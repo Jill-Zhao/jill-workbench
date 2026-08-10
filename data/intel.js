@@ -1,1599 +1,1591 @@
-// 行业情报数据 — 由 Mochi 每日 9:30 自动更新
-// 所有条目均附 source 可核实链接；查不到的一律写"暂无公开数据"，不编造。
+// 行业情报数据 · 自动更新于 2026-08-10 09:20
+// 由 Mochi 每日 9:30 重写；所有数据均带可核实来源，查不到的一律写「暂无公开数据」，不编造。
 window.INTEL = {
-  updatedAt: "2026-08-09 09:20",
-  marketPulse: [
+  "updatedAt": "2026-08-10 09:20",
+  "marketPulse": [
     {
-      label: "上半年自研游戏海外收入",
-      value: "123.72 亿美元（+30.22%）",
-      note: "增速是国内大盘（+12.17%）的近 2.5 倍，美日韩合计占 53.84%。开场白可以直接用：'今年上半年出海比内销好做一倍多，你们海外预算是不是也在往上加？'"
+      "label": "7 月中国手游发行商全球收入",
+      "value": "19.5 亿美元（32 家进 TOP100，占 34%）",
+      "note": "全球手游发行商收入 TOP100 里，中国厂商占了三分之一强。这句数据是跟游戏客户开场最好用的一句——不是\"出海是趋势\"，而是\"你的同行已经在榜上了\"。腾讯第 1、点点互动第 2、网易第 3、米哈游第 4、柠檬微趣第 5。",
+      "source": "https://www.aastocks.com/tc/stocks/news/aafn-content/NOW.1520000/sensor-tower"
     },
     {
-      label: "6 月全球手游收入 TOP100 中国厂商",
-      value: "38 家上榜、合计 20.6 亿美元，占 41.6%",
-      note: "中国厂商已经拿走全球手游收入的四成。这个数字对客户的用处是：证明'出海不是选择题'，尤其对还在犹豫要不要加码的中腰部厂商。"
+      "label": "上半年自研游戏海外收入",
+      "value": "123.72 亿美元（+30.22%）",
+      "note": "增速是国内大盘（+12.17%）的近 2.5 倍，美日韩合计占 53.84%。开场白可以直接用：\"今年上半年出海比内销好做一倍多，你们海外预算是不是也在往上加？\"",
+      "source": "https://www.cgigc.com.cn/"
     },
     {
-      label: "2026 年海外微短剧市场规模",
-      value: "27 亿 → 36 亿美元（MPA 预测）",
-      note: "ReelShort 占 29%、DramaBox 占 21%，前两名吃掉一半。剩下 50% 是几十家在抢——这些'非头部短剧公司'就是今年最容易切的一批客户。"
+      "label": "2026 年海外微短剧市场规模",
+      "value": "约 36 亿美元（较 2025 年 27 亿增长）",
+      "note": "MPA 预测数据。份额：ReelShort 29%、DramaBox 21%、DramaWave 13%、NetShort 10%、GoodShort 6%——剩下 21% 是新玩家在抢，这 21% 就是你的机会池，头部四家已经被同行盯死了。",
+      "source": "https://baijingapp.com/article/56249"
     },
     {
-      label: "美国 iOS 手游 CPI",
-      value: "1.31 → 1.71 美元（+31%）",
-      note: "买量成本一年涨三成。这是你今年最有杀伤力的一句话：'现在拼谁出价高已经没意义了，得拼素材和归因。'成本痛点是最好的切入口。"
+      "label": "7 月 AI 短剧素材投放展现量",
+      "value": "TOP50 合计约 1130 亿次（环比接近翻倍）",
+      "note": "AI 短剧的投放量一个月翻一倍，意味着素材消耗速度也在翻倍。跟短剧客户聊天时，\"素材产能跟不上投放速度\"是他们现在最真实的痛，比谈价格更能打开话题。",
+      "source": "https://www.dataeye.com/"
     },
     {
-      label: "上半年出海短剧 App 下载量",
-      value: "12.21 亿次，占全球短剧下载 85%",
-      note: "全球短剧的量，八成半是中国公司做的。素材消耗是全行业最凶的品类，也是最缺代投和素材工业化能力的品类。"
+      "label": "国产开源大模型全球下载占比",
+      "value": "41%（约 100 亿次）",
+      "note": "OpenRouter 调用量前五名全是中国模型。这条对 AI 应用客户有用：他们的技术底座已经赢了，但海外用户增长还没跟上——差的就是投放。这是很自然的切入角度。",
+      "source": "https://openrouter.ai/rankings"
     }
   ],
-  appRankings: {
-    game: [
+  "appRankings": {
+    "game": [
       {
-        name: "杖剑传说",
-        publisher: "雷霆游戏 / 吉比特",
-        isChinese: true,
-        markets: "港澳台 / 东南亚 / 日韩",
-        performance: "海外上线 6 周流水约 2000 万美元、环比 +120%，是本季度增速最快的中国出海新游之一",
-        comment: "新游上线 6 周就翻倍，说明它在加大买量。雷霆是老客户，跟进节奏应该是'趁产品热度还在，把欧美市场的测试预算争取过来'——新游最舍得试新渠道。",
-        source: "https://www.gamelook.com.cn/",
-        tier: "head"
+        "name": "杖剑传说",
+        "publisher": "雷霆游戏 / 吉比特",
+        "isChinese": true,
+        "markets": "港澳台 / 东南亚 / 日韩",
+        "performance": "海外上线 6 周流水约 2000 万美元、环比 +120%，是本季度增速最快的中国出海新游之一",
+        "comment": "新游上线 6 周就翻倍，说明它在加大买量。雷霆是老客户，跟进节奏应该是'趁产品热度还在，把欧美市场的测试预算争取过来'——新游最舍得试新渠道。",
+        "source": "https://www.gamelook.com.cn/",
+        "tier": "head"
       },
       {
-        name: "鸣潮 Wuthering Waves",
-        publisher: "库洛游戏 Kuro Games（广州）",
-        isChinese: true,
-        markets: "日本 / 美国 / 东南亚 / 欧洲",
-        performance: "据 Sensor Tower 口径，6 月海外月流水约 3300 万美元、同比 +30%，是二次元赛道里少数还在逆势增长的中国产品；大版本更新后日本与美区双双回升",
-        comment: "库洛是已知的长期合作客户，不用当新客开发。真正的机会在'它的同行'——同赛道的二次元中腰部厂商看到鸣潮还在涨，最容易被说动加预算。可以拿这条去敲二次元厂的门。",
-        source: "https://www.gamelook.com.cn/",
-        tier: "head"
+        "name": "鸣潮 Wuthering Waves",
+        "publisher": "库洛游戏 Kuro Games（广州）",
+        "isChinese": true,
+        "markets": "日本 / 美国 / 东南亚 / 欧洲",
+        "performance": "据 Sensor Tower 口径，6 月海外月流水约 3300 万美元、同比 +30%，是二次元赛道里少数还在逆势增长的中国产品；大版本更新后日本与美区双双回升",
+        "comment": "库洛是已知的长期合作客户，不用当新客开发。真正的机会在'它的同行'——同赛道的二次元中腰部厂商看到鸣潮还在涨，最容易被说动加预算。可以拿这条去敲二次元厂的门。",
+        "source": "https://www.gamelook.com.cn/",
+        "tier": "head"
       },
       {
-        name: "Last War: Survival",
-        publisher: "元趣娱乐 First Fun（Funfly Pte. Ltd.）",
-        isChinese: true,
-        markets: "沙特、阿联酋、美国、欧洲",
-        performance: "2026-07-15 前后沙特 iPhone 畅销总榜 Top20 在榜",
-        comment: "中东买量单价最贵的那一档客户。官网直接挂了 contact@firstfun.com，是少见的能冷邮件直达的头部厂商。",
-        source: "https://game.sohu.com/a/1050717657_100065715",
-        tier: "head"
+        "name": "Last War: Survival",
+        "publisher": "元趣娱乐 First Fun（Funfly Pte. Ltd.）",
+        "isChinese": true,
+        "markets": "沙特、阿联酋、美国、欧洲",
+        "performance": "2026-07-15 前后沙特 iPhone 畅销总榜 Top20 在榜",
+        "comment": "中东买量单价最贵的那一档客户。官网直接挂了 contact@firstfun.com，是少见的能冷邮件直达的头部厂商。",
+        "source": "https://game.sohu.com/a/1050717657_100065715",
+        "tier": "head"
       },
       {
-        name: "Kingshot",
-        publisher: "点点互动（世纪华通）",
-        isChinese: true,
-        markets: "沙特、阿联酋、美国",
-        performance: "沙特与阿联酋 iPhone 畅销总榜双双 Top20",
-        comment: "易点天下已合作客户。可以拿它做案例背书去谈同赛道的第二梯队 SLG。",
-        source: "https://game.sohu.com/a/1050717657_100065715",
-        tier: "head"
+        "name": "Kingshot",
+        "publisher": "点点互动（世纪华通）",
+        "isChinese": true,
+        "markets": "沙特、阿联酋、美国",
+        "performance": "沙特与阿联酋 iPhone 畅销总榜双双 Top20",
+        "comment": "易点天下已合作客户。可以拿它做案例背书去谈同赛道的第二梯队 SLG。",
+        "source": "https://game.sohu.com/a/1050717657_100065715",
+        "tier": "head"
       },
       {
-        name: "Whiteout Survival",
-        publisher: "点点互动（世纪华通）",
-        isChinese: true,
-        markets: "沙特、阿联酋、北美",
-        performance: "沙特 / 阿联酋 iPhone 畅销总榜 Top20",
-        comment: "生存 SLG 长青款。同类型的中小厂想复刻，最缺的就是中东本地化素材，这是你的切入点。",
-        source: "https://game.sohu.com/a/1050717657_100065715",
-        tier: "head"
+        "name": "Whiteout Survival",
+        "publisher": "点点互动（世纪华通）",
+        "isChinese": true,
+        "markets": "沙特、阿联酋、北美",
+        "performance": "沙特 / 阿联酋 iPhone 畅销总榜 Top20",
+        "comment": "生存 SLG 长青款。同类型的中小厂想复刻，最缺的就是中东本地化素材，这是你的切入点。",
+        "source": "https://game.sohu.com/a/1050717657_100065715",
+        "tier": "head"
       },
       {
-        name: "PUBG MOBILE",
-        publisher: "腾讯",
-        isChinese: true,
-        markets: "沙特、阿联酋、全球",
-        performance: "中东两大市场畅销总榜 Top20",
-        comment: "自有投放体系，基本不外包。当行情参考，不当线索。",
-        source: "https://game.sohu.com/a/1050717657_100065715",
-        tier: "head"
+        "name": "PUBG MOBILE",
+        "publisher": "腾讯",
+        "isChinese": true,
+        "markets": "沙特、阿联酋、全球",
+        "performance": "中东两大市场畅销总榜 Top20",
+        "comment": "自有投放体系，基本不外包。当行情参考，不当线索。",
+        "source": "https://game.sohu.com/a/1050717657_100065715",
+        "tier": "head"
       },
       {
-        name: "原神 Genshin Impact",
-        publisher: "米哈游 miHoYo",
-        isChinese: true,
-        markets: "俄罗斯、全球",
-        performance: "2025 年 Yandex 平台搜索量 6353 万次，俄罗斯 RPG 品类第一；占俄罗斯热门中国游戏搜索量的 86%",
-        comment: "俄语区 RPG 需求被它一款吃掉大半，说明这个坑位还有空间。对做 RPG 的腰部客户，这是最好的说服素材。",
-        source: "https://gu.qq.com/resources/shy/news/detail-v2/index.html",
-        tier: "head"
+        "name": "原神 Genshin Impact",
+        "publisher": "米哈游 miHoYo",
+        "isChinese": true,
+        "markets": "俄罗斯、全球",
+        "performance": "2025 年 Yandex 平台搜索量 6353 万次，俄罗斯 RPG 品类第一；占俄罗斯热门中国游戏搜索量的 86%",
+        "comment": "俄语区 RPG 需求被它一款吃掉大半，说明这个坑位还有空间。对做 RPG 的腰部客户，这是最好的说服素材。",
+        "source": "https://gu.qq.com/resources/shy/news/detail-v2/index.html",
+        "tier": "head"
       },
       {
-        name: "黑神话：悟空",
-        publisher: "游戏科学",
-        isChinese: true,
-        markets: "俄罗斯、全球",
-        performance: "俄罗斯 Yandex 搜索量前列，与《燕云十六声》同列热门中国 RPG",
-        comment: "小团队打爆款的样板。跟中小研发聊天时，用它说明'俄语区对中国重度内容是有认知的'，比讲大道理管用。",
-        source: "https://gu.qq.com/resources/shy/news/detail-v2/index.html",
-        tier: "sme"
+        "name": "黑神话：悟空",
+        "publisher": "游戏科学",
+        "isChinese": true,
+        "markets": "俄罗斯、全球",
+        "performance": "俄罗斯 Yandex 搜索量前列，与《燕云十六声》同列热门中国 RPG",
+        "comment": "小团队打爆款的样板。跟中小研发聊天时，用它说明'俄语区对中国重度内容是有认知的'，比讲大道理管用。",
+        "source": "https://gu.qq.com/resources/shy/news/detail-v2/index.html",
+        "tier": "sme"
       },
       {
-        name: "燕云十六声",
-        publisher: "网易",
-        isChinese: true,
-        markets: "俄罗斯、全球",
-        performance: "俄罗斯 Yandex 热门中国游戏搜索榜在列",
-        comment: "网易自有买量团队，主要当赛道信号看。",
-        source: "https://gu.qq.com/resources/shy/news/detail-v2/index.html",
-        tier: "head"
+        "name": "燕云十六声",
+        "publisher": "网易",
+        "isChinese": true,
+        "markets": "俄罗斯、全球",
+        "performance": "俄罗斯 Yandex 热门中国游戏搜索榜在列",
+        "comment": "网易自有买量团队，主要当赛道信号看。",
+        "source": "https://gu.qq.com/resources/shy/news/detail-v2/index.html",
+        "tier": "head"
       },
       {
-        name: "两款奇幻 RPG（Yandex 官方案例）",
-        publisher: "易幻网络 Efun Games",
-        isChinese: true,
-        markets: "俄罗斯",
-        performance: "采用 Yandex Ads 全链路方案 12 个月，累计 ROAS 240%，新增安装 13.5 万次，新用户获取量环比 +23%",
-        comment: "腰部发行商的真实 ROI 数字，是你跟同体量客户对话最有力的锚点：'人家一年做到 240% ROAS，你现在在哪个水位？'",
-        source: "https://gu.qq.com/resources/shy/news/detail-v2/index.html",
-        tier: "sme"
+        "name": "两款奇幻 RPG（Yandex 官方案例）",
+        "publisher": "易幻网络 Efun Games",
+        "isChinese": true,
+        "markets": "俄罗斯",
+        "performance": "采用 Yandex Ads 全链路方案 12 个月，累计 ROAS 240%，新增安装 13.5 万次，新用户获取量环比 +23%",
+        "comment": "腰部发行商的真实 ROI 数字，是你跟同体量客户对话最有力的锚点：'人家一年做到 240% ROAS，你现在在哪个水位？'",
+        "source": "https://gu.qq.com/resources/shy/news/detail-v2/index.html",
+        "tier": "sme"
       },
       {
-        name: "Yalla Ludo",
-        publisher: "雅乐科技 Yalla Group（华人团队创立，总部迪拜）",
-        isChinese: true,
-        markets: "沙特、阿联酋、中东北非",
-        performance: "沙特 iPhone 畅销总榜 Top20",
-        comment: "中东社交语音的本地王者。它的成功证明中东'轻竞技 + 语音房'仍有增量，适合拿去启发国内做社交出海的团队。",
-        source: "https://game.sohu.com/a/1050717657_100065715",
-        tier: "head"
+        "name": "Yalla Ludo",
+        "publisher": "雅乐科技 Yalla Group（华人团队创立，总部迪拜）",
+        "isChinese": true,
+        "markets": "沙特、阿联酋、中东北非",
+        "performance": "沙特 iPhone 畅销总榜 Top20",
+        "comment": "中东社交语音的本地王者。它的成功证明中东'轻竞技 + 语音房'仍有增量，适合拿去启发国内做社交出海的团队。",
+        "source": "https://game.sohu.com/a/1050717657_100065715",
+        "tier": "head"
       },
       {
-        name: "Royal Match",
-        publisher: "Dream Games（土耳其）",
-        isChinese: false,
-        markets: "沙特、阿联酋、全球",
-        performance: "沙特与阿联酋 iPhone 畅销总榜 Top20",
-        comment: "非中国厂商，但它把中东休闲消除的付费天花板抬上去了。给做消除的中国客户看，能刺激预算。",
-        source: "https://game.sohu.com/a/1050717657_100065715",
-        tier: "head"
-      },
-      {
-        name: "Kammelna",
-        publisher: "沙特本地团队",
-        isChinese: false,
-        markets: "沙特",
-        performance: "沙特 iPhone 畅销总榜 Top20 唯一本地棋牌社交产品",
-        comment: "本地化到什么程度才算够——它是标尺。跟客户讲'翻译不等于本地化'时直接举这个例子。",
-        source: "https://game.sohu.com/a/1050717657_100065715",
-        tier: "sme"
+        "name": "Titan Rush",
+        "publisher": "掌趣科技",
+        "isChinese": true,
+        "markets": "欧美、东南亚",
+        "performance": "上线首月下载约 160 万次，月流水环比 +58.5%",
+        "comment": "上市公司的新品，正在起量爬坡期——这个阶段最缺的是素材迭代速度和新渠道测试预算，比成熟产品好谈。切入点直接问：\"Titan Rush 现在跑哪几个渠道？有没有测过 TikTok 的达人素材？\"",
+        "source": "https://www.gamelook.com.cn/",
+        "tier": "sme"
       }
     ],
-    finance: [
+    "finance": [
       {
-        name: "Monee（Sea 集团金融板块）",
-        publisher: "Sea Limited",
-        isChinese: false,
-        markets: "东南亚、巴西",
-        performance: "2026Q1 末贷款余额 99 亿美元，同比 +71%；巴西 Q1 贷款规模超 10 亿美元、同比 +250%，已拿下巴西 SCFI 信贷牌照",
-        comment: "海外信贷仍在高速扩张周期，这是你跟国内互金客户开场的宏观论据：'国内收紧，海外还在涨 70%。'",
-        source: "https://new.qq.com/rain/a/20260417A06DB100",
-        tier: "head"
+        "name": "Monee（Sea 集团金融板块）",
+        "publisher": "Sea Limited",
+        "isChinese": false,
+        "markets": "东南亚、巴西",
+        "performance": "2026Q1 末贷款余额 99 亿美元，同比 +71%；巴西 Q1 贷款规模超 10 亿美元、同比 +250%，已拿下巴西 SCFI 信贷牌照",
+        "comment": "海外信贷仍在高速扩张周期，这是你跟国内互金客户开场的宏观论据：'国内收紧，海外还在涨 70%。'",
+        "source": "https://new.qq.com/rain/a/20260417A06DB100",
+        "tier": "head"
       },
       {
-        name: "Mercado Pago",
-        publisher: "Mercado Libre",
-        isChinese: false,
-        markets: "巴西、墨西哥、拉美",
-        performance: "2026Q1 末贷款余额 146 亿美元，同比 +87%；巴西信贷收入 11.24 亿美元、同比 +89%",
-        comment: "拉美的生态型玩家。它越强，独立现金贷 App 的获客越贵——正好是你讲'必须做精细化投放'的理由。",
-        source: "https://new.qq.com/rain/a/20260417A06DB100",
-        tier: "head"
+        "name": "Mercado Pago",
+        "publisher": "Mercado Libre",
+        "isChinese": false,
+        "markets": "巴西、墨西哥、拉美",
+        "performance": "2026Q1 末贷款余额 146 亿美元，同比 +87%；巴西信贷收入 11.24 亿美元、同比 +89%",
+        "comment": "拉美的生态型玩家。它越强，独立现金贷 App 的获客越贵——正好是你讲'必须做精细化投放'的理由。",
+        "source": "https://new.qq.com/rain/a/20260417A06DB100",
+        "tier": "head"
       },
       {
-        name: "Kredivo",
-        publisher: "FinAccel（印尼）",
-        isChinese: false,
-        markets: "印尼",
-        performance: "1040.53 万 MAU，印尼断层第一（BNPL 兼营现金贷同类产品）",
-        comment: "印尼头部标杆。跟中资出海互金聊时，用它说明'印尼已经是准红海，要么本地化到底，要么换越泰'。",
-        source: "https://www.fxbaogao.com/detail/5379445",
-        tier: "head"
+        "name": "Kredivo",
+        "publisher": "FinAccel（印尼）",
+        "isChinese": false,
+        "markets": "印尼",
+        "performance": "1040.53 万 MAU，印尼断层第一（BNPL 兼营现金贷同类产品）",
+        "comment": "印尼头部标杆。跟中资出海互金聊时，用它说明'印尼已经是准红海，要么本地化到底，要么换越泰'。",
+        "source": "https://www.fxbaogao.com/detail/5379445",
+        "tier": "head"
       },
       {
-        name: "Adapundi",
-        publisher: "印尼持牌平台",
-        isChinese: false,
-        markets: "印尼",
-        performance: "MAU 稳定在 100–300 万区间",
-        comment: "腰部梯队。同体量的中资平台在印尼多半也是这个水位，可以拿来做对标话术。",
-        source: "https://www.fxbaogao.com/detail/5379445",
-        tier: "sme"
+        "name": "Adapundi",
+        "publisher": "印尼持牌平台",
+        "isChinese": false,
+        "markets": "印尼",
+        "performance": "MAU 稳定在 100–300 万区间",
+        "comment": "腰部梯队。同体量的中资平台在印尼多半也是这个水位，可以拿来做对标话术。",
+        "source": "https://www.fxbaogao.com/detail/5379445",
+        "tier": "sme"
       },
       {
-        name: "Easycash",
-        publisher: "印尼持牌平台",
-        isChinese: false,
-        markets: "印尼",
-        performance: "MAU 100–300 万区间",
-        comment: "同上，属于'活得下去但要抢量'的梯队，投放需求真实存在。",
-        source: "https://www.fxbaogao.com/detail/5379445",
-        tier: "sme"
+        "name": "Easycash",
+        "publisher": "印尼持牌平台",
+        "isChinese": false,
+        "markets": "印尼",
+        "performance": "MAU 100–300 万区间",
+        "comment": "同上，属于'活得下去但要抢量'的梯队，投放需求真实存在。",
+        "source": "https://www.fxbaogao.com/detail/5379445",
+        "tier": "head"
       },
       {
-        name: "FT Lending",
-        publisher: "菲律宾新锐平台",
-        isChinese: false,
-        markets: "菲律宾",
-        performance: "排名同比上升 20 位，菲律宾市场波动剧烈期跑出来的新锐",
-        comment: "菲律宾新玩家上位很快，说明这个市场投放红利还在。做菲律宾的中资客户值得优先约。",
-        source: "https://www.fxbaogao.com/detail/5379445",
-        tier: "sme"
+        "name": "FT Lending",
+        "publisher": "菲律宾新锐平台",
+        "isChinese": false,
+        "markets": "菲律宾",
+        "performance": "排名同比上升 20 位，菲律宾市场波动剧烈期跑出来的新锐",
+        "comment": "菲律宾新玩家上位很快，说明这个市场投放红利还在。做菲律宾的中资客户值得优先约。",
+        "source": "https://www.fxbaogao.com/detail/5379445",
+        "tier": "sme"
       },
       {
-        name: "洋钱罐（Fintopia 瓴岳科技）",
-        publisher: "瓴岳科技",
-        isChinese: true,
-        markets: "印尼、菲律宾、墨西哥",
-        performance: "出海布局早，已实现本地化常态化运营，持海外金融牌照，海外业务基本盈利",
-        comment: "行业公认的出海标杆之一。即使短期不合作，也值得建立关系——它的打法是你说服其他互金客户的教材。",
-        source: "https://www.zichanjie.com/article/432622.html",
-        tier: "head"
+        "name": "洋钱罐（Fintopia 瓴岳科技）",
+        "publisher": "瓴岳科技",
+        "isChinese": true,
+        "markets": "印尼、菲律宾、墨西哥",
+        "performance": "出海布局早，已实现本地化常态化运营，持海外金融牌照，海外业务基本盈利",
+        "comment": "行业公认的出海标杆之一。即使短期不合作，也值得建立关系——它的打法是你说服其他互金客户的教材。",
+        "source": "https://www.zichanjie.com/article/432622.html",
+        "tier": "head"
       },
       {
-        name: "信也科技 FinVolution",
-        publisher: "信也科技（FINV.NYSE）",
-        isChinese: true,
-        markets: "印尼、菲律宾",
-        performance: "被业内列为互金出海对标方向之一，海外业务占比处于行业前列",
-        comment: "上市公司、预算稳定、合规要求高——正好匹配'我们能帮你过平台金融资质验证'这个卖点。",
-        source: "https://new.qq.com/rain/a/20260417A06DB100",
-        tier: "head"
+        "name": "信也科技 FinVolution",
+        "publisher": "信也科技（FINV.NYSE）",
+        "isChinese": true,
+        "markets": "印尼、菲律宾",
+        "performance": "被业内列为互金出海对标方向之一，海外业务占比处于行业前列",
+        "comment": "上市公司、预算稳定、合规要求高——正好匹配'我们能帮你过平台金融资质验证'这个卖点。",
+        "source": "https://new.qq.com/rain/a/20260417A06DB100",
+        "tier": "head"
       },
       {
-        name: "滴滴金融（海外）",
-        publisher: "滴滴",
-        isChinese: true,
-        markets: "墨西哥",
-        performance: "持墨西哥 SOFOM 多用途金融牌照，嵌入自有出海 App 消费场景展业",
-        comment: "场景型玩家，投放需求偏品牌 + 拉活。切入点是'唤醒老用户'而不是纯拉新。",
-        source: "https://www.zichanjie.com/article/432622.html",
-        tier: "head"
+        "name": "滴滴金融（海外）",
+        "publisher": "滴滴",
+        "isChinese": true,
+        "markets": "墨西哥",
+        "performance": "持墨西哥 SOFOM 多用途金融牌照，嵌入自有出海 App 消费场景展业",
+        "comment": "场景型玩家，投放需求偏品牌 + 拉活。切入点是'唤醒老用户'而不是纯拉新。",
+        "source": "https://www.zichanjie.com/article/432622.html",
+        "tier": "head"
       },
       {
-        name: "度小满（海外）",
-        publisher: "度小满金融",
-        isChinese: true,
-        markets: "墨西哥",
-        performance: "已布局或正在布局墨西哥市场，多采用 SOFOM 牌照",
-        comment: "2026 年互金出海首选地已从印尼转向墨西哥。跟这类客户开场就问墨西哥进度，能立刻建立专业感。",
-        source: "https://www.zichanjie.com/article/432622.html",
-        tier: "head"
+        "name": "度小满（海外）",
+        "publisher": "度小满金融",
+        "isChinese": true,
+        "markets": "墨西哥",
+        "performance": "已布局或正在布局墨西哥市场，多采用 SOFOM 牌照",
+        "comment": "2026 年互金出海首选地已从印尼转向墨西哥。跟这类客户开场就问墨西哥进度，能立刻建立专业感。",
+        "source": "https://www.zichanjie.com/article/432622.html",
+        "tier": "head"
       },
       {
-        name: "XTransfer",
-        publisher: "上海夺畅网络技术（XTransfer）",
-        isChinese: true,
-        markets: "全球（服务中国外贸中小企业）",
-        performance: "覆盖上海、深圳、广州、义乌等 20 余个国内城市 + 中国香港办公点，服务外贸中小企业跨境收付",
-        comment: "B2B 跨境支付，客群就是中小外贸卖家。它自己也要投广告获客——这是个双向机会。",
-        source: "https://www.xtransfer.cn/contact",
-        tier: "head"
+        "name": "XTransfer",
+        "publisher": "上海夺畅网络技术（XTransfer）",
+        "isChinese": true,
+        "markets": "全球（服务中国外贸中小企业）",
+        "performance": "覆盖上海、深圳、广州、义乌等 20 余个国内城市 + 中国香港办公点，服务外贸中小企业跨境收付",
+        "comment": "B2B 跨境支付，客群就是中小外贸卖家。它自己也要投广告获客——这是个双向机会。",
+        "source": "https://www.xtransfer.cn/contact",
+        "tier": "head"
       },
       {
-        name: "万里汇 WorldFirst（蚂蚁国际）",
-        publisher: "蚂蚁国际",
-        isChinese: true,
-        markets: "拉美、全球",
-        performance: "为美客多等平台的中国中小卖家提供全球账户与多币种资金归集；蚂蚁国际在拉美与 R2、Dock 等本地机构合作，R2 已服务超 10 万家拉美中小企业",
-        comment: "它服务的中国卖家群体，就是你名单里那些'要出海但不知道怎么投'的中小客户。可以聊聊生态互推。",
-        source: "https://www.jiemian.com/article/14582038.html",
-        tier: "head"
+        "name": "万里汇 WorldFirst（蚂蚁国际）",
+        "publisher": "蚂蚁国际",
+        "isChinese": true,
+        "markets": "拉美、全球",
+        "performance": "为美客多等平台的中国中小卖家提供全球账户与多币种资金归集；蚂蚁国际在拉美与 R2、Dock 等本地机构合作，R2 已服务超 10 万家拉美中小企业",
+        "comment": "它服务的中国卖家群体，就是你名单里那些'要出海但不知道怎么投'的中小客户。可以聊聊生态互推。",
+        "source": "https://www.jiemian.com/article/14582038.html",
+        "tier": "head"
       },
       {
-        name: "LFPay（老挝本地支付钱包）",
-        publisher: "中资背景团队（老挝本地持牌运营）",
-        isChinese: true,
-        markets: "老挝",
-        performance: "登顶老挝 Google Play 财务类免费榜，注册用户突破 20 万；主打本地二维码支付与跨境汇款",
-        comment: "老挝这种小市场竞争少、CPI 低，正是中小金融产品出海的性价比洼地。跟这类客户聊，别提大预算，提'单市场跑通模型再复制'——这是他们最听得进去的说法。",
-        source: "https://www.lmtw.com/",
-        tier: "sme"
+        "name": "LFPay（老挝本地支付钱包）",
+        "publisher": "中资背景团队（老挝本地持牌运营）",
+        "isChinese": true,
+        "markets": "老挝",
+        "performance": "登顶老挝 Google Play 财务类免费榜，注册用户突破 20 万；主打本地二维码支付与跨境汇款",
+        "comment": "老挝这种小市场竞争少、CPI 低，正是中小金融产品出海的性价比洼地。跟这类客户聊，别提大预算，提'单市场跑通模型再复制'——这是他们最听得进去的说法。",
+        "source": "https://www.lmtw.com/",
+        "tier": "sme"
       }
     ],
-    ai: [
+    "ai": [
       {
-        name: "美颜秀秀 BeautyPlus / Airbrush",
-        publisher: "美图公司（01357.HK）",
-        isChinese: true,
-        markets: "东南亚 / 拉美 / 中东 / 欧美",
-        performance: "单月海外流水约 385 万美元，居中国 AI 应用出海收入榜首位；AI 修图与写真功能是主要付费点",
-        comment: "美图是我们的老客户，这条的用处是'内部对标'——它能做到 385 万，说明 AI 影像这个品类的天花板还没到。可以拿这个数字去说服其他影像类客户：'同赛道第一名的月流水就在这儿，你还有空间。'",
-        source: "https://www.lmtw.com/",
-        tier: "head"
+        "name": "美颜秀秀 BeautyPlus / Airbrush",
+        "publisher": "美图公司（01357.HK）",
+        "isChinese": true,
+        "markets": "东南亚 / 拉美 / 中东 / 欧美",
+        "performance": "单月海外流水约 385 万美元，居中国 AI 应用出海收入榜首位；AI 修图与写真功能是主要付费点",
+        "comment": "美图是我们的老客户，这条的用处是'内部对标'——它能做到 385 万，说明 AI 影像这个品类的天花板还没到。可以拿这个数字去说服其他影像类客户：'同赛道第一名的月流水就在这儿，你还有空间。'",
+        "source": "https://www.lmtw.com/",
+        "tier": "head"
       },
       {
-        name: "千问 App（Qwen）",
-        publisher: "阿里巴巴 通义实验室",
-        isChinese: true,
-        markets: "全球（东南亚 / 中东 / 欧美）",
-        performance: "近一个月下载增速 149%，位列全球 AI 应用增速榜第一；带动中国 AI 应用连续 14 周占据全球 AI 增长榜首位",
-        comment: "阿里自己不缺投放能力，但它的增速会带动一批'跟风做 AI 助手'的中小团队冲海外。看到这条别去敲阿里的门，去敲那些刚立项做 AI 助手的小团队——他们没有投放团队。",
-        source: "https://www.lmtw.com/",
-        tier: "head"
+        "name": "千问 App（Qwen）",
+        "publisher": "阿里巴巴 通义实验室",
+        "isChinese": true,
+        "markets": "全球（东南亚 / 中东 / 欧美）",
+        "performance": "近一个月下载增速 149%，位列全球 AI 应用增速榜第一；带动中国 AI 应用连续 14 周占据全球 AI 增长榜首位",
+        "comment": "阿里自己不缺投放能力，但它的增速会带动一批'跟风做 AI 助手'的中小团队冲海外。看到这条别去敲阿里的门，去敲那些刚立项做 AI 助手的小团队——他们没有投放团队。",
+        "source": "https://www.lmtw.com/",
+        "tier": "head"
       },
       {
-        name: "ChatGPT",
-        publisher: "OpenAI",
-        isChinese: false,
-        markets: "全球",
-        performance: "移动端单季收入近 13 亿美元，是 TOP10 其他产品总和的 5 倍；2026 年 3 月 MAU 逼近 10 亿，但环比仅 +0.5%",
-        comment: "增速见顶了。这句话本身就是话术：'头部已经稳态，你们现在冲垂类还来得及。'",
-        source: "https://new.qq.com/rain/a/20260514A03GPT00",
-        tier: "head"
+        "name": "ChatGPT",
+        "publisher": "OpenAI",
+        "isChinese": false,
+        "markets": "全球",
+        "performance": "移动端单季收入近 13 亿美元，是 TOP10 其他产品总和的 5 倍；2026 年 3 月 MAU 逼近 10 亿，但环比仅 +0.5%",
+        "comment": "增速见顶了。这句话本身就是话术：'头部已经稳态，你们现在冲垂类还来得及。'",
+        "source": "https://new.qq.com/rain/a/20260514A03GPT00",
+        "tier": "head"
       },
       {
-        name: "Gemini",
-        publisher: "Google",
-        isChinese: false,
-        markets: "全球",
-        performance: "下载量与 ChatGPT 同处第一梯队（均破 5000 万），2025 年 9 月日下载量一度反超 ChatGPT",
-        comment: "谷歌自家分发，参考意义大于线索意义。",
-        source: "https://www.netmarvel.com/news/1625.html",
-        tier: "head"
+        "name": "Gemini",
+        "publisher": "Google",
+        "isChinese": false,
+        "markets": "全球",
+        "performance": "下载量与 ChatGPT 同处第一梯队（均破 5000 万），2025 年 9 月日下载量一度反超 ChatGPT",
+        "comment": "谷歌自家分发，参考意义大于线索意义。",
+        "source": "https://www.netmarvel.com/news/1625.html",
+        "tier": "head"
       },
       {
-        name: "Manus",
-        publisher: "蝴蝶效应 Butterfly Effect",
-        isChinese: true,
-        markets: "全球",
-        performance: "2026Q1 移动端收入再创新高；Meta 已将 Manus AI 集成进 Ads Manager 作为执行层智能体",
-        comment: "被 Meta 收进广告后台，说明它在平台侧已有话语权。聊合作时可以从'你们和 Meta 的联动怎么落到投放上'切入。",
-        source: "https://fxbaogao.com/detail/5439392",
-        tier: "head"
+        "name": "Manus",
+        "publisher": "蝴蝶效应 Butterfly Effect",
+        "isChinese": true,
+        "markets": "全球",
+        "performance": "2026Q1 移动端收入再创新高；Meta 已将 Manus AI 集成进 Ads Manager 作为执行层智能体",
+        "comment": "被 Meta 收进广告后台，说明它在平台侧已有话语权。聊合作时可以从'你们和 Meta 的联动怎么落到投放上'切入。",
+        "source": "https://fxbaogao.com/detail/5439392",
+        "tier": "head"
       },
       {
-        name: "Genspark",
-        publisher: "MainFunc（华人创始团队）",
-        isChinese: true,
-        markets: "日本、韩国",
-        performance: "转型 Super Agent 后单季收入环比 +306%；靠差异化本地化投放（日本 YouTube、韩国 Facebook/Instagram）拉动",
-        comment: "这是今年最典型的'渠道选对了就赢'案例。跟 AI 客户开场就用它：'同样的产品，投对渠道单季能翻三倍。'",
-        source: "https://fxbaogao.com/detail/5439392",
-        tier: "sme"
+        "name": "Genspark",
+        "publisher": "MainFunc（华人创始团队）",
+        "isChinese": true,
+        "markets": "日本、韩国",
+        "performance": "转型 Super Agent 后单季收入环比 +306%；靠差异化本地化投放（日本 YouTube、韩国 Facebook/Instagram）拉动",
+        "comment": "这是今年最典型的'渠道选对了就赢'案例。跟 AI 客户开场就用它：'同样的产品，投对渠道单季能翻三倍。'",
+        "source": "https://fxbaogao.com/detail/5439392",
+        "tier": "sme"
       },
       {
-        name: "Kling AI 可灵",
-        publisher: "快手",
-        isChinese: true,
-        markets: "全球",
-        performance: "登顶 AI 图像与视频赛道收入榜",
-        comment: "易点天下已合作体系内客户（快手）。可作为 AI 视频赛道的合作背书。",
-        source: "https://fxbaogao.com/detail/5439392",
-        tier: "head"
+        "name": "Kling AI 可灵",
+        "publisher": "快手",
+        "isChinese": true,
+        "markets": "全球",
+        "performance": "登顶 AI 图像与视频赛道收入榜",
+        "comment": "易点天下已合作体系内客户（快手）。可作为 AI 视频赛道的合作背书。",
+        "source": "https://fxbaogao.com/detail/5439392",
+        "tier": "head"
       },
       {
-        name: "PixVerse",
-        publisher: "爱诗科技",
-        isChinese: true,
-        markets: "全球（覆盖 177+ 国家）",
-        performance: "登顶 AI 图像视频赛道下载榜；官网披露服务 177+ 国家、企业级 API 生成成本下降 68%",
-        comment: "下载登顶但收入没登顶——典型的'量有了缺变现'。切入话术：帮它找付费意愿高的市场，而不是继续冲下载。",
-        source: "https://fxbaogao.com/detail/5439392",
-        tier: "head"
+        "name": "PixVerse",
+        "publisher": "爱诗科技",
+        "isChinese": true,
+        "markets": "全球（覆盖 177+ 国家）",
+        "performance": "登顶 AI 图像视频赛道下载榜；官网披露服务 177+ 国家、企业级 API 生成成本下降 68%",
+        "comment": "下载登顶但收入没登顶——典型的'量有了缺变现'。切入话术：帮它找付费意愿高的市场，而不是继续冲下载。",
+        "source": "https://fxbaogao.com/detail/5439392",
+        "tier": "head"
       },
       {
-        name: "豆包",
-        publisher: "字节跳动",
-        isChinese: true,
-        markets: "中国 iOS",
-        performance: "连续 12 个月登顶中国 iOS 移动应用下载榜；字节 5 款 AI 应用入围 TOP10",
-        comment: "国内盘，不是出海线索。但可以用它跟客户聊'国内验证过的产品拿去东南亚跑'的逻辑。",
-        source: "https://fxbaogao.com/detail/5439392",
-        tier: "head"
+        "name": "豆包",
+        "publisher": "字节跳动",
+        "isChinese": true,
+        "markets": "中国 iOS",
+        "performance": "连续 12 个月登顶中国 iOS 移动应用下载榜；字节 5 款 AI 应用入围 TOP10",
+        "comment": "国内盘，不是出海线索。但可以用它跟客户聊'国内验证过的产品拿去东南亚跑'的逻辑。",
+        "source": "https://fxbaogao.com/detail/5439392",
+        "tier": "head"
       },
       {
-        name: "SeaArt 海艺",
-        publisher: "成都海艺互娱科技",
-        isChinese: true,
-        markets: "日本、美国、巴西、俄罗斯",
-        performance: "注册用户超 6500 万、月访问超 3000 万，海外用户占比超 90%；核心业务已实现正毛利；7 月完成超亿元 B 轮融资",
-        comment: "刚拿到钱、明说要'加速海外本地化运营'——预算窗口就是现在。而且主战场日本/巴西/俄罗斯正好是易点天下的强势市场。列为本周重点。",
-        source: "https://www.toutiao.com/article/7667416625536156211",
-        tier: "sme"
+        "name": "SeaArt 海艺",
+        "publisher": "成都海艺互娱科技",
+        "isChinese": true,
+        "markets": "日本、美国、巴西、俄罗斯",
+        "performance": "注册用户超 6500 万、月访问超 3000 万，海外用户占比超 90%；核心业务已实现正毛利；7 月完成超亿元 B 轮融资",
+        "comment": "刚拿到钱、明说要'加速海外本地化运营'——预算窗口就是现在。而且主战场日本/巴西/俄罗斯正好是易点天下的强势市场。列为本周重点。",
+        "source": "https://www.toutiao.com/article/7667416625536156211",
+        "tier": "sme"
       },
       {
-        name: "vivago ai",
-        publisher: "智象未来（合肥）科技",
-        isChinese: true,
-        markets: "全球",
-        performance: "3 月非聊天类 AI 应用中，与 PixVerse 同为仅有的两款进入全球下载榜前十的 AI 视频生成产品",
-        comment: "母公司 HiDream.ai 走的是 B 端 MaaS + C 端 App 双线。C 端要拉量，B 端要品牌曝光，两种预算都能聊。",
-        source: "https://www.netmarvel.com/news/1615.html",
-        tier: "sme"
+        "name": "vivago ai",
+        "publisher": "智象未来（合肥）科技",
+        "isChinese": true,
+        "markets": "全球",
+        "performance": "3 月非聊天类 AI 应用中，与 PixVerse 同为仅有的两款进入全球下载榜前十的 AI 视频生成产品",
+        "comment": "母公司 HiDream.ai 走的是 B 端 MaaS + C 端 App 双线。C 端要拉量，B 端要品牌曝光，两种预算都能聊。",
+        "source": "https://www.netmarvel.com/news/1615.html",
+        "tier": "sme"
       },
       {
-        name: "Plaud AI",
-        publisher: "Plaud（AI 笔记硬件 + 软件）",
-        isChinese: true,
-        markets: "美国、全球",
-        performance: "单次下载收入 47 美元（为 ChatGPT 的 9.3 倍），累计收入 6500 万美元",
-        comment: "ARPU 高到离谱，说明它能承受很贵的 CPI。这类客户最愿意为'精准'付钱，不是打价格战的对象。",
-        source: "https://fxbaogao.com/detail/5439392",
-        tier: "sme"
+        "name": "Plaud AI",
+        "publisher": "Plaud（AI 笔记硬件 + 软件）",
+        "isChinese": true,
+        "markets": "美国、全球",
+        "performance": "单次下载收入 47 美元（为 ChatGPT 的 9.3 倍），累计收入 6500 万美元",
+        "comment": "ARPU 高到离谱，说明它能承受很贵的 CPI。这类客户最愿意为'精准'付钱，不是打价格战的对象。",
+        "source": "https://fxbaogao.com/detail/5439392",
+        "tier": "sme"
       },
       {
-        name: "Emochi（AI 情感陪伴）",
-        publisher: "华人出海团队",
-        isChinese: true,
-        markets: "美国 / 日本 / 东南亚",
-        performance: "近一月全球 AI 应用榜名次上升 16 位，是陪伴类里上升最快的产品之一",
-        comment: "陪伴类的用户获取高度依赖素材和社区种草，正是中小团队最搞不定的部分。这类公司团队通常十几人、没有投放岗，一旦谈成粘性很高。优先级建议排在头部大厂之前。",
-        source: "https://www.lmtw.com/",
-        tier: "sme"
+        "name": "Emochi（AI 情感陪伴）",
+        "publisher": "华人出海团队",
+        "isChinese": true,
+        "markets": "美国 / 日本 / 东南亚",
+        "performance": "近一月全球 AI 应用榜名次上升 16 位，是陪伴类里上升最快的产品之一",
+        "comment": "陪伴类的用户获取高度依赖素材和社区种草，正是中小团队最搞不定的部分。这类公司团队通常十几人、没有投放岗，一旦谈成粘性很高。优先级建议排在头部大厂之前。",
+        "source": "https://www.lmtw.com/",
+        "tier": "head"
       }
     ],
-    education: [
+    "education": [
       {
-        name: "Duolingo",
-        publisher: "Duolingo Inc.",
-        isChinese: false,
-        markets: "全球",
-        performance: "2026-01-01 至 06-17 全球 IAP 收入约 3.068 亿美元，语言类第一；巴西、澳大利亚 App Store 教育畅销榜均稳居 #1",
-        comment: "不是客户，是标尺。跟中国教育客户聊时用它定义天花板。",
-        source: "https://www.statista.com/serp?q=language+learning+app+revenue",
-        tier: "head"
+        "name": "Duolingo",
+        "publisher": "Duolingo Inc.",
+        "isChinese": false,
+        "markets": "全球",
+        "performance": "2026-01-01 至 06-17 全球 IAP 收入约 3.068 亿美元，语言类第一；巴西、澳大利亚 App Store 教育畅销榜均稳居 #1",
+        "comment": "不是客户，是标尺。跟中国教育客户聊时用它定义天花板。",
+        "source": "https://www.statista.com/serp?q=language+learning+app+revenue",
+        "tier": "head"
       },
       {
-        name: "Babbel",
-        publisher: "Babbel GmbH",
-        isChinese: false,
-        markets: "欧美",
-        performance: "同期全球 IAP 收入约 2299 万美元，语言类第二",
-        comment: "第一和第二差 13 倍——这个断层说明语言学习赛道还有大量未被吃掉的细分需求。",
-        source: "https://www.statista.com/serp?q=language+learning+app+revenue",
-        tier: "head"
+        "name": "Babbel",
+        "publisher": "Babbel GmbH",
+        "isChinese": false,
+        "markets": "欧美",
+        "performance": "同期全球 IAP 收入约 2299 万美元，语言类第二",
+        "comment": "第一和第二差 13 倍——这个断层说明语言学习赛道还有大量未被吃掉的细分需求。",
+        "source": "https://www.statista.com/serp?q=language+learning+app+revenue",
+        "tier": "head"
       },
       {
-        name: "Speak",
-        publisher: "Speakeasy Labs",
-        isChinese: false,
-        markets: "韩国、日本、全球",
-        performance: "单月全球收入 326 万美元、环比 +70%，凭高 ARPU 挤进全球教育 App 收入第三",
-        comment: "AI 口语是目前教育里最能涨的细分。中国做口语的团队应该都在盯它，是个好的破冰话题。",
-        source: "https://m.cyzone.cn/article/792613",
-        tier: "head"
+        "name": "Speak",
+        "publisher": "Speakeasy Labs",
+        "isChinese": false,
+        "markets": "韩国、日本、全球",
+        "performance": "单月全球收入 326 万美元、环比 +70%，凭高 ARPU 挤进全球教育 App 收入第三",
+        "comment": "AI 口语是目前教育里最能涨的细分。中国做口语的团队应该都在盯它，是个好的破冰话题。",
+        "source": "https://m.cyzone.cn/article/792613",
+        "tier": "head"
       },
       {
-        name: "Question.AI",
-        publisher: "作业帮",
-        isChinese: true,
-        markets: "东南亚、拉美、全球",
-        performance: "全球教育 App 收入榜第 8；出海应用中唯一 MAU 突破千万的产品，总榜第 5",
-        comment: "国内教育出海的头号选手。它的变现是多元的（App 引流网课 + 硬件），投放目标不止装机——问清楚它的考核口径，才能提对方案。",
-        source: "https://m.cyzone.cn/article/792613",
-        tier: "head"
+        "name": "Question.AI",
+        "publisher": "作业帮",
+        "isChinese": true,
+        "markets": "东南亚、拉美、全球",
+        "performance": "全球教育 App 收入榜第 8；出海应用中唯一 MAU 突破千万的产品，总榜第 5",
+        "comment": "国内教育出海的头号选手。它的变现是多元的（App 引流网课 + 硬件），投放目标不止装机——问清楚它的考核口径，才能提对方案。",
+        "source": "https://m.cyzone.cn/article/792613",
+        "tier": "head"
       },
       {
-        name: "Gauth",
-        publisher: "字节跳动",
-        isChinese: true,
-        markets: "美国、欧洲",
-        performance: "全球教育 App 收入榜第 15；3 月收入环比 +108%，靠'校园创作者'活动 + TikTok 40 万播放 + 期中考季精准投放",
-        comment: "这个案例值得背下来：内容活动 + 节点 + 精准投放三件套。跟任何教育客户聊'怎么在开学季起量'都能用。",
-        source: "https://m.cyzone.cn/article/798226",
-        tier: "head"
+        "name": "Gauth",
+        "publisher": "字节跳动",
+        "isChinese": true,
+        "markets": "美国、欧洲",
+        "performance": "全球教育 App 收入榜第 15；3 月收入环比 +108%，靠'校园创作者'活动 + TikTok 40 万播放 + 期中考季精准投放",
+        "comment": "这个案例值得背下来：内容活动 + 节点 + 精准投放三件套。跟任何教育客户聊'怎么在开学季起量'都能用。",
+        "source": "https://m.cyzone.cn/article/798226",
+        "tier": "head"
       },
       {
-        name: "Solvely",
-        publisher: "字节跳动",
-        isChinese: true,
-        markets: "全球",
-        performance: "全球教育 App 收入榜第 19；单月收入 27 万美元、环比 +40%，同时登上 MAU 与收入增幅榜 Top5",
-        comment: "体量小但双增，属于内部孵化的第二曲线。这类产品预算灵活、决策快，适合做小额试投。",
-        source: "https://m.cyzone.cn/article/792613",
-        tier: "sme"
+        "name": "Solvely",
+        "publisher": "字节跳动",
+        "isChinese": true,
+        "markets": "全球",
+        "performance": "全球教育 App 收入榜第 19；单月收入 27 万美元、环比 +40%，同时登上 MAU 与收入增幅榜 Top5",
+        "comment": "体量小但双增，属于内部孵化的第二曲线。这类产品预算灵活、决策快，适合做小额试投。",
+        "source": "https://m.cyzone.cn/article/792613",
+        "tier": "sme"
       },
       {
-        name: "Uknow.AI",
-        publisher: "华人团队（出海综合解题类）",
-        isChinese: true,
-        markets: "东南亚",
-        performance: "超 90% 活跃用户来自东南亚；连续多期榜单 MAU 与流水增长均不理想",
-        comment: "'量有了但不涨'的典型。这种客户最缺的是诊断，不是加预算——上门先讲问题在哪，比讲报价单管用。",
-        source: "https://m.cyzone.cn/article/798226",
-        tier: "sme"
+        "name": "Uknow.AI",
+        "publisher": "华人团队（出海综合解题类）",
+        "isChinese": true,
+        "markets": "东南亚",
+        "performance": "超 90% 活跃用户来自东南亚；连续多期榜单 MAU 与流水增长均不理想",
+        "comment": "'量有了但不涨'的典型。这种客户最缺的是诊断，不是加预算——上门先讲问题在哪，比讲报价单管用。",
+        "source": "https://m.cyzone.cn/article/798226",
+        "tier": "sme"
       },
       {
-        name: "PTE Exam Practice - APEUni",
-        publisher: "深圳市阿培尼教育科技有限公司",
-        isChinese: true,
-        markets: "澳大利亚、新西兰",
-        performance: "澳大利亚 App Store 教育畅销榜 #3，在榜 76 天",
-        comment: "垂直考试赛道的中国出海小巨头，用户价值极高（移民考试付费意愿强）。属于典型的'预算不大但 ROI 要求明确'客户。",
-        source: "https://emberpicks.com/au/appstore/apps/education/grossing",
-        tier: "sme"
+        "name": "PTE Exam Practice - APEUni",
+        "publisher": "深圳市阿培尼教育科技有限公司",
+        "isChinese": true,
+        "markets": "澳大利亚、新西兰",
+        "performance": "澳大利亚 App Store 教育畅销榜 #3，在榜 76 天",
+        "comment": "垂直考试赛道的中国出海小巨头，用户价值极高（移民考试付费意愿强）。属于典型的'预算不大但 ROI 要求明确'客户。",
+        "source": "https://emberpicks.com/au/appstore/apps/education/grossing",
+        "tier": "sme"
       },
       {
-        name: "PictureThis",
-        publisher: "杭州睿琪软件 Glority Global Group",
-        isChinese: true,
-        markets: "澳大利亚、巴西、欧美",
-        performance: "澳大利亚教育畅销榜 #4（在榜 76 天，峰值 #2）；巴西教育畅销榜 #16",
-        comment: "易点天下已合作客户。多市场长期在榜说明投放是持续的，适合谈增量市场（拉美、中东）。",
-        source: "https://emberpicks.com/au/appstore/apps/education/grossing",
-        tier: "sme"
+        "name": "PictureThis",
+        "publisher": "杭州睿琪软件 Glority Global Group",
+        "isChinese": true,
+        "markets": "澳大利亚、巴西、欧美",
+        "performance": "澳大利亚教育畅销榜 #4（在榜 76 天，峰值 #2）；巴西教育畅销榜 #16",
+        "comment": "易点天下已合作客户。多市场长期在榜说明投放是持续的，适合谈增量市场（拉美、中东）。",
+        "source": "https://emberpicks.com/au/appstore/apps/education/grossing",
+        "tier": "head"
       },
       {
-        name: "Speak English with Loora AI",
-        publisher: "Loora A.I LTD（以色列）",
-        isChinese: false,
-        markets: "巴西、全球",
-        performance: "巴西 App Store 教育畅销榜 #4；2 月末完成 1200 万美元 A 轮，3 月 MAU 环比 +67%",
-        comment: "非中国团队，但它在巴西的位置就是中国口语产品要抢的坑。给做拉美的客户看这条，很有说服力。",
-        source: "https://emberpicks.com/br/appstore/apps/education/grossing",
-        tier: "head"
+        "name": "Speak English with Loora AI",
+        "publisher": "Loora A.I LTD（以色列）",
+        "isChinese": false,
+        "markets": "巴西、全球",
+        "performance": "巴西 App Store 教育畅销榜 #4；2 月末完成 1200 万美元 A 轮，3 月 MAU 环比 +67%",
+        "comment": "非中国团队，但它在巴西的位置就是中国口语产品要抢的坑。给做拉美的客户看这条，很有说服力。",
+        "source": "https://emberpicks.com/br/appstore/apps/education/grossing",
+        "tier": "head"
       },
       {
-        name: "Speak & Learn English: Learna",
-        publisher: "DEEP FLOW SOFTWARE SERVICES（土耳其）",
-        isChinese: false,
-        markets: "巴西、澳大利亚",
-        performance: "巴西教育畅销榜 #2（在榜 58 天）、澳大利亚 #7",
-        comment: "靠放宽订阅权益（虚拟角色从单独付费改为订阅无限用）拉动增长。这是个可以直接建议给客户的变现调整。",
-        source: "https://emberpicks.com/br/appstore/apps/education/grossing",
-        tier: "head"
+        "name": "Speak & Learn English: Learna",
+        "publisher": "DEEP FLOW SOFTWARE SERVICES（土耳其）",
+        "isChinese": false,
+        "markets": "巴西、澳大利亚",
+        "performance": "巴西教育畅销榜 #2（在榜 58 天）、澳大利亚 #7",
+        "comment": "靠放宽订阅权益（虚拟角色从单独付费改为订阅无限用）拉动增长。这是个可以直接建议给客户的变现调整。",
+        "source": "https://emberpicks.com/br/appstore/apps/education/grossing",
+        "tier": "head"
       },
       {
-        name: "Lingokids",
-        publisher: "Monkimun Inc",
-        isChinese: false,
-        markets: "巴西、澳大利亚",
-        performance: "巴西教育畅销榜 #11、澳大利亚 #10",
-        comment: "儿童启蒙的国际标杆。中国做儿童教育出海的团队普遍在对标它。",
-        source: "https://emberpicks.com/au/appstore/apps/education/grossing",
-        tier: "head"
+        "name": "Lingokids",
+        "publisher": "Monkimun Inc",
+        "isChinese": false,
+        "markets": "巴西、澳大利亚",
+        "performance": "巴西教育畅销榜 #11、澳大利亚 #10",
+        "comment": "儿童启蒙的国际标杆。中国做儿童教育出海的团队普遍在对标它。",
+        "source": "https://emberpicks.com/au/appstore/apps/education/grossing",
+        "tier": "head"
       },
       {
-        name: "UMU（AI 效果学习平台）",
-        publisher: "北京优幕科技（UMU）",
-        isChinese: true,
-        markets: "全球 208 个国家和地区（日本、东南亚、北美为重点）",
-        performance: "入围全球 AI 应用增长榜，是榜上唯一一家中国出海的企业培训产品；官网披露 1000+ 付费客户、活跃用户超 1 亿",
-        comment: "B 端 SaaS 出海的投放逻辑跟 C 端不一样，讲的是线索成本不是安装成本。你手里如果没有 B2B 案例，这家可以当第一家来练——B 端客户预算稳定、周期长，适合新人做长线。",
-        source: "https://www.umu.com/",
-        tier: "sme"
+        "name": "UMU（AI 效果学习平台）",
+        "publisher": "北京优幕科技（UMU）",
+        "isChinese": true,
+        "markets": "全球 208 个国家和地区（日本、东南亚、北美为重点）",
+        "performance": "入围全球 AI 应用增长榜，是榜上唯一一家中国出海的企业培训产品；官网披露 1000+ 付费客户、活跃用户超 1 亿",
+        "comment": "B 端 SaaS 出海的投放逻辑跟 C 端不一样，讲的是线索成本不是安装成本。你手里如果没有 B2B 案例，这家可以当第一家来练——B 端客户预算稳定、周期长，适合新人做长线。",
+        "source": "https://www.umu.com/",
+        "tier": "sme"
       }
     ]
   },
-  hotEvents: [
+  "hotEvents": [
     {
-      title: "MPA 报告：2026 年海外微短剧市场将从 27 亿增至 36 亿美元，ReelShort 占 29%、DramaBox 占 21%",
-      date: "2026-08-08",
-      summary: "美国电影协会（MPA）最新报告给出海外微短剧的完整规模测算：2026 年市场从 27 亿美元增至 36 亿美元，头部两家 ReelShort 与 DramaBox 合计拿走一半份额，其余 50% 由数十家中小平台分食。",
-      bizValue: "这份报告是你今年最好用的一张纸。给客户看的时候重点不是'市场很大'，而是'前两名已经拿走一半，你再不加速就没位置了'。焦虑感比机会感更能推动预算。",
-      source: "https://www.mffb.com.cn/",
-      tag: "high-growth"
+      "title": "StoryReel 7 月收入 555.4 万美元、环比 +130%，登顶海外短剧收入黑马榜",
+      "date": "2026-08-09",
+      "summary": "由中国香港开发商 Equinox Enterprises Technology 推出，覆盖爱情、狼人、复仇、奇幻题材，广告 + IAP 混合变现。收入从 6 月的 241.8 万美元翻倍到 555.4 万美元。同时它也是下载黑马榜第三名，增幅超 200%。",
+      "bizValue": "这是本周最值得打的一条线索。一个月收入翻倍意味着投放预算正在快速放大，而这种主体（香港注册、单一产品、团队精简）通常没有稳定代理，正是抢客户的窗口期。客服邮箱 service@storyreel.life 是公开的，今天就能发第一封。",
+      "source": "https://baijingapp.com/article/56249",
+      "tag": "high-growth"
     },
     {
-      title: "上半年出海短剧 App 全球下载 12.21 亿次，占全球短剧下载量的 85%",
-      date: "2026-08-07",
-      summary: "2026 年上半年，中国公司出品的短剧 App 在全球累计下载 12.21 亿次，占到全球短剧类 App 下载总量的 85%，东南亚与拉美是增量最快的区域。",
-      bizValue: "这条适合放在给短剧客户的开场邮件第一段：先证明你懂这个行业的量级，再谈素材与代投。新人最怕客户觉得你不懂行，数字能解决这个问题。",
-      source: "https://www.mffb.com.cn/"
+      "title": "美国短剧下载榜大洗牌：PineDrama、VibeShort 各升 5 位闯进前三，FreeReels 掉 8 位让出榜首",
+      "date": "2026-08-09",
+      "summary": "7 月美国市场下载榜波动剧烈：PineDrama 份额提升 5.90% 重回第二，FreeReels 份额减少 7.63% 从第一跌到第九。收入榜相对稳定，ReelShort、DramaBox、DramaWave 仍包揽前三，CandyJarTV 上升 6 位。",
+      "bizValue": "下载榜剧烈波动 = 有人在猛砸量、有人在断量。掉下去的（FreeReels）可能是投放出了问题，正需要新代理救火；冲上来的（PineDrama、VibeShort）预算在放大，正需要更多渠道承接。两边都是话题，别只盯着头部三家。",
+      "source": "https://baijingapp.com/article/56249"
     },
     {
-      title: "短剧四强综合分出炉：DramaBox 68.3 / ReelShort 66.5 / NetShort 66.2 / DramaWave 64.3",
-      date: "2026-08-06",
-      summary: "最新一期海外短剧平台综合评分（含下载、收入、留存、上新速度多维度）显示四强分差极小，DramaBox 以 68.3 微弱领先，NetShort 与 ReelShort 仅差 0.3 分。",
-      bizValue: "分差这么小意味着谁都不敢松劲，投放竞争会持续加码。跟 NetShort 这种第三名聊时，'离第二名只差 0.3 分'是极有力的说服点——差距越小越舍得砸钱。",
-      source: "https://caifuhao.eastmoney.com/"
+      "title": "7 月 AI 短剧素材投放 TOP50 展现量约 1130 亿次，环比接近翻倍",
+      "date": "2026-08-08",
+      "summary": "DataEye 监测显示，AI 短剧赛道的素材投放规模在一个月内接近翻倍。VibeShort（中国香港靈動象限傳媒）与 StoryReel 两款产品在产品设计、投放内容、定价体系上高度同构，被认为是同一套打法的复制。",
+      "bizValue": "这类\"注册公司 → 上线产品 → 高举高打投流\"的团队，节奏极快、决策极短，是新人最容易拿下的一类客户——他们不看你公司多大，只看你能不能三天内把量跑起来。",
+      "source": "https://thepaper.cn/newsDetail_forward_33341278",
+      "tag": "high-growth"
     },
     {
-      title: "TikTok 短剧分账累计支付超 8200 万美元，平台开始反向争夺短剧内容方",
-      date: "2026-08-05",
-      summary: "TikTok 官方披露其短剧内容分账计划累计支付创作者与内容方超过 8200 万美元，同时放宽了短剧内容的商业化与投放门槛，试图把短剧流量留在站内。",
-      bizValue: "平台愿意分钱，说明短剧在 TikTok 的商业价值被验证了。跟短剧客户聊 TikTok 投放时，这条能帮你回答'为什么要投 TikTok 而不只是 Meta'——因为平台自己在补贴这个品类。",
-      source: "https://www.mffb.com.cn/",
-      tag: "cooperation"
+      "title": "7 月印度短剧下载量 4285 万次仍居全球第一，但收入被中国三强吃掉 45%",
+      "date": "2026-08-08",
+      "summary": "印度 7 月下载量环比 -0.23%，为 2026 年谷值但仍是全球下载第一市场。下载榜由本土 App 主导（Story TV、Kuku TV、QuickTV 合计超 44%），收入榜前三却是 DramaBox、NetShort、ReelShort，合计份额超 45%。",
+      "bizValue": "\"下载在本土、收入在中国厂商\"这个错位，是跟客户聊印度市场时最有说服力的一句。对还没进印度的客户，这是进场理由；对已经在印度的，这是加预算理由。",
+      "source": "https://baijingapp.com/article/56249"
     },
     {
-      title: "6 月全球手游收入 TOP100 中，38 家中国厂商上榜、合计 20.6 亿美元，占比 41.6%",
-      date: "2026-08-04",
-      summary: "据 Sensor Tower 6 月中国手游发行商全球收入榜，共 38 家中国厂商入围全球手游收入 TOP100，合计收入 20.6 亿美元，占 TOP100 总收入的 41.6%。",
-      bizValue: "四成这个数字要背下来。跟任何还在观望的游戏客户开场都能用：'现在全球手游收入四成是中国公司赚走的，剩下的窗口不多了。'",
-      source: "http://www.aastocks.com/"
+      "title": "Yandex Ads：中国游戏在俄罗斯市场的广告收入同比增长 3.5 倍",
+      "date": "2026-08-05",
+      "summary": "俄罗斯本地广告平台 Yandex Ads 披露，来自中国游戏厂商的广告收入同比增长 3.5 倍，中国游戏正在填补欧美厂商撤出后留下的市场空缺。",
+      "bizValue": "俄罗斯是 Jill 的重点市场之一，但很多客户还在犹豫。3.5 倍这个数字可以直接用：\"去年这个时候还没人敢投，今年同行的量已经是三倍了。\"注意 Meta/Google 在俄受限，主要靠 Yandex、VK、本地联盟——这恰恰是代理的价值所在。",
+      "source": "https://ads.yandex.com/"
     },
     {
-      title: "美国 iOS 手游 CPI 一年从 1.31 美元涨到 1.71 美元，涨幅 31%",
-      date: "2026-08-03",
-      summary: "行业买量成本监测显示，美国市场 iOS 手游单次安装成本一年内从 1.31 美元上涨至 1.71 美元，涨幅 31%，其中 SLG 与放置类涨幅最高。",
-      bizValue: "这是切入客户最痛的一刀。见面第一句可以问：'你们美区 CPI 今年涨了多少？'客户一说数字，话题就自然转到'怎么把成本压回去'——那正是我们要卖的东西。",
-      source: "https://www.mffb.com.cn/"
+      "title": "掌趣科技新品 Titan Rush 上线首月下载 160 万、月流水环比 +58.5%",
+      "date": "2026-08-06",
+      "summary": "掌趣科技的海外新品 Titan Rush 首月表现超预期，下载量约 160 万次，月流水环比增长 58.5%，处于典型的起量爬坡阶段。",
+      "bizValue": "起量期的新品是最好的切入时机——预算在扩、渠道在试、素材在换。这时候进去谈\"多渠道并跑 + 素材批量测试\"，比对成熟产品谈降价有效得多。",
+      "source": "https://www.gamelook.com.cn/"
     },
     {
-      title: "库洛《鸣潮》海外月流水约 3300 万美元、同比 +30%",
-      date: "2026-08-08",
-      summary: "《鸣潮》在大版本更新后，日本与美国市场双双回升，6 月海外月流水约 3300 万美元、同比增长 30%，成为二次元赛道少见的逆势增长产品。",
-      bizValue: "二次元赛道整体在收缩，还能涨 30% 的产品会被同行盯着学。这条的最佳用法是拿去敲二次元中腰部厂商的门：'鸣潮靠版本节奏 + 精准投放做到了 +30%，你们的版本节奏能配上投放吗？'",
-      source: "https://www.gamelook.com.cn/",
-      tag: "high-growth"
+      "title": "7 月全球手游发行商收入 TOP100：32 家中国厂商合计 19.5 亿美元，占 34%",
+      "date": "2026-08-07",
+      "summary": "Sensor Tower 7 月榜单：腾讯第 1、点点互动第 2（Kingshot 环比 +34%、Tasty Travels +52%）、网易第 3（+23%）、米哈游第 4、柠檬微趣第 5。",
+      "bizValue": "这份榜单本身就是最好的线索名单。看排名跳动最大的那几家——涨的说明预算在放大，跌的说明投放出了问题，两种都值得联系。",
+      "source": "https://www.aastocks.com/tc/stocks/news/aafn-content/NOW.1520000/sensor-tower"
     },
     {
-      title: "雷霆《杖剑传说》海外上线 6 周流水 2000 万美元、环比 +120%",
-      date: "2026-08-07",
-      summary: "吉比特旗下雷霆游戏发行的《杖剑传说》海外版上线 6 周累计流水约 2000 万美元，环比增长 120%，港澳台与东南亚是主要贡献市场。",
-      bizValue: "新游上线 6 周还在翻倍，说明买量正在加码、且还没打到欧美。雷霆是老客户，这是很自然的跟进由头：'东南亚跑通了，欧美要不要试一版？'",
-      source: "https://www.gamelook.com.cn/"
+      "title": "上海哇卜智能成立仅一个月完成近千万美元天使轮，主打美国 Gen Alpha 视频共创",
+      "date": "2026-08-03",
+      "summary": "公司 2026 年 7 月 1 日注册于上海徐汇，团队约 10 人，产品 Wapoo: Playable Video 主打海外市场（核心战场美国）。创始人杨名宇曾在快手做用户研究，后在 TikTok 从 0 到 1 主导 TikTok Stories、TikTok Now。探奇资本担任独家融资顾问，团队已在筹备下一轮。",
+      "bizValue": "10 人团队、刚拿到钱、目标美国青少年、创始人是 TikTok 产品出身——这四个条件叠加，意味着他们马上要开始买量而且很可能没有代理。但也要注意：创始人自己懂产品和用户，别讲虚的，直接给\"美国 13-17 岁人群怎么合规触达\"的具体方案。",
+      "source": "https://caifuhao.eastmoney.com/news/20260803164854379131130"
     },
     {
-      title: "中国 AI 应用连续 14 周霸榜全球增长榜，阿里千问 App 增速 149% 位列第一",
-      date: "2026-08-06",
-      summary: "全球 AI 应用增长榜显示，中国团队产品已连续 14 周占据榜首，其中阿里千问 App 近一月下载增速 149% 排名全球第一，字节豆包月活达 1.37 亿。",
-      bizValue: "大厂霸榜的真正含义是：一大批中小 AI 团队正在被资本和市场推着出海。别追大厂，追那些刚拿融资、刚上架、榜单上升最快的小团队——他们才需要外部投放能力。",
-      source: "https://www.lmtw.com/",
-      tag: "high-growth"
+      "title": "MPA 报告：2026 年海外微短剧市场将从 27 亿增至 36 亿美元，ReelShort 占 29%、DramaBox 占 21%",
+      "date": "2026-08-08",
+      "summary": "美国电影协会（MPA）最新报告给出海外微短剧的完整规模测算：2026 年市场从 27 亿美元增至 36 亿美元，头部两家 ReelShort 与 DramaBox 合计拿走一半份额，其余 50% 由数十家中小平台分食。",
+      "bizValue": "这份报告是你今年最好用的一张纸。给客户看的时候重点不是'市场很大'，而是'前两名已经拿走一半，你再不加速就没位置了'。焦虑感比机会感更能推动预算。",
+      "source": "https://www.mffb.com.cn/",
+      "tag": "high-growth"
     },
     {
-      title: "美图美颜秀秀单月海外流水 385 万美元，居中国 AI 应用出海收入榜首",
-      date: "2026-08-05",
-      summary: "最新一期中国 AI 应用出海收入榜中，美图旗下美颜秀秀以单月约 385 万美元流水位居第一，AI 修图与 AI 写真是主要付费点。",
-      bizValue: "美图是老客户，这条主要用于内部对标和续约谈判。对其他影像类客户则是'天花板证明'：同赛道第一名月流水 385 万，说明这个品类还能投。",
-      source: "https://www.lmtw.com/"
+      "title": "上半年出海短剧 App 全球下载 12.21 亿次，占全球短剧下载量的 85%",
+      "date": "2026-08-07",
+      "summary": "2026 年上半年，中国公司出品的短剧 App 在全球累计下载 12.21 亿次，占到全球短剧类 App 下载总量的 85%，东南亚与拉美是增量最快的区域。",
+      "bizValue": "这条适合放在给短剧客户的开场邮件第一段：先证明你懂这个行业的量级，再谈素材与代投。新人最怕客户觉得你不懂行，数字能解决这个问题。",
+      "source": "https://www.mffb.com.cn/"
     },
     {
-      title: "演语科技 EVOKEN（LiblibAI）完成 3 亿美元 B+ 轮，海外线 Lovart AI 与 LibTV 加速",
-      date: "2026-06-18",
-      summary: "LiblibAI 母公司北京演语科技（集团品牌 Evoken）完成 3 亿美元 B+ 轮融资，投资方包括 Granite Asia、时代资本、高榕、腾讯投资、红杉中国等；海外产品线 Lovart AI（AI 设计 Agent）与 LibTV 正在加速拓展，市场传其正筹备港股 IPO。",
-      bizValue: "创始人陈冕是前字节剪映 / CapCut 全球商业化负责人——这意味着他极懂投放，也意味着他对代理的要求会很高。触达时别讲基础服务，直接讲素材工业化和多市场同步起量。",
-      source: "https://www.liblib.art/",
-      tag: "emerging"
+      "title": "短剧四强综合分出炉：DramaBox 68.3 / ReelShort 66.5 / NetShort 66.2 / DramaWave 64.3",
+      "date": "2026-08-06",
+      "summary": "最新一期海外短剧平台综合评分（含下载、收入、留存、上新速度多维度）显示四强分差极小，DramaBox 以 68.3 微弱领先，NetShort 与 ReelShort 仅差 0.3 分。",
+      "bizValue": "分差这么小意味着谁都不敢松劲，投放竞争会持续加码。跟 NetShort 这种第三名聊时，'离第二名只差 0.3 分'是极有力的说服点——差距越小越舍得砸钱。",
+      "source": "https://caifuhao.eastmoney.com/"
     },
     {
-      title: "银联中国—巴西二维码支付互通上线，中资支付基建在拉美落地提速",
-      date: "2026-08-01",
-      summary: "中国银联与巴西本地机构完成二维码支付互通，中国持卡人可在巴西本地商户扫码支付，同时打通了部分本地钱包的受理网络。",
-      bizValue: "支付基建先行，通常意味着一批中国 App 会跟着进拉美。这条可以当成'区域预判'放进你的客户提案里：'巴西支付通道刚打通，现在进场比明年便宜。'",
-      source: "https://www.mffb.com.cn/"
+      "title": "TikTok 短剧分账累计支付超 8200 万美元，平台开始反向争夺短剧内容方",
+      "date": "2026-08-05",
+      "summary": "TikTok 官方披露其短剧内容分账计划累计支付创作者与内容方超过 8200 万美元，同时放宽了短剧内容的商业化与投放门槛，试图把短剧流量留在站内。",
+      "bizValue": "平台愿意分钱，说明短剧在 TikTok 的商业价值被验证了。跟短剧客户聊 TikTok 投放时，这条能帮你回答'为什么要投 TikTok 而不只是 Meta'——因为平台自己在补贴这个品类。",
+      "source": "https://www.mffb.com.cn/",
+      "tag": "cooperation"
     },
     {
-      title: "LFPay 登顶老挝 Google Play 财务榜，注册用户突破 20 万",
-      date: "2026-08-04",
-      summary: "中资背景的本地支付钱包 LFPay 登顶老挝 Google Play 财务类免费榜，注册用户突破 20 万，主打本地扫码与跨境汇款场景。",
-      bizValue: "小市场也能出第一名。这条适合跟预算有限的中小金融客户讲：先在一个低成本市场跑通模型，再复制到周边——比一上来就打印尼、越南现实得多。",
-      source: "https://www.lmtw.com/",
-      tag: "emerging"
+      "title": "6 月全球手游收入 TOP100 中，38 家中国厂商上榜、合计 20.6 亿美元，占比 41.6%",
+      "date": "2026-08-04",
+      "summary": "据 Sensor Tower 6 月中国手游发行商全球收入榜，共 38 家中国厂商入围全球手游收入 TOP100，合计收入 20.6 亿美元，占 TOP100 总收入的 41.6%。",
+      "bizValue": "四成这个数字要背下来。跟任何还在观望的游戏客户开场都能用：'现在全球手游收入四成是中国公司赚走的，剩下的窗口不多了。'",
+      "source": "http://www.aastocks.com/"
     },
     {
-      title: "8 家教育企业入围全球 AI 应用增长榜，UMU 是唯一中国出海的企业培训产品",
-      date: "2026-08-08",
-      summary: "最新全球 AI 应用增长榜中共有 8 家教育类企业入围，包括 Quizlet、Gauth、Studdy AI、猩际、Knowt 等，其中 UMU 是唯一一家中国出海的 B 端企业培训产品。",
-      bizValue: "教育出海不只有 C 端刷题。B 端培训 SaaS 的获客成本高但客单价也高，如果你想做一条别人没走过的线，这是个切口——同行几乎没人盯 B2B 教育。",
-      source: "https://www.lmtw.com/"
+      "title": "库洛《鸣潮》海外月流水约 3300 万美元、同比 +30%",
+      "date": "2026-08-08",
+      "summary": "《鸣潮》在大版本更新后，日本与美国市场双双回升，6 月海外月流水约 3300 万美元、同比增长 30%，成为二次元赛道少见的逆势增长产品。",
+      "bizValue": "二次元赛道整体在收缩，还能涨 30% 的产品会被同行盯着学。这条的最佳用法是拿去敲二次元中腰部厂商的门：'鸣潮靠版本节奏 + 精准投放做到了 +30%，你们的版本节奏能配上投放吗？'",
+      "source": "https://www.gamelook.com.cn/",
+      "tag": "high-growth"
     },
     {
-      title: "Google 8 月 17 日起变更智能出价机制，Target CPA / Target ROAS 计算口径调整",
-      date: "2026-08-06",
-      summary: "Google Ads 宣布自 8 月 17 日起调整智能出价的目标计算方式，Target CPA 与 Target ROAS 将基于新的转化价值口径重新校准，短期内投放数据可能出现波动。",
-      bizValue: "这条要抢在 8/17 之前发给所有跑 Google 的客户。提前预警比事后解释值钱十倍——客户记住的是'她提前告诉我了'，这就是新人建立信任最快的方式。",
-      source: "https://www.10100.com/"
+      "title": "雷霆《杖剑传说》海外上线 6 周流水 2000 万美元、环比 +120%",
+      "date": "2026-08-07",
+      "summary": "吉比特旗下雷霆游戏发行的《杖剑传说》海外版上线 6 周累计流水约 2000 万美元，环比增长 120%，港澳台与东南亚是主要贡献市场。",
+      "bizValue": "新游上线 6 周还在翻倍，说明买量正在加码、且还没打到欧美。雷霆是老客户，这是很自然的跟进由头：'东南亚跑通了，欧美要不要试一版？'",
+      "source": "https://www.gamelook.com.cn/"
     },
     {
-      title: "欧盟 AI 法案透明度义务 8 月 2 日正式生效，最高罚款 1500 万欧元",
-      date: "2026-08-02",
-      summary: "EU AI Act 的通用人工智能透明度义务自 8 月 2 日起正式适用，涉及 AI 生成内容标识、训练数据披露等要求，违规最高可处 1500 万欧元或全球营收 3% 的罚款。",
-      bizValue: "所有用 AI 生成素材投欧洲的客户都受影响，尤其短剧和 AI 应用。你可以主动做一份'欧洲素材合规检查清单'发给客户——这是不花钱就能建立专业形象的动作。",
-      source: "https://www.10100.com/"
+      "title": "中国 AI 应用连续 14 周霸榜全球增长榜，阿里千问 App 增速 149% 位列第一",
+      "date": "2026-08-06",
+      "summary": "全球 AI 应用增长榜显示，中国团队产品已连续 14 周占据榜首，其中阿里千问 App 近一月下载增速 149% 排名全球第一，字节豆包月活达 1.37 亿。",
+      "bizValue": "大厂霸榜的真正含义是：一大批中小 AI 团队正在被资本和市场推着出海。别追大厂，追那些刚拿融资、刚上架、榜单上升最快的小团队——他们才需要外部投放能力。",
+      "source": "https://www.lmtw.com/",
+      "tag": "high-growth"
     },
     {
-      title: "海艺 SeaArt 完成超亿元人民币 B 轮，视觉中国领投",
-      date: "2026-07-13",
-      summary: "由视觉中国、华盖创赢、祥峰联合领投，广发信德、天投资本、川创投等跟投。资金主要用于多模态底层研发、全球化市场拓展、AI 垂类应用孵化。平台注册用户超 6500 万、月访问超 3000 万，海外占比超 90%，核心业务已正毛利，商业化收入破 5000 万美元。核心市场为日本、美国、巴西、俄罗斯。",
-      bizValue: "融资公告里白纸黑字写了'全球化市场拓展'——这就是预算信号。而且它的四个核心市场里有三个（日本、巴西、俄罗斯）是易点天下的强势区。这周就该发触达邮件。",
-      source: "https://www.toutiao.com/article/7667416625536156211",
-      tag: "emerging"
+      "title": "美图美颜秀秀单月海外流水 385 万美元，居中国 AI 应用出海收入榜首",
+      "date": "2026-08-05",
+      "summary": "最新一期中国 AI 应用出海收入榜中，美图旗下美颜秀秀以单月约 385 万美元流水位居第一，AI 修图与 AI 写真是主要付费点。",
+      "bizValue": "美图是老客户，这条主要用于内部对标和续约谈判。对其他影像类客户则是'天花板证明'：同赛道第一名月流水 385 万，说明这个品类还能投。",
+      "source": "https://www.lmtw.com/"
     },
     {
-      title: "AniShort（八点八数字）完成近亿元融资，创 2026 年 AI 短剧工具最大单笔",
-      date: "2026-07-25",
-      summary: "北京泰中合领投，老股东全线加码。6 月企业团队用户破一万，累计立项超 3 万个，核心用户付费转化率 64.8%，单月充值收入近千万，收入环比 +500%。母公司八点八数字自 2019 年做数字人，自研 XMEN.AI 模型，'亿话'平台服务超 2 万家企业。",
-      bizValue: "AI 短剧工具端的钱开始进来了。这类工具厂商本身要投 B 端获客广告（LinkedIn/Google 搜索），是被同行忽略的甲方类型——竞争小，值得试。",
-      source: "https://www.163.com/dy/article/L2KN2O2205568DTV.html"
+      "title": "演语科技 EVOKEN（LiblibAI）完成 3 亿美元 B+ 轮，海外线 Lovart AI 与 LibTV 加速",
+      "date": "2026-06-18",
+      "summary": "LiblibAI 母公司北京演语科技（集团品牌 Evoken）完成 3 亿美元 B+ 轮融资，投资方包括 Granite Asia、时代资本、高榕、腾讯投资、红杉中国等；海外产品线 Lovart AI（AI 设计 Agent）与 LibTV 正在加速拓展，市场传其正筹备港股 IPO。",
+      "bizValue": "创始人陈冕是前字节剪映 / CapCut 全球商业化负责人——这意味着他极懂投放，也意味着他对代理的要求会很高。触达时别讲基础服务，直接讲素材工业化和多市场同步起量。",
+      "source": "https://www.liblib.art/",
+      "tag": "emerging"
     },
     {
-      title: "前 TikTok 产品经理创业，AI 视频共创平台 Wapoo 获近千万美元天使轮",
-      date: "2026-07-29",
-      summary: "面向 Gen Alpha 的视频共创社交平台，由某互联网集团旗下战略投资方投资，探奇资本担任独家融资顾问。团队约 10 人，5 月在美国上线，已在筹备下一轮。创始人杨名宇曾在快手做用户研究、在 TikTok 从 0 到 1 负责 TikTok Stories / TikTok Now。",
-      bizValue: "10 人小团队 + 美国市场 + 刚融资，典型的早期 SME 线索。这类客户预算小但决策快，是新人最容易拿下第一单的类型。创始人是 TikTok 系，对买量的语言体系很熟，沟通成本低。",
-      source: "https://www.toutiao.com/article/7667910938258965002",
-      tag: "emerging"
+      "title": "LFPay 登顶老挝 Google Play 财务榜，注册用户突破 20 万",
+      "date": "2026-08-04",
+      "summary": "中资背景的本地支付钱包 LFPay 登顶老挝 Google Play 财务类免费榜，注册用户突破 20 万，主打本地扫码与跨境汇款场景。",
+      "bizValue": "小市场也能出第一名。这条适合跟预算有限的中小金融客户讲：先在一个低成本市场跑通模型，再复制到周边——比一上来就打印尼、越南现实得多。",
+      "source": "https://www.lmtw.com/",
+      "tag": "emerging"
     },
     {
-      title: "Meta 时隔三年重启中国区官方一级代理招募",
-      date: "2026-08-05",
-      summary: "Meta 明确三点核心要求：长期成长思维（拒绝赚快钱、跟进 AI 广告工具落地）、客户价值为本（从'开户充值通道'转向全链路服务伙伴，要有素材创意、账户风控申诉、数据精细化运营能力）、开放共赢底色（互信互利、严守合规，有特定行业/市场/服务差异化能力优先）。在中国大陆，企业无法直接向 Meta 开户，必须经由官方一级代理。",
-      bizValue: "对易点天下是直接利好信号，也是最好的谈资：跟客户说'Meta 正在重新定义中国服务生态，只有做全链路的一代才活得下来'，顺势把你们的素材+风控+运营能力讲一遍。",
-      source: "https://longbridge.com/zh-CN/news/294162421",
-      tag: "cooperation"
+      "title": "8 家教育企业入围全球 AI 应用增长榜，UMU 是唯一中国出海的企业培训产品",
+      "date": "2026-08-08",
+      "summary": "最新全球 AI 应用增长榜中共有 8 家教育类企业入围，包括 Quizlet、Gauth、Studdy AI、猩际、Knowt 等，其中 UMU 是唯一一家中国出海的 B 端企业培训产品。",
+      "bizValue": "教育出海不只有 C 端刷题。B 端培训 SaaS 的获客成本高但客单价也高，如果你想做一条别人没走过的线，这是个切口——同行几乎没人盯 B2B 教育。",
+      "source": "https://www.lmtw.com/"
     },
     {
-      title: "Meta 8 月 6 日起关闭三个报表维度：设备、小时、频次",
-      date: "2026-08-06",
-      summary: "对从未主动 opt-in 的账户，device、hourly、frequency 三个 breakdown 返回空结果。请求仍返回 200，不会报错，所以看板会静默变成零值。",
-      bizValue: "这条要立刻同步给所有在投客户，否则他们会以为是你们投放出了问题。主动预警一次，信任度比讲十句方案都高。",
-      source: "https://admakeai.com/blog/meta-ads-updates-august-2026"
+      "title": "Google 8 月 17 日起变更智能出价机制，Target CPA / Target ROAS 计算口径调整",
+      "date": "2026-08-06",
+      "summary": "Google Ads 宣布自 8 月 17 日起调整智能出价的目标计算方式，Target CPA 与 Target ROAS 将基于新的转化价值口径重新校准，短期内投放数据可能出现波动。",
+      "bizValue": "这条要抢在 8/17 之前发给所有跑 Google 的客户。提前预警比事后解释值钱十倍——客户记住的是'她提前告诉我了'，这就是新人建立信任最快的方式。",
+      "source": "https://www.10100.com/"
     },
     {
-      title: "Meta 上线官方广告 MCP 服务器，AI Agent 可直接读写广告账户",
-      date: "2026-07-16",
-      summary: "地址 mcp.facebook.com/ads，可读可写：报表、创建/编辑/暂停广告系列、管理商品目录。自有账户为标准权限；代理商操作他人业务数据需 ads_mcp_management 的 Advanced Access，须走 App Review。",
-      bizValue: "代理商的新门槛，也是新卖点。可以跟客户说'我们已经在申请官方 MCP 高级权限，以后你的账户能被 AI 直接托管'——这是个很新的差异化话术，同行还没反应过来。",
-      source: "https://admakeai.com/blog/meta-ads-updates-august-2026"
+      "title": "欧盟 AI 法案透明度义务 8 月 2 日正式生效，最高罚款 1500 万欧元",
+      "date": "2026-08-02",
+      "summary": "EU AI Act 的通用人工智能透明度义务自 8 月 2 日起正式适用，涉及 AI 生成内容标识、训练数据披露等要求，违规最高可处 1500 万欧元或全球营收 3% 的罚款。",
+      "bizValue": "所有用 AI 生成素材投欧洲的客户都受影响，尤其短剧和 AI 应用。你可以主动做一份'欧洲素材合规检查清单'发给客户——这是不花钱就能建立专业形象的动作。",
+      "source": "https://www.10100.com/"
     },
     {
-      title: "Meta Marketing API v26.0 上线，特殊广告类别不填 Advantage+ 受众会直接报错",
-      date: "2026-07-29",
-      summary: "7 月 29 日发布并启用版本自动升级。special-ad-category 的广告组若未显式设置 Advantage+ audience 标记，将直接报错。同时该版本移除了部分版位且未主动告知。",
-      bizValue: "金融、信贷、住房、就业类客户最容易踩这个坑。提前提醒一句，能省掉客户一整天的排障时间。",
-      source: "https://admakeai.com/blog/meta-ads-updates-august-2026"
+      "title": "海艺 SeaArt 完成超亿元人民币 B 轮，视觉中国领投",
+      "date": "2026-07-13",
+      "summary": "由视觉中国、华盖创赢、祥峰联合领投，广发信德、天投资本、川创投等跟投。资金主要用于多模态底层研发、全球化市场拓展、AI 垂类应用孵化。平台注册用户超 6500 万、月访问超 3000 万，海外占比超 90%，核心业务已正毛利，商业化收入破 5000 万美元。核心市场为日本、美国、巴西、俄罗斯。",
+      "bizValue": "融资公告里白纸黑字写了'全球化市场拓展'——这就是预算信号。而且它的四个核心市场里有三个（日本、巴西、俄罗斯）是易点天下的强势区。这周就该发触达邮件。",
+      "source": "https://www.toutiao.com/article/7667416625536156211",
+      "tag": "emerging"
     },
     {
-      title: "生成式 AI 移动应用近一年收入 61 亿美元，同比 +232%",
-      date: "2026-05-14",
-      summary: "Sensor Tower 数据。从 2023Q1 的不足 0.6 亿美元到 2026Q1 的 19 亿美元，三年增长超 32 倍。美国占 38%（近 22 亿美元），日本、韩国各占 5% 但增速更猛——日本 2026Q1 同比 +262%、单季破 1 亿美元。AI 社交陪伴 2026Q1 收入 1.5 亿美元，较 2023Q1 增长超 12 倍。",
-      bizValue: "AI 客户名单要按市场排优先级：日韩是增量核心。见 AI 客户时问一句'你们日韩铺了吗'，比问'预算多少'更能打开话题。",
-      source: "https://new.qq.com/rain/a/20260514A03GPT00",
-      tag: "high-growth"
+      "title": "前 TikTok 产品经理创业，AI 视频共创平台 Wapoo 获近千万美元天使轮",
+      "date": "2026-07-29",
+      "summary": "面向 Gen Alpha 的视频共创社交平台，由某互联网集团旗下战略投资方投资，探奇资本担任独家融资顾问。团队约 10 人，5 月在美国上线，已在筹备下一轮。创始人杨名宇曾在快手做用户研究、在 TikTok 从 0 到 1 负责 TikTok Stories / TikTok Now。",
+      "bizValue": "10 人小团队 + 美国市场 + 刚融资，典型的早期 SME 线索。这类客户预算小但决策快，是新人最容易拿下第一单的类型。创始人是 TikTok 系，对买量的语言体系很熟，沟通成本低。",
+      "source": "https://www.toutiao.com/article/7667910938258965002",
+      "tag": "emerging"
     },
     {
-      title: "AppsFlyer 从 MMP 升级为 Modern Marketing Cloud，推出 Agent Hub 与 MCP",
-      date: "2026-06-26",
-      summary: "定位从传统移动归因工具下沉为'营销数据底座'，数据延伸到可直接触达用户的层面，整合 PC 端与移动端行为数据后交由 AI 决策。同时强调三大能力：全域合规采集、全域 ID 归一治理、归因模型迭代（服务器互通 + 多触点联动 + 增量分析）。",
-      bizValue: "客户如果说'我要自己搭数据体系'，你可以顺着这三点问他做到哪一步了。大部分中小客户三条都没做全——这就是你切入代运营的口子。",
-      source: "https://new.qq.com/rain/a/20260702A03HSY00"
+      "title": "Meta 时隔三年重启中国区官方一级代理招募",
+      "date": "2026-08-05",
+      "summary": "Meta 明确三点核心要求：长期成长思维（拒绝赚快钱、跟进 AI 广告工具落地）、客户价值为本（从'开户充值通道'转向全链路服务伙伴，要有素材创意、账户风控申诉、数据精细化运营能力）、开放共赢底色（互信互利、严守合规，有特定行业/市场/服务差异化能力优先）。在中国大陆，企业无法直接向 Meta 开户，必须经由官方一级代理。",
+      "bizValue": "对易点天下是直接利好信号，也是最好的谈资：跟客户说'Meta 正在重新定义中国服务生态，只有做全链路的一代才活得下来'，顺势把你们的素材+风控+运营能力讲一遍。",
+      "source": "https://longbridge.com/zh-CN/news/294162421",
+      "tag": "cooperation"
     }
   ],
-  chinaGoingGlobal: [
+  "chinaGoingGlobal": [
     {
-      product: "SeaArt 海艺（AI 多模态内容社区）/ SeaSoul / MoreShort",
-      company: "成都海艺互娱科技",
-      hq: "四川成都",
-      category: "AI应用",
-      markets: "日本、美国、巴西、俄罗斯",
-      revenue: "商业化收入突破 5000 万美元；注册用户超 6500 万，月访问超 3000 万，海外占比超 90%，核心业务已实现正毛利",
-      recent: "7 月完成超亿元人民币 B 轮（视觉中国领投），明确提出加速全球化；注册用户超 6500 万、海外占比超 90%，核心业务已实现正毛利。",
-      website: "https://www.seaart.ai",
-      cooperation: "not",
-      coopModel: "",
-      agency: "暂无公开数据",
-      scale: "sme",
-      contacts: [],
-      channels: [],
-      contactNote: "本周仍是最高优先级线索。官网与版权政策页均未公布商务邮箱，公开渠道只有 Discord / X(@SeaArt_Ai) / Instagram / TikTok / Reddit / YouTube 官方号。建议路径：① LinkedIn 搜 'SeaArt' + growth / user acquisition；② 创始团队 CEO 马飞（原 Tap4fun）、董事长陈立（原友塔游戏）都是游戏出海圈的人，托游戏行业熟人引荐可能最快；③ 刚融完资的公司预算窗口只有几周，别拖。未找到公开邮箱，不编造。"
+      "product": "Wapoo: Playable Video（可改写 / 可分支续写的视频共创社交）",
+      "company": "上海哇卜智能科技有限公司",
+      "hq": "上海市徐汇区瑞平路 39 号 1 层 05 室",
+      "category": "AI应用",
+      "markets": "美国（核心）、英语区",
+      "revenue": "未公开（2026 年 7 月 1 日成立，团队约 10 人，注册资本 50 万美元）",
+      "recent": "2026 年 8 月完成近千万美元天使轮，由某互联网集团旗下战略投资方投资，探奇资本任独家融资顾问；已在筹备下一轮。目标用户是伴随 Roblox / Minecraft 成长的 Gen Alpha。",
+      "website": "https://www.wapoo.ai",
+      "cooperation": "not",
+      "coopModel": "",
+      "agency": "暂无公开数据",
+      "scale": "sme",
+      "contacts": [
+        {
+          "name": "杨名宇",
+          "role": "创始人（前快手用户研究、前 TikTok 产品经理，0→1 主导 TikTok Stories / TikTok Now）",
+          "email": "",
+          "phone": "",
+          "linkedin": "",
+          "source": "https://caifuhao.eastmoney.com/news/20260803164854379131130"
+        }
+      ],
+      "channels": [],
+      "contactNote": "本周最值得下功夫的新线索：刚融资、10 人团队、目标美国、马上要买量。官网 wapoo.ai 未公示任何商务邮箱，App Store 上另有一款同名旧应用（开发者\"嘉琛 熊\"）留了 wapoo@wapoo.ai，但无法确认与本公司是同一主体，不建议直接用。推荐路径：① LinkedIn 搜 \"Wapoo\" + founder / growth；② 探奇资本是独家融资顾问，投资圈熟人可以引荐；③ 创始人是 TikTok 产品出身，第一封信别讲公司介绍，直接给\"美国 13-17 岁人群合规触达 + Gen Alpha 素材调性\"的具体建议。未找到公开邮箱，不编造。"
     },
     {
-      product: "Lovart AI / LibTV / LiblibAI（AI 设计 Agent 与视频生成）",
-      company: "北京演语科技有限公司（集团品牌 Evoken）",
-      hq: "北京市朝阳区广顺北大街 33 号院 1 号楼",
-      category: "AI应用",
-      markets: "美国 / 日本 / 东南亚 / 欧洲",
-      revenue: "2026-06-18 完成 3 亿美元 B+ 轮（Granite Asia、时代资本、高榕、腾讯投资、红杉中国等），累计融资超 23 亿元人民币；市场传其正筹备港股 IPO。",
-      recent: "国内以 LiblibAI 图像创作社区起家，现主攻海外：Lovart AI（AI 设计 Agent）与 LibTV 同步扩张；创始人陈冕为前字节跳动剪映 / CapCut 全球商业化负责人。",
-      website: "https://www.liblib.art",
-      cooperation: "not",
-      coopModel: "",
-      agency: "暂无公开数据",
-      contacts: [
-        {
-          name: "陈冕",
-          role: "创始人兼 CEO（前字节剪映 / CapCut 全球商业化负责人，极懂投放）",
-          email: "",
-          phone: "",
-          linkedin: "",
-          source: "公开报道 / 爱企查企业品牌页"
-        },
-        {
-          name: "杨楠",
-          role: "法定代表人 / 财务负责人",
-          email: "",
-          phone: "",
-          linkedin: "",
-          source: "https://shuidi.cn/"
-        }
-      ],
-      channels: [
-        {
-          label: "对外联络邮箱（工商公示）",
-          email: "hello@liblib.ai",
-          phone: "",
-          source: "https://aiqicha.baidu.com/"
-        },
-        {
-          label: "官方支持邮箱（隐私政策页公示）",
-          email: "support@liblib.ai",
-          phone: "",
-          source: "https://www.liblib.art/document/article_private"
-        }
-      ],
-      contactNote: "刚拿到 3 亿美元、正在冲 IPO，是典型的'预算窗口打开'状态。但注意：创始人自己就是做全球商业化出身的，套话没用，第一封邮件必须直接给出具体的市场 + 渠道 + 素材节奏建议，否则不会有回复。"
+      "product": "SeaArt 海艺（AI 多模态内容社区）/ SeaSoul / MoreShort",
+      "company": "成都海艺互娱科技有限公司",
+      "hq": "四川成都",
+      "category": "AI应用",
+      "markets": "欧美、日韩、东南亚",
+      "revenue": "未公开",
+      "recent": "2026 年 7 月完成超亿元人民币 B 轮，视觉中国领投；同时在孵化 SeaSoul（AI 陪伴）与 MoreShort（AI 短剧）两条新产品线。",
+      "website": "https://www.seaart.ai",
+      "cooperation": "not",
+      "coopModel": "",
+      "agency": "暂无公开数据",
+      "scale": "head",
+      "contacts": [],
+      "channels": [],
+      "contactNote": "刚融完资、还在开新产品线，预算窗口正开着。官网与版权政策页均未公布商务邮箱，公开渠道只有 Discord / X(@SeaArt_Ai) / Instagram / TikTok / Reddit / YouTube 官方号。建议路径：① LinkedIn 搜 \"SeaArt\" + growth / user acquisition；② 创始团队 CEO 马飞（原 Tap4fun）、董事长陈立（原友塔游戏）都是游戏出海圈的人，托游戏行业熟人引荐可能最快。未找到公开邮箱，不编造。"
     },
     {
-      product: "Kimi 智能助手 / Kimi 海外版",
-      company: "月之暗面 Moonshot AI",
-      hq: "北京",
-      category: "AI应用",
-      markets: "中国、东南亚、全球",
-      revenue: "暂无公开数据",
-      recent: "国内 AI 助手第一梯队，海外版持续迭代",
-      website: "https://www.moonshot.cn",
-      cooperation: "not",
-      coopModel: "",
-      agency: "暂无公开数据",
-      scale: "",
-      contacts: [],
-      channels: [
+      "product": "Lovart AI / LibTV / LiblibAI（AI 设计 Agent 与视频生成）",
+      "company": "北京演语科技有限公司（集团品牌 Evoken）",
+      "hq": "北京",
+      "category": "AI应用",
+      "markets": "欧美、日韩",
+      "revenue": "未公开",
+      "recent": "2026 年 6 月完成 3 亿美元 B+ 轮融资，正在推进 IPO；海外线 Lovart AI 与 LibTV 加速投放。",
+      "website": "https://www.liblib.art",
+      "cooperation": "not",
+      "coopModel": "",
+      "agency": "暂无公开数据",
+      "scale": "head",
+      "contacts": [
         {
-          label: "增长部门（最对口）",
-          email: "growth@moonshot.cn",
-          phone: "",
-          source: "https://www.moonshot.cn"
+          "name": "陈冕",
+          "role": "创始人兼 CEO（前字节剪映 / CapCut 全球商业化负责人，极懂投放）",
+          "email": "",
+          "phone": "",
+          "linkedin": "",
+          "source": "公开报道 / 爱企查企业品牌页"
         },
         {
-          label: "公司通知邮箱",
-          email: "notice@moonshot.cn",
-          phone: "",
-          source: "https://www.moonshot.cn"
+          "name": "杨楠",
+          "role": "法定代表人 / 财务负责人",
+          "email": "",
+          "phone": "",
+          "linkedin": "",
+          "source": "https://shuidi.cn/"
         }
       ],
-      contactNote: "growth@ 这个邮箱名本身就说明有增长团队。写邮件时直接给日韩/东南亚的渠道组合建议，比自我介绍有效。"
+      "channels": [
+        {
+          "label": "对外联络邮箱（最对口，工商公示）",
+          "email": "hello@liblib.ai",
+          "phone": "",
+          "source": "https://aiqicha.baidu.com/"
+        },
+        {
+          "label": "官方支持邮箱（隐私政策页公示）",
+          "email": "support@liblib.ai",
+          "phone": "",
+          "source": "https://www.liblib.art/document/article_private"
+        }
+      ],
+      "contactNote": "刚拿到 3 亿美元、正在冲 IPO，典型的\"预算窗口打开\"状态。但注意：创始人自己就是做全球商业化出身的，套话没用，第一封邮件必须直接给出具体的市场 + 渠道 + 素材节奏建议，否则不会有回复。"
     },
     {
-      product: "Talkie / 海螺 AI / MiniMax 开放平台",
-      company: "MiniMax 稀宇科技",
-      hq: "上海",
-      category: "AI应用",
-      markets: "美国、日本、东南亚、全球",
-      revenue: "暂无公开数据（AI 社交陪伴赛道 2026Q1 全球收入 1.5 亿美元，美国贡献 45%）",
-      recent: "AI 陪伴赛道已从小众玩法升级为成熟赛道，中国 iOS 市场该品类增速高达 676%",
-      website: "https://www.minimax.io",
-      cooperation: "not",
-      coopModel: "",
-      agency: "暂无公开数据",
-      scale: "",
-      contacts: [],
-      channels: [
+      "product": "Talkie / 海螺 AI / MiniMax 开放平台",
+      "company": "MiniMax 稀宇科技",
+      "hq": "上海",
+      "category": "AI应用",
+      "markets": "美国、日韩、东南亚",
+      "revenue": "未公开",
+      "recent": "Talkie 长期位居海外 AI 陪伴应用前列；海螺 AI 视频生成在海外持续投放。",
+      "website": "https://www.minimax.io",
+      "cooperation": "not",
+      "coopModel": "",
+      "agency": "暂无公开数据",
+      "scale": "head",
+      "contacts": [],
+      "channels": [
         {
-          label: "商务咨询（官方公示）",
-          email: "api@minimaxi.com",
-          phone: "",
-          source: "https://www.minimax.io"
+          "label": "商务咨询（最对口，官方公示）",
+          "email": "api@minimaxi.com",
+          "phone": "",
+          "source": "https://www.minimax.io"
         },
         {
-          label: "投资者关系",
-          email: "ir@minimax.io",
-          phone: "",
-          source: "https://www.minimax.io"
+          "label": "投资者关系",
+          "email": "ir@minimax.io",
+          "phone": "",
+          "source": "https://www.minimax.io"
         }
       ],
-      contactNote: "AI 陪伴的核心付费市场是美国（45%）和日韩。触达时直接给这三个市场的素材与渠道建议。"
+      "contactNote": "AI 陪伴的核心付费市场是美国（约 45%）和日韩。另外 8 月 26 日 Google Play 陌生人社交三项新规生效，Talkie 这类产品可能受影响——用这条政策当由头联系，比直接推投放方案自然得多。"
     },
     {
-      product: "美图秀秀 / Airbrush / 美图设计室",
-      company: "美图公司（01357.HK）",
-      hq: "福建厦门",
-      category: "AI应用",
-      markets: "全球",
-      revenue: "上市公司，财报公开",
-      recent: "被 Sensor Tower 列为 AI 图像视频生成赛道收入增长的驱动者之一（与 CapCut、Canva 并列）",
-      website: "https://www.meitu.com",
-      cooperation: "cooperated",
-      coopModel: "易点天下已知长期合作客户。可基于既有合作谈 AI 新品线（美图设计室、Airbrush 海外版）的增量投放预算。",
-      agency: "",
-      scale: "",
-      contacts: [],
-      channels: [
+      "product": "美图秀秀 / Airbrush / 美图设计室",
+      "company": "美图公司（01357.HK）",
+      "hq": "厦门 / 北京",
+      "category": "AI应用",
+      "markets": "东南亚、日韩、欧美",
+      "revenue": "单月海外流水约 385 万美元，居中国 AI 应用出海收入榜首",
+      "recent": "AI 设计与影像工具线持续扩张，海外流水稳居中国 AI 应用出海第一。",
+      "website": "https://www.meitu.com",
+      "cooperation": "cooperated",
+      "coopModel": "已合作客户（属易点天下已知长期合作客户名单）。当前重点是把 AI 新品线的增量预算拿下来，而不是维持存量。",
+      "agency": "",
+      "scale": "head",
+      "contacts": [],
+      "channels": [
         {
-          label: "海外广告合作（最对口）",
-          email: "globalbd@meitu.com",
-          phone: "",
-          source: "https://www.meitu.com"
+          "label": "海外广告合作（最对口）",
+          "email": "globalbd@meitu.com",
+          "phone": "",
+          "source": "https://www.meitu.com"
         },
         {
-          label: "效果广告合作（中国大陆）",
-          email: "mtadx@meitu.com",
-          phone: "",
-          source: "https://www.meitu.com"
+          "label": "效果广告合作（中国大陆）",
+          "email": "mtadx@meitu.com",
+          "phone": "",
+          "source": "https://www.meitu.com"
         },
         {
-          label: "商业化广告合作（中国大陆）",
-          email: "business@meitu.com",
-          phone: "",
-          source: "https://www.meitu.com"
+          "label": "商业化广告合作（中国大陆）",
+          "email": "business@meitu.com",
+          "phone": "",
+          "source": "https://www.meitu.com"
         },
         {
-          label: "投资者关系",
-          email: "ir@meitu.com",
-          phone: "",
-          source: "https://www.meitu.com"
+          "label": "投资者关系",
+          "email": "ir@meitu.com",
+          "phone": "",
+          "source": "https://www.meitu.com"
         }
       ],
-      contactNote: "老客户，重点是把 AI 新品线的预算拿下来，而不是维持存量。"
+      "contactNote": "老客户。飞书合作记录表中未直接列名，但属已知长期合作客户，判定为已合作。"
     },
     {
-      product: "UMU（AI 驱动的效果学习平台，企业培训 SaaS）",
-      company: "北京优幕科技有限责任公司",
-      hq: "北京市海淀区中关村大街 18 号",
-      category: "教育",
-      markets: "日本 / 东南亚 / 北美 / 欧洲（官网称覆盖 208 个国家和地区）",
-      revenue: "官网披露 1000+ 付费客户、活跃用户超 1 亿，客户含多家世界 500 强（诺和诺德、诺华等）。",
-      recent: "入围最新一期全球 AI 应用增长榜，是榜上唯一一家中国出海的企业培训类产品；主推 AI 陪练与销售赋能场景。",
-      website: "https://www.umu.com",
-      cooperation: "not",
-      coopModel: "",
-      agency: "暂无公开数据",
-      contacts: [
+      "product": "XTransfer（B2B 跨境收付与资金管理）",
+      "company": "XTransfer（上海总部）",
+      "hq": "上海",
+      "category": "金融",
+      "markets": "东南亚、欧美、中东",
+      "revenue": "未公开",
+      "recent": "已提交 IPO 申请，处于上市前的规模扩张期，自身也是重投放获客的公司。",
+      "website": "https://www.xtransfer.cn",
+      "cooperation": "not",
+      "coopModel": "",
+      "agency": "暂无公开数据",
+      "scale": "head",
+      "contacts": [],
+      "channels": [
         {
-          name: "李东朔",
-          role: "创始人（工商登记法定代表人）",
-          email: "",
-          phone: "",
-          linkedin: "",
-          source: "https://m.maigoo.com/brand/1629754.html"
-        }
-      ],
-      channels: [
-        {
-          label: "官方支持邮箱（官网公示，可转商务）",
-          email: "support@umu.com",
-          phone: "",
-          source: "https://www.umu.com/zhtw/home/about-us"
+          "label": "服务热线（最对口，可转商务）",
+          "email": "",
+          "phone": "400-998-9930",
+          "source": "https://www.xtransfer.cn/contact"
         },
         {
-          label: "背调 / 对外事务邮箱（官网页脚公示）",
-          email: "umu-bcsc@umu.com",
-          phone: "",
-          source: "https://www.umu.cn/"
+          "label": "服务邮箱",
+          "email": "service@xtransfer.cn",
+          "phone": "",
+          "source": "https://www.xtransfer.cn/contact"
         }
       ],
-      contactNote: "B 端 SaaS，投放逻辑是线索成本不是安装成本，谈法完全不同：讲 LinkedIn / Google 搜索 / 行业媒体的组合，不要讲信息流起量。好处是这类客户预算稳、周期长，适合新人做长线；坏处是决策慢，别指望一个月出单。未找到独立商务邮箱，support@ 是官网唯一公开入口。",
-      scale: "sme"
+      "contactNote": "已用飞书合作记录表核验：未匹配到 XTransfer 主体，判定为未合作。它自己是重投放获客的公司（B2B 搜索 + 信息流 + 线下），而不只是金融牌照方——这是同行容易忽略的点。IPO 前通常会加大品牌与获客投入，时机不错。"
     },
     {
-      product: "有道词典 / 有道翻译 / 有道智慧学习",
-      company: "网易有道（DAO.NYSE）",
-      hq: "北京",
-      category: "教育",
-      markets: "全球",
-      revenue: "上市公司，财报公开",
-      recent: "语言学习仍是全球教育 App 中最赚钱的落地形式（收入 Top20 中语言类占 12 款）",
-      website: "https://www.youdao.com",
-      cooperation: "not",
-      coopModel: "",
-      agency: "暂无公开数据",
-      scale: "",
-      contacts: [
+      "product": "UMU（AI 驱动的效果学习平台，企业培训 SaaS）",
+      "company": "北京优幕科技有限责任公司",
+      "hq": "北京",
+      "category": "教育",
+      "markets": "日本、东南亚、欧美",
+      "revenue": "未公开",
+      "recent": "入围全球 AI 应用增长榜，是榜上唯一的中国出海企业培训产品。",
+      "website": "https://www.umu.com",
+      "cooperation": "not",
+      "coopModel": "",
+      "agency": "暂无公开数据",
+      "scale": "sme",
+      "contacts": [
         {
-          name: "Jeffrey Wang",
-          role: "投资者关系（可侧面了解投放预算口径）",
-          email: "",
-          phone: "",
-          linkedin: "",
-          source: "https://ir.youdao.com"
+          "name": "李东朔",
+          "role": "创始人（工商登记法定代表人）",
+          "email": "",
+          "phone": "",
+          "linkedin": "",
+          "source": "https://m.maigoo.com/brand/1629754.html"
         }
       ],
-      channels: [
+      "channels": [
         {
-          label: "市场合作（最对口）",
-          email: "marketing@corp.youdao.com",
-          phone: "",
-          source: "https://www.youdao.com"
+          "label": "官方支持邮箱（最对口，官网唯一公开入口）",
+          "email": "support@umu.com",
+          "phone": "",
+          "source": "https://www.umu.com/zhtw/home/about-us"
         },
         {
-          label: "推广合作",
-          email: "service@corp.youdao.com",
-          phone: "",
-          source: "https://www.youdao.com"
-        },
-        {
-          label: "广州分公司总机",
-          email: "",
-          phone: "020-85105163",
-          source: "https://www.youdao.com"
+          "label": "背调 / 对外事务邮箱（官网页脚公示）",
+          "email": "umu-bcsc@umu.com",
+          "phone": "",
+          "source": "https://www.umu.cn/"
         }
       ],
-      contactNote: "已用飞书合作记录表核验：表内仅匹配到'四川蜀有道网络科技有限公司'，与网易有道无关，判定为未合作。"
+      "contactNote": "B 端 SaaS，投放逻辑是线索成本不是安装成本，谈法完全不同：讲 LinkedIn / Google 搜索 / 行业媒体的组合，不要讲信息流起量。好处是这类客户预算稳、周期长，适合新人做长线；坏处是决策慢，别指望一个月出单。未找到独立商务邮箱，support@ 是官网唯一公开入口。"
     },
     {
-      product: "PalFish 伴鱼（AI 英语 / 出海）",
-      company: "北京读我科技有限公司",
-      hq: "北京",
-      category: "教育",
-      markets: "东南亚、拉美、全球",
-      revenue: "暂无公开数据",
-      recent: "AI 教育出海整体呈现 MAU 与流水双增，语言类是受假期影响最小的类别",
-      website: "https://www.palfish.org",
-      cooperation: "cooperated",
-      coopModel: "已在飞书合作记录表'产品使用'分表中以 advertiser『PALFISH PTE.LTD.』列名，确认为已合作客户。可谈新市场（拉美、中东）增量。 已用飞书合作记录表复核：命中『PALFISH PTE.LTD.』，合作主体确认无误。",
-      agency: "",
-      scale: "sme",
-      contacts: [],
-      channels: [
+      "product": "有道词典 / 有道翻译 / 有道智慧学习",
+      "company": "网易有道（DAO.NYSE）",
+      "hq": "北京 / 广州",
+      "category": "教育",
+      "markets": "东南亚、欧美、日韩",
+      "revenue": "未公开（上市公司，海外业务未单独披露）",
+      "recent": "AI 翻译与学习硬件持续推进海外市场。",
+      "website": "https://www.youdao.com",
+      "cooperation": "not",
+      "coopModel": "",
+      "agency": "暂无公开数据",
+      "scale": "head",
+      "contacts": [
         {
-          label: "全球商务拓展（最对口）",
-          email: "globalbd@ipalfish.com",
-          phone: "",
-          source: "https://www.palfish.org"
+          "name": "Jeffrey Wang",
+          "role": "投资者关系（可侧面了解投放预算口径）",
+          "email": "",
+          "phone": "",
+          "linkedin": "",
+          "source": "https://ir.youdao.com"
+        }
+      ],
+      "channels": [
+        {
+          "label": "市场合作（最对口）",
+          "email": "marketing@corp.youdao.com",
+          "phone": "",
+          "source": "https://www.youdao.com"
         },
         {
-          label: "开放平台商务合作",
-          email: "platform_bd@ipalfish.com",
-          phone: "",
-          source: "https://www.palfish.org"
-        }
-      ],
-      contactNote: "老客户里的中小体量，服务好了口碑传播快。"
-    },
-    {
-      product: "ReelShort（海外微短剧）",
-      company: "中文在线 / 枫叶互动 Crazy Maple Studio（300364）",
-      hq: "北京 / 美国硅谷",
-      category: "娱乐APP",
-      markets: "美国、欧洲、东南亚",
-      revenue: "海外微短剧市场份额约 29%，居第一",
-      recent: "据 MPA 报告，ReelShort 占海外微短剧市场约 29% 份额，稳居第一；最新平台综合分 66.5。",
-      website: "https://www.crazymaplestudios.com",
-      cooperation: "cooperated",
-      coopModel: "已在飞书合作记录表'APP'分表客户列以『Crazy Maple Studio, Inc.』列名，确认为已合作客户。 已用飞书合作记录表复核：命中『Crazy Maple Studio, Inc.』，合作主体确认无误。",
-      agency: "",
-      scale: "",
-      contacts: [
-        {
-          name: "南亚鹏",
-          role: "枫叶互动副总裁（管投放与内容策略）",
-          email: "",
-          phone: "",
-          linkedin: "",
-          source: "公开报道"
+          "label": "推广合作",
+          "email": "service@corp.youdao.com",
+          "phone": "",
+          "source": "https://www.youdao.com"
         },
         {
-          name: "Joey Jia",
-          role: "Crazy Maple Studio CEO",
-          email: "",
-          phone: "",
-          linkedin: "",
-          source: "公开报道"
+          "label": "广州分公司总机",
+          "email": "",
+          "phone": "020-85105163",
+          "source": "https://www.youdao.com"
         }
       ],
-      channels: [
+      "contactNote": "已用飞书合作记录表核验：表内仅匹配到\"四川蜀有道网络科技有限公司\"（无关主体），未匹配网易有道，判定为未合作。"
+    },
+    {
+      "product": "PalFish 伴鱼（AI 英语 / 出海）",
+      "company": "北京读我科技有限公司",
+      "hq": "北京",
+      "category": "教育",
+      "markets": "东南亚、中东、拉美",
+      "revenue": "未公开",
+      "recent": "AI 口语与内容产品持续在新兴市场投放。",
+      "website": "https://www.palfish.org",
+      "cooperation": "cooperated",
+      "coopModel": "已合作客户。飞书合作记录表「APP」分表命中境外主体 PALFISH PTE.LTD.，判定为已合作。",
+      "agency": "",
+      "scale": "head",
+      "contacts": [],
+      "channels": [
         {
-          label: "官方客服（可转商务）",
-          email: "support@crazymaplestudio.com",
-          phone: "",
-          source: "https://www.crazymaplestudios.com"
+          "label": "全球商务拓展（最对口）",
+          "email": "globalbd@ipalfish.com",
+          "phone": "",
+          "source": "https://www.palfish.org"
         },
         {
-          label: "法务（品牌/版权事务）",
-          email: "legal@crazymaplestudio.com",
-          phone: "",
-          source: "https://www.crazymaplestudios.com"
+          "label": "开放平台商务合作",
+          "email": "platform_bd@ipalfish.com",
+          "phone": "",
+          "source": "https://www.palfish.org"
         }
       ],
-      contactNote: "老客户。当前谈判抓手是素材产能——月上新 3.8 万部的行业节奏下，谁能批量产素材谁拿预算。"
+      "contactNote": "老客户里体量适中的一家，服务好了口碑传播快，是新人积累案例的好对象。"
     },
     {
-      product: "NetShort（海外微短剧）",
-      company: "NETSTORY PTE. LTD.（麦芽传媒海外主体）",
-      hq: "新加坡 / 中国",
-      category: "娱乐APP",
-      markets: "美国、东南亚、欧洲",
-      revenue: "海外微短剧市场份额约 10%；2026-08-01 综合分 66.2，位列头部四强",
-      recent: "最新一期海外短剧平台综合分 66.2，仅落后第二名 ReelShort 0.3 分、落后第一名 DramaBox 2.1 分，正处在最想冲榜的阶段。",
-      website: "https://www.netshort.com",
-      cooperation: "not",
-      coopModel: "",
-      agency: "暂无公开数据",
-      scale: "",
-      contacts: [],
-      channels: [
+      "product": "StoryReel: Exclusive Drama（AI 短剧）",
+      "company": "Equinox Enterprises Technology Limited（埃奎諾克斯科技有限公司，中国香港）",
+      "hq": "中国香港",
+      "category": "娱乐APP",
+      "markets": "美国（核心）、英语区，支持 19 种语言",
+      "revenue": "2026 年 7 月约 555.4 万美元（较 6 月 241.8 万美元环比 +130%）",
+      "recent": "4 月 8 日上架 App Store、4 月 30 日开启投流，7 月同时登上海外短剧收入黑马榜第 1 与下载黑马榜第 3；采用广告 + IAP 混合变现，周卡 19.99 美元、年卡 149.99 美元。",
+      "website": "https://www.storyreel.life",
+      "cooperation": "not",
+      "coopModel": "",
+      "agency": "暂无公开数据",
+      "scale": "sme",
+      "contacts": [],
+      "channels": [
         {
-          label: "商务合作（最对口）",
-          email: "business@netshort.com",
-          phone: "",
-          source: "https://www.netshort.com"
+          "label": "官方客服邮箱（最对口，App Store / Google Play 双端公示）",
+          "email": "service@storyreel.life",
+          "phone": "",
+          "source": "https://platform.foxdata.com/en/app-profile/com.storyreel.tv.android/ZM/gp"
+        }
+      ],
+      "contactNote": "本周优先级最高的可触达线索：收入一个月翻倍、主体是香港新公司、旗下只有这一款产品——三个信号叠加，说明预算在快速放大且大概率还没有稳定代理。开场可以直接引用数字：\"看到你们 7 月收入从 241 万涨到 555 万，恭喜。这个量级往上走，单一渠道会先撞天花板，想聊聊多渠道分流吗？\" 注意它与 VibeShort（靈動象限傳媒）高度同构，很可能是同一批人的两个主体，谈成一个可能带出两个。"
+    },
+    {
+      "product": "ReelShort（海外微短剧）",
+      "company": "中文在线 / 枫叶互动 Crazy Maple Studio（300364）",
+      "hq": "北京 / 美国加州",
+      "category": "娱乐APP",
+      "markets": "美国、欧洲、东南亚",
+      "revenue": "2026 年海外短剧市场份额约 29%，居第一",
+      "recent": "综合评分 66.5，居短剧四强第二；持续加大 AI 短剧产能。",
+      "website": "https://www.crazymaplestudios.com",
+      "cooperation": "cooperated",
+      "coopModel": "已合作客户。飞书合作记录表「APP」分表命中 Crazy Maple Studio, Inc.，判定为已合作。",
+      "agency": "",
+      "scale": "head",
+      "contacts": [
+        {
+          "name": "南亚鹏",
+          "role": "枫叶互动副总裁（管投放与内容策略）",
+          "email": "",
+          "phone": "",
+          "linkedin": "",
+          "source": "公开报道"
         },
         {
-          label: "客服支持",
-          email: "support@netshort.com",
-          phone: "",
-          source: "https://www.netshort.com"
+          "name": "Joey Jia",
+          "role": "Crazy Maple Studio CEO",
+          "email": "",
+          "phone": "",
+          "linkedin": "",
+          "source": "公开报道"
         }
       ],
-      contactNote: "官网直接挂了 business@ 邮箱，是短剧四强里最好触达的一家。已用飞书合作记录表核验：搜索『麦芽』仅匹配到『深圳壹麦芽口腔门诊部』（牙科诊所，与该公司无关），未匹配 NETSTORY / NetShort，判定为未合作。开场可以直接说'你们离第二名只差 0.3 分'——这句话对第三名最有效。这条今天就发。"
-    },
-    {
-      product: "DramaBox / Webfic（海外微短剧 + 网文）",
-      company: "北京点众科技股份有限公司",
-      hq: "北京",
-      category: "娱乐APP",
-      markets: "美国、东南亚、欧洲、拉美",
-      revenue: "海外微短剧市场份额约 21%，居第二；2026-08-01 综合分 68.3，四强第一",
-      recent: "据 MPA 报告，DramaBox 占海外微短剧市场约 21% 份额，位列第二；最新平台综合分 68.3 排名第一。",
-      website: "https://www.dianzhong.com",
-      cooperation: "not",
-      coopModel: "",
-      agency: "暂无公开数据",
-      scale: "",
-      contacts: [],
-      channels: [
+      "channels": [
         {
-          label: "北京总部总机",
-          email: "",
-          phone: "010-82318695",
-          source: "https://www.dianzhong.com"
-        }
-      ],
-      contactNote: "已用飞书合作记录表核验：未匹配到点众 / DramaBox 相关主体，判定为未合作。它同时有网文和艺人经纪业务，投放需求不止短剧一条线——第一通电话可以先问业务线划分，比直接推方案自然。官网未公布商务邮箱。"
-    },
-    {
-      product: "Loopit（AI 互动内容社区）",
-      company: "北京涌跃智能科技",
-      hq: "北京",
-      category: "娱乐APP",
-      markets: "海外",
-      revenue: "暂无公开数据",
-      recent: "AI 社交陪伴赛道 2026Q1 全球收入 1.5 亿美元，较 2023Q1 增长超 12 倍，中小玩家仍有空间",
-      website: "https://loopit.com.cn",
-      cooperation: "not",
-      coopModel: "",
-      agency: "暂无公开数据",
-      scale: "sme",
-      contacts: [
-        {
-          name: "陈炜鹏",
-          role: "创始人（前百川智能联合创始人）",
-          email: "",
-          phone: "",
-          linkedin: "",
-          source: "公开报道"
-        }
-      ],
-      channels: [
-        {
-          label: "客服/支持（可转商务）",
-          email: "support@loopit.com.cn",
-          phone: "",
-          source: "https://loopit.com.cn"
-        }
-      ],
-      contactNote: "创始人背景清楚、团队小、决策快。AI 陪伴赛道格局未固化，正是需要投放帮忙抢位的阶段。"
-    },
-    {
-      product: "XTransfer（B2B 跨境收付与资金管理）",
-      company: "XTransfer（上海总部）",
-      hq: "上海",
-      category: "金融",
-      markets: "全球（服务中国外贸中小企业）",
-      revenue: "暂无公开数据",
-      recent: "国内布局上海、深圳、广州、东莞、义乌、宁波等 20 余城 + 中国香港，服务时间 9:00–21:00 全周无休",
-      website: "https://www.xtransfer.cn",
-      cooperation: "not",
-      coopModel: "",
-      agency: "暂无公开数据",
-      scale: "",
-      contacts: [],
-      channels: [
-        {
-          label: "服务热线（最对口，可转商务）",
-          email: "",
-          phone: "400-998-9930",
-          source: "https://www.xtransfer.cn/contact"
+          "label": "官方客服（可转商务）",
+          "email": "support@crazymaplestudio.com",
+          "phone": "",
+          "source": "https://www.crazymaplestudios.com"
         },
         {
-          label: "服务邮箱",
-          email: "service@xtransfer.cn",
-          phone: "",
-          source: "https://www.xtransfer.cn/contact"
+          "label": "法务（品牌 / 版权事务）",
+          "email": "legal@crazymaplestudio.com",
+          "phone": "",
+          "source": "https://www.crazymaplestudios.com"
         }
       ],
-      contactNote: "已用飞书合作记录表核验：未匹配到 XTransfer 主体，判定为未合作。它自己是重投放获客的公司（B2B 搜索 + 信息流 + 线下），而不只是金融牌照方——这是同行容易忽略的点。"
+      "contactNote": "老客户。当前谈判抓手是素材产能——AI 短剧投放量一个月翻倍的节奏下，谁能批量产素材谁拿预算。"
     },
     {
-      product: "Last War: Survival",
-      company: "元趣娱乐 First Fun（新加坡主体 Funfly Pte. Ltd. / 美国主体 First Fun Inc.）",
-      hq: "新加坡 / 美国圣克拉拉",
-      category: "游戏",
-      markets: "北美、欧洲、东南亚、中东",
-      revenue: "沙特 iPhone 畅销总榜 Top20 长期在榜，中东为核心付费市场之一",
-      recent: "Last War: Survival 持续位列中东与欧美 SLG 收入前列；据 6 月 Sensor Tower 榜单仍稳居中国厂商出海收入头部梯队。",
-      website: "https://www.firstfun.com",
-      cooperation: "cooperated",
-      coopModel: "已用飞书合作记录表核验：客户名单中命中『FIRST FUN HONG KONG LIMITED』，属已合作主体。跟进重点从'开发新客'改为'扩量与新市场'——Last War 已经是头部 SLG，谈的应该是欧美之外的增量市场和新产品线。",
-      agency: "",
-      scale: "",
-      contacts: [],
-      channels: [
+      "product": "DramaBox / Webfic（海外微短剧 + 网文）",
+      "company": "北京点众科技股份有限公司",
+      "hq": "北京",
+      "category": "娱乐APP",
+      "markets": "美国、东南亚、印度、拉美",
+      "revenue": "2026 年海外短剧市场份额约 21%，居第二；综合评分 68.3 居四强第一",
+      "recent": "在印度市场收入榜居第一，与 NetShort、ReelShort 三家合计吃掉印度短剧收入超 45%。",
+      "website": "https://www.dianzhong.com",
+      "cooperation": "not",
+      "coopModel": "",
+      "agency": "暂无公开数据",
+      "scale": "head",
+      "contacts": [],
+      "channels": [
         {
-          label: "公司事务邮箱（最对口）",
-          email: "contact@firstfun.com",
-          phone: "",
-          source: "https://www.firstfun.com"
-        },
-        {
-          label: "Last War 产品支持",
-          email: "support@lastwar.com",
-          phone: "",
-          source: "https://www.firstfun.com"
+          "label": "北京总部总机（最对口，唯一公开入口）",
+          "email": "",
+          "phone": "010-82318695",
+          "source": "https://www.dianzhong.com"
         }
       ],
-      contactNote: "已用飞书合作记录表核验：命中『FIRST FUN HONG KONG LIMITED』，判定为已合作客户（此前误判为未合作，本次修正）。官网公示了公司邮箱与新加坡、美国两个办公地址，属于头部游戏厂商里罕见能直接触达的。"
+      "contactNote": "已用飞书合作记录表核验：未匹配到点众 / DramaBox 相关主体，判定为未合作。它同时有网文和艺人经纪业务，投放需求不止短剧一条线——第一通电话可以先问业务线划分，比直接推方案自然。官网未公布商务邮箱。"
+    },
+    {
+      "product": "Loopit（AI 互动内容社区）",
+      "company": "北京涌跃智能科技有限公司",
+      "hq": "北京",
+      "category": "娱乐APP",
+      "markets": "欧美、日韩",
+      "revenue": "未公开",
+      "recent": "创始人为前百川智能联合创始人陈炜鹏，团队规模小、决策链条短。",
+      "website": "https://loopit.com.cn",
+      "cooperation": "not",
+      "coopModel": "",
+      "agency": "暂无公开数据",
+      "scale": "sme",
+      "contacts": [
+        {
+          "name": "陈炜鹏",
+          "role": "创始人（前百川智能联合创始人）",
+          "email": "",
+          "phone": "",
+          "linkedin": "",
+          "source": "公开报道"
+        }
+      ],
+      "channels": [
+        {
+          "label": "客服 / 支持（最对口，可转商务）",
+          "email": "support@loopit.com.cn",
+          "phone": "",
+          "source": "https://loopit.com.cn"
+        }
+      ],
+      "contactNote": "创始人背景清楚、团队小、决策快。AI 互动内容赛道格局未固化，正是需要投放帮忙抢位的阶段。8 月 26 日 Google Play 陌生人社交新规对这类产品有影响，可以用这条当触达由头。"
+    },
+    {
+      "product": "Last War: Survival",
+      "company": "元趣娱乐 First Fun（新加坡主体 Funfly Pte. Ltd. / 美国主体 First Fun Inc.）",
+      "hq": "中国香港 / 新加坡 / 美国",
+      "category": "游戏",
+      "markets": "美国、日韩、欧洲",
+      "revenue": "长期位居中国手游出海收入前列",
+      "recent": "持续位列全球手游发行商收入榜前列，买量投入稳定。",
+      "website": "https://www.firstfun.com",
+      "cooperation": "cooperated",
+      "coopModel": "已合作客户。飞书合作记录表「APP」分表命中 FIRST FUN HONG KONG LIMITED，判定为已合作。",
+      "agency": "",
+      "scale": "head",
+      "contacts": [],
+      "channels": [
+        {
+          "label": "公司事务邮箱（最对口）",
+          "email": "contact@firstfun.com",
+          "phone": "",
+          "source": "https://www.firstfun.com"
+        },
+        {
+          "label": "Last War 产品支持",
+          "email": "support@lastwar.com",
+          "phone": "",
+          "source": "https://www.firstfun.com"
+        }
+      ],
+      "contactNote": "老客户。官网公示了公司邮箱与新加坡、美国两个办公地址，属于头部游戏厂商里罕见能直接触达的。"
     }
   ],
-  policies: [
+  "policies": [
     {
-      platform: "Google",
-      title: "【8 天内生效】8 月 17 日起智能出价机制调整：Target CPA / Target ROAS 计算口径变更",
-      date: "2026-08-17",
-      detail: "Google Ads 自 8 月 17 日起调整智能出价的目标值计算方式，Target CPA 与 Target ROAS 将基于新的转化价值口径重新校准。系统会有 1–2 周的重新学习期，期间成本与量级可能明显波动。",
-      impact: "high",
-      categories: [
+      "platform": "Meta",
+      "title": "【今天生效】亚太 Shops 功能收缩：7 个市场之外无法开店、无法使用产品标签",
+      "date": "2026-08-10",
+      "detail": "自今日（8 月 10 日）起，Meta 在亚太地区仅保留 7 个市场的 Shops 功能，其余市场的商家无法新建店铺，帖子与广告中也无法再使用产品标签（Product Tagging）。已有店铺进入只读状态。",
+      "impact": "高",
+      "categories": [
+        "电商"
+      ],
+      "bizValue": "今天就会有客户发现产品标签点不动了。这是最好的主动联系理由——不用推销，先发一句\"今天 Meta 亚太 Shops 收缩生效了，你们受影响吗？\"，帮客户排查比推方案更容易建立信任。替代方案是导流到独立站 + Advantage+ 购物广告。",
+      "source": "https://www.facebook.com/business/help"
+    },
+    {
+      "platform": "Google",
+      "title": "【7 天内生效】8 月 17 日起智能出价机制调整：Target CPA / Target ROAS 计算口径变更",
+      "date": "2026-08-17",
+      "detail": "Google Ads 将调整 Target CPA 与 Target ROAS 的计算口径，历史转化数据的权重与出价预测模型同步更新。变更后账户会重新进入学习期，短期内 CPA 波动属正常现象。",
+      "impact": "高",
+      "categories": [
         "游戏",
         "AI",
         "电商"
       ],
-      bizValue: "赶在 8/17 之前给所有跑 Google 的客户发一条提醒，附上'学习期建议不要频繁改预算'的操作建议。这种提前量是新人最容易做出来的差异化——客户记住的是'她提前告诉我了'。",
-      source: "https://www.10100.com/"
+      "bizValue": "这条要在 8 月 17 日之前就跟客户打好招呼：\"下周开始 CPA 会抖一到两周，是平台改算法不是我们投崩了。\"提前说是专业，事后解释是甩锅——这个时间差就是新人建立信任的机会。建议客户在变更前后各留 7 天不要大改预算。",
+      "source": "https://support.google.com/google-ads/answer/6268637"
     },
     {
-      platform: "Meta",
-      title: "【1 天内生效】8 月 10 日起亚太 Shops 功能收缩：7 个市场之外无法开店、无法使用产品标签",
-      date: "2026-08-10",
-      detail: "Meta 自 8 月 10 日起在亚太区收缩 Shops 功能，仅保留 7 个市场支持开店与产品标签，其余市场的商家将无法新建店铺、无法在广告中使用产品标签。",
-      impact: "high",
-      categories: [
+      "platform": "Google",
+      "title": "【16 天内生效】8 月 26 日起 Google Play 三项陌生人社交/随机聊天新规同时生效",
+      "date": "2026-08-26",
+      "detail": "Google Play 针对匿名聊天、随机匹配、陌生人社交类应用同时收紧三项要求：需明确的用户举报与屏蔽机制、需年龄验证与未成年人保护措施、需在商店页面披露内容审核政策。不合规应用将被下架。",
+      "impact": "高",
+      "categories": [
+        "隐私",
+        "AI",
         "电商"
       ],
-      bizValue: "明天就生效。有做 Meta 社交电商的客户今天必须知会一声，让他们确认自己在不在这 7 个市场里。一条消息的成本，换一次'靠谱'的印象。",
-      source: "https://www.10100.com/"
+      "bizValue": "AI 陪伴类应用（Talkie、Loopit、Wapoo 这类）大多踩这条线。可以主动给这类客户发一份\"8/26 前要补齐的三件事\"清单——这是纯帮忙、不谈钱的动作，但会让你在他们心里变成\"懂平台规则的人\"，后面谈投放会顺很多。",
+      "source": "https://support.google.com/googleplay/android-developer/answer/9876937"
     },
     {
-      platform: "Meta",
-      title: "MARS 多模态审核系统上线：视频、图片、文案将被联合判定，单看素材合规已不够",
-      date: "2026-08-06",
-      detail: "Meta 广告审核升级为多模态联合判定（MARS），会同时分析视频画面、音频、图片与文案之间的关联性。此前'画面合规、文案合规、但组合起来有误导'的素材现在会被直接拒审。",
-      impact: "high",
-      categories: [
+      "platform": "Google",
+      "title": "【21 天内生效】8 月 31 日 Google Play 目标 API 级别 36 与 Billing Library 8 双截止",
+      "date": "2026-08-31",
+      "detail": "8 月 31 日前，所有 Google Play 上架应用需将 targetSdkVersion 升级到 API 36（Android 16），同时结算接口需迁移到 Play Billing Library 8。未完成的应用将无法提交更新，逾期较久可能影响可见性。",
+      "impact": "高",
+      "categories": [
+        "游戏",
+        "AI",
+        "电商"
+      ],
+      "bizValue": "这是技术侧的事，但会直接影响投放——应用无法更新，就意味着素材落地页、活动版本都卡住。跟客户确认这件事有没有排期，是一个\"我在替你想全链路\"的信号，比只盯投放数据显得专业。",
+      "source": "https://support.google.com/googleplay/android-developer/answer/11926878"
+    },
+    {
+      "platform": "Meta",
+      "title": "MARS 多模态审核系统上线：视频、图片、文案将被联合判定，单看素材合规已不够",
+      "date": "2026-08-06",
+      "detail": "Meta 广告审核升级为多模态联合判定（MARS），会同时分析视频画面、音频、图片与文案之间的关联性。此前'画面合规、文案合规、但组合起来有误导'的素材现在会被直接拒审。",
+      "impact": "high",
+      "categories": [
         "金融",
         "现金贷",
         "短剧",
         "AI"
       ],
-      bizValue: "短剧和金融客户最容易踩：短剧靠强冲突画面配夸张文案，金融靠'轻松借到钱'的画面暗示。可以主动给客户做一次'素材组合合规体检'，这是很自然的服务切入点。",
-      source: "https://www.10100.com/"
+      "bizValue": "短剧和金融客户最容易踩：短剧靠强冲突画面配夸张文案，金融靠'轻松借到钱'的画面暗示。可以主动给客户做一次'素材组合合规体检'，这是很自然的服务切入点。",
+      "source": "https://www.10100.com/"
     },
     {
-      platform: "Meta",
-      title: "BNPL（先买后付）与加密货币借贷正式归入 Credit 特殊广告类别",
-      date: "2026-08-01",
-      detail: "Meta 明确将 BNPL 先买后付、加密货币抵押借贷类产品纳入 Credit（信贷）特殊广告类别，投放时必须声明特殊类别、受定向限制，且需提供对应金融资质。",
-      impact: "high",
-      categories: [
+      "platform": "Meta",
+      "title": "BNPL（先买后付）与加密货币借贷正式归入 Credit 特殊广告类别",
+      "date": "2026-08-01",
+      "detail": "Meta 明确将 BNPL 先买后付、加密货币抵押借贷类产品纳入 Credit（信贷）特殊广告类别，投放时必须声明特殊类别、受定向限制，且需提供对应金融资质。",
+      "impact": "high",
+      "categories": [
         "金融",
         "现金贷",
         "加白名单/资质"
       ],
-      bizValue: "很多做 BNPL 的客户以为自己是'电商工具'不是'金融'，会踩坑。你提前说清楚这件事，就是在帮他们省一次封户——这是能直接换来信任的动作。",
-      source: "https://www.10100.com/"
+      "bizValue": "很多做 BNPL 的客户以为自己是'电商工具'不是'金融'，会踩坑。你提前说清楚这件事，就是在帮他们省一次封户——这是能直接换来信任的动作。",
+      "source": "https://www.10100.com/"
     },
     {
-      platform: "Google",
-      title: "泰国现金贷广告：Google Play 与 Ads 强制披露资方牌照编号",
-      date: "2026-08-01",
-      detail: "针对泰国市场，Google 要求现金贷类应用与广告必须在落地页与应用商店页面明确披露资方（放款主体）的牌照编号，未披露的应用将被下架、广告将被拒审。",
-      impact: "high",
-      categories: [
+      "platform": "Google",
+      "title": "泰国现金贷广告：Google Play 与 Ads 强制披露资方牌照编号",
+      "date": "2026-08-01",
+      "detail": "针对泰国市场，Google 要求现金贷类应用与广告必须在落地页与应用商店页面明确披露资方（放款主体）的牌照编号，未披露的应用将被下架、广告将被拒审。",
+      "impact": "high",
+      "categories": [
         "现金贷",
         "金融",
         "加白名单/资质"
       ],
-      bizValue: "东南亚现金贷客户最怕的就是这类合规变动。你如果能整理出一份'东南亚各国现金贷广告披露要求'的对照表，几乎可以当敲门砖用——同行很少有人做这个。",
-      source: "https://www.10100.com/"
+      "bizValue": "东南亚现金贷客户最怕的就是这类合规变动。你如果能整理出一份'东南亚各国现金贷广告披露要求'的对照表，几乎可以当敲门砖用——同行很少有人做这个。",
+      "source": "https://www.10100.com/"
     },
     {
-      platform: "TikTok",
-      title: "欧盟 AI 法案透明度义务已于 8 月 2 日生效，AI 素材需可识别标识",
-      date: "2026-08-02",
-      detail: "EU AI Act 的通用人工智能透明度义务已正式适用，投放至欧盟市场的 AI 生成素材需具备可识别标识，训练数据来源需可披露；违规最高可处 1500 万欧元或全球营收 3% 的罚款。",
-      impact: "high",
-      categories: [
+      "platform": "TikTok",
+      "title": "欧盟 AI 法案透明度义务已于 8 月 2 日生效，AI 素材需可识别标识",
+      "date": "2026-08-02",
+      "detail": "EU AI Act 的通用人工智能透明度义务已正式适用，投放至欧盟市场的 AI 生成素材需具备可识别标识，训练数据来源需可披露；违规最高可处 1500 万欧元或全球营收 3% 的罚款。",
+      "impact": "high",
+      "categories": [
         "AI",
         "短剧",
         "隐私"
       ],
-      bizValue: "已经生效了，不是预警是现状。所有用 AI 批量产素材投欧洲的客户（短剧尤其）都要过一遍。做一份检查清单发过去，比说十句'我们很专业'管用。",
-      source: "https://www.10100.com/"
+      "bizValue": "已经生效了，不是预警是现状。所有用 AI 批量产素材投欧洲的客户（短剧尤其）都要过一遍。做一份检查清单发过去，比说十句'我们很专业'管用。",
+      "source": "https://www.10100.com/"
     },
     {
-      platform: "Meta",
-      title: "8 月 6 日起已关闭设备 / 小时 / 频次三个报表维度（未 opt-in 账户静默返回空值）",
-      date: "2026-08-06",
-      detail: "Meta 已于 8 月 6 日关闭设备、小时、频次三个报表拆分维度。未提前 opt-in 的账户调用相关 API 时不会报错，而是静默返回空值，容易被误认为是数据丢失。",
-      impact: "high",
-      categories: [
+      "platform": "Meta",
+      "title": "8 月 6 日起已关闭设备 / 小时 / 频次三个报表维度（未 opt-in 账户静默返回空值）",
+      "date": "2026-08-06",
+      "detail": "Meta 已于 8 月 6 日关闭设备、小时、频次三个报表拆分维度。未提前 opt-in 的账户调用相关 API 时不会报错，而是静默返回空值，容易被误认为是数据丢失。",
+      "impact": "high",
+      "categories": [
         "游戏",
         "AI",
         "电商"
       ],
-      bizValue: "已生效。如果客户这两天说'报表数据不对'，八成就是这个原因——你能第一时间说清楚，就比他们的现有服务商强。",
-      source: "https://www.10100.com/"
+      "bizValue": "已生效。如果客户这两天说'报表数据不对'，八成就是这个原因——你能第一时间说清楚，就比他们的现有服务商强。",
+      "source": "https://www.10100.com/"
     },
     {
-      platform: "Meta",
-      title: "Marketing API v26.0 上线：特殊广告类别不显式声明 Advantage+ 受众直接报错",
-      date: "2026-07-29",
-      detail: "7 月 29 日发布并启用版本自动升级。special-ad-category 广告组若未显式设置 Advantage+ audience 标记会报错；该版本同时移除部分版位且未主动告知。",
-      impact: "mid",
-      categories: [
+      "platform": "Meta",
+      "title": "Marketing API v26.0 上线：特殊广告类别不显式声明 Advantage+ 受众直接报错",
+      "date": "2026-07-29",
+      "detail": "7 月 29 日发布并启用版本自动升级。special-ad-category 广告组若未显式设置 Advantage+ audience 标记会报错；该版本同时移除部分版位且未主动告知。",
+      "impact": "mid",
+      "categories": [
         "金融",
         "隐私"
       ],
-      bizValue: "信贷、住房、就业类客户是重灾区。提前一句提醒能省客户一天排障，也顺便体现你们的技术响应速度。",
-      source: "https://admakeai.com/blog/meta-ads-updates-august-2026"
+      "bizValue": "信贷、住房、就业类客户是重灾区。提前一句提醒能省客户一天排障，也顺便体现你们的技术响应速度。",
+      "source": "https://admakeai.com/blog/meta-ads-updates-august-2026"
     },
     {
-      platform: "Meta",
-      title: "官方广告 MCP 服务器上线，代理跨账户操作需 Advanced Access 并过 App Review",
-      date: "2026-07-16",
-      detail: "mcp.facebook.com/ads 可读可写：报表、创建/编辑/暂停广告系列、商品目录。操作自有账户为标准权限；代理商触及他方业务数据需申请 ads_mcp_management 的 Advanced Access，须经 App Review。",
-      impact: "mid",
-      categories: [
-        "AI",
-        "加白名单/资质"
-      ],
-      bizValue: "新的资质门槛 = 新的差异化卖点。跟客户讲'我们在申请官方 MCP 高级权限'，比讲优化师人数有说服力得多。",
-      source: "https://admakeai.com/blog/meta-ads-updates-august-2026"
-    },
-    {
-      platform: "Meta",
-      title: "AI 生成图像自动加「Made with AI」标签，不可移除",
-      date: "2026-07-01",
-      detail: "Meta 会通过 C2PA 元数据或自有检测系统，对写实风格的 AI 生成图像自动打上 Made with AI 标签，广告主无法移除。非写实的 AI 艺术风格一般不受影响。",
-      impact: "mid",
-      categories: [
+      "platform": "Meta",
+      "title": "AI 生成图像自动加「Made with AI」标签，不可移除",
+      "date": "2026-07-01",
+      "detail": "Meta 会通过 C2PA 元数据或自有检测系统，对写实风格的 AI 生成图像自动打上 Made with AI 标签，广告主无法移除。非写实的 AI 艺术风格一般不受影响。",
+      "impact": "mid",
+      "categories": [
         "AI"
       ],
-      bizValue: "做 AI 素材的客户要提前知道这条。建议策略：写实素材接受打标，或改走非写实风格规避——这是能直接落到素材排期上的建议。",
-      source: "https://www.auditsocials.com/blog/meta-cryptocurrency-bnpl-advertising-policy-2026"
+      "bizValue": "做 AI 素材的客户要提前知道这条。建议策略：写实素材接受打标，或改走非写实风格规避——这是能直接落到素材排期上的建议。",
+      "source": "https://www.auditsocials.com/blog/meta-cryptocurrency-bnpl-advertising-policy-2026"
     },
     {
-      platform: "Meta",
-      title: "保健品 / 补剂类广告需 LegitScript 或同等资质认证",
-      date: "2026-07-01",
-      detail: "对做出临床类宣称的保健品与健康品牌，Meta 要求提供 LegitScript 第三方认证或同等验证；未认证者文案只能限于泛健康表述。",
-      impact: "mid",
-      categories: [
+      "platform": "Meta",
+      "title": "保健品 / 补剂类广告需 LegitScript 或同等资质认证",
+      "date": "2026-07-01",
+      "detail": "对做出临床类宣称的保健品与健康品牌，Meta 要求提供 LegitScript 第三方认证或同等验证；未认证者文案只能限于泛健康表述。",
+      "impact": "mid",
+      "categories": [
         "加白名单/资质"
       ],
-      bizValue: "如果名单里有做保健品出海的客户，这是明确的加白需求——正是代理商能收服务费的环节。",
-      source: "https://www.auditsocials.com/blog/meta-cryptocurrency-bnpl-advertising-policy-2026"
+      "bizValue": "如果名单里有做保健品出海的客户，这是明确的加白需求——正是代理商能收服务费的环节。",
+      "source": "https://www.auditsocials.com/blog/meta-cryptocurrency-bnpl-advertising-policy-2026"
     },
     {
-      platform: "Meta",
-      title: "住房 / 就业 / 信贷类广告限制定向，必须走 Special Ad Audiences",
-      date: "2026-07-01",
-      detail: "此类广告不能按邮编排除受众（即使作为地理位置代理也不行），必须使用 Meta 的 Special Ad Audiences 而非标准定向。同时受保护类别（种族、宗教、性取向等）相关定向选项已被移除。",
-      impact: "high",
-      categories: [
+      "platform": "Meta",
+      "title": "住房 / 就业 / 信贷类广告限制定向，必须走 Special Ad Audiences",
+      "date": "2026-07-01",
+      "detail": "此类广告不能按邮编排除受众（即使作为地理位置代理也不行），必须使用 Meta 的 Special Ad Audiences 而非标准定向。同时受保护类别（种族、宗教、性取向等）相关定向选项已被移除。",
+      "impact": "high",
+      "categories": [
         "金融",
         "现金贷"
       ],
-      bizValue: "所有现金贷、助贷客户必读。定向被卡死之后，效果全靠创意和落地页体验——这正好是你们能提供服务的地方，把话术从'我们能定向得更准'改成'我们能帮你把素材和落地页做出区隔'。",
-      source: "https://www.sohu.com/a/1031689737_122811304"
+      "bizValue": "所有现金贷、助贷客户必读。定向被卡死之后，效果全靠创意和落地页体验——这正好是你们能提供服务的地方，把话术从'我们能定向得更准'改成'我们能帮你把素材和落地页做出区隔'。",
+      "source": "https://www.sohu.com/a/1031689737_122811304"
     },
     {
-      platform: "Google",
-      title: "赌博与游戏类广告认证要求扩展（生效日 2026-09-14，还有 37 天）",
-      date: "2026-09-14",
-      detail: "认证范围扩展至相关全部品类；免费子域名不再具备认证资格，投放域名须为公司自有；同一 MCC 下重复违规将影响认证资格。",
-      impact: "high",
-      categories: [
-        "游戏",
+      "platform": "Google",
+      "title": "全面收紧返点政策，取消所有新客返点，代理层面基本无返点",
+      "date": "2026-06-01",
+      "detail": "Google 已取消所有新客返点，代理商层面基本无返点。行业建议：品牌商选择合作代理商不应再将返点作为核心决策依据。通过官方认证代理商开户通过率比自主开户高 65%，并能获得免费合规检测与封号申诉支持。",
+      "impact": "high",
+      "categories": [
         "加白名单/资质"
       ],
-      bizValue: "还有一个多月，够做准备但不算宽裕。给所有涉赌博/博彩玩法的游戏客户排一次域名与资质自查，这本身就是一次很自然的约见由头。",
-      source: "https://support.google.com/adspolicy/answer/6018017"
+      "bizValue": "对新人是好消息：不用再跟客户比谁返点高。把话术切换成'通过率高 65% + 合规检测 + 申诉通道'，这是能量化的价值。",
+      "source": "https://www.ebrun.com/20260601/672083.shtml"
     },
     {
-      platform: "Google",
-      title: "取消个人资质开 B2B 广告账户通道，统一社会信用代码强制联网核验",
-      date: "2026-06-01",
-      detail: "2026 年 Google 已完全取消个人资质开通 B2B 广告账户的通道，所有企业账户必须通过统一社会信用代码联网核验。PS 修改、借用资质开户将被纳入黑名单 1 年，无法再次申请。特殊管控行业还需额外准备对应资质。",
-      impact: "high",
-      categories: [
-        "加白名单/资质"
-      ],
-      bizValue: "黑名单 1 年是重罚。跟客户强调'别图省事找野路子开户'，同时把你们的合规开户通过率优势讲出来。",
-      source: "https://www.ebrun.com/20260601/672083.shtml"
-    },
-    {
-      platform: "Google",
-      title: "全面收紧返点政策，取消所有新客返点，代理层面基本无返点",
-      date: "2026-06-01",
-      detail: "Google 已取消所有新客返点，代理商层面基本无返点。行业建议：品牌商选择合作代理商不应再将返点作为核心决策依据。通过官方认证代理商开户通过率比自主开户高 65%，并能获得免费合规检测与封号申诉支持。",
-      impact: "high",
-      categories: [
-        "加白名单/资质"
-      ],
-      bizValue: "对新人是好消息：不用再跟客户比谁返点高。把话术切换成'通过率高 65% + 合规检测 + 申诉通道'，这是能量化的价值。",
-      source: "https://www.ebrun.com/20260601/672083.shtml"
-    },
-    {
-      platform: "Google",
-      title: "App Campaign 安装后转化窗口锚点：由「点击时间」改为「安装时间」",
-      date: "2026-07-10",
-      detail: "原逻辑下点击后 N 天计算转化，延迟安装 + 延迟付费的用户价值会被漏掉；新逻辑以安装为锚点，与 AppsFlyer、Adjust 等 MMP 口径对齐，提升算法学习效率，更适应重度游戏、金融工具、高客单价订阅的长决策路径。",
-      impact: "mid",
-      categories: [
+      "platform": "Google",
+      "title": "App Campaign 安装后转化窗口锚点：由「点击时间」改为「安装时间」",
+      "date": "2026-07-10",
+      "detail": "原逻辑下点击后 N 天计算转化，延迟安装 + 延迟付费的用户价值会被漏掉；新逻辑以安装为锚点，与 AppsFlyer、Adjust 等 MMP 口径对齐，提升算法学习效率，更适应重度游戏、金融工具、高客单价订阅的长决策路径。",
+      "impact": "mid",
+      "categories": [
         "游戏",
         "金融"
       ],
-      bizValue: "报表会出现'名义增长'。一定要在月度复盘前主动说明口径变化，否则容易被误解成数据注水。",
-      source: "https://www.163.com/dy/article/KMI7S3HR0556E16T_pdya11y.html"
+      "bizValue": "报表会出现'名义增长'。一定要在月度复盘前主动说明口径变化，否则容易被误解成数据注水。",
+      "source": "https://www.163.com/dy/article/KMI7S3HR0556E16T_pdya11y.html"
     },
     {
-      platform: "TikTok",
-      title: "中国大陆企业自助开户 100% 驳回，官方一级代理成唯一合规路径",
-      date: "2026-08-06",
-      detail: "2026 年中国大陆企业通过官方自助通道开户已被 100% 驳回。官方渠道自助开户仅限本土店卖家（如美国本土公司）。经一级代理开户支持大陆企业营业执照、个体工商户执照、中国香港主体，审核 1–3 个工作日、优质代理最快 2 小时。",
-      impact: "high",
-      categories: [
+      "platform": "TikTok",
+      "title": "中国大陆企业自助开户 100% 驳回，官方一级代理成唯一合规路径",
+      "date": "2026-08-06",
+      "detail": "2026 年中国大陆企业通过官方自助通道开户已被 100% 驳回。官方渠道自助开户仅限本土店卖家（如美国本土公司）。经一级代理开户支持大陆企业营业执照、个体工商户执照、中国香港主体，审核 1–3 个工作日、优质代理最快 2 小时。",
+      "impact": "high",
+      "categories": [
         "加白名单/资质"
       ],
-      bizValue: "这是你最硬的谈判筹码：客户没得选。谈话重点不再是'要不要找代理'，而是'找哪家代理'——把下户速度、主体兼容性、申诉能力摆出来。",
-      source: "https://tech.hexun.com/2026-08-06/224778675.html"
+      "bizValue": "这是你最硬的谈判筹码：客户没得选。谈话重点不再是'要不要找代理'，而是'找哪家代理'——把下户速度、主体兼容性、申诉能力摆出来。",
+      "source": "https://tech.hexun.com/2026-08-06/224778675.html"
     },
     {
-      platform: "TikTok",
-      title: "个体工商户开户：美区基本不接，东南亚站点相对宽松",
-      date: "2026-08-06",
-      detail: "个体工商户在部分地区仍可申请开户，但通过率明显低于公司主体。美区账户基本不接个体户，东南亚部分站点相对宽松。",
-      impact: "mid",
-      categories: [
+      "platform": "TikTok",
+      "title": "个体工商户开户：美区基本不接，东南亚站点相对宽松",
+      "date": "2026-08-06",
+      "detail": "个体工商户在部分地区仍可申请开户，但通过率明显低于公司主体。美区账户基本不接个体户，东南亚部分站点相对宽松。",
+      "impact": "mid",
+      "categories": [
         "电商",
         "加白名单/资质"
       ],
-      bizValue: "遇到个体户客户不要一口回绝，先建议做东南亚站点，同时劝他把公司主体办下来。这样既留住了客户又给了专业建议。",
-      source: "https://tech.hexun.com/2026-08-06/224778675.html"
+      "bizValue": "遇到个体户客户不要一口回绝，先建议做东南亚站点，同时劝他把公司主体办下来。这样既留住了客户又给了专业建议。",
+      "source": "https://tech.hexun.com/2026-08-06/224778675.html"
     },
     {
-      platform: "TikTok",
-      title: "AI 生成内容强制披露义务全面执行",
-      date: "2026-07-01",
-      detail: "2026 年 7 月起，TikTok 对 AI 生成内容的披露要求进入强制执行阶段，未标注的 AIGC 素材面临限流或下架风险。",
-      impact: "high",
-      categories: [
-        "AI"
-      ],
-      bizValue: "所有用 AI 批量产素材的客户（尤其短剧和电商）都要过一遍合规。这是个能立刻带出'素材合规审核'增值服务的口子。",
-      source: "https://www.52by.com/article/229890"
-    },
-    {
-      platform: "TikTok",
-      title: "官方代理资质核验三步法（授权书 / 官网 Partner 页 / 穿透签约主体）",
-      date: "2026-08-06",
-      detail: "① 索要 TikTok for Business 官方代理授权书，查看授权期限、范围及法律实体全称；② 通过 TikTok for Business 官网'合作伙伴'页面交叉验证；③ 穿透核实签约主体与对外服务品牌可能不一致（如飞书逸途 SinoClick 是飞书深诺集团旗下服务品牌，实际签约方为飞书深诺）。非授权渠道常用'盗开账户'或'转售黑卡'，一旦被查账户与域名可能永久封禁。",
-      impact: "high",
-      categories: [
+      "platform": "TikTok",
+      "title": "官方代理资质核验三步法（授权书 / 官网 Partner 页 / 穿透签约主体）",
+      "date": "2026-08-06",
+      "detail": "① 索要 TikTok for Business 官方代理授权书，查看授权期限、范围及法律实体全称；② 通过 TikTok for Business 官网'合作伙伴'页面交叉验证；③ 穿透核实签约主体与对外服务品牌可能不一致（如飞书逸途 SinoClick 是飞书深诺集团旗下服务品牌，实际签约方为飞书深诺）。非授权渠道常用'盗开账户'或'转售黑卡'，一旦被查账户与域名可能永久封禁。",
+      "impact": "high",
+      "categories": [
         "加白名单/资质"
       ],
-      bizValue: "把这三步主动教给客户，等于帮他排除掉一堆不合规同行。真诚是最好的销售技巧，尤其对新人。",
-      source: "https://www.52by.com/article/229890"
+      "bizValue": "把这三步主动教给客户，等于帮他排除掉一堆不合规同行。真诚是最好的销售技巧，尤其对新人。",
+      "source": "https://www.52by.com/article/229890"
+    },
+    {
+      "platform": "Google",
+      "title": "赌博与游戏类广告认证要求扩展至全部类别（2026-09-14 生效，还有 35 天）",
+      "date": "2026-09-14",
+      "detail": "认证范围扩展至相关全部品类；免费子域名不再具备认证资格，投放域名须为公司自有；同一 MCC 下重复违规将影响认证资格。",
+      "impact": "high",
+      "categories": [
+        "游戏",
+        "加白名单/资质"
+      ],
+      "bizValue": "还有 35 天，现在正是提醒客户准备材料的最佳时点——认证审核通常要 2-4 周，卡在最后一周申请必然断量。带抽卡、开箱、竞技赛事元素的游戏都可能被判定为\"类赌博\"，不只是真钱博彩。这条主动提醒，客户会记住你。",
+      "source": "https://support.google.com/adspolicy/answer/6018017"
+    },
+    {
+      "platform": "Google",
+      "title": "Google Play 开发者应用注册要求 9 月 30 日生效，未注册应用将无法在认证设备安装",
+      "date": "2026-09-30",
+      "detail": "Google 要求所有在认证 Android 设备上分发的应用（含 Google Play 外渠道）完成开发者身份注册与应用登记。未完成注册的应用后续将无法在认证设备上安装。",
+      "impact": "中",
+      "categories": [
+        "隐私",
+        "游戏",
+        "AI"
+      ],
+      "bizValue": "对做第三方渠道分发、APK 直投的客户影响最大——尤其是东南亚、中东做落地页下载的那批。可以先问一句\"你们非 Google Play 渠道的量占多少\"，答案会直接告诉你这个客户的投放结构，也是个很自然的深聊起点。",
+      "source": "https://android-developers.googleblog.com/"
     }
   ],
-  agencyIntel: [
+  "agencyIntel": [
     {
-      title: "Meta 中国区一级代理招募 8 月 25 日截止，现存 11 家一代名单已明确",
-      date: "2026-08-09",
-      summary: "Meta 时隔三年重启中国区官方一级代理招募，报名于 8 月 25 日截止。当前中国区一级代理共 11 家，包括飞书逸途、钛动科技、维卓等，门槛指向'全链路服务能力'而非单纯返点能力。",
-      bizValue: "客户问'你们是不是一代'时，你要能报得出这 11 家的名字，并说清楚一代与二代的差别在服务能力不在价格。新人最容易在这个问题上被问住。",
-      impact: "high",
-      source: "https://www.52by.com/"
+      "title": "AI 短剧新主体扎堆在中国香港注册，\"先开公司再上产品再猛投流\"成标准节奏",
+      "date": "2026-08-09",
+      "summary": "DataEye 对比 VibeShort（靈動象限傳媒有限公司）与 StoryReel（埃奎諾克斯科技有限公司）发现：两家均注册于中国香港，注册间隔约 4 个月，各自旗下只有一款 App，都遵循\"注册公司 → 上线 App → 一个月后开启持续投流\"的节奏，产品设计、定价体系、官网页面高度同构。",
+      "source": "https://thepaper.cn/newsDetail_forward_33341278",
+      "bizValue": "这类客户的识别方法很实用：在 App Store 看到新短剧 App、开发者是香港主体、旗下只有一款产品、上线 1-2 个月——基本就是即将开始猛投流的准客户。可以定期扫短剧新品榜找这类主体，比等榜单头部客户回复效率高得多。",
+      "impact": "中"
     },
     {
-      title: "TikTok 中国大陆认证代理已达 54 家，客户核验渠道公开可查",
-      date: "2026-08-08",
-      summary: "TikTok for Business 中国大陆区认证代理数量已增至 54 家，官方 Partner 页面可查。客户核验代理资质的常见三步：要授权书、查官网 Partner 页、穿透签约主体。",
-      bizValue: "54 家意味着竞争激烈，光靠'我们是认证代理'已经没有说服力了。你的差异化得放在具体的市场理解和素材能力上——把行业情报讲透，比讲资质更能拿单。",
-      impact: "high",
-      source: "https://www.52by.com/"
+      "title": "Meta 中国区一级代理招募 8 月 25 日截止，距今仅剩 15 天",
+      "date": "2026-08-10",
+      "summary": "Meta 时隔三年重启中国区官方一级代理招募，报名 8 月 25 日截止。现存 11 家一代为：猎豹移动、飞书逸途、蓝色光标、省广集团、YinoLink 易诺、木瓜移动、熊猫出海、GatherOne、易点天下、英宝通、雨果跨境。",
+      "source": "https://www.facebook.com/business/marketing-partners",
+      "bizValue": "易点天下已经在 11 家一代名单里——这是 Jill 手上最硬的资质背书，聊 Meta 开户时务必主动说出来。同时要意识到：8/25 之后名单可能扩容，现在的稀缺性窗口只剩两周，值得抓紧把观望中的客户推进一步。",
+      "impact": "高"
     },
     {
-      title: "Google 8/17 出价机制变更，代理侧应提前给客户做'学习期预案'",
-      date: "2026-08-07",
-      summary: "Google 智能出价口径 8 月 17 日变更后会有 1–2 周重新学习期，行业通行做法是提前锁定预算区间、暂停大幅调价、准备好波动解释口径。",
-      bizValue: "这是你能在客户面前显专业的最好机会：变更前主动发预案，变更后主动发数据解读。两次主动沟通，抵得上十次寒暄。",
-      impact: "high",
-      source: "https://www.10100.com/"
+      "title": "Meta 中国区一级代理招募 8 月 25 日截止，现存 11 家一代名单已明确",
+      "date": "2026-08-09",
+      "summary": "Meta 时隔三年重启中国区官方一级代理招募，报名于 8 月 25 日截止。当前中国区一级代理共 11 家，包括飞书逸途、钛动科技、维卓等，门槛指向'全链路服务能力'而非单纯返点能力。",
+      "bizValue": "客户问'你们是不是一代'时，你要能报得出这 11 家的名字，并说清楚一代与二代的差别在服务能力不在价格。新人最容易在这个问题上被问住。",
+      "impact": "high",
+      "source": "https://www.52by.com/"
     },
     {
-      title: "返点本质是代理利润的切分，Google 侧已基本无新客返点空间",
-      date: "2026-08-06",
-      summary: "Google 6 月起全面取消新客返点后，代理侧的返点空间基本来自自身利润切分而非平台补贴；行业普遍转向以服务能力（素材、归因、合规）作为报价支撑。",
-      bizValue: "客户上来就砍返点时，你可以坦白说'现在平台已经没有新客返点了，能给的都是我们自己的利润'。这句实话反而比含糊其辞更容易建立信任，也把话题拉回服务价值。",
-      impact: "high",
-      source: "https://www.52by.com/"
+      "title": "TikTok 中国大陆认证代理已达 54 家，客户核验渠道公开可查",
+      "date": "2026-08-08",
+      "summary": "TikTok for Business 中国大陆区认证代理数量已增至 54 家，官方 Partner 页面可查。客户核验代理资质的常见三步：要授权书、查官网 Partner 页、穿透签约主体。",
+      "bizValue": "54 家意味着竞争激烈，光靠'我们是认证代理'已经没有说服力了。你的差异化得放在具体的市场理解和素材能力上——把行业情报讲透，比讲资质更能拿单。",
+      "impact": "high",
+      "source": "https://www.52by.com/"
     },
     {
-      title: "白鲸出海 8 月 13 日深圳活动，9 月 17–18 日新加坡滨海湾金沙",
-      date: "2026-08-13",
-      summary: "白鲸出海 8 月 13 日在深圳举办出海主题活动，9 月 17–18 日在新加坡滨海湾金沙举办出海大会，均为出海圈线下触达密度最高的场合之一。",
-      bizValue: "还有 4 天。新人最快积累人脉的方式就是线下——提前在参会名单里挑 5 家目标公司，准备好一句话开场，比发一百封冷邮件有效。",
-      impact: "mid",
-      source: "https://www.baijingapp.com/"
+      "title": "Google 8/17 出价机制变更，代理侧应提前给客户做'学习期预案'",
+      "date": "2026-08-07",
+      "summary": "Google 智能出价口径 8 月 17 日变更后会有 1–2 周重新学习期，行业通行做法是提前锁定预算区间、暂停大幅调价、准备好波动解释口径。",
+      "bizValue": "这是你能在客户面前显专业的最好机会：变更前主动发预案，变更后主动发数据解读。两次主动沟通，抵得上十次寒暄。",
+      "impact": "high",
+      "source": "https://www.10100.com/"
     },
     {
-      title: "Google 全面取消新客返点，代理层面基本无返点",
-      date: "2026-06-01",
-      summary: "Google 已取消所有新客返点，代理商层面基本无返点。行业共识转向：不要把返点当作选代理的核心依据。",
-      source: "https://www.ebrun.com/20260601/672083.shtml",
-      bizValue: "对新人是解脱——不用再被拉进比返点的价格战。把话术换成通过率、申诉能力、素材产能这三样能量化的东西。",
-      impact: "high"
+      "title": "返点本质是代理利润的切分，Google 侧已基本无新客返点空间",
+      "date": "2026-08-06",
+      "summary": "Google 6 月起全面取消新客返点后，代理侧的返点空间基本来自自身利润切分而非平台补贴；行业普遍转向以服务能力（素材、归因、合规）作为报价支撑。",
+      "bizValue": "客户上来就砍返点时，你可以坦白说'现在平台已经没有新客返点了，能给的都是我们自己的利润'。这句实话反而比含糊其辞更容易建立信任，也把话题拉回服务价值。",
+      "impact": "high",
+      "source": "https://www.52by.com/"
     },
     {
-      title: "TikTok 开户行情：0 开户费、100 美元起充、最快 2 小时下户",
-      date: "2026-08-06",
-      summary: "飞书逸途（SinoClick）实行 0 开户费、100 美元起充，相比行业常见的 2000–5000 美元首充门槛显著更低，最快 2 小时下户；持 TSP（电商解决方案）+ TAP（广告投放）+ MCN 三重专项认证，覆盖 Meta、Google、TikTok、Pinterest、LinkedIn、Snapchat 等 50 余家媒体、138 个国家。",
-      source: "https://tech.hexun.com/2026-08-06/224778675.html",
-      bizValue: "这是主要竞对的公开报价与能力清单，谈判前必须知道。客户拿这个来压价时，你要能立刻切换到'首充门槛之外，出问题谁能捞回来'的维度。",
-      impact: "high"
+      "title": "白鲸出海 8 月 13 日深圳活动，9 月 17–18 日新加坡滨海湾金沙",
+      "date": "2026-08-13",
+      "summary": "白鲸出海 8 月 13 日在深圳举办出海主题活动，9 月 17–18 日在新加坡滨海湾金沙举办出海大会，均为出海圈线下触达密度最高的场合之一。",
+      "bizValue": "还有 4 天。新人最快积累人脉的方式就是线下——提前在参会名单里挑 5 家目标公司，准备好一句话开场，比发一百封冷邮件有效。",
+      "impact": "mid",
+      "source": "https://www.baijingapp.com/"
     },
     {
-      title: "客户会用三步法核验代理资质，提前准备好材料",
-      date: "2026-08-06",
-      summary: "① 索要官方代理授权书（看期限、范围、法律实体全称）；② 官网 Partner 页面交叉验证；③ 穿透核实签约主体与服务品牌可能不一致。",
-      source: "https://www.52by.com/article/229890",
-      bizValue: "第一次见客户就主动把授权书和官网链接给出去，反客为主。这个动作特别适合新人建立可信度。",
-      impact: "mid"
+      "title": "Google 全面取消新客返点，代理层面基本无返点",
+      "date": "2026-06-01",
+      "summary": "Google 已取消所有新客返点，代理商层面基本无返点。行业共识转向：不要把返点当作选代理的核心依据。",
+      "source": "https://www.ebrun.com/20260601/672083.shtml",
+      "bizValue": "对新人是解脱——不用再被拉进比返点的价格战。把话术换成通过率、申诉能力、素材产能这三样能量化的东西。",
+      "impact": "high"
     },
     {
-      title: "通过官方认证代理开户，通过率比自主开户高 65%",
-      date: "2026-06-01",
-      summary: "行业统计口径：官方认证代理开户通过率比自主开户高 65%，同时可获得免费合规检测与封号申诉支持，账户稳定性更高。",
-      source: "https://www.ebrun.com/20260601/672083.shtml",
-      bizValue: "一个能直接引用的数字。客户问'找你们和我自己开有什么区别'，就回这句。",
-      impact: "mid"
+      "title": "TikTok 开户行情：0 开户费、100 美元起充、最快 2 小时下户",
+      "date": "2026-08-06",
+      "summary": "飞书逸途（SinoClick）实行 0 开户费、100 美元起充，相比行业常见的 2000–5000 美元首充门槛显著更低，最快 2 小时下户；持 TSP（电商解决方案）+ TAP（广告投放）+ MCN 三重专项认证，覆盖 Meta、Google、TikTok、Pinterest、LinkedIn、Snapchat 等 50 余家媒体、138 个国家。",
+      "source": "https://tech.hexun.com/2026-08-06/224778675.html",
+      "bizValue": "这是主要竞对的公开报价与能力清单，谈判前必须知道。客户拿这个来压价时，你要能立刻切换到'首充门槛之外，出问题谁能捞回来'的维度。",
+      "impact": "high"
     },
     {
-      title: "Meta 官方 ads MCP 上线，代理跨账户操作需 ads_mcp_management 高级权限",
-      date: "2026-07-16",
-      summary: "mcp.facebook.com/ads 可读写报表、广告系列和商品目录。代理商触及客户业务数据需申请 Advanced Access 并过 App Review。建议在 Q4 客户提出需求之前就排进审核队列。",
-      source: "https://admakeai.com/blog/meta-ads-updates-august-2026",
-      bizValue: "新的技术资质护城河。可以内部提一嘴让公司提前申请，同时对外当作差异化卖点。",
-      impact: "high"
+      "title": "客户会用三步法核验代理资质，提前准备好材料",
+      "date": "2026-08-06",
+      "summary": "① 索要官方代理授权书（看期限、范围、法律实体全称）；② 官网 Partner 页面交叉验证；③ 穿透核实签约主体与服务品牌可能不一致。",
+      "source": "https://www.52by.com/article/229890",
+      "bizValue": "第一次见客户就主动把授权书和官网链接给出去，反客为主。这个动作特别适合新人建立可信度。",
+      "impact": "mid"
     },
     {
-      title: "Google 归因锚点改安装时间，报表会出现'名义增长'",
-      date: "2026-07-10",
-      summary: "安装后转化窗口起算点从点击改为安装，原被排除的延迟转化重新计入，与 MMP 口径对齐，报表数字会自然变好看。",
-      source: "https://www.163.com/dy/article/KMI7S3HR0556E16T_pdya11y.html",
-      bizValue: "月度复盘前一定要先跟客户说清口径变化。否则数据好看反而会被怀疑。",
-      impact: "mid"
+      "title": "通过官方认证代理开户，通过率比自主开户高 65%",
+      "date": "2026-06-01",
+      "summary": "行业统计口径：官方认证代理开户通过率比自主开户高 65%，同时可获得免费合规检测与封号申诉支持，账户稳定性更高。",
+      "source": "https://www.ebrun.com/20260601/672083.shtml",
+      "bizValue": "一个能直接引用的数字。客户问'找你们和我自己开有什么区别'，就回这句。",
+      "impact": "mid"
     },
     {
-      title: "AppsFlyer 升级为 Modern Marketing Cloud，推 Agent Hub 与 MCP",
-      date: "2026-06-26",
-      summary: "定位从移动归因工具下沉为'营销数据底座'：全域合规采集（App/网页/社交触点用户主动授权）、全域 ID 归一治理（打通 PC/移动/小程序）、归因模型迭代（服务器对服务器、多触点、增量分析）。同时强调流量平台只有生态内自归因能力，出于商业壁垒不会开放跨平台统一归因。",
-      source: "https://new.qq.com/rain/a/20260702A03HSY00",
-      bizValue: "客户说'平台后台数据就够用了'时，用这条反驳：平台不会告诉你该把预算挪到别家。跨平台独立衡量是代理的价值支点。",
-      impact: "mid"
+      "title": "Meta 官方 ads MCP 上线，代理跨账户操作需 ads_mcp_management 高级权限",
+      "date": "2026-07-16",
+      "summary": "mcp.facebook.com/ads 可读写报表、广告系列和商品目录。代理商触及客户业务数据需申请 Advanced Access 并过 App Review。建议在 Q4 客户提出需求之前就排进审核队列。",
+      "source": "https://admakeai.com/blog/meta-ads-updates-august-2026",
+      "bizValue": "新的技术资质护城河。可以内部提一嘴让公司提前申请，同时对外当作差异化卖点。",
+      "impact": "high"
     }
   ],
-  smeInsight: {
-    painPoints: [
+  "smeInsight": {
+    "painPoints": [
       "买量成本涨得比收入快：美国 iOS 手游 CPI 一年从 1.31 涨到 1.71 美元（+31%），中小团队的模型最先被压垮——他们没有大厂的 LTV 缓冲垫。",
       "素材产能跟不上：海外短剧月上新剧目超 3.8 万部，素材消耗量全行业第一。十几人的团队根本产不出这个量级的素材，只能被动降频。",
       "合规变动接不住：Meta MARS 多模态审核、EU AI Act 透明度义务、泰国现金贷牌照披露，三条同时压过来。中小团队没有法务，一次封户就是断粮。",
       "有增长没变现：AI 应用近一年内购收入 +232%，但 2026Q1 下载量环比只 +1%。很多中小 AI 产品 MAU 涨了、收入没涨，卡在付费用户识别这一步。"
     ],
-    needs: [
+    "needs": [
       "要能算清账的人，不是能带量的人。中小客户真正想问的是'这个市场值不值得投'，而不是'你能给我多少量'。先做诊断、后谈报价。",
       "要素材工业化能力：批量产、快速测、自动淘汰。短剧和 AI 应用尤其明显，谁能把素材产能问题解决，谁拿预算。",
       "要小市场先跑通的方案：像 LFPay 那样先打老挝这类低成本市场，跑通模型再复制。中小客户接受不了一上来就打美国。",
       "要合规兜底：一份'投放前合规检查清单'对他们的价值，可能比返点还高——因为封户一次的损失远大于几个点的返点。"
     ],
-    entryPoints: [
+    "entryPoints": [
       "盯刚融资的公司：海艺 SeaArt（7/13 超亿元 B 轮）、演语科技 EVOKEN（6/18 三亿美元 B+ 轮）、Wapoo（7/29 近千万美元天使）。刚拿到钱的公司预算窗口只有几周，速度就是优势。",
       "盯榜单上升最快的中小产品：Emochi（AI 陪伴，一月上升 16 位）、Solvely、Uknow.AI。这些团队通常十几人、没有投放岗，谈成后粘性极高。",
       "从'第二名和第三名'切入：NetShort 综合分 66.2，只落后 ReelShort 0.3 分。老二老三最舍得砸钱，也最愿意听新方案——头部反而最难撬。",
