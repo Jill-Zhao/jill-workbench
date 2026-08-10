@@ -146,8 +146,9 @@ if ('serviceWorker' in navigator) {
       <div class="filter-bar">
         <input class="input search" id="leadSearch" placeholder="搜索公司、产品、品类、市场，也能直接搜邮箱／联系人…">
         <button class="btn-ghost" id="btnAddLead">＋ 添加公司</button>
+        <button class="btn-ghost" id="btnShowExcluded">显示已排除 (0)</button>
         <button class="btn-primary" id="btnExportLeads">📥 导出联系方式</button>
-        <span class="hint">⭐ 绿框＝最对口的部门邮箱｜邮箱点一下就能写邮件，「复制」按钮可直接粘贴｜点「加为客户」会把联系方式一起带进客户档案｜「导出联系方式」可一键生成 Excel 清单</span>
+        <span class="hint">⭐ 绿框＝最对口的部门邮箱｜邮箱点一下就能写邮件，「复制」按钮可直接粘贴｜点「加为客户」会把联系方式一起带进客户档案｜「🚫 不是我的客户」点一次就永久不再推送｜「显示已排除」可查看已不推送的公司并恢复</span>
       </div>
       <div class="tabs subtle" id="leadScaleTabs" style="margin:0 0 12px">
         <button class="tab active" data-lscale="all">全部企业</button>
@@ -472,6 +473,7 @@ if ('serviceWorker' in navigator) {
 
 <div class="toast" id="toast"></div>
 
+<script src="data/lead-exclude.js"></script>
 <script src="data/intel.js"></script>
 <script src="data/xiaohongshu.js"></script>
 <script src="data/food-db.js"></script>

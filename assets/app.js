@@ -86,6 +86,51 @@ const KEY_MANUAL = 'jill_manual_leads_v1';
 let MANUAL_LEADS = load(KEY_MANUAL, []);
 let pendingXhsFile = null;
 
+/* ---------------- 线索池「不再推送」排除名单 ----------------
+   三类公司要永远不再出现在线索池：
+   1) 点过「不是我的客户」按钮（reason: 'not_my_customer'）→ 存浏览器 localStorage
+   2) 从「我的客户」里删除的客户（reason: 'deleted_crm'）→ 删时自动写入
+   3) 已在我客户里的公司（按 CRM 实时比对，不单独存）
+   另外 data/lead-exclude.js（window.LEAD_EXCLUDE）是给每日自动化用的「源数据级」排除清单，
+   前端也会读它一起隐藏。 */
+const KEY_EXCLUDE = 'jill_lead_exclude_v1';
+let EXCLUDED = load(KEY_EXCLUDE, []); // [{key, reason, note, ts}]
+let curShowExcluded = false;
+
+function normKey(s){ return String(s==null?'':s).trim().toLowerCase().replace(/\s+/g,''); }
+function leadKey(r){ return normKey(r.product) + '|' + normKey(r.company); }
+function crmKeyOf(c){ return normKey(c.product) + '|' + normKey(c.company); }
+function excludedKeySet(){
+  const s = new Set(EXCLUDED.map(e => e.key));
+  if(window.LEAD_EXCLUDE && Array.isArray(window.LEAD_EXCLUDE)){
+    window.LEAD_EXCLUDE.forEach(e => s.add(typeof e === 'string' ? e : (e.key || '')));
+  }
+  return s;
+}
+function crmKeySet(){
+  const s = new Set();
+  CRM.forEach(c => s.add(crmKeyOf(c)));
+  return s;
+}
+function isSuppressed(r){
+  const k = leadKey(r);
+  return excludedKeySet().has(k) || crmKeySet().has(k);
+}
+function markExcluded(r, reason, note){
+  const key = leadKey(r);
+  if(EXCLUDED.some(e => e.key === key)) return;
+  EXCLUDED.unshift({ key, reason, note: note || '', ts: new Date().toISOString() });
+  save(KEY_EXCLUDE, EXCLUDED);
+  renderLeads();
+  toast(reason === 'not_my_customer' ? '已标记为「不是我的客户」，后续不再推送' : '已加入「不再推送」名单');
+}
+function restoreExcluded(key){
+  EXCLUDED = EXCLUDED.filter(e => e.key !== key);
+  save(KEY_EXCLUDE, EXCLUDED);
+  renderLeads();
+  toast('已恢复推送');
+}
+
 /* ============================================================
    导航
    ============================================================ */
@@ -455,10 +500,17 @@ function renderLeads(){
       .toLowerCase().includes(q);
   });
 
-  const existing = new Set(CRM.map(c => c.company));
+  const visible = curShowExcluded ? list : list.filter(r => !isSuppressed(r));
+  const hidden  = curShowExcluded ? list.filter(r => isSuppressed(r)) : [];
+  const btnEx = $('#btnShowExcluded');
+  if(btnEx){
+    const n = list.filter(r => isSuppressed(r)).length;
+    btnEx.textContent = (curShowExcluded ? '隐藏已排除 (' : '显示已排除 (') + n + ')';
+    btnEx.classList.toggle('active', curShowExcluded);
+  }
+
   const tb = $('#leadTable tbody');
-  tb.innerHTML = list.length ? list.map((r,i) => {
-    const added = existing.has(r.company);
+  const rowHtml = (r, idx, suppressed) => {
     const coop = r.cooperation || 'pending';
     const coopBadge = coop === 'cooperated'
       ? '<span class="coop-badge coop-yes">✅ 已合作</span>'
@@ -470,7 +522,20 @@ function renderLeads(){
       ? (r.coopModel ? esc(r.coopModel) : '（业务模式待补）')
       : (r.agency && r.agency !== '暂无公开数据' ? esc(r.agency) : '—');
     const contacts = buildContactCell(r);
-    return `<tr>
+    const key = leadKey(r);
+    let actions;
+    if(suppressed){
+      const ex = EXCLUDED.find(e => e.key === key);
+      const tag = ex && ex.reason === 'deleted_crm' ? '🗑 已从我的客户删除'
+                : ex ? '🚫 不是我的客户' : '✓ 已在我的客户';
+      actions = `<span class="row-suppressed">${tag}</span>` +
+        (ex ? `<button class="mini-btn restore" data-restore="${esc(key)}">↩ 恢复推送</button>` : '');
+    } else {
+      actions = `<button class="mini-btn" data-lead="${idx}">+ 加为客户</button>` +
+        `<a class="mini-btn lead-li" target="_blank" rel="noopener" title="在领英搜 ${esc(r.company)} 的 Growth/投放负责人" href="https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent(r.company + ' Head of Growth')}">🔗 领英</a>` +
+        `<button class="mini-btn danger" data-noclient="${idx}">🚫 不是我的客户</button>`;
+    }
+    return `<tr class="${suppressed?'row-grey':''}">
       <td class="td-prod">${esc(r.product)}</td>
       <td class="td-comp">${esc(r.company)}</td>
       <td class="td-mkt">${esc(r.hq||'—')}</td>
@@ -482,13 +547,13 @@ function renderLeads(){
       <td class="td-contact">${contacts}</td>
       <td class="td-rev">${esc(r.revenue)}</td>
       <td class="td-recent">${esc(r.recent)}</td>
-      <td class="td-actions">${ added
-        ? '<span class="mini-btn done">✓ 已在客户</span>'
-        : `<button class="mini-btn" data-lead="${i}">+ 加为客户</button>` }
-        <a class="mini-btn lead-li" target="_blank" rel="noopener" title="在领英搜 ${esc(r.company)} 的 Growth/投放负责人" href="https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent(r.company + ' Head of Growth')}">🔗 领英</a>
-      </td>
+      <td class="td-actions">${actions}</td>
     </tr>`;
-  }).join('') : '<tr><td colspan="12" style="text-align:center;padding:40px;color:#9aa1ad">没找到匹配的公司</td></tr>';
+  };
+
+  const html = visible.map((r,i) => rowHtml(r, i, false)).join('')
+              + hidden.map(r => rowHtml(r, -1, true)).join('');
+  tb.innerHTML = html || '<tr><td colspan="12" style="text-align:center;padding:40px;color:#9aa1ad">没找到匹配的公司</td></tr>';
 
   $$('[data-copy]', tb).forEach(btn => btn.addEventListener('click', e => {
     e.preventDefault(); e.stopPropagation();
@@ -499,7 +564,7 @@ function renderLeads(){
   }));
 
   $$('[data-lead]', tb).forEach(btn => btn.addEventListener('click', ()=>{
-    const r = list[+btn.dataset.lead];
+    const r = visible[+btn.dataset.lead];
     // 把线索池里查到的联系方式一并带进客户档案，不用手抄
     const p0 = (r.contacts || [])[0] || null;
     const mailCh = (r.channels || []).find(c => c.email) || null;
@@ -523,6 +588,15 @@ function renderLeads(){
     renderLeads(); renderCRM();
     toast(`已把「${r.company}」加进客户列表`);
   }));
+
+  $$('[data-noclient]', tb).forEach(btn => btn.addEventListener('click', ()=>{
+    const r = visible[+btn.dataset.noclient];
+    markExcluded(r, 'not_my_customer');
+  }));
+
+  $$('[data-restore]', tb).forEach(btn => btn.addEventListener('click', ()=>{
+    restoreExcluded(btn.dataset.restore);
+  }));
 }
 function mapCat(c){
   if(/游戏|SLG|RPG|解谜|休闲|竞技|二次元|女性向/.test(c)) return '游戏';
@@ -536,7 +610,7 @@ function mapCat(c){
 
 /* 一键导出线索池联系方式 → Excel（实际为带 UTF-8 BOM 的 CSV，Excel 双击直接打开、中文不乱码，无需任何依赖，file:// 可用） */
 function exportLeadsExcel(){
-  const list = INTEL.chinaGoingGlobal || [];
+  const list = (INTEL.chinaGoingGlobal || []).filter(r => !isSuppressed(r));
   if(!list.length){ toast('线索池是空的，没法导出'); return; }
   const coopLabel = c => c==='cooperated' ? '已合作' : c==='not' ? '未合作' : '待飞书核验';
   const cell = v => {
@@ -576,6 +650,7 @@ function exportLeadsExcel(){
 }
 $('#leadSearch').addEventListener('input', renderLeads);
 $('#btnExportLeads').addEventListener('click', exportLeadsExcel);
+$('#btnShowExcluded').addEventListener('click', ()=>{ curShowExcluded = !curShowExcluded; renderLeads(); });
 
 /* ---------- 手动添加公司到线索池（搜任何你想查的公司） ---------- */
 function openAddLead(){
@@ -757,12 +832,16 @@ $('#btnSaveClient').addEventListener('click', ()=>{
 $('#btnDeleteClient').addEventListener('click', ()=>{
   const c = CRM.find(x => x.id === editingId);
   if(!c) return;
-  if(!confirm(`确定删除客户「${c.company}」？跟进记录也会一起删掉，且无法恢复。`)) return;
+  if(!confirm(`确定删除客户「${c.company}」？跟进记录也会一起删掉，且无法恢复。\n\n删除后该公司会出现在线索池「已排除」名单里，之后不再推送。`)) return;
+  // 删除的客户也加入「不再推送」名单（按 产品|公司 精确匹配线索池）
+  const key = crmKeyOf(c);
+  if(!EXCLUDED.some(e => e.key === key)) EXCLUDED.unshift({ key, reason:'deleted_crm', note:'从我的客户删除', ts:new Date().toISOString() });
+  save(KEY_EXCLUDE, EXCLUDED);
   CRM = CRM.filter(x => x.id !== editingId);
   save(KEY_CRM, CRM);
   $('#clientModal').classList.remove('show');
   renderCRM(); renderLeads();
-  toast('已删除');
+  toast('已删除，并加入「不再推送」名单');
 });
 
 /* --- 跟进记录 --- */
