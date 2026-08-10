@@ -1,7 +1,7 @@
 // 行业情报数据 · 自动更新于 2026-08-10 09:20
 // 由 Mochi 每日 9:30 重写；所有数据均带可核实来源，查不到的一律写「暂无公开数据」，不编造。
 window.INTEL = {
-  "updatedAt": "2026-08-10 09:20",
+  "updatedAt": "2026-08-10 12:10",
   "marketPulse": [
     {
       "label": "7 月中国手游发行商全球收入",
@@ -770,140 +770,94 @@ window.INTEL = {
       "contactNote": "本周最值得下功夫的新线索：刚融资、10 人团队、目标美国、马上要买量。官网 wapoo.ai 未公示任何商务邮箱，App Store 上另有一款同名旧应用（开发者\"嘉琛 熊\"）留了 wapoo@wapoo.ai，但无法确认与本公司是同一主体，不建议直接用。推荐路径：① LinkedIn 搜 \"Wapoo\" + founder / growth；② 探奇资本是独家融资顾问，投资圈熟人可以引荐；③ 创始人是 TikTok 产品出身，第一封信别讲公司介绍，直接给\"美国 13-17 岁人群合规触达 + Gen Alpha 素材调性\"的具体建议。未找到公开邮箱，不编造。"
     },
     {
-      "product": "SeaArt 海艺（AI 多模态内容社区）/ SeaSoul / MoreShort",
-      "company": "成都海艺互娱科技有限公司",
-      "hq": "四川成都",
+      "product": "Emochi（AI 角色扮演 / 情感陪伴）",
+      "company": "FlowGPT（开发主体；美国主体 Flow Mobile Inc.）",
+      "hq": "美国（团队为华人出海背景）",
       "category": "AI应用",
-      "markets": "欧美、日韩、东南亚",
-      "revenue": "未公开",
-      "recent": "2026 年 7 月完成超亿元人民币 B 轮，视觉中国领投；同时在孵化 SeaSoul（AI 陪伴）与 MoreShort（AI 短剧）两条新产品线。",
-      "website": "https://www.seaart.ai",
+      "markets": "美国、巴西、东南亚、全球",
+      "revenue": "未公开；Google Play 累计下载超 2500 万次、近 30 天下载约 190 万次，娱乐榜 Top100",
+      "recent": "2026 年 7 月位居全球 AI 应用榜上升最快的陪伴类产品之一（一月名次上升 16 位）；主打动漫风 AI 角色聊天与视觉叙事。",
+      "website": "https://emochi.com",
       "cooperation": "not",
       "coopModel": "",
       "agency": "暂无公开数据",
       "scale": "head",
       "contacts": [],
-      "channels": [],
-      "contactNote": "刚融完资、还在开新产品线，预算窗口正开着。官网与版权政策页均未公布商务邮箱，公开渠道只有 Discord / X(@SeaArt_Ai) / Instagram / TikTok / Reddit / YouTube 官方号。建议路径：① LinkedIn 搜 \"SeaArt\" + growth / user acquisition；② 创始团队 CEO 马飞（原 Tap4fun）、董事长陈立（原友塔游戏）都是游戏出海圈的人，托游戏行业熟人引荐可能最快。未找到公开邮箱，不编造。"
-    },
-    {
-      "product": "Lovart AI / LibTV / LiblibAI（AI 设计 Agent 与视频生成）",
-      "company": "北京演语科技有限公司（集团品牌 Evoken）",
-      "hq": "北京",
-      "category": "AI应用",
-      "markets": "欧美、日韩",
-      "revenue": "未公开",
-      "recent": "2026 年 6 月完成 3 亿美元 B+ 轮融资，正在推进 IPO；海外线 Lovart AI 与 LibTV 加速投放。",
-      "website": "https://www.liblib.art",
-      "cooperation": "not",
-      "coopModel": "",
-      "agency": "暂无公开数据",
-      "scale": "head",
-      "contacts": [
+      "channels": [
         {
-          "name": "陈冕",
-          "role": "创始人兼 CEO（前字节剪映 / CapCut 全球商业化负责人，极懂投放）",
+          "label": "官方支持邮箱（最对口，App Store / 隐私政策公示）",
+          "email": "support@emochi.com",
+          "phone": "",
+          "source": "https://foxdata.com/cn/app-marketing-analytics/com.flow.mobile/gp/RU/"
+        },
+        {
+          "label": "Discord 社区（增长 / 用户运营）",
           "email": "",
           "phone": "",
-          "linkedin": "",
-          "source": "公开报道 / 爱企查企业品牌页"
-        },
-        {
-          "name": "杨楠",
-          "role": "法定代表人 / 财务负责人",
-          "email": "",
-          "phone": "",
-          "linkedin": "",
-          "source": "https://shuidi.cn/"
+          "source": "https://emochi.com"
         }
       ],
-      "channels": [
-        {
-          "label": "对外联络邮箱（最对口，工商公示）",
-          "email": "hello@liblib.ai",
-          "phone": "",
-          "source": "https://aiqicha.baidu.com/"
-        },
-        {
-          "label": "官方支持邮箱（隐私政策页公示）",
-          "email": "support@liblib.ai",
-          "phone": "",
-          "source": "https://www.liblib.art/document/article_private"
-        }
-      ],
-      "contactNote": "刚拿到 3 亿美元、正在冲 IPO，典型的\"预算窗口打开\"状态。但注意：创始人自己就是做全球商业化出身的，套话没用，第一封邮件必须直接给出具体的市场 + 渠道 + 素材节奏建议，否则不会有回复。"
+      "contactNote": "AI 陪伴赛道上升最快的产品之一，团队通常十几人、没有投放岗——这类客户决策快、粘性高，是新人最好拿下的类型。官网与隐私政策公示了 support@emochi.com，可作为第一封冷邮件入口；App Store 开发者显示为 FlowGPT / Flow Mobile。注意 8/26 Google Play 陌生人社交新规对它有影响，可用这条做触达由头。"
     },
     {
-      "product": "Talkie / 海螺 AI / MiniMax 开放平台",
-      "company": "MiniMax 稀宇科技",
-      "hq": "上海",
+      "product": "vivago.ai（AI 视频 / 图像生成，多模态创作智能体 vivago R1）",
+      "company": "北京智象未来科技有限公司（HiDream.ai）",
+      "hq": "北京 / 合肥",
       "category": "AI应用",
-      "markets": "美国、日韩、东南亚",
+      "markets": "全球（日韩、欧美、东南亚）",
       "revenue": "未公开",
-      "recent": "Talkie 长期位居海外 AI 陪伴应用前列；海螺 AI 视频生成在海外持续投放。",
-      "website": "https://www.minimax.io",
+      "recent": "2026 年 WAIC 发布全球首个无限时长内容创作多模态智能体 vivago R1，内容可用成功率提升至 85%；联合组建\"一带一路\"Token 出海联盟，明确推进海外本地化。",
+      "website": "https://www.vivago.ai",
       "cooperation": "not",
       "coopModel": "",
       "agency": "暂无公开数据",
-      "scale": "head",
+      "scale": "sme",
       "contacts": [],
       "channels": [
         {
-          "label": "商务咨询（最对口，官方公示）",
-          "email": "api@minimaxi.com",
+          "label": "对外商务邮箱（天眼查工商公示）",
+          "email": "sabrina.yan@hidream.ai",
           "phone": "",
-          "source": "https://www.minimax.io"
+          "source": "https://www.tianyancha.com/company/5950014709"
         },
         {
-          "label": "投资者关系",
-          "email": "ir@minimax.io",
+          "label": "官方支持邮箱（App Store / 条款页公示）",
+          "email": "official@vivago.ai",
           "phone": "",
-          "source": "https://www.minimax.io"
+          "source": "https://www.netmarvel.com/news/1615.html"
         }
       ],
-      "contactNote": "AI 陪伴的核心付费市场是美国（约 45%）和日韩。另外 8 月 26 日 Google Play 陌生人社交三项新规生效，Talkie 这类产品可能受影响——用这条政策当由头联系，比直接推投放方案自然得多。"
+      "contactNote": "母公司 HiDream.ai 走 B 端 MaaS + C 端 App 双线，vivago R1 主打长视频创作，正好踩中短剧/品牌方\"素材工业化\"的痛点。它已公开宣布推进出海，预算窗口打开。对口邮箱 sabrina.yan@hidream.ai（工商公示）与 official@vivago.ai（条款页公示）都可用，建议两封都发。"
     },
     {
-      "product": "美图秀秀 / Airbrush / 美图设计室",
-      "company": "美图公司（01357.HK）",
-      "hq": "厦门 / 北京",
+      "product": "PLAUD.AI（AI 录音笔 / 智能笔记，硬件 + 订阅）",
+      "company": "Nicebuild Technology Limited（香港主体）",
+      "hq": "中国香港（中环中心）",
       "category": "AI应用",
-      "markets": "东南亚、日韩、欧美",
-      "revenue": "单月海外流水约 385 万美元，居中国 AI 应用出海收入榜首",
-      "recent": "AI 设计与影像工具线持续扩张，海外流水稳居中国 AI 应用出海第一。",
-      "website": "https://www.meitu.com",
-      "cooperation": "cooperated",
-      "coopModel": "已合作客户（属易点天下已知长期合作客户名单）。当前重点是把 AI 新品线的增量预算拿下来，而不是维持存量。",
-      "agency": "",
-      "scale": "head",
+      "markets": "美国、全球",
+      "revenue": "单次下载收入约 47 美元（为 ChatGPT 的 9.3 倍），累计收入超 6500 万美元",
+      "recent": "PLAUD Note / NotePin 持续在海外投放，是全球 AI 硬件赛道最敢投、ARPU 最高的产品之一。",
+      "website": "https://www.plaud.ai",
+      "cooperation": "not",
+      "coopModel": "",
+      "agency": "暂无公开数据",
+      "scale": "sme",
       "contacts": [],
       "channels": [
         {
-          "label": "海外广告合作（最对口）",
-          "email": "globalbd@meitu.com",
+          "label": "商务合作 / 企业销售（最对口，官网公示）",
+          "email": "bd@plaud.ai",
           "phone": "",
-          "source": "https://www.meitu.com"
+          "source": "https://global.plaud.ai/pages/contact-information"
         },
         {
-          "label": "效果广告合作（中国大陆）",
-          "email": "mtadx@meitu.com",
+          "label": "官方支持邮箱",
+          "email": "support@plaud.ai",
           "phone": "",
-          "source": "https://www.meitu.com"
-        },
-        {
-          "label": "商业化广告合作（中国大陆）",
-          "email": "business@meitu.com",
-          "phone": "",
-          "source": "https://www.meitu.com"
-        },
-        {
-          "label": "投资者关系",
-          "email": "ir@meitu.com",
-          "phone": "",
-          "source": "https://www.meitu.com"
+          "source": "https://www.plaud.ai/pages/contact-us"
         }
       ],
-      "contactNote": "老客户。飞书合作记录表中未直接列名，但属已知长期合作客户，判定为已合作。"
+      "contactNote": "ARPU 极高、能承受贵 CPI——这类客户最愿意为\"精准\"付钱，不是价格战对象。官网明确公示 bd@plaud.ai（商务/企业销售）与 support@plaud.ai。第一封直接给\"美国 / 日本高价值人群精准触达 + 节日礼赠节点投放\"方案。"
     },
     {
       "product": "XTransfer（B2B 跨境收付与资金管理）",
@@ -975,79 +929,64 @@ window.INTEL = {
       "contactNote": "B 端 SaaS，投放逻辑是线索成本不是安装成本，谈法完全不同：讲 LinkedIn / Google 搜索 / 行业媒体的组合，不要讲信息流起量。好处是这类客户预算稳、周期长，适合新人做长线；坏处是决策慢，别指望一个月出单。未找到独立商务邮箱，support@ 是官网唯一公开入口。"
     },
     {
-      "product": "有道词典 / 有道翻译 / 有道智慧学习",
-      "company": "网易有道（DAO.NYSE）",
-      "hq": "北京 / 广州",
+      "product": "PTE APEUni（PTE 备考 AI 评分 / 移民英语培训）",
+      "company": "深圳猩宇宙教育科技有限公司（APEUni）",
+      "hq": "深圳（前海）",
       "category": "教育",
-      "markets": "东南亚、欧美、日韩",
-      "revenue": "未公开（上市公司，海外业务未单独披露）",
-      "recent": "AI 翻译与学习硬件持续推进海外市场。",
-      "website": "https://www.youdao.com",
+      "markets": "澳大利亚、新西兰、全球",
+      "revenue": "未公开",
+      "recent": "澳大利亚 App Store 教育畅销榜 #3（在榜 76 天），移民考试付费意愿强、用户价值高。",
+      "website": "https://www.apeuni.com",
       "cooperation": "not",
       "coopModel": "",
       "agency": "暂无公开数据",
       "scale": "head",
-      "contacts": [
-        {
-          "name": "Jeffrey Wang",
-          "role": "投资者关系（可侧面了解投放预算口径）",
-          "email": "",
-          "phone": "",
-          "linkedin": "",
-          "source": "https://ir.youdao.com"
-        }
-      ],
+      "contacts": [],
       "channels": [
         {
-          "label": "市场合作（最对口）",
-          "email": "marketing@corp.youdao.com",
+          "label": "合作伙伴 / 教学合作（最对口）",
+          "email": "partnership@apeuni.com",
           "phone": "",
-          "source": "https://www.youdao.com"
+          "source": "https://www.ptexj.com/blog/apeuni_partnerships"
         },
         {
-          "label": "推广合作",
-          "email": "service@corp.youdao.com",
-          "phone": "",
-          "source": "https://www.youdao.com"
-        },
-        {
-          "label": "广州分公司总机",
-          "email": "",
-          "phone": "020-85105163",
-          "source": "https://www.youdao.com"
+          "label": "官方客服邮箱",
+          "email": "support@apeuni.com",
+          "phone": "+86-028-83229656",
+          "source": "https://www.apeuni.com/blog/288"
         }
       ],
-      "contactNote": "已用飞书合作记录表核验：表内仅匹配到\"四川蜀有道网络科技有限公司\"（无关主体），未匹配网易有道，判定为未合作。"
+      "contactNote": "垂直考试赛道的小巨头，用户价值高。它的获客逻辑是\"免费工具 + 付费课程\"，投放目标不止装机——问清楚考核口径再提方案。官网公示 partnership@apeuni.com（教学合作）与 support@apeuni.com（客服，可转商务）。"
     },
     {
-      "product": "PalFish 伴鱼（AI 英语 / 出海）",
-      "company": "北京读我科技有限公司",
-      "hq": "北京",
+      "product": "流利说 / LingoChamp（AI 英语学习，纽交所 LAIX）",
+      "company": "上海流利说信息技术有限公司",
+      "hq": "上海（杨浦长阳创谷）",
       "category": "教育",
-      "markets": "东南亚、中东、拉美",
-      "revenue": "未公开",
-      "recent": "AI 口语与内容产品持续在新兴市场投放。",
-      "website": "https://www.palfish.org",
-      "cooperation": "cooperated",
-      "coopModel": "已合作客户。飞书合作记录表「APP」分表命中境外主体 PALFISH PTE.LTD.，判定为已合作。",
-      "agency": "",
+      "markets": "中国、东南亚、北美",
+      "revenue": "纽交所上市公司（LAIX），累计注册用户超 2.5 亿",
+      "recent": "AI 口语评测 + 自适应学习系统成熟，企业版（企业英语方案）与海外版 LingoChamp 持续推进。",
+      "website": "https://www.liulishuo.com",
+      "cooperation": "not",
+      "coopModel": "",
+      "agency": "暂无公开数据",
       "scale": "head",
       "contacts": [],
       "channels": [
         {
-          "label": "全球商务拓展（最对口）",
-          "email": "globalbd@ipalfish.com",
+          "label": "商务合作（最对口，官网公示）",
+          "email": "bd@liulishuo.com",
           "phone": "",
-          "source": "https://www.palfish.org"
+          "source": "https://www.liulishuo.com/en/contact.html"
         },
         {
-          "label": "开放平台商务合作",
-          "email": "platform_bd@ipalfish.com",
+          "label": "美国办公室邮箱",
+          "email": "us@liulishuo.com",
           "phone": "",
-          "source": "https://www.palfish.org"
+          "source": "https://www.liulishuo.com/en/contact.html"
         }
       ],
-      "contactNote": "老客户里体量适中的一家，服务好了口碑传播快，是新人积累案例的好对象。"
+      "contactNote": "上市公司、预算稳定、合规要求高——正好匹配\"我们能帮你过平台教育类资质验证 + 精细化投放\"的卖点。官网明确公示 bd@liulishuo.com（商务）。"
     },
     {
       "product": "StoryReel: Exclusive Drama（AI 短剧）",
@@ -1072,77 +1011,6 @@ window.INTEL = {
         }
       ],
       "contactNote": "本周优先级最高的可触达线索：收入一个月翻倍、主体是香港新公司、旗下只有这一款产品——三个信号叠加，说明预算在快速放大且大概率还没有稳定代理。开场可以直接引用数字：\"看到你们 7 月收入从 241 万涨到 555 万，恭喜。这个量级往上走，单一渠道会先撞天花板，想聊聊多渠道分流吗？\" 注意它与 VibeShort（靈動象限傳媒）高度同构，很可能是同一批人的两个主体，谈成一个可能带出两个。"
-    },
-    {
-      "product": "ReelShort（海外微短剧）",
-      "company": "中文在线 / 枫叶互动 Crazy Maple Studio（300364）",
-      "hq": "北京 / 美国加州",
-      "category": "娱乐APP",
-      "markets": "美国、欧洲、东南亚",
-      "revenue": "2026 年海外短剧市场份额约 29%，居第一",
-      "recent": "综合评分 66.5，居短剧四强第二；持续加大 AI 短剧产能。",
-      "website": "https://www.crazymaplestudios.com",
-      "cooperation": "cooperated",
-      "coopModel": "已合作客户。飞书合作记录表「APP」分表命中 Crazy Maple Studio, Inc.，判定为已合作。",
-      "agency": "",
-      "scale": "head",
-      "contacts": [
-        {
-          "name": "南亚鹏",
-          "role": "枫叶互动副总裁（管投放与内容策略）",
-          "email": "",
-          "phone": "",
-          "linkedin": "",
-          "source": "公开报道"
-        },
-        {
-          "name": "Joey Jia",
-          "role": "Crazy Maple Studio CEO",
-          "email": "",
-          "phone": "",
-          "linkedin": "",
-          "source": "公开报道"
-        }
-      ],
-      "channels": [
-        {
-          "label": "官方客服（可转商务）",
-          "email": "support@crazymaplestudio.com",
-          "phone": "",
-          "source": "https://www.crazymaplestudios.com"
-        },
-        {
-          "label": "法务（品牌 / 版权事务）",
-          "email": "legal@crazymaplestudio.com",
-          "phone": "",
-          "source": "https://www.crazymaplestudios.com"
-        }
-      ],
-      "contactNote": "老客户。当前谈判抓手是素材产能——AI 短剧投放量一个月翻倍的节奏下，谁能批量产素材谁拿预算。"
-    },
-    {
-      "product": "DramaBox / Webfic（海外微短剧 + 网文）",
-      "company": "北京点众科技股份有限公司",
-      "hq": "北京",
-      "category": "娱乐APP",
-      "markets": "美国、东南亚、印度、拉美",
-      "revenue": "2026 年海外短剧市场份额约 21%，居第二；综合评分 68.3 居四强第一",
-      "recent": "在印度市场收入榜居第一，与 NetShort、ReelShort 三家合计吃掉印度短剧收入超 45%。",
-      "website": "https://www.dianzhong.com",
-      "cooperation": "not",
-      "coopModel": "",
-      "agency": "暂无公开数据",
-      "scale": "head",
-      "contacts": [],
-      "channels": [
-        {
-          "label": "北京总部总机（最对口，唯一公开入口）",
-          "email": "",
-          "phone": "010-82318695",
-          "source": "https://www.dianzhong.com"
-        }
-      ],
-      "contactNote": "已用飞书合作记录表核验：未匹配到点众 / DramaBox 相关主体，判定为未合作。它同时有网文和艺人经纪业务，投放需求不止短剧一条线——第一通电话可以先问业务线划分，比直接推方案自然。官网未公布商务邮箱。"
     },
     {
       "product": "Loopit（AI 互动内容社区）",
@@ -1178,34 +1046,112 @@ window.INTEL = {
       "contactNote": "创始人背景清楚、团队小、决策快。AI 互动内容赛道格局未固化，正是需要投放帮忙抢位的阶段。8 月 26 日 Google Play 陌生人社交新规对这类产品有影响，可以用这条当触达由头。"
     },
     {
-      "product": "Last War: Survival",
-      "company": "元趣娱乐 First Fun（新加坡主体 Funfly Pte. Ltd. / 美国主体 First Fun Inc.）",
-      "hq": "中国香港 / 新加坡 / 美国",
-      "category": "游戏",
-      "markets": "美国、日韩、欧洲",
-      "revenue": "长期位居中国手游出海收入前列",
-      "recent": "持续位列全球手游发行商收入榜前列，买量投入稳定。",
-      "website": "https://www.firstfun.com",
-      "cooperation": "cooperated",
-      "coopModel": "已合作客户。飞书合作记录表「APP」分表命中 FIRST FUN HONG KONG LIMITED，判定为已合作。",
-      "agency": "",
+      "product": "VibeShort: AI Comic Dramas（AI 漫剧短剧）",
+      "company": "AGILE QUADRANT MEDIA LIMITED（靈動象限傳媒）",
+      "hq": "中国香港",
+      "category": "娱乐APP",
+      "markets": "美国（核心）、英语区，支持 19+ 语言",
+      "revenue": "未公开；Google Play 下载 5 万+（新兴，2026-02-25 上线）",
+      "recent": "AI 漫剧新主体，与 StoryReel 产品设计、定价、投放高度同构，被认为是同一套打法的复制；7 月登上美国短剧下载榜前列。",
+      "website": "https://vibeshort.io",
+      "cooperation": "not",
+      "coopModel": "",
+      "agency": "暂无公开数据",
       "scale": "head",
       "contacts": [],
       "channels": [
         {
-          "label": "公司事务邮箱（最对口）",
-          "email": "contact@firstfun.com",
+          "label": "官方客服邮箱（最对口，App Store / 官网公示）",
+          "email": "service@vibeshort.live",
           "phone": "",
-          "source": "https://www.firstfun.com"
-        },
-        {
-          "label": "Last War 产品支持",
-          "email": "support@lastwar.com",
-          "phone": "",
-          "source": "https://www.firstfun.com"
+          "source": "https://vibeshort.io/"
         }
       ],
-      "contactNote": "老客户。官网公示了公司邮箱与新加坡、美国两个办公地址，属于头部游戏厂商里罕见能直接触达的。"
+      "contactNote": "与 StoryReel 同源打法、同期猛投流的新主体。官网与 App Store 公示 service@vibeshort.live，可作为第一封冷邮件入口。开场可引用它和 StoryReel 的\"AI 漫剧同构\"现象，表达\"多渠道分流 + 素材批量测试\"的合作意向。香港新主体、团队精简，决策链短。"
+    },
+    {
+      "product": "NetShort（AI 漫剧 / 短剧出海）",
+      "company": "NETSTORY PTE. LTD.",
+      "hq": "新加坡",
+      "category": "娱乐APP",
+      "markets": "美国、欧洲、东南亚、全球",
+      "revenue": "未公开；多篇报道称其 AI 漫剧下载量连续登顶海外漫剧榜",
+      "recent": "以译制剧出海起家，已自建 17 语种译配工具，靠自动化智能投放支撑全球发行；多部 AI 漫剧登上海外月榜，分账作品达 20 万+。",
+      "website": "https://netshort.com",
+      "cooperation": "not",
+      "coopModel": "",
+      "agency": "暂无公开数据",
+      "scale": "head",
+      "contacts": [],
+      "channels": [
+        {
+          "label": "官方支持邮箱（最对口，Google Play 开发者页公示）",
+          "email": "support@netshort.com",
+          "phone": "",
+          "source": "https://zapdeapps.com/go?item_id=4003865c-e4a0-46f3-8e1c-069f48e50abc"
+        },
+        {
+          "label": "合作 / 商务咨询",
+          "email": "netsshort@gmail.com",
+          "phone": "",
+          "source": "https://netshort.com/cn/faq"
+        }
+      ],
+      "contactNote": "具备全链条制作 + 智能投放能力的短剧平台，投放需求真实且持续。Google Play 开发者页公示 support@netshort.com（新加坡主体 NETSTORY PTE. LTD.），官网 faq 另有 netsshort@gmail.com 作为合作咨询入口。谈法：强调\"多市场素材本地化 + 规避 8/26 社交新规\"。"
+    },
+    {
+      "product": "Yalla / Yalla Ludo（中东语音社交 + 棋牌游戏）",
+      "company": "Yalla Group（NYSE: YALA，杭州雅乐互动科技）",
+      "hq": "迪拜 / 杭州",
+      "category": "娱乐APP",
+      "markets": "沙特、阿联酋、中东北非（MENA）",
+      "revenue": "纽交所上市公司（YALA），MENA 最大语音社交平台",
+      "recent": "Yalla Ludo 长期居中东 iOS/Google Play 棋牌榜第一；通过子公司 Yalla Game 扩展中重度游戏发行。",
+      "website": "https://www.yalla.com",
+      "cooperation": "not",
+      "coopModel": "",
+      "agency": "暂无公开数据",
+      "scale": "head",
+      "contacts": [],
+      "channels": [
+        {
+          "label": "商务合作（最对口，官网公示）",
+          "email": "business@yalla.com",
+          "phone": "",
+          "source": "http://yalla.com.cn/"
+        },
+        {
+          "label": "媒体 / PR",
+          "email": "pr@yalla.com",
+          "phone": "",
+          "source": "http://yalla.com.cn/"
+        }
+      ],
+      "contactNote": "中东本地化的绝对王者，自有买量体系强，但新市场（南美 Yalla Parchis）和游戏发行线需要外部代理。官网公示 business@yalla.com（商务合作）。切入点：\"南美 Ludo 新市场冷启动 + 本地化素材\"而非泛泛谈投放。"
+    },
+    {
+      "product": "Titan Rush: Survival（末日机甲 SLG + TPS 射击）",
+      "company": "北京掌趣科技股份有限公司（300315）",
+      "hq": "北京",
+      "category": "游戏",
+      "markets": "欧美、东南亚、拉美",
+      "revenue": "测试两月全球下载超 160 万、流水约 132.5 万美元，月流水环比 +58.5%；2026-06 全球商业化上线",
+      "recent": "掌趣 5 年 SLG 探索的破局之作，6 月 6-7 日全球商业化上线；已接入英伟达 DLSS / Audio2Face 等 AI 能力。",
+      "website": "https://www.ourpalm.com",
+      "cooperation": "not",
+      "coopModel": "",
+      "agency": "暂无公开数据",
+      "scale": "head",
+      "contacts": [],
+      "channels": [
+        {
+          "label": "商务合作部（官网公示）",
+          "email": "ib@ourpalm.com",
+          "phone": "010-65546196",
+          "source": "https://www.ourpalm.com/t2/107/5893.html"
+        }
+      ],
+      "contactNote": "上市公司、自研新品刚全球上线、正处于扩量爬坡期——预算在扩、渠道在试。官网公示商务合作部邮箱 ib@ourpalm.com。切入点：\"欧美 / 拉美增量市场测试 + 素材批量迭代\"，比谈成熟产品降价有效。"
     }
   ],
   "policies": [
@@ -1586,7 +1532,7 @@ window.INTEL = {
       "要合规兜底：一份'投放前合规检查清单'对他们的价值，可能比返点还高——因为封户一次的损失远大于几个点的返点。"
     ],
     "entryPoints": [
-      "盯刚融资的公司：海艺 SeaArt（7/13 超亿元 B 轮）、演语科技 EVOKEN（6/18 三亿美元 B+ 轮）、Wapoo（7/29 近千万美元天使）。刚拿到钱的公司预算窗口只有几周，速度就是优势。",
+      "盯刚融资 / 刚起量的公司：vivago.ai 智象未来（WAIC 发布 vivago R1、明确推进出海）、Wapoo（7 月近千万美元天使）、Plaud AI（ARPU 为 ChatGPT 9.3 倍、敢投敢花）。刚拿到钱或刚起量的公司预算窗口只有几周，速度就是优势。",
       "盯榜单上升最快的中小产品：Emochi（AI 陪伴，一月上升 16 位）、Solvely、Uknow.AI。这些团队通常十几人、没有投放岗，谈成后粘性极高。",
       "从'第二名和第三名'切入：NetShort 综合分 66.2，只落后 ReelShort 0.3 分。老二老三最舍得砸钱，也最愿意听新方案——头部反而最难撬。",
       "用政策做由头，不用产品做由头：8/17 Google 出价变更、8/10 Meta Shops 收缩，都是天然的搭话理由。先当'提前预警的人'，再当'卖服务的人'。"
