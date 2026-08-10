@@ -82,6 +82,8 @@ let pickedFood = null;
 let editingId  = null;
 let logId      = null;
 let XHS_MATERIALS = load(KEY_XHS, []);
+const KEY_MANUAL = 'jill_manual_leads_v1';
+let MANUAL_LEADS = load(KEY_MANUAL, []);
 let pendingXhsFile = null;
 
 /* ============================================================
@@ -112,9 +114,15 @@ function renderPulse(){
 function renderRankings(){
   let list = (INTEL.appRankings && INTEL.appRankings[curCat]) || [];
   if(curScale !== 'all') list = list.filter(a => (a.tier || 'head') === curScale);
+  const existing = new Set(CRM.map(c => c.company));
+  const catMap = {game:'游戏',finance:'金融',ai:'AI 应用',education:'教育'};
   if(!list.length){ $('#rankList').innerHTML = '<div class="empty"><p>这个筛选条件下今天暂无数据。</p></div>'; return; }
-  $('#rankList').innerHTML = list.map(a => {
+  $('#rankList').innerHTML = list.map((a,i) => {
     const tierBadge = a.tier === 'sme' ? '<span class="tag tag-sme">中小潜力</span>' : '';
+    const added = existing.has(a.publisher);
+    const act = added
+      ? '<span class="mini-btn done">✓ 已在客户</span>'
+      : `<button class="mini-btn" data-rank="${i}">+ 加为客户</button>`;
     return `
     <div class="card">
       <div class="card-top">
@@ -129,8 +137,24 @@ function renderRankings(){
       <div class="card-perf">${esc(a.performance)}</div>
       <div class="card-comment"><b>怎么用：</b>${esc(a.comment)}</div>
       ${a.source ? `<div class="card-src"><a href="${esc(a.source)}" target="_blank" rel="noopener">🔗 信息来源（点击核实）</a></div>` : ''}
+      <div class="card-actions">${act}</div>
     </div>`;
   }).join('');
+
+  $$('[data-rank]', $('#rankList')).forEach(btn => btn.addEventListener('click', ()=>{
+    const r = list[+btn.dataset.rank];
+    CRM.unshift({
+      id: uid(), company: r.publisher, product: r.name,
+      category: catMap[curCat] || '其他', market: r.markets,
+      contact:'', title:'', phone:'',
+      stage:'待建联', next:'', budget:'',
+      blocker:'', note:[`来自榜单(${catMap[curCat]||''}) · ${r.performance}`, r.comment, r.source?`来源：${r.source}`:''].filter(Boolean).join('\n'),
+      advice:'', logs:[], created: ymd(new Date())
+    });
+    save(KEY_CRM, CRM);
+    renderRankings(); renderCRM();
+    toast(`已把「${r.publisher}」加进客户列表`);
+  }));
 }
 
 function renderEvents(){
@@ -422,7 +446,7 @@ function buildContactCell(r){
 
 function renderLeads(){
   const q = ($('#leadSearch').value || '').trim().toLowerCase();
-  let list = INTEL.chinaGoingGlobal || [];
+  let list = (INTEL.chinaGoingGlobal || []).concat(MANUAL_LEADS);
   if(curLScale === 'sme') list = list.filter(r => r.scale === 'sme');
   if(q) list = list.filter(r => {
     const ppl = (r.contacts||[]).map(c=>`${c.name||''}${c.role||''}${c.email||''}${c.phone||''}`).join('');
@@ -458,9 +482,11 @@ function renderLeads(){
       <td class="td-contact">${contacts}</td>
       <td class="td-rev">${esc(r.revenue)}</td>
       <td class="td-recent">${esc(r.recent)}</td>
-      <td>${ added
+      <td class="td-actions">${ added
         ? '<span class="mini-btn done">✓ 已在客户</span>'
-        : `<button class="mini-btn" data-lead="${i}">+ 加为客户</button>` }</td>
+        : `<button class="mini-btn" data-lead="${i}">+ 加为客户</button>` }
+        <a class="mini-btn lead-li" target="_blank" rel="noopener" title="在领英搜 ${esc(r.company)} 的 Growth/投放负责人" href="https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent(r.company + ' Head of Growth')}">🔗 领英</a>
+      </td>
     </tr>`;
   }).join('') : '<tr><td colspan="12" style="text-align:center;padding:40px;color:#9aa1ad">没找到匹配的公司</td></tr>';
 
@@ -550,6 +576,47 @@ function exportLeadsExcel(){
 }
 $('#leadSearch').addEventListener('input', renderLeads);
 $('#btnExportLeads').addEventListener('click', exportLeadsExcel);
+
+/* ---------- 手动添加公司到线索池（搜任何你想查的公司） ---------- */
+function openAddLead(){
+  ['laCompany','laProduct','laHq','laMarkets','laWebsite','laPname','laProle','laPemail','laPphone','laNote']
+    .forEach(id => { const el = $('#'+id); if(el) el.value=''; });
+  $('#leadAddModal').classList.add('show');
+}
+function saveAddLead(){
+  const company = $('#laCompany').value.trim();
+  if(!company){ toast('至少填一下公司名'); return; }
+  const name = $('#laPname').value.trim(), role = $('#laProle').value.trim(),
+        email = $('#laPemail').value.trim(), phone = $('#laPphone').value.trim();
+  const contacts = (name || email || phone)
+    ? [{ name, role, email, phone, linkedin:'', source:'手动添加' }] : [];
+  const lead = {
+    product: $('#laProduct').value.trim() || company,
+    company,
+    hq: $('#laHq').value.trim() || '—',
+    category: $('#laCategory').value,
+    markets: $('#laMarkets').value.trim() || '—',
+    revenue: '',
+    recent: '',
+    website: $('#laWebsite').value.trim() || '暂无公开数据',
+    cooperation: 'not',
+    coopModel: '',
+    agency: '',
+    scale: '',
+    contacts,
+    channels: [],
+    contactNote: $('#laNote').value.trim() || '手动添加，待补充联系方式'
+  };
+  MANUAL_LEADS.unshift(lead);
+  save(KEY_MANUAL, MANUAL_LEADS);
+  $('#leadAddModal').classList.remove('show');
+  renderLeads();
+  toast(`已把「${company}」加入线索池`);
+}
+$('#btnAddLead').addEventListener('click', openAddLead);
+$('#leadAddSave').addEventListener('click', saveAddLead);
+$('#leadAddCancel').addEventListener('click', ()=> $('#leadAddModal').classList.remove('show'));
+$('#leadAddClose').addEventListener('click', ()=> $('#leadAddModal').classList.remove('show'));
 
 /* ============================================================
    模块四：客户 CRM

@@ -145,6 +145,7 @@ if ('serviceWorker' in navigator) {
     <section class="view" id="view-leads">
       <div class="filter-bar">
         <input class="input search" id="leadSearch" placeholder="搜索公司、产品、品类、市场，也能直接搜邮箱／联系人…">
+        <button class="btn-ghost" id="btnAddLead">＋ 添加公司</button>
         <button class="btn-primary" id="btnExportLeads">📥 导出联系方式</button>
         <span class="hint">⭐ 绿框＝最对口的部门邮箱｜邮箱点一下就能写邮件，「复制」按钮可直接粘贴｜点「加为客户」会把联系方式一起带进客户档案｜「导出联系方式」可一键生成 Excel 清单</span>
       </div>
@@ -166,6 +167,32 @@ if ('serviceWorker' in navigator) {
           <tbody></tbody>
         </table>
       </div>
+
+    <!-- 手动添加公司到线索池 -->
+    <div class="modal" id="leadAddModal">
+      <div class="modal-card">
+        <div class="modal-head"><h3>添加公司到线索池</h3><button class="modal-x" id="leadAddClose">×</button></div>
+        <div class="modal-body">
+          <div class="form-grid">
+            <div class="fld"><label>公司 *</label><input class="input" id="laCompany" placeholder="如 某某科技"></div>
+            <div class="fld"><label>产品 / App</label><input class="input" id="laProduct" placeholder="如 某某 App"></div>
+            <div class="fld"><label>品类</label><select class="input" id="laCategory"><option>游戏</option><option>金融</option><option>AI应用</option><option>娱乐APP</option><option>教育</option><option>电商</option><option>工具</option><option>其他</option></select></div>
+            <div class="fld"><label>总部</label><input class="input" id="laHq" placeholder="如 北京"></div>
+            <div class="fld"><label>主要市场</label><input class="input" id="laMarkets" placeholder="如 东南亚 / 欧美"></div>
+            <div class="fld"><label>官网</label><input class="input" id="laWebsite" placeholder="https://"></div>
+            <div class="fld"><label>联系人姓名</label><input class="input" id="laPname" placeholder="选填"></div>
+            <div class="fld"><label>联系人职位</label><input class="input" id="laProle" placeholder="选填，如 Head of Growth"></div>
+            <div class="fld"><label>联系人邮箱</label><input class="input" id="laPemail" placeholder="选填"></div>
+            <div class="fld"><label>联系人电话</label><input class="input" id="laPphone" placeholder="选填"></div>
+          </div>
+          <div class="fld full"><label>备注 / 打法提示</label><textarea class="input" id="laNote" rows="2" placeholder="选填"></textarea></div>
+        </div>
+        <div class="modal-foot">
+          <button class="btn-ghost" id="leadAddCancel">取消</button>
+          <button class="btn-primary" id="leadAddSave">加入线索池</button>
+        </div>
+      </div>
+    </div>
     </section>
 
     <!-- ---------- 视图：客户 CRM ---------- -->

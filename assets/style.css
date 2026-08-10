@@ -230,6 +230,11 @@ textarea.input{resize:vertical;line-height:1.6}
 #view-leads .table-wrap::-webkit-scrollbar-thumb{background:#bfc4cc;border-radius:5px}
 #view-leads .tbl{min-width:1280px}
 #view-leads .tbl thead th{position:sticky;top:0;z-index:2;background:var(--panel-2)}
+#view-leads .td-actions{display:flex;flex-direction:column;gap:6px;min-width:120px}
+#view-leads .lead-li{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;
+  background:var(--panel-2);color:var(--txt-2);border:1px solid var(--line)}
+#view-leads .lead-li:hover{background:var(--brand-soft);color:var(--brand);border-color:var(--brand-line)}
+.card-actions{margin-top:11px}
 
 /* ---------- CRM ---------- */
 .stage-bar{display:grid;grid-template-columns:repeat(auto-fit,minmax(125px,1fr));gap:10px;margin-bottom:20px}
