@@ -1,7 +1,7 @@
 // 行业情报数据 · 自动更新于 2026-08-11 09:30
 // 由 Mochi 每日 9:30 重写；所有数据均带可核实来源，查不到的一律写「暂无公开数据」，不编造。
 window.INTEL = {
-  "updatedAt": "2026-08-11 09:30",
+  "updatedAt": "2026-08-12 09:30",
   "marketPulse": [
     {
       "label": "7 月中国手游发行商全球收入",
@@ -746,7 +746,31 @@ window.INTEL = {
       "summary": "中手游 5 月 8 日与极逸人工智能推出一站式 AI 游戏智能体平台 GamePartner.AI，定位是帮中国休闲游戏开发者构建出海生态；7 月 7 日平台打造的首批 IAA 游戏已正式上线推广。",
       "bizValue": "这类\"平台型\"线索的价值在于杠杆：谈下平台方，等于一次性接触到它生态里的一批中小 CP。IAA 休闲游戏的命门就是买量成本对不对得上广告收入，这正是你能给出具体数字的地方。建议把它当成中长线目标去养，不要指望一次谈成。",
       "source": "https://www.cmge.com/en/news"
-    }
+    },
+    {
+      "title": "AI 应用层商业化拐点：海艺 SeaArt 完成超亿元 B 轮，毛利率超 40%、海外用户占比 90%",
+      "date": "2026-08-12",
+      "summary": "成都海艺（SeaArt）完成超亿元人民币 B 轮融资，累计注册用户 6500 万、月访问超 3000 万，海外用户占比超 90%（日/美/巴/俄），整体毛利率超 40%、核心产品续费率约 60%。产品矩阵含 AI 创作社区 SeaArt、AI 数字人社交 SeaSoul、AI 短剧 MoreShort。",
+      "bizValue": "跟 AI 应用客户最有说服力的一句话：出海 AI 应用已从「烧钱换规模」进入「单位经济模型能跑通」阶段。跟 vivago、Emochi 这类客户聊时可直接抛：「海艺毛利率 40%、续费 60%，说明 AI 娱乐这条线投放回收是成立的——你们现在的 LTV/CAC 到什么水位了？」",
+      "source": "https://www.thepaper.cn/newsDetail_forward_33741521",
+      "tag": "high-growth"
+    },,
+    {
+      "title": "短剧出海盈利拐点确认：ReelShort 2026 预计收入破 10 亿美元、首次规模盈利（EBITDA 约 6300 万）",
+      "date": "2026-08-12",
+      "summary": "Media Partners Asia 报告预测 ReelShort 2026 年收入将达 10.5 亿美元（同比 +34%），并实现首次规模盈利（EBITDA 约 6300 万、净利约 4000 万），扭转 2025 年 1200 万亏损。非中国微短剧市场预计从 36 亿美元增至 2031 年 95 亿美元，ReelShort 占 29% 居首（DramaBox 21%、DramaWave 13%、NetShort 10%）。盈利改善主因是泰国/印尼/菲律宾电信捆绑降低买量依赖。",
+      "bizValue": "跟短剧客户谈时，这是「行业已从烧钱到赚钱」的硬证据。可这么开口：「ReelShort 今年首次盈利，关键动作是把买量成本从 55% 压到 44%——你们现在买量占比多高？要不要聊聊怎么把回收周期压短？」比泛泛问「投放效果怎么样」有底气得多。",
+      "source": "https://www.real-reel.com/disney-tiktok-reelshort-sharechat-vertical-drama",
+      "tag": "high-growth"
+    },,
+    {
+      "title": "中国手游出海 8 月 TOP30 海外吸金 7 亿美元，点点互动超越三七互娱升至厂商第 3",
+      "date": "2026-08-12",
+      "summary": "data.ai 数据显示，8 月中国手游出海榜 TOP30 海外合计收入 7 亿美元（环比 +5.7%），米哈游、腾讯海外创收均超 1 亿美元；点点互动凭借《Kingshot》《Whiteout Survival》《Tasty Travels》三款同时跻身收入 Top5，厂商排名升至第 3，超越三七互娱。",
+      "bizValue": "游戏出海大盘仍在涨，但结构在变：点点互动这种「多产品矩阵」打法正在吃掉份额。跟游戏客户聊可以点一句：「8 月出海手游 TOP30 还在环比涨，但头部越来越靠矩阵——你们今年有几款在跑？要不要把新品的买量节奏一起对齐？」",
+      "source": "https://www.nbd.com.cn/rss/zaker/articles/3013514.html",
+      "tag": "high-growth"
+    },
   ],
   "chinaGoingGlobal": [
     {
@@ -1211,7 +1235,7 @@ window.INTEL = {
   "policies": [
     {
       "platform": "Google",
-      "title": "【6 天内生效】8 月 17 日起智能出价机制调整：Target CPA / Target ROAS 计算口径变更",
+      "title": "【5 天内生效】8 月 17 日起智能出价机制调整：Target CPA / Target ROAS 计算口径变更",
       "date": "2026-08-17",
       "detail": "Google Ads 将调整 Target CPA 与 Target ROAS 的计算口径，历史转化数据的权重与出价预测模型同步更新。变更后账户会重新进入学习期，短期内 CPA 波动属正常现象。",
       "impact": "高",
@@ -1225,7 +1249,7 @@ window.INTEL = {
     },
     {
       "platform": "Google",
-      "title": "【15 天内生效】8 月 26 日起 Google Play 三项陌生人社交/随机聊天新规同时生效",
+      "title": "【14 天内生效】8 月 26 日起 Google Play 三项陌生人社交/随机聊天新规同时生效",
       "date": "2026-08-26",
       "detail": "Google Play 针对匿名聊天、随机匹配、陌生人社交类应用同时收紧三项要求：需明确的用户举报与屏蔽机制、需年龄验证与未成年人保护措施、需在商店页面披露内容审核政策。不合规应用将被下架。",
       "impact": "高",
@@ -1239,7 +1263,7 @@ window.INTEL = {
     },
     {
       "platform": "Google",
-      "title": "【20 天内生效】8 月 31 日 Google Play 目标 API 级别 36 与 Billing Library 8 双截止",
+      "title": "【19 天内生效】8 月 31 日 Google Play 目标 API 级别 36 与 Billing Library 8 双截止",
       "date": "2026-08-31",
       "detail": "8 月 31 日前，所有 Google Play 上架应用需将 targetSdkVersion 升级到 API 36（Android 16），同时结算接口需迁移到 Play Billing Library 8。未完成的应用将无法提交更新，逾期较久可能影响可见性。",
       "impact": "高",
