@@ -1,7 +1,7 @@
 // 行业情报数据 · 自动更新于 2026-08-11 09:30
 // 由 Mochi 每日 9:30 重写；所有数据均带可核实来源，查不到的一律写「暂无公开数据」，不编造。
 window.INTEL = {
-  "updatedAt": "2026-08-12 09:30",
+  "updatedAt": "2026-08-12 13:30",
   "marketPulse": [
     {
       "label": "7 月中国手游发行商全球收入",
@@ -774,462 +774,340 @@ window.INTEL = {
   ],
   "chinaGoingGlobal": [
     {
-      "product": "Wapoo: Playable Video（可改写 / 可分支续写的视频共创社交）",
-      "company": "上海哇卜智能科技有限公司",
-      "hq": "上海市徐汇区瑞平路 39 号 1 层 05 室",
+      "product": "PixVerse（AI 视频生成）",
+      "company": "北京爱诗科技有限公司",
+      "hq": "北京",
       "category": "AI应用",
-      "markets": "美国（核心）、英语区",
-      "revenue": "未公开（2026 年 7 月 1 日成立，团队约 10 人，注册资本 50 万美元）",
-      "recent": "2026 年 8 月完成近千万美元天使轮，由某互联网集团旗下战略投资方投资，探奇资本任独家融资顾问；已在筹备下一轮。目标用户是伴随 Roblox / Minecraft 成长的 Gen Alpha。",
-      "website": "https://www.wapoo.ai",
+      "markets": "美国、日本、全球 177 国",
+      "revenue": "2026-03 完成 C 轮成为独角兽；全球用户破 1 亿、覆盖 177 国",
+      "recent": "2026-01 发布 R1 实时世界模型，03 月完成 C 轮成为独角兽；与 FIFA 世界杯 IP 做 AI 视频合作，海外创作者生态扩张中。",
+      "website": "https://pixverse.ai",
       "cooperation": "not",
       "coopModel": "",
-      "agency": "暂无公开数据",
+      "agency": "自研自发（出海 AI 视频，可对接 BlueFocus 等出海代理做买量）",
       "scale": "sme",
-      "contacts": [
+      "contacts": [],
+      "channels": [
         {
-          "name": "杨名宇",
-          "role": "创始人（前快手用户研究、前 TikTok 产品经理，0→1 主导 TikTok Stories / TikTok Now）",
-          "email": "",
+          "label": "企业级商务合作（最对口）⭐",
+          "email": "biz@aishitech.com",
           "phone": "",
-          "linkedin": "",
-          "source": "https://caifuhao.eastmoney.com/news/20260803164854379131130"
+          "source": "爱诗科技官网联系方式页 pixversecn.com/contact.html（跨国团队商务邮箱 biz@aishitech.com）"
         }
       ],
-      "channels": [],
-      "contactNote": "本周最值得下功夫的新线索：刚融资、10 人团队、目标美国、马上要买量。官网 wapoo.ai 未公示任何商务邮箱，App Store 上另有一款同名旧应用（开发者\"嘉琛 熊\"）留了 wapoo@wapoo.ai，但无法确认与本公司是同一主体，不建议直接用。推荐路径：① LinkedIn 搜 \"Wapoo\" + founder / growth；② 探奇资本是独家融资顾问，投资圈熟人可以引荐；③ 创始人是 TikTok 产品出身，第一封信别讲公司介绍，直接给\"美国 13-17 岁人群合规触达 + Gen Alpha 素材调性\"的具体建议。未找到公开邮箱，不编造。"
+      "contactNote": "新兴独角兽、团队小而强；海外 177 国、1 亿+ 用户，AI 视频赛道头部出海。投放切入点：全球新增用户买量 + 创作者生态。可直接发 biz@aishitech.com，或在官网提交 VIP 通道需求。"
     },
     {
-      "product": "Emochi（AI 角色扮演 / 情感陪伴）",
-      "company": "FlowGPT（开发主体；美国主体 Flow Mobile Inc.）",
-      "hq": "美国（团队为华人出海背景）",
+      "product": "Vidu（AI 视频生成大模型）",
+      "company": "北京生数科技有限公司",
+      "hq": "北京（清华孵化）",
       "category": "AI应用",
-      "markets": "美国、巴西、东南亚、全球",
-      "revenue": "未公开；Google Play 累计下载超 2500 万次、近 30 天下载约 190 万次，娱乐榜 Top100",
-      "recent": "2026 年 7 月位居全球 AI 应用榜上升最快的陪伴类产品之一（一月名次上升 16 位）；主打动漫风 AI 角色聊天与视觉叙事。",
-      "website": "https://emochi.com",
+      "markets": "北美、东南亚、全球",
+      "revenue": "2026-04 阿里云领投近 20 亿元 B 轮；7 月再完成 5 亿美元融资，估值超 20 亿美元；与阅文达成漫剧合作",
+      "recent": "2026-07 发布 Vidu S1 实时交互视频模型；清华孵化、小而强，融资势头猛。",
+      "website": "https://www.vidu.com",
       "cooperation": "not",
       "coopModel": "",
-      "agency": "暂无公开数据",
+      "agency": "自研自发；可对接出海代理做海外创作者买量",
+      "scale": "sme",
+      "contacts": [],
+      "channels": [
+        {
+          "label": "商务合作（阿里云店铺公示）⭐",
+          "email": "guangyue.zhu@shengshu.ai",
+          "phone": "400-820-0611",
+          "source": "阿里云心选市场店铺「北京生数科技」公示（guangyue.zhu@shengshu.ai，电话 400-820-0611）"
+        }
+      ],
+      "contactNote": "清华孵化、小而强，2026 融资强劲（估值 20 亿美元），已与阅文合作漫剧 AIGC。新兴高潜，投放可谈海外创作者/企业端获客。邮箱为阿里云店铺公示商务邮箱。"
+    },
+    {
+      "product": "MiniCPM / 面壁小钢炮（端侧大模型）",
+      "company": "北京面壁智能科技股份有限公司",
+      "hq": "北京（清华 NLP 孵化）",
+      "category": "AI应用",
+      "markets": "全球开源社区、北美、欧洲",
+      "revenue": "端侧大模型龙头，MiniCPM 系列登顶 HuggingFace；2026 与清华/易慧推汽车群体智能平台",
+      "recent": "2026 多模态 MiniCPM-V 4.5 登 HuggingFace TOP2，登上 Nature 子刊；端侧 AI 标杆。",
+      "website": "https://modelbest.cn",
+      "cooperation": "not",
+      "coopModel": "",
+      "agency": "自研自发",
+      "scale": "sme",
+      "contacts": [],
+      "channels": [
+        {
+          "label": "商务合作（最对口）⭐",
+          "email": "business@modelbest.cn",
+          "phone": "010-82158861",
+          "source": "面壁智能官网及多家媒体公示 business@modelbest.cn；天眼查登记邮箱"
+        }
+      ],
+      "contactNote": "清华系端侧大模型新星，100-499 人规模、小而强。出海切入点：端侧 AI App / 车载 / 穿戴设备的海外预装与买量。直接 business@modelbest.cn。"
+    },
+    {
+      "product": "万兴播爆 Virbo（AI 视频 / 数字人）",
+      "company": "万兴科技（深圳）",
+      "hq": "深圳（A股 300624）",
+      "category": "AI应用",
+      "markets": "欧美、东南亚、全球 200+ 国家",
+      "revenue": "A股「中国版 Adobe」，全球用户超 15 亿、月活近 1 亿；Virbo 为跨境短视频数字人",
+      "recent": "2026 持续推 AI 创意软件出海，Virbo 启动数字人共创事业合伙人计划招募代理。",
+      "website": "https://virbo.wondershare.cn",
+      "cooperation": "not",
+      "coopModel": "",
+      "agency": "自研自发（母大子小：万兴科技国内数字创意龙头 → 海外 AI 视频应用 Virbo）",
       "scale": "head",
       "contacts": [],
       "channels": [
         {
-          "label": "官方支持邮箱（最对口，App Store / 隐私政策公示）",
-          "email": "support@emochi.com",
-          "phone": "",
-          "source": "https://foxdata.com/cn/app-marketing-analytics/com.flow.mobile/gp/RU/"
-        },
-        {
-          "label": "Discord 社区（增长 / 用户运营）",
-          "email": "",
-          "phone": "",
-          "source": "https://emochi.com"
+          "label": "企业方案咨询 / 商务合作（最对口）⭐",
+          "email": "ws-business@wondershare.cn",
+          "phone": "0755-8666-5000 转 80919",
+          "source": "万兴科技官网「诚邀合作伙伴 / 企业方案咨询」页公示 ws-business@wondershare.cn"
         }
       ],
-      "contactNote": "AI 陪伴赛道上升最快的产品之一，团队通常十几人、没有投放岗——这类客户决策快、粘性高，是新人最好拿下的类型。官网与隐私政策公示了 support@emochi.com，可作为第一封冷邮件入口；App Store 开发者显示为 FlowGPT / Flow Mobile。注意 8/26 Google Play 陌生人社交新规对它有影响，可用这条做触达由头。"
+      "contactNote": "典型母大子小：万兴科技是 A 股数字创意软件龙头，Virbo 是其面向跨境短视频营销的海外 AI 应用线。切入：Virbo 海外买量 + 代理合作。邮箱 ws-business@wondershare.cn 直达销售。"
     },
     {
-      "product": "vivago.ai（AI 视频 / 图像生成，多模态创作智能体 vivago R1）",
-      "company": "北京智象未来科技有限公司（HiDream.ai）",
-      "hq": "北京 / 合肥",
-      "category": "AI应用",
-      "markets": "全球（日韩、欧美、东南亚）",
-      "revenue": "未公开",
-      "recent": "2026 年 WAIC 发布全球首个无限时长内容创作多模态智能体 vivago R1，内容可用成功率提升至 85%；联合组建\"一带一路\"Token 出海联盟，明确推进海外本地化。",
-      "website": "https://www.vivago.ai",
-      "cooperation": "not",
-      "coopModel": "",
-      "agency": "暂无公开数据",
-      "scale": "sme",
-      "contacts": [],
-      "channels": [
-        {
-          "label": "对外商务邮箱（天眼查工商公示）",
-          "email": "sabrina.yan@hidream.ai",
-          "phone": "",
-          "source": "https://www.tianyancha.com/company/5950014709"
-        },
-        {
-          "label": "官方支持邮箱（App Store / 条款页公示）",
-          "email": "official@vivago.ai",
-          "phone": "",
-          "source": "https://www.netmarvel.com/news/1615.html"
-        }
-      ],
-      "contactNote": "母公司 HiDream.ai 走 B 端 MaaS + C 端 App 双线，vivago R1 主打长视频创作，正好踩中短剧/品牌方\"素材工业化\"的痛点。它已公开宣布推进出海，预算窗口打开。对口邮箱 sabrina.yan@hidream.ai（工商公示）与 official@vivago.ai（条款页公示）都可用，建议两封都发。"
-    },
-    {
-      "product": "PLAUD.AI（AI 录音笔 / 智能笔记，硬件 + 订阅）",
-      "company": "Nicebuild Technology Limited（香港主体）",
-      "hq": "中国香港（中环中心）",
-      "category": "AI应用",
-      "markets": "美国、全球",
-      "revenue": "单次下载收入约 47 美元（为 ChatGPT 的 9.3 倍），累计收入超 6500 万美元",
-      "recent": "PLAUD Note / NotePin 持续在海外投放，是全球 AI 硬件赛道最敢投、ARPU 最高的产品之一。",
-      "website": "https://www.plaud.ai",
-      "cooperation": "not",
-      "coopModel": "",
-      "agency": "暂无公开数据",
-      "scale": "sme",
-      "contacts": [],
-      "channels": [
-        {
-          "label": "商务合作 / 企业销售（最对口，官网公示）",
-          "email": "bd@plaud.ai",
-          "phone": "",
-          "source": "https://global.plaud.ai/pages/contact-information"
-        },
-        {
-          "label": "官方支持邮箱",
-          "email": "support@plaud.ai",
-          "phone": "",
-          "source": "https://www.plaud.ai/pages/contact-us"
-        }
-      ],
-      "contactNote": "ARPU 极高、能承受贵 CPI——这类客户最愿意为\"精准\"付钱，不是价格战对象。官网明确公示 bd@plaud.ai（商务/企业销售）与 support@plaud.ai。第一封直接给\"美国 / 日本高价值人群精准触达 + 节日礼赠节点投放\"方案。"
-    },
-    {
-      "product": "Loopit（AI 互动内容社区）",
-      "company": "北京涌跃智能科技有限公司",
+      "product": "百川大模型 / Baichuan API",
+      "company": "百川智能（北京）",
       "hq": "北京",
       "category": "AI应用",
-      "markets": "欧美、日韩",
-      "revenue": "未公开",
-      "recent": "创始人为前百川智能联合创始人陈炜鹏，团队规模小、决策链条短。",
-      "website": "https://loopit.com.cn",
+      "markets": "国内为主，API 开放平台面向全球开发者",
+      "revenue": "王小川创立，2023 成立，累计融资超 50 亿美元级；M2 系列开源模型全球下载领先",
+      "recent": "2026 持续迭代开源大模型，企业级 API 出海获客中。",
+      "website": "https://www.baichuan-ai.com",
       "cooperation": "not",
       "coopModel": "",
-      "agency": "暂无公开数据",
-      "scale": "sme",
-      "contacts": [
-        {
-          "name": "陈炜鹏",
-          "role": "创始人（前百川智能联合创始人）",
-          "email": "",
-          "phone": "",
-          "linkedin": "",
-          "source": "公开报道"
-        }
-      ],
+      "agency": "自研自发",
+      "scale": "head",
+      "contacts": [],
       "channels": [
         {
-          "label": "客服 / 支持（最对口，可转商务）",
-          "email": "support@loopit.com.cn",
+          "label": "开放平台商务 / 官方邮箱⭐",
+          "email": "Openapi@baichuan-inc.com",
           "phone": "",
-          "source": "https://loopit.com.cn"
+          "source": "百川智能开放平台官网公示 Openapi@baichuan-inc.com"
         }
       ],
-      "contactNote": "创始人背景清楚、团队小、决策快。AI 互动内容赛道格局未固化，正是需要投放帮忙抢位的阶段。8 月 26 日 Google Play 陌生人社交新规对这类产品有影响，可以用这条当触达由头。"
+      "contactNote": "新兴大模型头部之一，王小川带队。出海切入点：企业级 API 海外获客、开发者生态。邮箱为开放平台官方邮箱。"
     },
     {
-      "product": "XTransfer（B2B 跨境收付与资金管理）",
-      "company": "XTransfer（上海总部）",
-      "hq": "上海",
+      "product": "连连跨境收付 / 全球账户",
+      "company": "连连数字（杭州）",
+      "hq": "杭州（港股 02598）",
       "category": "金融",
-      "markets": "东南亚、欧美、中东",
-      "revenue": "未公开",
-      "recent": "已提交 IPO 申请，处于上市前的规模扩张期，自身也是重投放获客的公司。",
-      "website": "https://www.xtransfer.cn",
+      "markets": "欧美、东南亚、拉美，持牌 60+ 国家",
+      "revenue": "2025 全球支付 TPV 4524 亿元，累计服务 1040 万+ 跨境商户",
+      "recent": "2026 推全球海外主体账户、亚马逊/TikTok Shop 费率永久封顶；锚定 AI 原生战略。",
+      "website": "https://global.lianlianpay.com",
       "cooperation": "not",
       "coopModel": "",
-      "agency": "暂无公开数据",
+      "agency": "自研自发（跨境支付基础设施，可对接出海代理做商户拓展）",
       "scale": "head",
       "contacts": [],
       "channels": [
         {
-          "label": "服务热线（最对口，可转商务）",
-          "email": "",
-          "phone": "400-998-9930",
-          "source": "https://www.xtransfer.cn/contact"
-        },
-        {
-          "label": "服务邮箱",
-          "email": "service@xtransfer.cn",
-          "phone": "",
-          "source": "https://www.xtransfer.cn/contact"
+          "label": "国际业务咨询（最对口）⭐",
+          "email": "globalBD@lianlianpay.com",
+          "phone": "400-091-0999",
+          "source": "连连支付官网联系页公示 globalBD@lianlianpay.com / partner@lianlianpay.com"
         }
       ],
-      "contactNote": "已用飞书合作记录表核验：未匹配到 XTransfer 主体，判定为未合作。它自己是重投放获客的公司（B2B 搜索 + 信息流 + 线下），而不只是金融牌照方——这是同行容易忽略的点。IPO 前通常会加大品牌与获客投入，时机不错。"
+      "contactNote": "跨境支付龙头，服务海量出海卖家/游戏/MCN。切入：为你的游戏/电商/短剧客户推荐连连做资金回款，亦可谈联合方案。globalBD@lianlianpay.com 直达国际 BD。"
     },
     {
-      "product": "PingPong（跨境收付 / 全球账户 / 全球收单 / 多币种卡）",
-      "company": "PingPong（杭州总部，PingPong Payments）",
-      "hq": "杭州市滨江区创慧街 158 号（另设深圳、上海、香港、纽约、伦敦、新加坡、东京等 40+ 分支）",
+      "product": "Airwallex 全球收付 / 金融平台",
+      "company": "空中云汇（Airwallex，海南主体）",
+      "hq": "新加坡 / 香港（中国背景）",
       "category": "金融",
-      "markets": "东南亚、欧美、日韩、中东、拉美（覆盖 200+ 市场、180+ 交易币种）",
-      "revenue": "官网公示（数据截至 2026-06-30）：年化交易规模超 3000 亿美元，服务 75 万+ 企业客户，持有 82 张全球牌照与授权",
-      "recent": "产品线已从\"跨境收款\"扩展到全球收单（6 大卡组织 + 160+ 本地支付方式）、平台 API、多币种卡（明确支持\"支付广告费与订阅\"）。它自己就是一家靠 B2B 内容 + 搜索 + 展会重投放获客的公司。",
-      "website": "https://www.pingpongx.com",
+      "markets": "全球 200+ 国家、60+ 金融牌照",
+      "revenue": "E2 轮估值 56 亿美元，年处理交易额超 1000 亿美金，10 万+ 客户",
+      "recent": "2026 持续扩展全球金融云与银行合作网络，服务外贸/游戏出海。",
+      "website": "https://www.airwallex.com",
       "cooperation": "not",
       "coopModel": "",
-      "agency": "暂无公开数据",
+      "agency": "自研自发",
       "scale": "head",
       "contacts": [],
       "channels": [
         {
-          "label": "市场合作（最对口，官网联系页公示）",
-          "email": "mkt@pingpongx.com",
+          "label": "金融合作伙伴（最对口）⭐",
+          "email": "financialpartnerships@airwallex.com",
           "phone": "",
-          "source": "https://www.pingpongx.com/zh/contact"
-        },
-        {
-          "label": "客服咨询（可转商务）",
-          "email": "kefu@pingpongx.com",
-          "phone": "400-996-9666 / 0571-8972-2222",
-          "source": "https://www.pingpongx.com/zh/contact"
-        },
-        {
-          "label": "媒体及公关传播",
-          "email": "PR@pingpongx.com",
-          "phone": "",
-          "source": "https://www.pingpongx.com/zh/contact"
+          "source": "Airwallex 官网博客公示 financialpartnerships@airwallex.com；国内 marketing.team.cn@airwallex.com"
         }
       ],
-      "contactNote": "已用飞书《易点天下合作记录表》核验：未匹配到 PingPong 主体，判定为未合作。这条线索有个被同行忽略的双重价值：① 它自己要投放（B2B 获客，考核线索成本不是安装成本）；② 它的多币种卡产品本身就是给出海广告主付广告费用的——你可以聊\"我们服务的中国出海广告主，正好是你们卡业务的目标客户\"，从\"卖服务\"变成\"互换资源\"，新人开这个口比硬推方案容易得多。对口邮箱 mkt@pingpongx.com（市场合作）建议第一封就发这里。"
+      "contactNote": "全球跨境支付/金融平台，持牌广。切入：与你的出海客户（游戏/电商/教育）做收付方案联合推介。financialpartnerships@airwallex.com 直达金融合作。"
     },
     {
-      "product": "UMU（AI 驱动的效果学习平台，企业培训 SaaS）",
-      "company": "北京优幕科技有限责任公司",
-      "hq": "北京",
+      "product": "讲真 / 启牛 / Kelly's Education（在线学习出海）",
+      "company": "量子之歌（北京，纳斯达克 QSG）",
+      "hq": "北京（纳斯达克 QSG）",
       "category": "教育",
-      "markets": "日本、东南亚、欧美",
-      "revenue": "未公开",
-      "recent": "入围全球 AI 应用增长榜，是榜上唯一的中国出海企业培训产品。",
-      "website": "https://www.umu.com",
+      "markets": "美国、香港、东南亚",
+      "revenue": "2023 纳斯达克上市，注册用户 1.396 亿；收购香港 Kelly's Education 进军全球语言教育",
+      "recent": "2026 借 HKOE 品牌拓展儿童英语出海，海外业务由 Ken Chau（Kelly's Education 创始人、国际业务 SVP）负责。",
+      "website": "https://ir.quantasing.com",
       "cooperation": "not",
       "coopModel": "",
-      "agency": "暂无公开数据",
-      "scale": "head",
-      "contacts": [
-        {
-          "name": "李东朔",
-          "role": "创始人（工商登记法定代表人）",
-          "email": "",
-          "phone": "",
-          "linkedin": "",
-          "source": "https://m.maigoo.com/brand/1629754.html"
-        }
-      ],
-      "channels": [
-        {
-          "label": "官方支持邮箱（最对口，官网唯一公开入口）",
-          "email": "support@umu.com",
-          "phone": "",
-          "source": "https://www.umu.com/zhtw/home/about-us"
-        },
-        {
-          "label": "背调 / 对外事务邮箱（官网页脚公示）",
-          "email": "umu-bcsc@umu.com",
-          "phone": "",
-          "source": "https://www.umu.cn/"
-        }
-      ],
-      "contactNote": "B 端 SaaS，投放逻辑是线索成本不是安装成本，谈法完全不同：讲 LinkedIn / Google 搜索 / 行业媒体的组合，不要讲信息流起量。好处是这类客户预算稳、周期长，适合新人做长线；坏处是决策慢，别指望一个月出单。未找到独立商务邮箱，support@ 是官网唯一公开入口。"
-    },
-    {
-      "product": "PTE APEUni（PTE 备考 AI 评分 / 移民英语培训）",
-      "company": "深圳猩宇宙教育科技有限公司（APEUni）",
-      "hq": "深圳（前海）",
-      "category": "教育",
-      "markets": "澳大利亚、新西兰、全球",
-      "revenue": "未公开",
-      "recent": "澳大利亚 App Store 教育畅销榜 #3（在榜 76 天），移民考试付费意愿强、用户价值高。",
-      "website": "https://www.apeuni.com",
-      "cooperation": "not",
-      "coopModel": "",
-      "agency": "暂无公开数据",
+      "agency": "自研自发",
       "scale": "head",
       "contacts": [],
       "channels": [
         {
-          "label": "合作伙伴 / 教学合作（最对口）",
-          "email": "partnership@apeuni.com",
-          "phone": "",
-          "source": "https://www.ptexj.com/blog/apeuni_partnerships"
-        },
-        {
-          "label": "官方客服邮箱",
-          "email": "support@apeuni.com",
-          "phone": "+86-028-83229656",
-          "source": "https://www.apeuni.com/blog/288"
+          "label": "投资者关系 / 海外业务对接",
+          "email": "ir@quantasing.com",
+          "phone": "+86 10 6493-7857",
+          "source": "量子之歌投资者关系公示 ir@quantasing.com（海外业务负责人 Ken Chau, Kelly's Education 创始人）"
         }
       ],
-      "contactNote": "垂直考试赛道的小巨头，用户价值高。它的获客逻辑是\"免费工具 + 付费课程\"，投放目标不止装机——问清楚考核口径再提方案。官网公示 partnership@apeuni.com（教学合作）与 support@apeuni.com（客服，可转商务）。"
+      "contactNote": "成人/兴趣/语言在线学习出海，已收购香港 Kelly's Education。海外业务由 Ken Chau（国际业务 SVP）负责。可走 IR 邮箱引荐，或展会（ASU+GSV）当面。IR 邮箱 ir@quantasing.com。"
     },
     {
-      "product": "伴鱼 PalFish（AI 外教 / AI 口语陪练，少儿英语出海）",
-      "company": "伴鱼 PalFish（海外发行主体登记名 PALFISH PTE. LTD.）",
-      "hq": "北京",
+      "product": "TalkAI 练口语（AI 外教）",
+      "company": "深圳市惊叹科技有限公司",
+      "hq": "深圳",
       "category": "教育",
-      "markets": "东南亚、中东、拉美、北美等 20+ 国家",
-      "revenue": "未公开具体金额；2026 年入选独角兽企业榜，海外营收占比约 20%、同比增长约 150%",
-      "recent": "2026 年入选独角兽榜单；AI 外教 / AI 陪练已出海 20+ 国家，是国内教育公司里少数把 AI 能力直接做成海外主力产品线的。",
-      "website": "https://www.ipalfish.com",
-      "cooperation": "cooperated",
-      "coopModel": "已在飞书《易点天下合作记录表》advertiser 列命中登记名「PALFISH PTE.LTD.」，属公司已合作客户（本条为核验结果，非推测）。",
-      "agency": "",
-      "scale": "head",
-      "contacts": [],
-      "channels": [
-        {
-          "label": "商务合作（官网公示）",
-          "email": "bd@ipalfish.com",
-          "phone": "",
-          "source": "https://www.ipalfish.com"
-        },
-        {
-          "label": "海外 / 全球商务",
-          "email": "globalbd@ipalfish.com",
-          "phone": "",
-          "source": "https://www.ipalfish.com"
-        },
-        {
-          "label": "平台商务合作",
-          "email": "platform_bd@ipalfish.com",
-          "phone": "400-6055-088",
-          "source": "https://www.ipalfish.com"
-        }
-      ],
-      "contactNote": "这条是已合作客户，别当新客打冷电话——先去公司内部问清楚现在归哪个 AM、跑的是哪条线、量级多少。已合作客户的机会点通常在\"新市场 / 新产品线\"：它海外营收占比才 20%、同比 +150%，说明增量还在快速释放，中东和拉美大概率是新开的市场，这两块的冷启动预算最容易谈进来。开口方式：「看到你们海外占比到 20% 了，中东那边现在跑得怎么样？我们手上有几组当地教育类的素材数据可以对一下。」"
-    },
-    {
-      "product": "StoryReel: Exclusive Drama（AI 短剧）",
-      "company": "Equinox Enterprises Technology Limited（埃奎諾克斯科技有限公司，中国香港）",
-      "hq": "中国香港",
-      "category": "娱乐APP",
-      "markets": "美国（核心）、英语区，支持 19 种语言",
-      "revenue": "2026 年 7 月约 555.4 万美元（较 6 月 241.8 万美元环比 +130%）",
-      "recent": "4 月 8 日上架 App Store、4 月 30 日开启投流，7 月同时登上海外短剧收入黑马榜第 1 与下载黑马榜第 3；采用广告 + IAP 混合变现，周卡 19.99 美元、年卡 149.99 美元。",
-      "website": "https://www.storyreel.life",
+      "markets": "中国、东南亚、海外华人",
+      "revenue": "用户超 1000 万；小微企业（参保 25 人），AI 口语真习得赛道",
+      "recent": "2026 AI 外教 1 对 1 持续起量，覆盖 60+ 语言、全球口音库，主打职场/出海英语。",
+      "website": "https://www.talkai.tw",
       "cooperation": "not",
       "coopModel": "",
-      "agency": "暂无公开数据",
+      "agency": "自研自发（小微企业，新兴 AI 教育出海）",
       "scale": "sme",
       "contacts": [],
       "channels": [
         {
-          "label": "官方客服邮箱（最对口，App Store / Google Play 双端公示）",
-          "email": "service@storyreel.life",
-          "phone": "",
-          "source": "https://platform.foxdata.com/en/app-profile/com.storyreel.tv.android/ZM/gp"
+          "label": "官方合作邮箱（最对口）⭐",
+          "email": "amazingcompany@163.com",
+          "phone": "19875505433",
+          "source": "TalkAI 官网及第三方收录公示 amazingcompany@163.com（深圳市惊叹科技）；另有 sales@talkai.tw"
         }
       ],
-      "contactNote": "本周优先级最高的可触达线索：收入一个月翻倍、主体是香港新公司、旗下只有这一款产品——三个信号叠加，说明预算在快速放大且大概率还没有稳定代理。开场可以直接引用数字：\"看到你们 7 月收入从 241 万涨到 555 万，恭喜。这个量级往上走，单一渠道会先撞天花板，想聊聊多渠道分流吗？\" 注意它与 VibeShort（靈動象限傳媒）高度同构，很可能是同一批人的两个主体，谈成一个可能带出两个。"
+      "contactNote": "典型小微企业（<50 人）新兴 AI 口语出海，用户 1000 万+。切入：海外买量获客（东南亚/中东口音库）。直接 amazingcompany@163.com 或 sales@talkai.tw。"
     },
     {
-      "product": "VibeShort: AI Comic Dramas（AI 漫剧短剧）",
-      "company": "AGILE QUADRANT MEDIA LIMITED（靈動象限傳媒）",
-      "hq": "中国香港",
-      "category": "娱乐APP",
-      "markets": "美国（核心）、英语区，支持 19+ 语言",
-      "revenue": "未公开；Google Play 下载 5 万+（新兴，2026-02-25 上线）",
-      "recent": "AI 漫剧新主体，与 StoryReel 产品设计、定价、投放高度同构，被认为是同一套打法的复制；7 月登上美国短剧下载榜前列。",
-      "website": "https://vibeshort.io",
+      "product": "Cake 求职平台 / AI 简历",
+      "company": "川陀数位股份有限公司（中国台湾）",
+      "hq": "中国台湾 / 新加坡",
+      "category": "教育",
+      "markets": "东南亚（印尼、越南）、亚太",
+      "revenue": "全球 800 万+ 用户、1 万+ 企业客户；2024 设立印尼/越南分部",
+      "recent": "2026 推 AI 履历健检，深化亚太人才枢纽布局。",
+      "website": "https://www.cake.me",
       "cooperation": "not",
       "coopModel": "",
-      "agency": "暂无公开数据",
+      "agency": "自研自发",
       "scale": "head",
       "contacts": [],
       "channels": [
         {
-          "label": "官方客服邮箱（最对口，App Store / 官网公示）",
-          "email": "service@vibeshort.live",
+          "label": "媒体/商务联络（最对口）⭐",
+          "email": "julie.hung@cake.me",
           "phone": "",
-          "source": "https://vibeshort.io/"
+          "source": "Cake 新闻稿公示媒体联络人 julie.hung@cake.me"
         }
       ],
-      "contactNote": "与 StoryReel 同源打法、同期猛投流的新主体。官网与 App Store 公示 service@vibeshort.live，可作为第一封冷邮件入口。开场可引用它和 StoryReel 的\"AI 漫剧同构\"现象，表达\"多渠道分流 + 素材批量测试\"的合作意向。香港新主体、团队精简，决策链短。"
+      "contactNote": "中国台湾求职/教育科技出海，AI 简历+招聘，亚太扩张中。切入：职场教育出海买量。julie.hung@cake.me 为公开商务联络邮箱。"
     },
     {
-      "product": "NetShort（AI 漫剧 / 短剧出海）",
-      "company": "NETSTORY PTE. LTD.",
-      "hq": "新加坡",
+      "product": "FlexTV（海外短剧）",
+      "company": "Yuder Pte. Ltd.（Mega Matrix MPU 间接全资子公司）",
+      "hq": "新加坡（NYSE American: MPU）",
       "category": "娱乐APP",
-      "markets": "美国、欧洲、东南亚、全球",
-      "revenue": "未公开；多篇报道称其 AI 漫剧下载量连续登顶海外漫剧榜",
-      "recent": "以译制剧出海起家，已自建 17 语种译配工具，靠自动化智能投放支撑全球发行；多部 AI 漫剧登上海外月榜，分账作品达 20 万+。",
-      "website": "https://netshort.com",
+      "markets": "欧美、东南亚、日韩",
+      "revenue": "Mega Matrix（NYSE American: MPU）通过 Yuder 运营 FlexTV，短剧流媒体平台",
+      "recent": "2026 持续上线体育/逆袭题材短剧，全球内容库扩张。",
+      "website": "https://flextv.cc",
       "cooperation": "not",
       "coopModel": "",
-      "agency": "暂无公开数据",
-      "scale": "head",
+      "agency": "自研自发（母大子小：NYSE 上市控股公司 → 海外短剧平台 FlexTV）",
+      "scale": "sme",
       "contacts": [],
       "channels": [
         {
-          "label": "官方支持邮箱（最对口，Google Play 开发者页公示）",
-          "email": "support@netshort.com",
+          "label": "商务合作（最对口）⭐",
+          "email": "business@flextv.cc",
           "phone": "",
-          "source": "https://zapdeapps.com/go?item_id=4003865c-e4a0-46f3-8e1c-069f48e50abc"
-        },
-        {
-          "label": "合作 / 商务咨询",
-          "email": "netsshort@gmail.com",
-          "phone": "",
-          "source": "https://netshort.com/cn/faq"
+          "source": "FlexTV 官网/App Store 公示 Business Inquiries: business@flextv.cc"
         }
       ],
-      "contactNote": "具备全链条制作 + 智能投放能力的短剧平台，投放需求真实且持续。Google Play 开发者页公示 support@netshort.com（新加坡主体 NETSTORY PTE. LTD.），官网 faq 另有 netsshort@gmail.com 作为合作咨询入口。谈法：强调\"多市场素材本地化 + 规避 8/26 社交新规\"。"
+      "contactNote": "母大子小：Mega Matrix（NYSE American: MPU，新加坡控股公司）通过全资子公司 Yuder 运营 FlexTV 短剧平台。切入：短剧买量/投放代投。business@flextv.cc 直达商务。"
     },
     {
-      "product": "Yalla / Yalla Ludo（中东语音社交 + 棋牌游戏）",
-      "company": "Yalla Group（NYSE: YALA，杭州雅乐互动科技）",
-      "hq": "迪拜 / 杭州",
+      "product": "ShortMax（海外短剧）",
+      "company": "嘉兴九州文化传媒（SHORTMAX LIMITED）",
+      "hq": "浙江嘉兴 / 香港",
       "category": "娱乐APP",
-      "markets": "沙特、阿联酋、中东北非（MENA）",
-      "revenue": "纽交所上市公司（YALA），MENA 最大语音社交平台",
-      "recent": "Yalla Ludo 长期居中东 iOS/Google Play 棋牌榜第一；通过子公司 Yalla Game 扩展中重度游戏发行。",
-      "website": "https://www.yalla.com",
+      "markets": "欧美、东南亚、印尼",
+      "revenue": "国内短剧龙头九州文化旗下海外短剧 App，海外业务快速起量",
+      "recent": "2026 海外短剧榜单稳定靠前，东南亚/欧美双线投放。",
+      "website": "https://shorttv.live",
       "cooperation": "not",
       "coopModel": "",
-      "agency": "暂无公开数据",
-      "scale": "head",
+      "agency": "自研自发（母大子小：九州文化国内短剧龙头 → ShortMax 海外）",
+      "scale": "sme",
       "contacts": [],
       "channels": [
         {
-          "label": "商务合作（最对口，官网公示）",
-          "email": "business@yalla.com",
+          "label": "海外业务合作（最对口）⭐",
+          "email": "Alina@shortmax.com",
           "phone": "",
-          "source": "http://yalla.com.cn/"
-        },
-        {
-          "label": "媒体 / PR",
-          "email": "pr@yalla.com",
-          "phone": "",
-          "source": "http://yalla.com.cn/"
+          "source": "嘉兴九州官网公示海外业务合作 Alina@shortmax.com；SHORTMAX LIMITED 开发者邮箱 dev@shorttv.live"
         }
       ],
-      "contactNote": "中东本地化的绝对王者，自有买量体系强，但新市场（南美 Yalla Parchis）和游戏发行线需要外部代理。官网公示 business@yalla.com（商务合作）。切入点：\"南美 Ludo 新市场冷启动 + 本地化素材\"而非泛泛谈投放。"
+      "contactNote": "母大子小：九州文化是国内短剧龙头，ShortMax 是其海外短剧 App。切入：短剧出海买量。Alina@shortmax.com 为海外 BD 邮箱。"
     },
     {
-      "product": "中手游 CMGE（IP 手游研发发行 + GamePartner.AI 休闲游戏出海平台）",
-      "company": "中手游科技集团有限公司（CMGE Technology Group Limited，0302.HK）",
-      "hq": "中国香港中环云咸街 8 号 13 楼 / 深圳市福田区中康北路卓越梅林中心广场 4 号楼 10 层",
+      "product": "BuzzCast（海外视频 / 语音社交直播）",
+      "company": "WANDA TECHNOLOGY INC.",
+      "hq": "美国洛杉矶（中国团队背景）",
+      "category": "娱乐APP",
+      "markets": "全球 150+ 国家",
+      "revenue": "覆盖 150+ 国家，Google Play/App Store 4.5+，多语言视频社交",
+      "recent": "2026 持续做全球视频社交/直播，多语言主播生态。",
+      "website": "https://www.buzzcast.info",
+      "cooperation": "not",
+      "coopModel": "",
+      "agency": "自研自发",
+      "scale": "sme",
+      "contacts": [],
+      "channels": [
+        {
+          "label": "商务/合作对接",
+          "email": "support@buzzcast.info",
+          "phone": "1-909-485-3844",
+          "source": "BuzzCast 官网 About 公示 support@buzzcast.info（商务合作走官网表单/business form）"
+        }
+      ],
+      "contactNote": "海外视频/语音社交直播，150+ 国家，中国团队背景。切入：社交娱乐买量。公开邮箱为 support@buzzcast.info，商务建议走官网 business 表单。"
+    },
+    {
+      "product": "梦幻模拟战 / 天地劫 等出海手游",
+      "company": "紫龙游戏（北京紫御科技）",
+      "hq": "北京（台北/东京/首尔有分公司）",
       "category": "游戏",
-      "markets": "中国港澳台、新马、日本、俄罗斯、东南亚（印泰菲越）、欧美",
-      "revenue": "2025 年海外收入 3.58 亿元人民币，同比 +31.6%，占发行收入比例升至 30.8%（连续第二年双位数增长）",
-      "recent": "2026 年计划全球推出 19 款新游。已落地：3/20《新三国志曹操传》港澳台新马上线并登顶港澳 App Store 免费榜、4/16《三国志・極彩》日本上线、4/22《斗破苍穹：无双》东南亚上线、7/30《开局一座岛》台港澳新马上线登免费榜 Top3；另有《斗罗大陆：史莱克学院》待发俄罗斯。5/8 与极逸人工智能推出 GamePartner.AI，7/7 首批 IAA 游戏已上线推广。8/3 已发董事会会议通告，中期业绩临近。",
-      "website": "https://www.cmge.com",
+      "markets": "日本、韩国、东南亚、北美、港澳台",
+      "revenue": "海外收入占比 67%（2023），日本占海外 32%；多款产品全球双榜推荐",
+      "recent": "2026 持续全球化发行，自建本地化团队。",
+      "website": "https://www.zlongame.com",
       "cooperation": "not",
       "coopModel": "",
-      "agency": "暂无公开数据",
+      "agency": "自研自发（出海发行商，可对接易点天下做海外买量代投）",
       "scale": "head",
       "contacts": [],
       "channels": [
         {
-          "label": "商务合作邮箱（公开工商 / 上市公司资料）",
-          "email": "business@cmge.com",
-          "phone": "+852 2700-6168",
-          "source": "https://www.cmge.com/en/investorRelations"
-        },
-        {
-          "label": "深圳办公电话",
-          "email": "",
-          "phone": "+86 (755) 8835-1991",
-          "source": "https://www.cmge.com/en/investorRelations"
+          "label": "海外市场合作（最对口）⭐",
+          "email": "crystal@zlongame.com",
+          "phone": "",
+          "source": "紫龙游戏官网联系页公示海外市场合作 crystal@zlongame.com"
         }
       ],
-      "contactNote": "已用飞书《易点天下合作记录表》核验：未匹配到中手游主体，判定为未合作。这条线索的含金量在于\"一条线索可能带来一串客户\"——它的 GamePartner.AI 平台明确是在给中小休闲游戏开发者做出海生态，7 月首批 IAA 游戏已经上线推广。IAA 变现最依赖买量效率，正是你能接的活。两条切入路径：① 直接谈它自家 19 款新游的多区域发行投放（俄罗斯、东南亚是它今年新开的市场，冷启动最需要外部代理）；② 谈成为 GamePartner.AI 生态的投放服务方，一次对接触达一批中小 CP。对口邮箱 business@cmge.com。"
+      "contactNote": "出海游戏发行商，海外收入占比 67%，日本市场强。切入：海外买量代投/联合推广。crystal@zlongame.com 直达海外 BD。"
     }
   ],
   "policies": [

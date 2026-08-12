@@ -103,7 +103,7 @@ function crmKeyOf(c){ return normKey(c.product) + '|' + normKey(c.company); }
 function excludedKeySet(){
   const s = new Set(EXCLUDED.map(e => e.key));
   if(window.LEAD_EXCLUDE && Array.isArray(window.LEAD_EXCLUDE)){
-    window.LEAD_EXCLUDE.forEach(e => s.add(typeof e === 'string' ? e : (e.key || '')));
+    window.LEAD_EXCLUDE.forEach(e => s.add(normKey(typeof e === 'string' ? e : (e.key || ''))));
   }
   return s;
 }
