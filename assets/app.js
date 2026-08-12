@@ -95,7 +95,7 @@ let pendingXhsFile = null;
    前端也会读它一起隐藏。 */
 const KEY_EXCLUDE = 'jill_lead_exclude_v1';
 let EXCLUDED = load(KEY_EXCLUDE, []); // [{key, reason, note, ts}]
-let curShowExcluded = false;
+let curShowExcluded = true;
 
 function normKey(s){ return String(s==null?'':s).trim().toLowerCase().replace(/\s+/g,''); }
 function leadKey(r){ return normKey(r.product) + '|' + normKey(r.company); }
