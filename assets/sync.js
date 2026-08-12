@@ -453,9 +453,41 @@ function openModal(){
   document.getElementById('syncModal').classList.add('show');
 }
 
+/* ---------------- 线索池「共享排除桶」 ----------------
+   用途：Jill 在页面里把某公司标记为「不再推送」后，前端立刻写进这个
+   共享桶；每日自动化生成新线索前会来读它，保证被排除的公司不会在
+   第二天又被推回来。
+   注意：这是一个固定、公开的 textdb.dev 键，数据只是「产品|公司」字符串
+   （非敏感），故用明文存储，省去加解密，自动化用 node 直接 fetch 即可。 */
+const LEAD_EXCL_URL = 'https://textdb.dev/api/data/jill-workbench-lead-exclude-9f3a';
+
+async function pushLeadExclude(key){
+  if(!key) return false;
+  try{
+    let arr = [];
+    try{
+      const t = await fetch(LEAD_EXCL_URL, { cache:'no-store' }).then(r => r.ok ? r.text() : '');
+      if(t && t.trim()){ const p = JSON.parse(t); if(Array.isArray(p)) arr = p; }
+    }catch(e){ /* 读不到就当空 */ }
+    if(!arr.includes(key)){
+      arr.push(key);
+      await fetch(LEAD_EXCL_URL, { method:'POST', headers:{ 'Content-Type':'text/plain' }, body: JSON.stringify(arr) });
+    }
+    return true;
+  }catch(e){ return false; }
+}
+async function pullLeadExclude(){
+  try{
+    const t = await fetch(LEAD_EXCL_URL, { cache:'no-store' }).then(r => r.ok ? r.text() : '');
+    if(!t || !t.trim()) return [];
+    const a = JSON.parse(t);
+    return Array.isArray(a) ? a : [];
+  }catch(e){ return []; }
+}
+
 /* ---------------- 对外 API ---------------- */
 window.JILL_SYNC = {
-  sync, enabled, genCode,
+  sync, enabled, genCode, pushLeadExclude, pullLeadExclude,
   status: () => state.status,
   getCode: () => (getCfg() || {}).code || null
 };

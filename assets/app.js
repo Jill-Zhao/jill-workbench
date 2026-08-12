@@ -95,6 +95,7 @@ let pendingXhsFile = null;
    前端也会读它一起隐藏。 */
 const KEY_EXCLUDE = 'jill_lead_exclude_v1';
 let EXCLUDED = load(KEY_EXCLUDE, []); // [{key, reason, note, ts}]
+let LEAD_EXCL_CLOUD = []; // 云端共享排除桶（跨设备 / 每日自动化共用）
 let curShowExcluded = true;
 
 function normKey(s){ return String(s==null?'':s).trim().toLowerCase().replace(/\s+/g,''); }
@@ -105,6 +106,7 @@ function excludedKeySet(){
   if(window.LEAD_EXCLUDE && Array.isArray(window.LEAD_EXCLUDE)){
     window.LEAD_EXCLUDE.forEach(e => s.add(normKey(typeof e === 'string' ? e : (e.key || ''))));
   }
+  LEAD_EXCL_CLOUD.forEach(k => s.add(normKey(k)));
   return s;
 }
 function crmKeySet(){
@@ -121,6 +123,10 @@ function markExcluded(r, reason, note){
   if(EXCLUDED.some(e => e.key === key)) return;
   EXCLUDED.unshift({ key, reason, note: note || '', ts: new Date().toISOString() });
   save(KEY_EXCLUDE, EXCLUDED);
+  // 同步写进云端共享排除桶，让每日自动化第二天也不会再推这家
+  if(window.JILL_SYNC && typeof window.JILL_SYNC.pushLeadExclude === 'function'){
+    window.JILL_SYNC.pushLeadExclude(key).catch(()=>{});
+  }
   renderLeads();
   toast(reason === 'not_my_customer' ? '已标记为「不是我的客户」，后续不再推送' : '已加入「不再推送」名单');
 }
@@ -1323,6 +1329,14 @@ function init(){
   renderXHS();
   renderFood();
   setupPhoto(); setupVisionSettings();
+
+  // 启动时从云端共享排除桶拉一次，保证手机上排除过的公司在电脑也隐藏
+  if(window.JILL_SYNC && typeof window.JILL_SYNC.pullLeadExclude === 'function'){
+    window.JILL_SYNC.pullLeadExclude().then(arr => {
+      LEAD_EXCL_CLOUD = Array.isArray(arr) ? arr : [];
+      renderLeads();
+    }).catch(()=>{});
+  }
 
   // 逾期跟进提醒
   const due = CRM.filter(c => c.next && daysBetween(ymd(new Date()), c.next) <= 0);
