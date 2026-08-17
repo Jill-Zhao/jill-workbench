@@ -1,7 +1,7 @@
-// 行业情报数据 · 自动更新于 2026-08-17 09:30
-// 由 Mochi 每日 9:30 重写；所有数据均带可核实来源，查不到的一律写「暂无公开数据」，不编造。
+// 行业情报数据 · 自动更新于 2026-08-17 09:30，线索池于 2026-08-17 17:10 手动补充（Jill 提供 8 家公司核实后入池 5 家）
+// 所有数据均带可核实来源，查不到的一律写「暂无公开数据」，不编造。
 window.INTEL = {
-  "updatedAt": "2026-08-17 09:30",
+  "updatedAt": "2026-08-17 17:10",
   "marketPulse": [
     {
       "label": "7 月中国手游发行商全球收入",
@@ -774,6 +774,126 @@ window.INTEL = {
   ],
   "chinaGoingGlobal": [
     {
+      "product": "War and Order / Age of Origins（出海 SLG 长青款）",
+      "company": "北京壳木软件有限责任公司（Camel Games，神州泰岳 300002.SZ 子公司）",
+      "hq": "北京（母公司神州泰岳为 A 股上市公司）",
+      "category": "游戏",
+      "markets": "北美、欧洲、东南亚、全球",
+      "revenue": "2020 年壳木营收 6.24 亿元、利润总额 4.47 亿元（启信宝口径）；员工 440+（2025 年报）",
+      "recent": "《战火与秩序》《Age of Origins》《Infinite Galaxy》长期运营海外；2026-07 登记《旭日之城》软件著作权——新品周期开启，正是投放预算放大的窗口。",
+      "website": "https://www.camelgames.com",
+      "cooperation": "not",
+      "coopModel": "",
+      "agency": "自研自发（母大子小：神州泰岳 A 股上市 → 壳木游戏出海主体）",
+      "scale": "head",
+      "contacts": [],
+      "channels": [
+        {
+          "label": "商务合作（最对口）⭐",
+          "email": "market@camel4u.com",
+          "phone": "",
+          "source": "壳木官网 Contact Us 页公示 Business Cooperation: market@camel4u.com"
+        }
+      ],
+      "contactNote": "典型母大子小：上市公司神州泰岳的子公司，账上有钱、SLG 出海十几年、买量成熟——是「懂行但挑剔」的客户。最佳切入不是讲基础能力，而是讲新品《旭日之城》的冷启动方案。market@camel4u.com 直达市场部。"
+    },
+    {
+      "product": "Cash Frenzy / Lotsa Slots（海外休闲老虎机）",
+      "company": "北京博乐科技有限公司（BoLe Games）",
+      "hq": "北京朝阳（官网口径员工近 400 人）",
+      "category": "游戏",
+      "markets": "北美、欧洲、东南亚",
+      "revenue": "Data.ai 2024 全球手游发行商收入 Top 30 / 中国厂商 Top 9；已完成 B 轮融资（估值超 10 亿元，年复合增长 40%）",
+      "recent": "两款旗舰游戏长期居美国畅销榜 Top 50、多国 Top 10；Facebook / Google 全球顶级合作伙伴，海外玩家超千万。",
+      "website": "https://www.bolegames.com",
+      "cooperation": "not",
+      "coopModel": "",
+      "agency": "自研自发",
+      "scale": "head",
+      "contacts": [],
+      "channels": [
+        {
+          "label": "公司邮箱 / 总机（最对口）⭐",
+          "email": "boleit@bolegames.com",
+          "phone": "010-84927895",
+          "source": "博乐官网及爱企查登记邮箱 boleit@bolegames.com；总机 010-84927895（北京朝阳红军营南路 36 号）"
+        }
+      ],
+      "contactNote": "Casino 休闲品类全球头部，营收稳定、买量极重（老虎机品类是 Meta/Google 大户）。这类客户不缺代理排队，缺的是素材产能和账户稳定性——切入谈素材工业化 + 多账户风控，别谈开户。"
+    },
+    {
+      "product": "ClassUp（K12 在线 1 对 1，AI 教学）",
+      "company": "北京克拉思璞科技有限公司",
+      "hq": "北京朝阳望京（硅谷创立；研发中心北京、销售团队武汉，员工 150–500 人）",
+      "category": "教育",
+      "markets": "北美（首站美国）",
+      "revenue": "2024-04 完成 3500 万美元 A 轮（高瓴、IDG、Watton Family Foundation 投资）",
+      "recent": "普林斯顿校友 Annie Chen、Jessica Zou 2023 年硅谷创立；猿辅导（猿力科技）联合创始人帅科任 CEO——母大子小：大厂教育基因 + 海外新主体。",
+      "website": "https://classup.com",
+      "cooperation": "not",
+      "coopModel": "",
+      "agency": "自研自发（母大子小：猿辅导系团队 → 北美 K12 新主体）",
+      "scale": "head",
+      "contacts": [],
+      "channels": [
+        {
+          "label": "官网联系表单（暂无公开商务邮箱）",
+          "email": "",
+          "phone": "",
+          "source": "classup.com 官网联系页/LinkedIn；国内主体：北京朝阳区望京东园四区 6 号楼 21 层"
+        }
+      ],
+      "contactNote": "刚拿大额融资的教育出海新贵，主战场美国 K12——教育投放的黄金画像（家长客群、订阅制、LTV 长）。无公开商务邮箱，建议走官网表单 + LinkedIn 找增长/投放负责人，或经高瓴被投圈层引荐。"
+    },
+    {
+      "product": "Moji Weather（墨迹天气国际版）",
+      "company": "北京墨迹风云科技股份有限公司",
+      "hq": "北京朝阳来广营",
+      "category": "AI应用",
+      "markets": "中东、东南亚（重点发力）；国际版已覆盖美、英、法、意、加、马等",
+      "revenue": "国内累计用户 7 亿+、覆盖 27 万+ 城市；支持 199 个国家 / 20 万城市天气查询",
+      "recent": "2024 服贸会官宣国际化战略，已完成 30+ 国家多语言适配；变现路径明确：东南亚以广告变现为主、沙特以会员付费为主（高级副总裁黄耀海对外披露）。",
+      "website": "https://www.moji.com",
+      "cooperation": "not",
+      "coopModel": "",
+      "agency": "自研自发（国内工具巨头 → 海外版刚起步，海外投放经验相对薄弱）",
+      "scale": "head",
+      "contacts": [],
+      "channels": [
+        {
+          "label": "商务合作（最对口）⭐",
+          "email": "dawei.liu@moji.com",
+          "phone": "010-84798388",
+          "source": "墨迹官网联系我们页公示：商务合作 iOS dawei.liu@moji.com / Android xu.yang@moji.com；广告合作 yanbin.liu@moji.com / 15011301274"
+        }
+      ],
+      "contactNote": "出海刚起步的国内工具巨头——最理想的客户画像：有钱、有决心、但海外买量经验浅，正是需要代理的阶段。切中东/东南亚天气类工具的买量 + 广告变现双轮。商务邮箱分 iOS/Android 双线，发 dawei.liu@moji.com 并抄送 xu.yang@moji.com。"
+    },
+    {
+      "product": "Jinlan Global（出海 AI 应用/跨境业务，具体产品未公开）",
+      "company": "北京金兰科技有限公司",
+      "hq": "北京朝阳（秘鲁利马设有办公室：Av. República de Panamá 3535 D）",
+      "category": "AI应用",
+      "markets": "拉美（以秘鲁为基地）",
+      "revenue": "注册资本 2601 万元；参保 22 人（2026 工商口径）",
+      "recent": "2023-07 成立，法人张瑞麟；经营范围含 AI 应用软件开发、广告发布、货物进出口——拉美方向的小型出海团队，产品信息暂无公开披露。",
+      "website": "暂无公开官网",
+      "cooperation": "not",
+      "coopModel": "",
+      "agency": "自研自发（小微团队，大概率无投放岗）",
+      "scale": "sme",
+      "contacts": [],
+      "channels": [
+        {
+          "label": "工商登记邮箱（最直接）",
+          "email": "zhangruilin@jinlanglobal.com",
+          "phone": "",
+          "source": "公开企业信息平台公示的登记邮箱（法人张瑞麟）"
+        }
+      ],
+      "contactNote": "20 人出头的小团队 + 拉美（秘鲁）基地——拉美正是易点的优势市场之一。小团队决策快、但预算小，适合以「拉美单市场跑通模型」的小额方案切入。产品形态未公开，首封信先请教式破冰：「看到你们在利马设了办公室，想了解下业务方向」。"
+    },
+    {
       "product": "PixVerse（AI 视频生成）",
       "company": "北京爱诗科技有限公司",
       "hq": "北京",
@@ -822,30 +942,6 @@ window.INTEL = {
       "contactNote": "清华孵化、小而强，2026 融资强劲（估值 20 亿美元），已与阅文合作漫剧 AIGC。新兴高潜，投放可谈海外创作者/企业端获客。邮箱为阿里云店铺公示商务邮箱。"
     },
     {
-      "product": "MiniCPM / 面壁小钢炮（端侧大模型）",
-      "company": "北京面壁智能科技股份有限公司",
-      "hq": "北京（清华 NLP 孵化）",
-      "category": "AI应用",
-      "markets": "全球开源社区、北美、欧洲",
-      "revenue": "端侧大模型龙头，MiniCPM 系列登顶 HuggingFace；2026 与清华/易慧推汽车群体智能平台",
-      "recent": "2026 多模态 MiniCPM-V 4.5 登 HuggingFace TOP2，登上 Nature 子刊；端侧 AI 标杆。",
-      "website": "https://modelbest.cn",
-      "cooperation": "not",
-      "coopModel": "",
-      "agency": "自研自发",
-      "scale": "sme",
-      "contacts": [],
-      "channels": [
-        {
-          "label": "商务合作（最对口）⭐",
-          "email": "business@modelbest.cn",
-          "phone": "010-82158861",
-          "source": "面壁智能官网及多家媒体公示 business@modelbest.cn；天眼查登记邮箱"
-        }
-      ],
-      "contactNote": "清华系端侧大模型新星，100-499 人规模、小而强。出海切入点：端侧 AI App / 车载 / 穿戴设备的海外预装与买量。直接 business@modelbest.cn。"
-    },
-    {
       "product": "万兴播爆 Virbo（AI 视频 / 数字人）",
       "company": "万兴科技（深圳）",
       "hq": "深圳（A股 300624）",
@@ -870,30 +966,6 @@ window.INTEL = {
       "contactNote": "典型母大子小：万兴科技是 A 股数字创意软件龙头，Virbo 是其面向跨境短视频营销的海外 AI 应用线。切入：Virbo 海外买量 + 代理合作。邮箱 ws-business@wondershare.cn 直达销售。"
     },
     {
-      "product": "百川大模型 / Baichuan API",
-      "company": "百川智能（北京）",
-      "hq": "北京",
-      "category": "AI应用",
-      "markets": "国内为主，API 开放平台面向全球开发者",
-      "revenue": "王小川创立，2023 成立，累计融资超 50 亿美元级；M2 系列开源模型全球下载领先",
-      "recent": "2026 持续迭代开源大模型，企业级 API 出海获客中。",
-      "website": "https://www.baichuan-ai.com",
-      "cooperation": "not",
-      "coopModel": "",
-      "agency": "自研自发",
-      "scale": "head",
-      "contacts": [],
-      "channels": [
-        {
-          "label": "开放平台商务 / 官方邮箱⭐",
-          "email": "Openapi@baichuan-inc.com",
-          "phone": "",
-          "source": "百川智能开放平台官网公示 Openapi@baichuan-inc.com"
-        }
-      ],
-      "contactNote": "新兴大模型头部之一，王小川带队。出海切入点：企业级 API 海外获客、开发者生态。邮箱为开放平台官方邮箱。"
-    },
-    {
       "product": "连连跨境收付 / 全球账户",
       "company": "连连数字（杭州）",
       "hq": "杭州（港股 02598）",
@@ -916,30 +988,6 @@ window.INTEL = {
         }
       ],
       "contactNote": "跨境支付龙头，服务海量出海卖家/游戏/MCN。切入：为你的游戏/电商/短剧客户推荐连连做资金回款，亦可谈联合方案。globalBD@lianlianpay.com 直达国际 BD。"
-    },
-    {
-      "product": "Airwallex 全球收付 / 金融平台",
-      "company": "空中云汇（Airwallex，海南主体）",
-      "hq": "新加坡 / 香港（中国背景）",
-      "category": "金融",
-      "markets": "全球 200+ 国家、60+ 金融牌照",
-      "revenue": "E2 轮估值 56 亿美元，年处理交易额超 1000 亿美金，10 万+ 客户",
-      "recent": "2026 持续扩展全球金融云与银行合作网络，服务外贸/游戏出海。",
-      "website": "https://www.airwallex.com",
-      "cooperation": "not",
-      "coopModel": "",
-      "agency": "自研自发",
-      "scale": "head",
-      "contacts": [],
-      "channels": [
-        {
-          "label": "金融合作伙伴（最对口）⭐",
-          "email": "financialpartnerships@airwallex.com",
-          "phone": "",
-          "source": "Airwallex 官网博客公示 financialpartnerships@airwallex.com；国内 marketing.team.cn@airwallex.com"
-        }
-      ],
-      "contactNote": "全球跨境支付/金融平台，持牌广。切入：与你的出海客户（游戏/电商/教育）做收付方案联合推介。financialpartnerships@airwallex.com 直达金融合作。"
     },
     {
       "product": "讲真 / 启牛 / Kelly's Education（在线学习出海）",
@@ -988,30 +1036,6 @@ window.INTEL = {
         }
       ],
       "contactNote": "典型小微企业（<50 人）新兴 AI 口语出海，用户 1000 万+。切入：海外买量获客（东南亚/中东口音库）。直接 amazingcompany@163.com 或 sales@talkai.tw。"
-    },
-    {
-      "product": "Cake 求职平台 / AI 简历",
-      "company": "川陀数位股份有限公司（中国台湾）",
-      "hq": "中国台湾 / 新加坡",
-      "category": "教育",
-      "markets": "东南亚（印尼、越南）、亚太",
-      "revenue": "全球 800 万+ 用户、1 万+ 企业客户；2024 设立印尼/越南分部",
-      "recent": "2026 推 AI 履历健检，深化亚太人才枢纽布局。",
-      "website": "https://www.cake.me",
-      "cooperation": "not",
-      "coopModel": "",
-      "agency": "自研自发",
-      "scale": "head",
-      "contacts": [],
-      "channels": [
-        {
-          "label": "媒体/商务联络（最对口）⭐",
-          "email": "julie.hung@cake.me",
-          "phone": "",
-          "source": "Cake 新闻稿公示媒体联络人 julie.hung@cake.me"
-        }
-      ],
-      "contactNote": "中国台湾求职/教育科技出海，AI 简历+招聘，亚太扩张中。切入：职场教育出海买量。julie.hung@cake.me 为公开商务联络邮箱。"
     },
     {
       "product": "FlexTV（海外短剧）",
@@ -1084,30 +1108,6 @@ window.INTEL = {
         }
       ],
       "contactNote": "海外视频/语音社交直播，150+ 国家，中国团队背景。切入：社交娱乐买量。公开邮箱为 support@buzzcast.info，商务建议走官网 business 表单。"
-    },
-    {
-      "product": "梦幻模拟战 / 天地劫 等出海手游",
-      "company": "紫龙游戏（北京紫御科技）",
-      "hq": "北京（台北/东京/首尔有分公司）",
-      "category": "游戏",
-      "markets": "日本、韩国、东南亚、北美、港澳台",
-      "revenue": "海外收入占比 67%（2023），日本占海外 32%；多款产品全球双榜推荐",
-      "recent": "2026 持续全球化发行，自建本地化团队。",
-      "website": "https://www.zlongame.com",
-      "cooperation": "not",
-      "coopModel": "",
-      "agency": "自研自发（出海发行商，可对接易点天下做海外买量代投）",
-      "scale": "head",
-      "contacts": [],
-      "channels": [
-        {
-          "label": "海外市场合作（最对口）⭐",
-          "email": "crystal@zlongame.com",
-          "phone": "",
-          "source": "紫龙游戏官网联系页公示海外市场合作 crystal@zlongame.com"
-        }
-      ],
-      "contactNote": "出海游戏发行商，海外收入占比 67%，日本市场强。切入：海外买量代投/联合推广。crystal@zlongame.com 直达海外 BD。"
     }
   ],
   "policies": [
