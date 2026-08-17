@@ -226,6 +226,20 @@ textarea.input{resize:vertical;line-height:1.6}
   overflow:auto;
   scrollbar-width:thin;
 }
+#view-leads .scroll-hint{
+  display:none;
+  font-size:12px;
+  color:var(--txt-2);
+  background:var(--brand-soft);
+  border:1px solid var(--brand-line);
+  border-radius:8px;
+  padding:6px 10px;
+  margin-bottom:8px;
+  text-align:center;
+}
+@media (max-width: 1320px){
+  #view-leads .scroll-hint{display:block}
+}
 #view-leads .table-wrap::-webkit-scrollbar{height:10px;width:10px}
 #view-leads .table-wrap::-webkit-scrollbar-thumb{background:#bfc4cc;border-radius:5px}
 #view-leads .tbl{min-width:1280px}

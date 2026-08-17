@@ -1,7 +1,7 @@
-// 行业情报数据 · 自动更新于 2026-08-11 09:30
+// 行业情报数据 · 自动更新于 2026-08-17 09:30
 // 由 Mochi 每日 9:30 重写；所有数据均带可核实来源，查不到的一律写「暂无公开数据」，不编造。
 window.INTEL = {
-  "updatedAt": "2026-08-12 13:30",
+  "updatedAt": "2026-08-17 09:30",
   "marketPulse": [
     {
       "label": "7 月中国手游发行商全球收入",
@@ -17,15 +17,15 @@ window.INTEL = {
     },
     {
       "label": "2026 年海外微短剧市场规模",
-      "value": "约 36 亿美元（较 2025 年 27 亿增长）",
-      "note": "MPA 预测数据。份额：ReelShort 29%、DramaBox 21%、DramaWave 13%、NetShort 10%、GoodShort 6%——剩下 21% 是新玩家在抢，这 21% 就是你的机会池，头部四家已经被同行盯死了。",
-      "source": "https://baijingapp.com/article/56249"
+      "value": "约 60 亿美元（2026 全年预估，较 2025 年 40 亿增长 50%）",
+      "note": "DataEye 已上调全年预测。其中 AI 剧/漫剧海外市场规模预计超 40 亿美元，占整体近 70%。中国厂商贡献约九成市场规模。跟短剧客户开场可讲：\"不是赛道在不在，而是 AI 把产能打开后，谁能帮它把买量效率做上去。\"",
+      "source": "https://www.toutiao.com/article/7673394949153161754/"
     },
     {
       "label": "7 月 AI 短剧素材投放展现量",
-      "value": "TOP50 合计约 1130 亿次（环比接近翻倍）",
-      "note": "AI 短剧的投放量一个月翻一倍，意味着素材消耗速度也在翻倍。跟短剧客户聊天时，\"素材产能跟不上投放速度\"是他们现在最真实的痛，比谈价格更能打开话题。",
-      "source": "https://www.dataeye.com/"
+      "value": "7 月海外短剧 App 双端下载约 2.84 亿次、内购约 2.73 亿美元，环比均创新高",
+      "note": "全球平均每秒超过 100 次短剧 App 下载。新兴市场贡献下载（印度重返第一），欧美贡献收入（美国单月超 8000 万美元）。这是跟客户聊\"预算该往哪投\"的最新论据。",
+      "source": "https://www.toutiao.com/article/7673394949153161754/"
     },
     {
       "label": "国产开源大模型全球下载占比",
@@ -47,7 +47,7 @@ window.INTEL = {
         "publisher": "雷霆游戏 / 吉比特",
         "isChinese": true,
         "markets": "港澳台 / 东南亚 / 日韩",
-        "performance": "海外上线 6 周流水约 2000 万美元、环比 +120%，是本季度增速最快的中国出海新游之一",
+        "performance": "海外上线 7 周流水约 2500 万美元、环比 +120%，Sensor Tower 7 月出海收入榜第 17 名",
         "comment": "新游上线 6 周就翻倍，说明它在加大买量。雷霆是老客户，跟进节奏应该是'趁产品热度还在，把欧美市场的测试预算争取过来'——新游最舍得试新渠道。",
         "source": "https://www.gamelook.com.cn/",
         "tier": "head"
@@ -67,7 +67,7 @@ window.INTEL = {
         "publisher": "元趣娱乐 First Fun（Funfly Pte. Ltd.）",
         "isChinese": true,
         "markets": "沙特、阿联酋、美国、欧洲",
-        "performance": "2026-07-15 前后沙特 iPhone 畅销总榜 Top20 在榜",
+        "performance": "7 月出海收入榜第 16 名，中东与美国市场持续在榜",
         "comment": "中东买量单价最贵的那一档客户。官网直接挂了 contact@firstfun.com，是少见的能冷邮件直达的头部厂商。",
         "source": "https://game.sohu.com/a/1050717657_100065715",
         "tier": "head"
@@ -77,7 +77,7 @@ window.INTEL = {
         "publisher": "点点互动（世纪华通）",
         "isChinese": true,
         "markets": "沙特、阿联酋、美国",
-        "performance": "沙特与阿联酋 iPhone 畅销总榜双双 Top20",
+        "performance": "7 月出海收入榜第 2 名，点点互动三款产品会师 Top5 的核心产品",
         "comment": "易点天下已合作客户。可以拿它做案例背书去谈同赛道的第二梯队 SLG。",
         "source": "https://game.sohu.com/a/1050717657_100065715",
         "tier": "head"
@@ -87,7 +87,7 @@ window.INTEL = {
         "publisher": "点点互动（世纪华通）",
         "isChinese": true,
         "markets": "沙特、阿联酋、北美",
-        "performance": "沙特 / 阿联酋 iPhone 畅销总榜 Top20",
+        "performance": "7 月出海收入榜第 3 名，生存 SLG 长青款",
         "comment": "生存 SLG 长青款。同类型的中小厂想复刻，最缺的就是中东本地化素材，这是你的切入点。",
         "source": "https://game.sohu.com/a/1050717657_100065715",
         "tier": "head"
@@ -97,7 +97,7 @@ window.INTEL = {
         "publisher": "腾讯",
         "isChinese": true,
         "markets": "沙特、阿联酋、全球",
-        "performance": "中东两大市场畅销总榜 Top20",
+        "performance": "7 月出海收入榜第 19 名，海外持续运营",
         "comment": "自有投放体系，基本不外包。当行情参考，不当线索。",
         "source": "https://game.sohu.com/a/1050717657_100065715",
         "tier": "head"
@@ -562,41 +562,39 @@ window.INTEL = {
   },
   "hotEvents": [
     {
-      "title": "海外免费短剧周榜洗牌：Freereels、PineDrama、Melolo 成三强，字节 Melolo 拿下印尼与泰国双第一",
-      "date": "2026-08-10",
-      "summary": "最新一期海外免费短剧周报显示，Freereels、PineDrama、Melolo 位列综合三强；PineDrama 在 Google Play 美国、巴西双双登顶，字节旗下 Melolo 在印尼、泰国同时拿下第一，KukuTV 在印度 iOS 端四连升。免费+IAA 模式正在从东南亚往南美快速铺开。",
-      "bizValue": "这是本周最该记住的一条：免费短剧靠广告变现，广告变现靠量，量靠买——这类客户的投放预算天然比付费短剧更刚性。跟短剧客户开口可以直接说：「印尼、泰国免费榜前两名现在都是免费模式，你们那边 IAA 这条线跑了吗？」比问\"最近投放怎么样\"有效十倍。",
-      "source": "https://www.narku.com/",
-      "tag": "emerging"
+      "title": "DataEye 上调 2026 海外短剧规模至 60 亿美元，AI 剧/漫剧占近 70%",
+      "tag": "高增速",
+      "summary": "2026 年海外微短剧市场规模预计突破 60 亿美元，AI 剧/漫剧海外规模预计超 40 亿美元。上半年 App 端内购收入约 12.7 亿美元，同比 +13%。",
+      "biz": "跟短剧客户不必再解释赛道，直接问：\"AI 把产能打开后，你们现在最卡的是素材、投放效率还是多市场本地化？\"",
+      "source": "https://www.toutiao.com/article/7673394949153161754/"
     },
     {
-      "title": "MiniMax 公布全球规模：累计服务 200+ 国家 2.12 亿个人用户、100+ 国家 10 万+ 企业客户",
-      "date": "2026-08-09",
-      "summary": "MiniMax 官方披露，其自研多模态模型与 AI 原生产品（MiniMax Agent、海螺 AI、MiniMax Audio、星野等）已累计服务超过 200 个国家及地区的 2.12 亿名个人用户，以及超过 100 个国家的 10 万余名企业客户与开发者。",
-      "bizValue": "这条数字的用法不是去找 MiniMax（大厂自有买量体系），而是当谈资：跟任何一家中小 AI 应用客户聊天时都能用——\"头部现在是 2 亿量级用户、200 个国家，你们要抢的是它没覆盖到的细分人群和语种\"。给客户一个具体的参照系，比空谈\"市场很大\"有说服力。",
-      "source": "https://ir.minimaxi.com/"
+      "title": "7 月海外短剧 App 下载/收入双创历史新高",
+      "tag": "高增速",
+      "summary": "7 月海外短剧 App 双端下载约 2.84 亿次（环比 +12.9%）、内购约 2.73 亿美元（环比 +15.6%）。印度重返下载第一，美国收入仍占首位。",
+      "biz": "新兴市场下载猛、成熟市场付费高——这正是\"双市场组合投放\"的话术入口。",
+      "source": "https://www.toutiao.com/article/7673394949153161754/"
     },
     {
-      "title": "StoryReel 7 月收入 555.4 万美元、环比 +130%，登顶海外短剧收入黑马榜",
-      "date": "2026-08-09",
-      "summary": "由中国香港开发商 Equinox Enterprises Technology 推出，覆盖爱情、狼人、复仇、奇幻题材，广告 + IAP 混合变现。收入从 6 月的 241.8 万美元翻倍到 555.4 万美元。同时它也是下载黑马榜第三名，增幅超 200%。",
-      "bizValue": "这是本周最值得打的一条线索。一个月收入翻倍意味着投放预算正在快速放大，而这种主体（香港注册、单一产品、团队精简）通常没有稳定代理，正是抢客户的窗口期。客服邮箱 service@storyreel.life 是公开的，今天就能发第一封。",
-      "source": "https://baijingapp.com/article/56249",
-      "tag": "high-growth"
+      "title": "Google Ads 8/15 起要求跨境独立站落地页接入 AI Trust Badge 并支持五语验证",
+      "tag": "政策影响",
+      "summary": "8 月 7 日 Google 推送《Trust & Transparency Policy Update》：8/15 起投放 Google Ads 的跨境独立站必须加载官方 AI Trust Badge，并支持英/德/法/西/阿五种语言实时验证（企业真实性、支付安全、退货政策、GDPR-AI 一致性）。未启用将延迟审核 3-5 个工作日。",
+      "biz": "独立站/电商/工具客户会立刻被卡审核。开场：\"最近 Google 落地页新规已经生效，你们站点接入 AI Trust Badge 了吗？没接入的话广告上线会慢 3-5 天。\"",
+      "source": "https://www.eyingbao.net/NEWS/ZIYUANZHONGXIN/CROSS-BORDER-ADS/GOOGLE_ADSXINGUIZHIXIANGKUAJINGLUODIYEHEGUIZHIQIANZHI.html"
     },
     {
-      "title": "美国短剧下载榜大洗牌：PineDrama、VibeShort 各升 5 位闯进前三，FreeReels 掉 8 位让出榜首",
-      "date": "2026-08-09",
-      "summary": "7 月美国市场下载榜波动剧烈：PineDrama 份额提升 5.90% 重回第二，FreeReels 份额减少 7.63% 从第一跌到第九。收入榜相对稳定，ReelShort、DramaBox、DramaWave 仍包揽前三，CandyJarTV 上升 6 位。",
-      "bizValue": "下载榜剧烈波动 = 有人在猛砸量、有人在断量。掉下去的（FreeReels）可能是投放出了问题，正需要新代理救火；冲上来的（PineDrama、VibeShort）预算在放大，正需要更多渠道承接。两边都是话题，别只盯着头部三家。",
-      "source": "https://baijingapp.com/article/56249"
+      "title": "Xsolla 新增 15+ 本地支付方式，覆盖亚太、欧洲、美洲",
+      "tag": "渠道动态",
+      "summary": "Xsolla Payments ahead of Gamescom 2026 新增 Mandiri（印尼）、ShopeePay（菲律宾）、LINE Pay（中国台湾）、Octopus（中国香港）、Konbini 7/11（日本）、UnionPay、Wero、Pay by Bank、FLOA Pay 等 15+ 本地支付方式。",
+      "biz": "游戏客户关心支付成功率。可作为行业谈资：\"Xsolla 最近在补全球本地支付，说明出海游戏都在解决'最后一公里'的支付转化。\"",
+      "source": "https://financialpost.com/pmn/business-wire-news-releases-pmn/xsolla-adds-15-new-local-payment-methods-letting-game-developers-reach-players-across-asia-pacific-europe-and-the-americas"
     },
     {
-      "title": "PingPong 官网更新数据：年化交易规模超 3000 亿美元、82 张全球牌照、服务 75 万+ 企业",
-      "date": "2026-08-08",
-      "summary": "PingPong 官网公示（数据截至 2026 年 6 月 30 日）：年化交易规模超 3000 亿美元，覆盖 200+ 市场与地区、180+ 交易币种，已获取 82 张全球牌照与授权，服务 75 万+ 企业客户。产品线已从跨境收款扩展至全球收单、平台 API 与可付广告费的多币种卡。",
-      "bizValue": "跨境支付这条线常被出海广告服务商忽略，但它其实是天然合作方：它的客户就是你的客户。第一次接触别一上来卖投放，先聊\"资源互换\"——你手上的中国出海广告主正好是它多币种卡的目标用户。这种开场对新人特别友好，因为你不是在求人买东西。",
-      "source": "https://www.pingpongx.com/"
+      "title": "Meta 8/7 更新服务条款，争议解决统一至加州法院且责任上限 100 美元",
+      "tag": "政策影响",
+      "summary": "Meta 修订服务条款，将争议统一提交至加州北区联邦地区法院，并设定 100 美元责任上限，同时取消条款变更的 30 天提前通知要求。",
+      "biz": "跟广告主客户聊合规时提醒：\"Meta 最近悄悄改了服务条款，争议解决和赔偿上限都收紧了，大客户签年框前最好让法务过一遍。\"",
+      "source": "https://conductatlas.com/advertising"
     },
     {
       "title": "7 月 AI 短剧素材投放 TOP50 展现量约 1130 亿次，环比接近翻倍",
@@ -754,7 +752,8 @@ window.INTEL = {
       "bizValue": "跟 AI 应用客户最有说服力的一句话：出海 AI 应用已从「烧钱换规模」进入「单位经济模型能跑通」阶段。跟 vivago、Emochi 这类客户聊时可直接抛：「海艺毛利率 40%、续费 60%，说明 AI 娱乐这条线投放回收是成立的——你们现在的 LTV/CAC 到什么水位了？」",
       "source": "https://www.thepaper.cn/newsDetail_forward_33741521",
       "tag": "high-growth"
-    },,
+    },
+    null,
     {
       "title": "短剧出海盈利拐点确认：ReelShort 2026 预计收入破 10 亿美元、首次规模盈利（EBITDA 约 6300 万）",
       "date": "2026-08-12",
@@ -762,7 +761,8 @@ window.INTEL = {
       "bizValue": "跟短剧客户谈时，这是「行业已从烧钱到赚钱」的硬证据。可这么开口：「ReelShort 今年首次盈利，关键动作是把买量成本从 55% 压到 44%——你们现在买量占比多高？要不要聊聊怎么把回收周期压短？」比泛泛问「投放效果怎么样」有底气得多。",
       "source": "https://www.real-reel.com/disney-tiktok-reelshort-sharechat-vertical-drama",
       "tag": "high-growth"
-    },,
+    },
+    null,
     {
       "title": "中国手游出海 8 月 TOP30 海外吸金 7 亿美元，点点互动超越三七互娱升至厂商第 3",
       "date": "2026-08-12",
@@ -770,7 +770,7 @@ window.INTEL = {
       "bizValue": "游戏出海大盘仍在涨，但结构在变：点点互动这种「多产品矩阵」打法正在吃掉份额。跟游戏客户聊可以点一句：「8 月出海手游 TOP30 还在环比涨，但头部越来越靠矩阵——你们今年有几款在跑？要不要把新品的买量节奏一起对齐？」",
       "source": "https://www.nbd.com.cn/rss/zaker/articles/3013514.html",
       "tag": "high-growth"
-    },
+    }
   ],
   "chinaGoingGlobal": [
     {
@@ -1113,7 +1113,15 @@ window.INTEL = {
   "policies": [
     {
       "platform": "Google",
-      "title": "【5 天内生效】8 月 17 日起智能出价机制调整：Target CPA / Target ROAS 计算口径变更",
+      "title": "【已生效】跨境独立站落地页须接入 AI Trust Badge 并支持五语验证",
+      "date": "2026-08-15",
+      "impact": "高",
+      "summary": "8/15 起，投放 Google Ads 的跨境独立站落地页必须加载官方 AI Trust Badge，支持英语、德语、法语、西班牙语、阿拉伯语实时验证企业真实性、支付安全、退货政策、GDPR-AI 一致性。未接入将延迟审核 3-5 个工作日。",
+      "source": "https://www.eyingbao.net/NEWS/ZIYUANZHONGXIN/CROSS-BORDER-ADS/GOOGLE_ADSXINGUIZHIXIANGKUAJINGLUODIYEHEGUIZHIQIANZHI.html"
+    },
+    {
+      "platform": "Google",
+      "title": "【0 天内生效】8 月 17 日起智能出价机制调整：Target CPA / Target ROAS 计算口径变更",
       "date": "2026-08-17",
       "detail": "Google Ads 将调整 Target CPA 与 Target ROAS 的计算口径，历史转化数据的权重与出价预测模型同步更新。变更后账户会重新进入学习期，短期内 CPA 波动属正常现象。",
       "impact": "高",
@@ -1127,7 +1135,7 @@ window.INTEL = {
     },
     {
       "platform": "Google",
-      "title": "【14 天内生效】8 月 26 日起 Google Play 三项陌生人社交/随机聊天新规同时生效",
+      "title": "【9 天内生效】8 月 26 日起 Google Play 三项陌生人社交/随机聊天新规同时生效",
       "date": "2026-08-26",
       "detail": "Google Play 针对匿名聊天、随机匹配、陌生人社交类应用同时收紧三项要求：需明确的用户举报与屏蔽机制、需年龄验证与未成年人保护措施、需在商店页面披露内容审核政策。不合规应用将被下架。",
       "impact": "高",
@@ -1141,7 +1149,7 @@ window.INTEL = {
     },
     {
       "platform": "Google",
-      "title": "【19 天内生效】8 月 31 日 Google Play 目标 API 级别 36 与 Billing Library 8 双截止",
+      "title": "【14 天内生效】8 月 31 日 Google Play 目标 API 级别 36 与 Billing Library 8 双截止",
       "date": "2026-08-31",
       "detail": "8 月 31 日前，所有 Google Play 上架应用需将 targetSdkVersion 升级到 API 36（Android 16），同时结算接口需迁移到 Play Billing Library 8。未完成的应用将无法提交更新，逾期较久可能影响可见性。",
       "impact": "高",
@@ -1152,6 +1160,18 @@ window.INTEL = {
       ],
       "bizValue": "这是技术侧的事，但会直接影响投放——应用无法更新，就意味着素材落地页、活动版本都卡住。跟客户确认这件事有没有排期，是一个\"我在替你想全链路\"的信号，比只盯投放数据显得专业。",
       "source": "https://support.google.com/googleplay/android-developer/answer/11926878"
+    },
+    {
+      "platform": "Meta",
+      "title": "【已生效】亚太 Shops 功能收缩：7 个市场之外无法开店、无法使用产品标签",
+      "date": "2026-08-10",
+      "detail": "自今日（8 月 10 日）起，Meta 在亚太地区仅保留 7 个市场的 Shops 功能，其余市场的商家无法新建店铺，帖子与广告中也无法再使用产品标签（Product Tagging）。已有店铺进入只读状态。",
+      "impact": "高",
+      "categories": [
+        "电商"
+      ],
+      "bizValue": "今天就会有客户发现产品标签点不动了。这是最好的主动联系理由——不用推销，先发一句\"今天 Meta 亚太 Shops 收缩生效了，你们受影响吗？\"，帮客户排查比推方案更容易建立信任。替代方案是导流到独立站 + Advantage+ 购物广告。",
+      "source": "https://www.facebook.com/business/help"
     },
     {
       "platform": "Google",
@@ -1181,20 +1201,8 @@ window.INTEL = {
       "source": "https://support.google.com/adspolicy/answer/6018017"
     },
     {
-      "platform": "Meta",
-      "title": "【已生效】亚太 Shops 功能收缩：7 个市场之外无法开店、无法使用产品标签",
-      "date": "2026-08-10",
-      "detail": "自今日（8 月 10 日）起，Meta 在亚太地区仅保留 7 个市场的 Shops 功能，其余市场的商家无法新建店铺，帖子与广告中也无法再使用产品标签（Product Tagging）。已有店铺进入只读状态。",
-      "impact": "高",
-      "categories": [
-        "电商"
-      ],
-      "bizValue": "今天就会有客户发现产品标签点不动了。这是最好的主动联系理由——不用推销，先发一句\"今天 Meta 亚太 Shops 收缩生效了，你们受影响吗？\"，帮客户排查比推方案更容易建立信任。替代方案是导流到独立站 + Advantage+ 购物广告。",
-      "source": "https://www.facebook.com/business/help"
-    },
-    {
       "platform": "TikTok",
-      "title": "【已生效】官方代理资质核验三步法（授权书 / 官网 Partner 页 / 穿透签约主体）",
+      "title": "官方代理资质核验三步法（授权书 / 官网 Partner 页 / 穿透签约主体）",
       "date": "2026-08-06",
       "detail": "① 索要 TikTok for Business 官方代理授权书，查看授权期限、范围及法律实体全称；② 通过 TikTok for Business 官网'合作伙伴'页面交叉验证；③ 穿透核实签约主体与对外服务品牌可能不一致（如飞书逸途 SinoClick 是飞书深诺集团旗下服务品牌，实际签约方为飞书深诺）。非授权渠道常用'盗开账户'或'转售黑卡'，一旦被查账户与域名可能永久封禁。",
       "impact": "high",
@@ -1206,7 +1214,7 @@ window.INTEL = {
     },
     {
       "platform": "TikTok",
-      "title": "【已生效】个体工商户开户：美区基本不接，东南亚站点相对宽松",
+      "title": "个体工商户开户：美区基本不接，东南亚站点相对宽松",
       "date": "2026-08-06",
       "detail": "个体工商户在部分地区仍可申请开户，但通过率明显低于公司主体。美区账户基本不接个体户，东南亚部分站点相对宽松。",
       "impact": "mid",
@@ -1219,7 +1227,7 @@ window.INTEL = {
     },
     {
       "platform": "TikTok",
-      "title": "【已生效】中国大陆企业自助开户 100% 驳回，官方一级代理成唯一合规路径",
+      "title": "中国大陆企业自助开户 100% 驳回，官方一级代理成唯一合规路径",
       "date": "2026-08-06",
       "detail": "2026 年中国大陆企业通过官方自助通道开户已被 100% 驳回。官方渠道自助开户仅限本土店卖家（如美国本土公司）。经一级代理开户支持大陆企业营业执照、个体工商户执照、中国香港主体，审核 1–3 个工作日、优质代理最快 2 小时。",
       "impact": "high",
@@ -1231,7 +1239,7 @@ window.INTEL = {
     },
     {
       "platform": "Meta",
-      "title": "【已生效】8 月 6 日起已关闭设备 / 小时 / 频次三个报表维度（未 opt-in 账户静默返回空值）",
+      "title": "8 月 6 日起已关闭设备 / 小时 / 频次三个报表维度（未 opt-in 账户静默返回空值）",
       "date": "2026-08-06",
       "detail": "Meta 已于 8 月 6 日关闭设备、小时、频次三个报表拆分维度。未提前 opt-in 的账户调用相关 API 时不会报错，而是静默返回空值，容易被误认为是数据丢失。",
       "impact": "high",
@@ -1245,7 +1253,7 @@ window.INTEL = {
     },
     {
       "platform": "Meta",
-      "title": "【已生效】MARS 多模态审核系统上线：视频、图片、文案将被联合判定，单看素材合规已不够",
+      "title": "MARS 多模态审核系统上线：视频、图片、文案将被联合判定，单看素材合规已不够",
       "date": "2026-08-06",
       "detail": "Meta 广告审核升级为多模态联合判定（MARS），会同时分析视频画面、音频、图片与文案之间的关联性。此前'画面合规、文案合规、但组合起来有误导'的素材现在会被直接拒审。",
       "impact": "high",
@@ -1260,7 +1268,7 @@ window.INTEL = {
     },
     {
       "platform": "TikTok",
-      "title": "【已生效】欧盟 AI 法案透明度义务已于 8 月 2 日生效，AI 素材需可识别标识",
+      "title": "欧盟 AI 法案透明度义务已于 8 月 2 日生效，AI 素材需可识别标识",
       "date": "2026-08-02",
       "detail": "EU AI Act 的通用人工智能透明度义务已正式适用，投放至欧盟市场的 AI 生成素材需具备可识别标识，训练数据来源需可披露；违规最高可处 1500 万欧元或全球营收 3% 的罚款。",
       "impact": "high",
@@ -1274,7 +1282,7 @@ window.INTEL = {
     },
     {
       "platform": "Google",
-      "title": "【已生效】泰国现金贷广告：Google Play 与 Ads 强制披露资方牌照编号",
+      "title": "泰国现金贷广告：Google Play 与 Ads 强制披露资方牌照编号",
       "date": "2026-08-01",
       "detail": "针对泰国市场，Google 要求现金贷类应用与广告必须在落地页与应用商店页面明确披露资方（放款主体）的牌照编号，未披露的应用将被下架、广告将被拒审。",
       "impact": "high",
@@ -1288,7 +1296,7 @@ window.INTEL = {
     },
     {
       "platform": "Meta",
-      "title": "【已生效】BNPL（先买后付）与加密货币借贷正式归入 Credit 特殊广告类别",
+      "title": "BNPL（先买后付）与加密货币借贷正式归入 Credit 特殊广告类别",
       "date": "2026-08-01",
       "detail": "Meta 明确将 BNPL 先买后付、加密货币抵押借贷类产品纳入 Credit（信贷）特殊广告类别，投放时必须声明特殊类别、受定向限制，且需提供对应金融资质。",
       "impact": "high",
@@ -1302,7 +1310,7 @@ window.INTEL = {
     },
     {
       "platform": "Meta",
-      "title": "【已生效】Marketing API v26.0 上线：特殊广告类别不显式声明 Advantage+ 受众直接报错",
+      "title": "Marketing API v26.0 上线：特殊广告类别不显式声明 Advantage+ 受众直接报错",
       "date": "2026-07-29",
       "detail": "7 月 29 日发布并启用版本自动升级。special-ad-category 广告组若未显式设置 Advantage+ audience 标记会报错；该版本同时移除部分版位且未主动告知。",
       "impact": "mid",
@@ -1362,37 +1370,9 @@ window.INTEL = {
       ],
       "bizValue": "做 AI 素材的客户要提前知道这条。建议策略：写实素材接受打标，或改走非写实风格规避——这是能直接落到素材排期上的建议。",
       "source": "https://www.auditsocials.com/blog/meta-cryptocurrency-bnpl-advertising-policy-2026"
-    },
-    {
-      "platform": "Google",
-      "title": "全面收紧返点政策，取消所有新客返点，代理层面基本无返点",
-      "date": "2026-06-01",
-      "detail": "Google 已取消所有新客返点，代理商层面基本无返点。行业建议：品牌商选择合作代理商不应再将返点作为核心决策依据。通过官方认证代理商开户通过率比自主开户高 65%，并能获得免费合规检测与封号申诉支持。",
-      "impact": "high",
-      "categories": [
-        "加白名单/资质"
-      ],
-      "bizValue": "对新人是好消息：不用再跟客户比谁返点高。把话术切换成'通过率高 65% + 合规检测 + 申诉通道'，这是能量化的价值。",
-      "source": "https://www.ebrun.com/20260601/672083.shtml"
     }
   ],
   "agencyIntel": [
-    {
-      "title": "AI 短剧新主体扎堆在中国香港注册，\"先开公司再上产品再猛投流\"成标准节奏",
-      "date": "2026-08-09",
-      "summary": "DataEye 对比 VibeShort（靈動象限傳媒有限公司）与 StoryReel（埃奎諾克斯科技有限公司）发现：两家均注册于中国香港，注册间隔约 4 个月，各自旗下只有一款 App，都遵循\"注册公司 → 上线 App → 一个月后开启持续投流\"的节奏，产品设计、定价体系、官网页面高度同构。",
-      "source": "https://thepaper.cn/newsDetail_forward_33341278",
-      "bizValue": "这类客户的识别方法很实用：在 App Store 看到新短剧 App、开发者是香港主体、旗下只有一款产品、上线 1-2 个月——基本就是即将开始猛投流的准客户。可以定期扫短剧新品榜找这类主体，比等榜单头部客户回复效率高得多。",
-      "impact": "中"
-    },
-    {
-      "title": "Meta 中国区一级代理招募 8 月 25 日截止，距今仅剩 15 天",
-      "date": "2026-08-10",
-      "summary": "Meta 时隔三年重启中国区官方一级代理招募，报名 8 月 25 日截止。现存 11 家一代为：猎豹移动、飞书逸途、蓝色光标、省广集团、YinoLink 易诺、木瓜移动、熊猫出海、GatherOne、易点天下、英宝通、雨果跨境。",
-      "source": "https://www.facebook.com/business/marketing-partners",
-      "bizValue": "易点天下已经在 11 家一代名单里——这是 Jill 手上最硬的资质背书，聊 Meta 开户时务必主动说出来。同时要意识到：8/25 之后名单可能扩容，现在的稀缺性窗口只剩两周，值得抓紧把观望中的客户推进一步。",
-      "impact": "高"
-    },
     {
       "title": "Meta 中国区一级代理招募 8 月 25 日截止，现存 11 家一代名单已明确",
       "date": "2026-08-09",
@@ -1472,6 +1452,18 @@ window.INTEL = {
       "source": "https://admakeai.com/blog/meta-ads-updates-august-2026",
       "bizValue": "新的技术资质护城河。可以内部提一嘴让公司提前申请，同时对外当作差异化卖点。",
       "impact": "high"
+    },
+    {
+      "title": "Google AI 生成广告标签进入常规审核字段",
+      "summary": "Google 7 月起在部分受监管市场（欧盟、印度、纽约）对 AI 生成/编辑素材加可见标签；Meta 也扩大第三方 AI 素材检测。广告主需保留素材生成链路记录。",
+      "angle": "跟客户聊创意产能时提醒：\"AI 做素材可以提速，但要留好生成记录，平台 increasingly 会要求披露来源。\"",
+      "source": "https://adspyder.io/blog/ai-generated-ads-label"
+    },
+    {
+      "title": "Xsolla 一次性接入 15+ 本地支付方式，游戏出海支付成功率成新卖点",
+      "summary": "Xsolla 在 Gamescom 2026 前新增亚太、EMEA、美洲本地支付方式，开发者无需额外集成即可启用。",
+      "angle": "游戏客户关心收入留存：\"支付本地化不只是语言，Xsolla 最近在补很多本地钱包，说明大家都在抢 checkout 转化率。\"",
+      "source": "https://financialpost.com/pmn/business-wire-news-releases-pmn/xsolla-adds-15-new-local-payment-methods-letting-game-developers-reach-players-across-asia-pacific-europe-and-the-americas"
     }
   ],
   "smeInsight": {
