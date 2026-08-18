@@ -335,13 +335,22 @@ function renderXHS(){
         ${m.note ? `<div class="mi-note">${esc(m.note)}</div>` : ''}
         ${m.file ? `<div class="mi-file">📎 ${esc(m.file)}</div>` : ''}
       </div>
-      <span class="mi-del" data-md="${m.id}" title="删除">×</span>
+      <div class="mi-actions">
+        <button class="mini-btn" data-xmat="${m.id}" title="复制基于该素材的生成提示词">✨ 生成图文</button>
+        <span class="mi-del" data-md="${m.id}" title="删除">×</span>
+      </div>
     </div>`).join('')
     : '<div class="empty" style="padding:22px 10px"><p style="font-size:12.5px">还没有素材。把你的案例、白皮书、PPT 传上来，二创时更有料。</p></div>';
 
   $$('[data-md]', matBox).forEach(el => el.addEventListener('click', ()=>{
     XHS_MATERIALS = XHS_MATERIALS.filter(m => m.id !== el.dataset.md);
     save(KEY_XHS, XHS_MATERIALS); renderXHS(); toast('已删除素材');
+  }));
+
+  $$('[data-xmat]', matBox).forEach(el => el.addEventListener('click', ()=>{
+    const m = XHS_MATERIALS.find(x => x.id === el.dataset.xmat);
+    if(!m) return;
+    copyText(buildXhsMatPrompt(m));
   }));
 }
 
@@ -365,6 +374,25 @@ $('#xhsMatFile').addEventListener('change', e =>{
   if(!$('#xhsMatName').value.trim()) $('#xhsMatName').value = f.name;
   $('#xhsMatNote').focus();
 });
+
+function buildXhsMatPrompt(m){
+  return `我要发一条小红书来获客（我是易点天下 Yeahmobi 出海广告商务 Jill，目标客户是国内想出海的互联网 / 游戏 / 金融 / AI 公司）。
+
+请基于我下面提供的素材，帮我生成一篇可直接发布的小红书图文内容（含标题、正文、配图建议、5 个话题标签 #）。
+
+【素材名称】${m.name}
+【素材核心内容】${m.note || '（未填写，请基于素材名称和文件内容发挥）'}
+${m.file ? `【附件】${m.file}` : ''}
+
+要求：
+1. 标题带痛点/反常识 + 具体数字 + 利益点，前 18 字要抓人
+2. 正文 300–500 字，站在中小企业客户视角，说他们能听懂、用得上的干货
+3. 结尾带一句获客钩子（例如：需要海外投放方案 / 想聊聊你们的品类怎么打，私信我）
+4. 给出 3–5 张图的配图建议（每张图写什么、怎么排版）
+5. 话题标签 5 个，围绕 #出海 #广告投放 #游戏出海 #AI应用 #短剧出海 #金融科技 等方向选
+6. 不要编造我没有提供的数据；不要给具体的 LTV/CAC 阈值、回本天数；不要点评具体竞品
+7. 语气像真人商务分享，不是硬广`;
+}
 
 function buildXhsPrompt(t){
   const mats = XHS_MATERIALS;

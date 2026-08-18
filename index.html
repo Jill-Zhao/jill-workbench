@@ -256,9 +256,10 @@ if ('serviceWorker' in navigator) {
       <div class="sync-panel">
         <div class="xhs-mat-add">
           <input class="input" id="xhsMatName" placeholder="素材名称，如「Q3 出海投放案例」">
-          <textarea class="input" id="xhsMatNote" rows="1" placeholder="可二创的点 / 备注（选填）"></textarea>
+          <textarea class="input" id="xhsMatNote" rows="3" placeholder="把文件里的核心卖点/数据/案例贴进来，我会基于这些生成图文"></textarea>
           <label class="btn-ghost file-btn">📎 选文件<input type="file" id="xhsMatFile" accept=".pdf,.doc,.docx,.txt,.md,.ppt,.pptx,.key,.pdf" hidden></label>
           <button class="btn-primary" id="btnAddMat">添加素材</button>
+          <span class="hint" style="width:100%;margin-top:6px">💡 建议：文件可以存，但核心内容请贴到上方文本框，否则 Mochi 读不到浏览器里的文件。</span>
         </div>
         <div class="material-list" id="xhsMatList" style="margin-top:12px"></div>
       </div>
