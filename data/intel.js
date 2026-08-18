@@ -1,6 +1,6 @@
 // 行业情报数据 · 自动更新于 2026-08-18 10:30；线索池 14 家中有邮箱的 13 家已配好「跟进邮件草稿」（emailSubject/emailBody），工作台可直接复制发送
 window.INTEL = {
-  "updatedAt": "2026-08-18 10:30（线索池已为有邮箱公司配好一键跟进邮件）",
+  "updatedAt": "2026-08-18 10:40（信征 One Hope 入池，已合作标记；移出连连）",
   "marketPulse": [
     {
       "label": "7 月中国手游发行商全球收入",
@@ -771,6 +771,32 @@ window.INTEL = {
   ],
   "chinaGoingGlobal": [
     {
+      "product": "One Hope（海外消费金融 App，服务东南亚多国）",
+      "company": "信征（北京）科技有限公司（XinZheng Beijing Information Technology）",
+      "hq": "北京朝阳（望京园 603 号楼）",
+      "category": "金融",
+      "markets": "东南亚（印尼等；快出海企业库登记「服务覆盖东南亚多个国家」）",
+      "revenue": "注册资本 100 万元；公司规模约 100-500 人（招聘平台口径）；合作表累计投放约 1.4 万美元",
+      "recent": "2015-05 成立，法人陈欣；官网 xinzhengkeji.com。One Hope 依托数据挖掘、AI、风控技术服务海外用户线上财务需求，覆盖东南亚多国（快出海企业库登记）。飞书合作表显示 2022-09 起为易点 Indirect 客户（中文登记名：北京有乐互娱科技有限公司）。",
+      "website": "www.xinzhengkeji.com（第三方平台公示，未直接核验）",
+      "cooperation": "cooperated",
+      "coopModel": "飞书合作表已列名广告主：XinZheng（Beijing）Information Technology Co.Ltd（中文登记：北京有乐互娱科技有限公司），Tier Indirect/行业 TETO/渠道 click tech limited，2022-09-28 首次花费，累计约 1.4 万美元",
+      "agency": "与易点已有 Indirect 投放合作（click tech limited 渠道）；内部商务/媒介对接人待查（合作表该行对接列为空）",
+      "scale": "sme",
+      "contacts": [],
+      "channels": [
+        {
+          "label": "onehope 域名邮箱（最对口）",
+          "email": "liziyan@onehope.co.id",
+          "phone": "010-84870985",
+          "source": "第三方企业信息平台（猎聘/yxt）公示：liuyuna@onehope.co.id、liziyan@onehope.co.id、liziyan@xinzhengkeji.com、Vincent@xinzhengkeji.com；未直接核验"
+        }
+      ],
+      "contactNote": "重要：信征已在易点飞书合作表列名（XinZheng Beijing Information Technology / 北京有乐互娱，Indirect 渠道，2022-09 起有投放）——是已合作客户，先找内部商务/媒介确认对接人，避免撞单；增量机会在 One Hope 东南亚消费金融的买量扩量。公示邮箱多为招聘/年报邮箱，若内部查不到对接人再尝试触达。",
+      "emailSubject": "One Hope 东南亚增长合作——老客户增量沟通",
+      "emailBody": "信征科技 出海业务负责人 您好，\n\n我是易点天下（Yeahmobi）的 Jill。贵司（XinZheng / One Hope）此前与我们有过投放合作，想借此机会再了解一下当前 One Hope 在东南亚市场的增长情况。\n\n东南亚消费金融的获客竞争这两年明显加剧，如果贵司有扩量、优化买量成本或拓展新市场的计划，我们这边有覆盖东南亚多国的媒体投放与本地化增长经验，或许能帮上忙。\n\n不知目前是哪位同事在对接贵司业务？如果方便，也欢迎直接和我约 15 分钟聊聊，看有没有新的合作空间。期待回复！\n\nJill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）"
+    },
+    {
       "product": "War and Order / Age of Origins（出海 SLG 长青款）",
       "company": "北京壳木软件有限责任公司（Camel Games，神州泰岳 300002.SZ 子公司）",
       "hq": "北京（母公司神州泰岳为 A 股上市公司）",
@@ -975,32 +1001,6 @@ window.INTEL = {
       "contactNote": "典型母大子小：万兴科技是 A 股数字创意软件龙头，Virbo 是其面向跨境短视频营销的海外 AI 应用线。切入：Virbo 海外买量 + 代理合作。邮箱 ws-business@wondershare.cn 直达销售。",
       "emailSubject": "Virbo 海外买量与合伙人计划中的增长代理角色",
       "emailBody": "万兴科技 您好，\n\n我是易点天下（Yeahmobi）的 Jill。注意到 Virbo 正在推进数字人共创事业合伙人计划，同时万兴的 AI 创意软件在海外 200+ 国家有庞大的用户基础。\n\n想了解 Virbo 在海外（欧美、东南亚）买量获客上是否有外部投放服务需求，以及合伙人计划中对「海外增长代理」角色的定位。我们在用户增长投放、数字人产品推广素材、区域代理渠道拓展几个方向都可以提供支持。\n\n方便的话，期待和负责这块的同事约个时间聊聊。谢谢！\n\nJill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）"
-    },
-    {
-      "product": "连连跨境收付 / 全球账户",
-      "company": "连连数字（杭州）",
-      "hq": "杭州（港股 02598）",
-      "category": "金融",
-      "markets": "欧美、东南亚、拉美，持牌 60+ 国家",
-      "revenue": "2025 全球支付 TPV 4524 亿元，累计服务 1040 万+ 跨境商户",
-      "recent": "2026 推全球海外主体账户、亚马逊/TikTok Shop 费率永久封顶；锚定 AI 原生战略。",
-      "website": "https://global.lianlianpay.com",
-      "cooperation": "not",
-      "coopModel": "",
-      "agency": "自研自发（跨境支付基础设施，可对接出海代理做商户拓展）",
-      "scale": "head",
-      "contacts": [],
-      "channels": [
-        {
-          "label": "国际业务咨询（最对口）⭐",
-          "email": "globalBD@lianlianpay.com",
-          "phone": "400-091-0999",
-          "source": "连连支付官网联系页公示 globalBD@lianlianpay.com / partner@lianlianpay.com"
-        }
-      ],
-      "contactNote": "跨境支付龙头，服务海量出海卖家/游戏/MCN。切入：为你的游戏/电商/短剧客户推荐连连做资金回款，亦可谈联合方案。globalBD@lianlianpay.com 直达国际 BD。",
-      "emailSubject": "联合服务出海客户的合作探讨（增长 + 收款）",
-      "emailBody": "连连国际 BD 团队 您好，\n\n我是易点天下（Yeahmobi）的 Jill。连连在跨境支付上是行业头部，累计服务超千万出海商户；我们则专注帮出海企业做海外获客增长——两边客户画像高度重叠。\n\n想探讨几个合作空间：比如我们服务中的游戏/电商/短剧客户在资金回款上的需求，可否向连连导流；或者在「增长+收款」的打包方案、联合市场活动上有没有合作可能。\n\n如果合适，希望和贵司国际业务团队约 15 分钟电话聊聊。期待回复！\n\nJill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）"
     },
     {
       "product": "讲真 / 启牛 / Kelly's Education（在线学习出海）",
