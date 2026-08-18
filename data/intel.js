@@ -1,7 +1,6 @@
-// 行业情报数据 · 自动更新于 2026-08-17 09:30，线索池于 2026-08-17 17:10 手动补充（Jill 提供 8 家公司核实后入池 5 家）
-// 所有数据均带可核实来源，查不到的一律写「暂无公开数据」，不编造。
+// 行业情报数据 · 自动更新于 2026-08-18 10:30；线索池 14 家中有邮箱的 13 家已配好「跟进邮件草稿」（emailSubject/emailBody），工作台可直接复制发送
 window.INTEL = {
-  "updatedAt": "2026-08-17 17:10",
+  "updatedAt": "2026-08-18 10:30（线索池已为有邮箱公司配好一键跟进邮件）",
   "marketPulse": [
     {
       "label": "7 月中国手游发行商全球收入",
@@ -795,7 +794,9 @@ window.INTEL = {
           "source": "壳木官网 Contact Us 页公示 Business Cooperation: market@camel4u.com"
         }
       ],
-      "contactNote": "典型母大子小：上市公司神州泰岳的子公司，账上有钱、SLG 出海十几年、买量成熟——是「懂行但挑剔」的客户。最佳切入不是讲基础能力，而是讲新品《旭日之城》的冷启动方案。market@camel4u.com 直达市场部。"
+      "contactNote": "典型母大子小：上市公司神州泰岳的子公司，账上有钱、SLG 出海十几年、买量成熟——是「懂行但挑剔」的客户。最佳切入不是讲基础能力，而是讲新品《旭日之城》的冷启动方案。market@camel4u.com 直达市场部。",
+      "emailSubject": "关于《旭日之城》海外冷启动的投放合作思路",
+      "emailBody": "壳木市场部 您好，\n\n我是易点天下（Yeahmobi）的 Jill，专注服务中国游戏出海。\n\n关注到壳木 7 月刚登记了新作《旭日之城》的软件著作权，而《战火与秩序》《Age of Origins》在海外长线运营的表现一直很稳。新游冷启动阶段正是买量预算与素材测试最关键的窗口，想看看有没有机会帮上忙。\n\n我们在 SLG 品类有较成熟的海外投放方法论，可以覆盖新游上线期的素材工业化、北美/欧洲/东南亚分阶段放量，以及多账户风控与账户稳定性支持。\n\n方便的话，希望约 15 分钟和贵司市场部简单交流，也听听《旭日之城》今年的发行计划。期待您的回复！\n\nJill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）"
     },
     {
       "product": "Cash Frenzy / Lotsa Slots（海外休闲老虎机）",
@@ -819,7 +820,9 @@ window.INTEL = {
           "source": "博乐官网及爱企查登记邮箱 boleit@bolegames.com；总机 010-84927895（北京朝阳红军营南路 36 号）"
         }
       ],
-      "contactNote": "Casino 休闲品类全球头部，营收稳定、买量极重（老虎机品类是 Meta/Google 大户）。这类客户不缺代理排队，缺的是素材产能和账户稳定性——切入谈素材工业化 + 多账户风控，别谈开户。"
+      "contactNote": "Casino 休闲品类全球头部，营收稳定、买量极重（老虎机品类是 Meta/Google 大户）。这类客户不缺代理排队，缺的是素材产能和账户稳定性——切入谈素材工业化 + 多账户风控，别谈开户。",
+      "emailSubject": "老虎机品类的素材产能与账户稳定性合作探讨",
+      "emailBody": "博乐科技 您好，\n\n我是易点天下（Yeahmobi）的 Jill。注意到 Cash Frenzy、Lotsa Slots 长期稳居美国畅销榜 Top 50，贵司也是 Facebook/Google 的全球顶级合作伙伴，成绩非常扎实。\n\n老虎机品类对素材产能和账户稳定性的要求极高，这也是我们服务休闲品类客户时最常被委托的部分。想了解贵司目前在海外投放上是否有这方面的合作空间，比如素材工业化产能、多账户运营与风控层面的支持。\n\n如果方便，希望约 15 分钟电话聊聊，听听贵司今年的投放重点。期待回复！\n\nJill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）"
     },
     {
       "product": "ClassUp（K12 在线 1 对 1，AI 教学）",
@@ -867,7 +870,9 @@ window.INTEL = {
           "source": "墨迹官网联系我们页公示：商务合作 iOS dawei.liu@moji.com / Android xu.yang@moji.com；广告合作 yanbin.liu@moji.com / 15011301274"
         }
       ],
-      "contactNote": "出海刚起步的国内工具巨头——最理想的客户画像：有钱、有决心、但海外买量经验浅，正是需要代理的阶段。切中东/东南亚天气类工具的买量 + 广告变现双轮。商务邮箱分 iOS/Android 双线，发 dawei.liu@moji.com 并抄送 xu.yang@moji.com。"
+      "contactNote": "出海刚起步的国内工具巨头——最理想的客户画像：有钱、有决心、但海外买量经验浅，正是需要代理的阶段。切中东/东南亚天气类工具的买量 + 广告变现双轮。商务邮箱分 iOS/Android 双线，发 dawei.liu@moji.com 并抄送 xu.yang@moji.com。",
+      "emailSubject": "Moji Weather 中东/东南亚增长合作探讨",
+      "emailBody": "刘总 您好，\n\n我是易点天下（Yeahmobi）的 Jill，专注中国 App 出海增长。\n\n了解到墨迹天气 2024 年正式启动国际化，Moji Weather 已完成 30+ 国家多语言适配，中东和东南亚是重点发力市场，变现路径也很清晰（东南亚广告为主、沙特会员为主）。\n\n天气类工具在海外的典型挑战是「装机大、留存靠通知、变现靠广告」，这正是我们擅长的增长模型。想看看能否为 Moji Weather 提供中东/东南亚的买量增长支持，以及广告变现的调优建议。\n\n方便的话，期待和您约 15 分钟沟通。谢谢！\n\nJill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）"
     },
     {
       "product": "Jinlan Global（出海 AI 应用/跨境业务，具体产品未公开）",
@@ -891,7 +896,9 @@ window.INTEL = {
           "source": "公开企业信息平台公示的登记邮箱（法人张瑞麟）"
         }
       ],
-      "contactNote": "20 人出头的小团队 + 拉美（秘鲁）基地——拉美正是易点的优势市场之一。小团队决策快、但预算小，适合以「拉美单市场跑通模型」的小额方案切入。产品形态未公开，首封信先请教式破冰：「看到你们在利马设了办公室，想了解下业务方向」。"
+      "contactNote": "20 人出头的小团队 + 拉美（秘鲁）基地——拉美正是易点的优势市场之一。小团队决策快、但预算小，适合以「拉美单市场跑通模型」的小额方案切入。产品形态未公开，首封信先请教式破冰：「看到你们在利马设了办公室，想了解下业务方向」。",
+      "emailSubject": "秘鲁/拉美市场的增长合作——想了解贵司业务方向",
+      "emailBody": "张总 您好，\n\n我是易点天下（Yeahmobi）的 Jill，公司专注服务中国企业出海，拉美（含秘鲁、巴西、墨西哥）是我们深耕多年的优势市场。\n\n看到贵司在北京设立总部的同时，在利马也设有办公室，猜测业务和拉美市场相关。冒昧来信，想请教一下贵司目前在拉美的主要业务方向，以及是否有海外获客或广告投放方面的规划？\n\n如果合适，希望有机会简单交流，也可以分享一些拉美市场 App 增长的经验供参考。期待您的回复！\n\nJill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）"
     },
     {
       "product": "PixVerse（AI 视频生成）",
@@ -915,7 +922,9 @@ window.INTEL = {
           "source": "爱诗科技官网联系方式页 pixversecn.com/contact.html（跨国团队商务邮箱 biz@aishitech.com）"
         }
       ],
-      "contactNote": "新兴独角兽、团队小而强；海外 177 国、1 亿+ 用户，AI 视频赛道头部出海。投放切入点：全球新增用户买量 + 创作者生态。可直接发 biz@aishitech.com，或在官网提交 VIP 通道需求。"
+      "contactNote": "新兴独角兽、团队小而强；海外 177 国、1 亿+ 用户，AI 视频赛道头部出海。投放切入点：全球新增用户买量 + 创作者生态。可直接发 biz@aishitech.com，或在官网提交 VIP 通道需求。",
+      "emailSubject": "PixVerse 全球用户增长的投放合作探讨",
+      "emailBody": "爱诗科技 您好，\n\n我是易点天下（Yeahmobi）的 Jill，专注中国 App 出海增长。\n\nPixVerse 完成 C 轮、全球用户破 1 亿，还拿下 FIFA 世界杯 IP 合作，势头很猛。AI 视频赛道当前竞争的关键是「全球用户规模 + 创作者生态」，背后离不开持续的买量投入和素材迭代。\n\n想了解贵司在海外获客（尤其美国、日本市场）的投放规划，看看有没有合作空间——常规买量、创作者拉新活动投放，或与世界杯 IP 联动的营销放量。\n\n方便的话，期待 15 分钟沟通。谢谢！\n\nJill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）"
     },
     {
       "product": "Vidu（AI 视频生成大模型）",
@@ -939,7 +948,9 @@ window.INTEL = {
           "source": "阿里云心选市场店铺「北京生数科技」公示（guangyue.zhu@shengshu.ai，电话 400-820-0611）"
         }
       ],
-      "contactNote": "清华孵化、小而强，2026 融资强劲（估值 20 亿美元），已与阅文合作漫剧 AIGC。新兴高潜，投放可谈海外创作者/企业端获客。邮箱为阿里云店铺公示商务邮箱。"
+      "contactNote": "清华孵化、小而强，2026 融资强劲（估值 20 亿美元），已与阅文合作漫剧 AIGC。新兴高潜，投放可谈海外创作者/企业端获客。邮箱为阿里云店铺公示商务邮箱。",
+      "emailSubject": "Vidu 海外创作者/企业端获客合作探讨",
+      "emailBody": "生数科技 您好，\n\n我是易点天下（Yeahmobi）的 Jill。恭喜 Vidu 近期连续完成大额融资，估值站上 20 亿美元，还和阅文合作了漫剧 AIGC，行业关注度很高。\n\nVidu 目前处于快速增长阶段，海外创作者和企业端获客会是重要方向。我们在海外 AI 工具的获客投放上有不少实操经验（开发者社群、创作者激励活动、企业试用转化等链路），想看看能否帮上忙。\n\n如果方便，希望约 15 分钟交流一下贵司今年海外获客的规划。期待回复！\n\nJill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）"
     },
     {
       "product": "万兴播爆 Virbo（AI 视频 / 数字人）",
@@ -963,7 +974,9 @@ window.INTEL = {
           "source": "万兴科技官网「诚邀合作伙伴 / 企业方案咨询」页公示 ws-business@wondershare.cn"
         }
       ],
-      "contactNote": "典型母大子小：万兴科技是 A 股数字创意软件龙头，Virbo 是其面向跨境短视频营销的海外 AI 应用线。切入：Virbo 海外买量 + 代理合作。邮箱 ws-business@wondershare.cn 直达销售。"
+      "contactNote": "典型母大子小：万兴科技是 A 股数字创意软件龙头，Virbo 是其面向跨境短视频营销的海外 AI 应用线。切入：Virbo 海外买量 + 代理合作。邮箱 ws-business@wondershare.cn 直达销售。",
+      "emailSubject": "Virbo 海外买量与合伙人计划中的增长代理角色",
+      "emailBody": "万兴科技 您好，\n\n我是易点天下（Yeahmobi）的 Jill。注意到 Virbo 正在推进数字人共创事业合伙人计划，同时万兴的 AI 创意软件在海外 200+ 国家有庞大的用户基础。\n\n想了解 Virbo 在海外（欧美、东南亚）买量获客上是否有外部投放服务需求，以及合伙人计划中对「海外增长代理」角色的定位。我们在用户增长投放、数字人产品推广素材、区域代理渠道拓展几个方向都可以提供支持。\n\n方便的话，期待和负责这块的同事约个时间聊聊。谢谢！\n\nJill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）"
     },
     {
       "product": "连连跨境收付 / 全球账户",
@@ -987,7 +1000,9 @@ window.INTEL = {
           "source": "连连支付官网联系页公示 globalBD@lianlianpay.com / partner@lianlianpay.com"
         }
       ],
-      "contactNote": "跨境支付龙头，服务海量出海卖家/游戏/MCN。切入：为你的游戏/电商/短剧客户推荐连连做资金回款，亦可谈联合方案。globalBD@lianlianpay.com 直达国际 BD。"
+      "contactNote": "跨境支付龙头，服务海量出海卖家/游戏/MCN。切入：为你的游戏/电商/短剧客户推荐连连做资金回款，亦可谈联合方案。globalBD@lianlianpay.com 直达国际 BD。",
+      "emailSubject": "联合服务出海客户的合作探讨（增长 + 收款）",
+      "emailBody": "连连国际 BD 团队 您好，\n\n我是易点天下（Yeahmobi）的 Jill。连连在跨境支付上是行业头部，累计服务超千万出海商户；我们则专注帮出海企业做海外获客增长——两边客户画像高度重叠。\n\n想探讨几个合作空间：比如我们服务中的游戏/电商/短剧客户在资金回款上的需求，可否向连连导流；或者在「增长+收款」的打包方案、联合市场活动上有没有合作可能。\n\n如果合适，希望和贵司国际业务团队约 15 分钟电话聊聊。期待回复！\n\nJill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）"
     },
     {
       "product": "讲真 / 启牛 / Kelly's Education（在线学习出海）",
@@ -1011,7 +1026,9 @@ window.INTEL = {
           "source": "量子之歌投资者关系公示 ir@quantasing.com（海外业务负责人 Ken Chau, Kelly's Education 创始人）"
         }
       ],
-      "contactNote": "成人/兴趣/语言在线学习出海，已收购香港 Kelly's Education。海外业务由 Ken Chau（国际业务 SVP）负责。可走 IR 邮箱引荐，或展会（ASU+GSV）当面。IR 邮箱 ir@quantasing.com。"
+      "contactNote": "成人/兴趣/语言在线学习出海，已收购香港 Kelly's Education。海外业务由 Ken Chau（国际业务 SVP）负责。可走 IR 邮箱引荐，或展会（ASU+GSV）当面。IR 邮箱 ir@quantasing.com。",
+      "emailSubject": "量子之歌海外教育（Kelly's Education）增长合作探讨",
+      "emailBody": "量子之歌 您好，\n\n我是易点天下（Yeahmobi）的 Jill，专注教育/学习类 App 出海增长。\n\n贵司上市后持续拓展海外，收购 Kelly's Education 切入全球语言教育，海外业务由 Ken Chau 负责。美国 K12 与全球英语学习是当前投放预算集中的方向，想了解贵司海外获客目前是自建团队投放，还是也在评估外部增长合作伙伴？\n\n我们在教育类 App 的海外投放（尤其美国、东南亚）有成熟打法，愿意分享案例与经验。方便的话，期待和 Ken 或相关同事约 15 分钟交流。谢谢！\n\nJill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）"
     },
     {
       "product": "TalkAI 练口语（AI 外教）",
@@ -1035,7 +1052,9 @@ window.INTEL = {
           "source": "TalkAI 官网及第三方收录公示 amazingcompany@163.com（深圳市惊叹科技）；另有 sales@talkai.tw"
         }
       ],
-      "contactNote": "典型小微企业（<50 人）新兴 AI 口语出海，用户 1000 万+。切入：海外买量获客（东南亚/中东口音库）。直接 amazingcompany@163.com 或 sales@talkai.tw。"
+      "contactNote": "典型小微企业（<50 人）新兴 AI 口语出海，用户 1000 万+。切入：海外买量获客（东南亚/中东口音库）。直接 amazingcompany@163.com 或 sales@talkai.tw。",
+      "emailSubject": "TalkAI 海外口语学习获客合作探讨",
+      "emailBody": "惊叹科技 您好，\n\n我是易点天下（Yeahmobi）的 Jill。TalkAI 用户已超千万、覆盖 60+ 语言，AI 口语赛道在东南亚和中东的需求增长很快。\n\n想了解贵司在海外市场的获客规划——东南亚/中东市场的买量投放、多语言素材的本地化迭代，都是我们擅长的方向。也想听听 TalkAI 今年是否有明确的出海放量目标。\n\n如果方便，希望约 15 分钟聊一下。期待回复！\n\nJill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）"
     },
     {
       "product": "FlexTV（海外短剧）",
@@ -1059,7 +1078,9 @@ window.INTEL = {
           "source": "FlexTV 官网/App Store 公示 Business Inquiries: business@flextv.cc"
         }
       ],
-      "contactNote": "母大子小：Mega Matrix（NYSE American: MPU，新加坡控股公司）通过全资子公司 Yuder 运营 FlexTV 短剧平台。切入：短剧买量/投放代投。business@flextv.cc 直达商务。"
+      "contactNote": "母大子小：Mega Matrix（NYSE American: MPU，新加坡控股公司）通过全资子公司 Yuder 运营 FlexTV 短剧平台。切入：短剧买量/投放代投。business@flextv.cc 直达商务。",
+      "emailSubject": "FlexTV 海外短剧买量合作探讨",
+      "emailBody": "FlexTV 商务团队 您好，\n\n我是易点天下（Yeahmobi）的 Jill，专注短剧/娱乐类 App 出海增长。\n\nFlexTV 依托 Mega Matrix 的资本与内容支持，在欧美、东南亚持续上新题材、扩充内容库，短剧出海正处在买量预算快速放大的阶段。想了解贵司目前在主流渠道的投放结构，以及是否在评估外部投放代理/买量团队？\n\n我们在短剧赛道的素材生产、投放优化和账户运维上有完整服务能力，希望有机会交流合作。期待回复！\n\nJill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）"
     },
     {
       "product": "ShortMax（海外短剧）",
@@ -1083,7 +1104,9 @@ window.INTEL = {
           "source": "嘉兴九州官网公示海外业务合作 Alina@shortmax.com；SHORTMAX LIMITED 开发者邮箱 dev@shorttv.live"
         }
       ],
-      "contactNote": "母大子小：九州文化是国内短剧龙头，ShortMax 是其海外短剧 App。切入：短剧出海买量。Alina@shortmax.com 为海外 BD 邮箱。"
+      "contactNote": "母大子小：九州文化是国内短剧龙头，ShortMax 是其海外短剧 App。切入：短剧出海买量。Alina@shortmax.com 为海外 BD 邮箱。",
+      "emailSubject": "ShortMax 海外短剧投放合作探讨",
+      "emailBody": "Alina 您好，\n\n我是易点天下（Yeahmobi）的 Jill。ShortMax 作为九州文化出海的海外短剧 App，在欧美、东南亚榜单表现很稳。\n\n短剧出海的核心变量是素材产能和投放效率——题材测试越快、素材越足，跑量越猛。想了解贵司目前在海外投放上是自建团队为主，还是也有外部代理合作？我们在这块可以提供素材工业化与多账户投放的完整支持。\n\n方便的话，期待 15 分钟电话交流。谢谢！\n\nJill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）"
     },
     {
       "product": "BuzzCast（海外视频 / 语音社交直播）",
@@ -1107,7 +1130,9 @@ window.INTEL = {
           "source": "BuzzCast 官网 About 公示 support@buzzcast.info（商务合作走官网表单/business form）"
         }
       ],
-      "contactNote": "海外视频/语音社交直播，150+ 国家，中国团队背景。切入：社交娱乐买量。公开邮箱为 support@buzzcast.info，商务建议走官网 business 表单。"
+      "contactNote": "海外视频/语音社交直播，150+ 国家，中国团队背景。切入：社交娱乐买量。公开邮箱为 support@buzzcast.info，商务建议走官网 business 表单。",
+      "emailSubject": "BuzzCast 全球社交直播增长合作探讨",
+      "emailBody": "BuzzCast 团队 您好，\n\n我是易点天下（Yeahmobi）的 Jill，专注社交/娱乐类 App 出海增长。\n\nBuzzCast 已覆盖 150+ 国家，视频社交与直播品类在东南亚、中东北非都是高增长赛道。想了解贵司在用户增长侧的规划——新市场开拓买量、主播生态的拉新激励投放，都是我们可以支持的方向。\n\n公开邮箱是 support@，如方便，能否帮忙转达商务或增长负责人？也欢迎直接回复与我联系。期待交流！\n\nJill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）"
     }
   ],
   "policies": [

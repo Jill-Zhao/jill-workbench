@@ -538,6 +538,7 @@ function renderLeads(){
         (ex ? `<button class="mini-btn restore" data-restore="${esc(key)}">↩ 恢复推送</button>` : '');
     } else {
       actions = `<button class="mini-btn" data-lead="${idx}">+ 加为客户</button>` +
+        (r.emailSubject && r.emailBody ? `<button class="mini-btn mail-draft" data-email="${idx}" title="查看跟进邮件，一键复制发送">✉️ 跟进邮件</button>` : '') +
         `<a class="mini-btn lead-li" target="_blank" rel="noopener" title="在领英搜 ${esc(r.company)} 的 Growth/投放负责人" href="https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent(r.company + ' Head of Growth')}">🔗 领英</a>` +
         `<button class="mini-btn danger" data-noclient="${idx}">🚫 不是我的客户</button>`;
     }
@@ -567,6 +568,11 @@ function renderLeads(){
     copyText(v);
     toast(`已复制：${v}`);
     btn.textContent = '✓'; setTimeout(()=>{ btn.textContent = '复制'; }, 1200);
+  }));
+
+  $$('[data-email]', tb).forEach(btn => btn.addEventListener('click', ()=>{
+    const r = visible[+btn.dataset.email];
+    openEmailDraft(r);
   }));
 
   $$('[data-lead]', tb).forEach(btn => btn.addEventListener('click', ()=>{
@@ -604,6 +610,35 @@ function renderLeads(){
     restoreExcluded(btn.dataset.restore);
   }));
 }
+
+/* ---------- 一键跟进邮件：点开即见主题+正文，可复制全文或唤起邮箱 ---------- */
+let edmCur = null;
+function openEmailDraft(r){
+  if(!r || !r.emailSubject || !r.emailBody) return;
+  edmCur = r;
+  const ch = (r.channels||[]).find(c=>c.email) || (r.contacts||[]).find(c=>c.email) || {};
+  const mail = (ch.email||'').trim();
+  const lbl = (ch.label||'').replace('（最对口）⭐','').replace('⭐','').trim();
+  $('#edmTitle').textContent = '跟进邮件 · ' + r.company.split('（')[0];
+  $('#edmRecipient').innerHTML = '收件人：<b>' + esc(mail || '未找到公开邮箱') + '</b>' +
+    (lbl && mail ? '<span style="opacity:.75">（' + esc(lbl) + '）</span>' : '');
+  $('#edmSubject').textContent = r.emailSubject;
+  $('#edmBody').textContent = r.emailBody;
+  const m = $('#edmMailto');
+  if(mail){
+    m.style.display = '';
+    m.href = 'mailto:' + mail + '?subject=' + encodeURIComponent(r.emailSubject) + '&body=' + encodeURIComponent(r.emailBody);
+  } else {
+    m.style.display = 'none';
+    m.removeAttribute('href');
+  }
+  $('#emailDraftModal').classList.add('show');
+}
+$('#edmCopy').addEventListener('click', ()=>{
+  if(!edmCur) return;
+  copyText('主题：' + edmCur.emailSubject + '\n\n' + edmCur.emailBody);
+  toast('已复制跟进邮件全文 → 去邮箱粘贴发送即可');
+});
 function mapCat(c){
   if(/游戏|SLG|RPG|解谜|休闲|竞技|二次元|女性向/.test(c)) return '游戏';
   if(/金融|支付|钱包|信贷/.test(c)) return '金融';
