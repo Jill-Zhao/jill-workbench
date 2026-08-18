@@ -752,7 +752,6 @@ window.INTEL = {
       "source": "https://www.thepaper.cn/newsDetail_forward_33741521",
       "tag": "high-growth"
     },
-    null,
     {
       "title": "短剧出海盈利拐点确认：ReelShort 2026 预计收入破 10 亿美元、首次规模盈利（EBITDA 约 6300 万）",
       "date": "2026-08-12",
@@ -761,7 +760,6 @@ window.INTEL = {
       "source": "https://www.real-reel.com/disney-tiktok-reelshort-sharechat-vertical-drama",
       "tag": "high-growth"
     },
-    null,
     {
       "title": "中国手游出海 8 月 TOP30 海外吸金 7 亿美元，点点互动超越三七互娱升至厂商第 3",
       "date": "2026-08-12",
