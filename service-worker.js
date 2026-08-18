@@ -1,5 +1,5 @@
 /* Jill 工作台 Service Worker */
-const CACHE = 'jill-v2';
+const CACHE = 'jill-v3';
 const SHELL = [
   './',
   './Jill的工作台.html',
