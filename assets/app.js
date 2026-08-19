@@ -1189,6 +1189,26 @@ ${Object.keys(byMeal).map(m => `${m}：\n  ` + byMeal[m].join('\n  ')).join('\n'
    备份 / 恢复
    ============================================================ */
 $('#btnBackup').addEventListener('click', ()=> $('#backupModal').classList.add('show'));
+
+/* ============================================================
+   缓存清理： Jill 发现菜单显示不全时点这里
+   ============================================================ */
+$('#btnClearCache').addEventListener('click', async ()=>{
+  try{
+    if('serviceWorker' in navigator){
+      const regs = await navigator.serviceWorker.getRegistrations();
+      await Promise.all(regs.map(r => r.unregister()));
+    }
+    if('caches' in window){
+      const keys = await caches.keys();
+      await Promise.all(keys.map(k => caches.delete(k)));
+    }
+    toast('缓存已清理，页面即将刷新');
+    setTimeout(()=> window.location.reload(true), 900);
+  }catch(e){
+    toast('清理失败，请手动 Ctrl+F5 / Cmd+Shift+R 刷新');
+  }
+});
 $('#btnExport').addEventListener('click', ()=>{
   const blob = new Blob([JSON.stringify({
     version:1, exportedAt:new Date().toISOString(),

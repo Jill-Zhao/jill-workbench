@@ -1,8 +1,7 @@
 /* Jill 工作台 Service Worker */
-const CACHE = 'jill-v3';
+const CACHE = 'jill-v4';
+// 纯静态壳资源：缓存优先（升级时改 CACHE 名即可强制刷新）
 const SHELL = [
-  './',
-  './Jill的工作台.html',
   './assets/style.css',
   './assets/app.js',
   './assets/icons/icon-192.png',
@@ -10,10 +9,12 @@ const SHELL = [
   './assets/icons/icon-maskable-512.png',
   './manifest.webmanifest'
 ];
-// 每天会变的「数据文件」走 network-first，离线才回缓存
+// 每天会变的数据文件：网络优先，离线才回缓存
 const DATA = [
   './data/intel.js',
   './data/xiaohongshu.js',
+  './data/lead-history.js',
+  './data/lead-exclude.js',
   './data/food-db.js'
 ];
 
@@ -30,22 +31,43 @@ self.addEventListener('activate', e => {
   );
 });
 
+function isHTML(req) {
+  return req.mode === 'navigate' ||
+    new URL(req.url).pathname.endsWith('.html') ||
+    new URL(req.url).pathname.endsWith('/jill-workbench/') ||
+    new URL(req.url).pathname.endsWith('/jill-workbench');
+}
+
 self.addEventListener('fetch', e => {
   const url = new URL(e.request.url);
-  const path = url.pathname;
 
   // 跨域/非 GET 直接放行
   if (e.request.method !== 'GET' || !url.origin.includes(self.location.origin)) {
     return;
   }
+  const path = url.pathname;
+
+  // HTML 页面（含根路径）：永远网络优先，防止菜单/结构不更新
+  if (isHTML(e.request)) {
+    e.respondWith(
+      fetch(e.request).then(r => {
+        const clone = r.clone();
+        caches.open(CACHE).then(c => c.put(e.request, clone));
+        return r;
+      }).catch(() => caches.match(e.request))
+    );
+    return;
+  }
 
   // 数据文件：网络优先
   if (DATA.some(d => path.endsWith(d.replace('./', '')))) {
-    e.respondWith(fetch(e.request).then(r => {
-      const clone = r.clone();
-      caches.open(CACHE).then(c => c.put(e.request, clone));
-      return r;
-    }).catch(() => caches.match(e.request)));
+    e.respondWith(
+      fetch(e.request).then(r => {
+        const clone = r.clone();
+        caches.open(CACHE).then(c => c.put(e.request, clone));
+        return r;
+      }).catch(() => caches.match(e.request))
+    );
     return;
   }
 
