@@ -58,5 +58,16 @@ window.LEAD_HISTORY = [
   "iDrama（海外短剧）|掌阅科技股份有限公司",
   "BonusTV（海外短剧）|杭州剧点网络科技有限公司 / DramaAccess INC",
   "西湖心辰（西湖大模型 / 造梦日记 / Friday / 聊会小天）|西湖心辰（杭州）科技有限公司",
-  "听象科技 ELEHEAR（AI 助听器）|爱听智能科技（深圳）有限公司"
+  "听象科技 ELEHEAR（AI 助听器）|爱听智能科技（深圳）有限公司",
+  "VinaShort / Doratoon / VinaAgent / VinaRouter / VinaHardware|来画（Laihua / 深圳来画科技）",
+  "Vidu / 生数视频生成大模型|生数科技(Shengshu Technology / 北京生数科技)",
+  "凯叔讲故事 海外版 / Kaishu Story|凯叔讲故事(Beijing Kaishu Story)",
+  "智谱清言 / Zhipu Qingyan / GLM 大模型 API|智谱AI(Zhipu AI / 北京智谱华章)",
+  "Tiger Trade / 老虎国际 / 老虎社区|老虎证券(Tiger Brokers / UP Fintech Holding,TIGR.US)",
+  "雪球 / Xueqiu / 港美股交易|雪球(Xueqiu / 北京雪球信息科技)",
+  "沪江英语 / Hujiang / CCtalk 海外|沪江网校(Hujiang / Shanghai Hujiang Education)",
+  "掌门1对1 海外 / Zhangmen 1-on-1|掌门教育(Zhangmen Education)",
+  "Soul 海外版 / Soulgate|Soul App(Soulgate / 上海任意门科技)",
+  "Taptap 全球版 / 心动海外游戏 / Heartbeat Town|心动网络(XD Inc.,2400.HK)",
+  "阿瓦隆之王 / Clash of Kings / War and Order|智明星通(China Sports Media / 北京智明星通)"
 ];
