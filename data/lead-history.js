@@ -90,5 +90,16 @@ window.LEAD_HISTORY = [
   "SiliconFlow 硅基流动（SiliconCloud 大模型 API）|北京硅基流动科技有限公司",
   "Praktika AI（英语陪练 APP）|Praktika.ai（中国团队 / 美运营）",
   "KreadoAI 多场景 AI 数字人口播营销平台|KreadoAI（深圳）",
-  "数美科技 DataSec（海外金融风控 AI）|数美科技 DataSec（北京）"
+  "数美科技 DataSec（海外金融风控 AI）|数美科技 DataSec（北京）",
+  // 2026-09-02 新增
+  "Mantur (DramaClaw) — AI 漫剧平台|利欧集团股份有限公司 (002131.SZ)",
+  "小云雀 AI — AI 短剧创作平台|小云雀 AI (北京)",
+  "Storeel — AI 短剧出海 App|Storeel (中国出海团队)",
+  "归一智能 — AI 漫剧超级产线|杭州归一智能科技有限公司",
+  "光年触达 iSales — AI 销售 Agent|光年触达 (2025-04 成立)",
+  "Juhe AI 3.0 — GEO 出海获客平台|苏州聚合增长信息科技有限公司",
+  "豆神教育 — AI 教育产品出海|豆神教育科技(北京)股份有限公司 (300010.SZ)",
+  "Feixiang Teacher 3.0 — AI 教育应用生成工具|飞翔教育 (中国)",
+  "连连数字 — AI 跨境支付/外汇平台|连连数字科技 (杭州)",
+  "斑马 AI 学 — 儿童教育出海|北京猿力科技有限公司 (猿辅导集团)"
 ];
