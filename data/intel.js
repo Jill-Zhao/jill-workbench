@@ -1,10 +1,10 @@
 // data/intel.js — Jill 的工作台情报数据
-// 更新时间：2026-09-16T09:30:00+08:00（每日 9:30 自动化重写）
+// 更新时间：2026-09-16T11:45:00+08:00（9:30 自动化重写 + 11:45 人工补强线索联系方式与跟进邮件草稿）
 // 数据来源：Sensor Tower / 白鲸出海 / DataEye / 澎湃·湃客 / 东方财富 / 36氪·扬帆出海 / Google·Meta·TikTok 官方政策页 / 52by.com / fintechnews.sg 等公开信息
 // 所有数据均来自公开信息源，未编造任何数据；查不到的写「暂无公开数据」
 
 window.INTEL = {
-  updatedAt: "2026-09-16T09:30:00+08:00",
+  updatedAt: "2026-09-16T11:45:00+08:00",
 
   // ============================================================
   // 一、大盘速览 marketPulse
@@ -873,9 +873,33 @@ window.INTEL = {
       coopModel: "字节跳动为易点天下已知长期合作客户；飞书合作表当日未能在线核验（接口权限失效），按已知客户名单标记",
       agency: "已知合作易点天下",
       scale: "head",
-      contacts: [],
-      channels: [],
-      contactNote: "母大子小：字节教育线出海产品。建议走易点现有字节对接通道，或 LinkedIn 搜索 Gauth 团队 Growth 负责人做增量切入",
+      contacts: [
+        {
+          "name": "",
+          "role": "官方合作对接（about 页公示 partners 邮箱）",
+          "email": "partners@gauthmath.net",
+          "phone": "",
+          "linkedin": "",
+          "source": "https://gauthmath.net/about-us"
+        }
+      ],
+      channels: [
+        {
+          "label": "最对口：Gauth 官方合作邮箱（about 页公示）",
+          "email": "partners@gauthmath.net",
+          "phone": "",
+          "source": "https://gauthmath.net/about-us"
+        },
+        {
+          "label": "官方支持邮箱",
+          "email": "support@gauthmath.net",
+          "phone": "",
+          "source": "https://gauthmath.net/about-us"
+        }
+      ],
+      emailSubject: "关于 Gauth 全学科海外增量的投放合作思路",
+      emailBody: "您好，\n\n我是易点天下（Yeahmobi）的 Jill，专注中国 App 的出海增长。看到 Gauth 入选 a16z 全球消费级 AI 应用 Top50，并已从数学解题扩展到全学科，美国市场的增长节奏很亮眼。\n\n我们在 Meta/Google/TikTok 效果投放与本地化素材上有成熟团队，希望就 Gauth 全学科的新客增量，以及美国之外市场（东南亚/中东/拉美）的拉新聊一次合作；我们服务的大量工具类出海客户与 Gauth 用户群重合，也可探讨联合投放。\n\n方便约 15 分钟沟通吗？\n\nJill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）",
+      contactNote: "母大子小：字节教育线出海产品。本次已核到官方合作邮箱 partners@gauthmath.net（about 页公示）+ 支持邮箱；生意增量建议同时走易点现有字节对接通道。",
     },
     {
       product: "Think Academy 学而思国际（海外校区+线上课程）",
@@ -914,7 +938,7 @@ window.INTEL = {
       scale: "sme",
       contacts: [],
       channels: [],
-      contactNote: "未找到公开联系人/邮箱；建议通过 36 氪报道方牵线或在 Product Hunt/LinkedIn 搜创始人 Courtney",
+      contactNote: "未找到公开联系人/邮箱（2026-09-16 二次检索仍未获官网或商店公示邮箱）。建议通过 36 氪报道方牵线，或在 Product Hunt/LinkedIn 搜索创始人 Courtney 触达。",
     },
     // —— AI 应用 (4 家, 33%) ——
     {
@@ -930,9 +954,27 @@ window.INTEL = {
       coopModel: "快手为易点天下已知长期合作客户；飞书合作表当日未能在线核验（接口权限失效），按已知客户名单标记",
       agency: "已知合作易点天下",
       scale: "head",
-      contacts: [],
-      channels: [],
-      contactNote: "母大子小：快手 AI 板块独立运营。建议走易点现有快手对接通道，争取可灵海外 C 端订阅获客的新预算",
+      contacts: [
+        {
+          "name": "",
+          "role": "官网公示对外联络（商务/合作咨询入口）",
+          "email": "support.cn@klingai.com",
+          "phone": "",
+          "linkedin": "",
+          "source": "klingai.com 官网页脚「联系我们」"
+        }
+      ],
+      channels: [
+        {
+          "label": "最对口：可灵官网公示联系邮箱",
+          "email": "support.cn@klingai.com",
+          "phone": "",
+          "source": "klingai.com 官网页脚「联系我们」"
+        }
+      ],
+      emailSubject: "可灵海外 C 端订阅获客与 AIGC 工具投放合作探讨",
+      emailBody: "您好，\n\n我是易点天下（Yeahmobi）的 Jill，专注中国 App 出海增长。关注到可灵获国家 AI 产业投资基金 14 亿入股，全球用户破 1 亿、企业客户近 5 万家，海外 C 端订阅与企业级需求都在快速起量。\n\n我们在海外效果投放、达人素材与本地化增长上有成熟能力，希望探讨可灵海外 C 端订阅获客的投放合作，以及 AIGC 创作工具在东南亚/中东/拉美的增量空间。\n\n方便约 15 分钟沟通吗？\n\nJill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）",
+      contactNote: "母大子小：快手 AI 板块独立运营。已核到官网公示邮箱 support.cn@klingai.com；建议同步走易点现有快手对接通道，争取可灵海外 C 端获客的新预算。",
     },
     {
       product: "Tipsy Chat（AI 互动叙事/情感陪伴）",
@@ -947,9 +989,33 @@ window.INTEL = {
       coopModel: "飞书合作表未列名（基于 9 月 3 日全量缓存核验），按潜在客户跟进",
       agency: "暂无公开数据",
       scale: "sme",
-      contacts: [],
-      channels: [],
-      contactNote: "开发方主体未公开。建议在 Discord/Twitter 官方账号触达运营团队，或经扬帆出海社区找对接人",
+      contacts: [
+        {
+          "name": "",
+          "role": "运营/官方支持对接（LIGHTSPEED INTELLIGENCE PTE. LTD.）",
+          "email": "support@tipsy.chat",
+          "phone": "",
+          "linkedin": "",
+          "source": "tipsy.chat/terms-of-service 官方公示"
+        }
+      ],
+      channels: [
+        {
+          "label": "最对口：Tipsy Chat 官方邮箱（服务条款页公示）",
+          "email": "support@tipsy.chat",
+          "phone": "",
+          "source": "tipsy.chat/terms-of-service"
+        },
+        {
+          "label": "官方 Discord 社群（运营团队在群）",
+          "email": "",
+          "phone": "",
+          "source": "discord.com/invite/Wzp9zdyEkU"
+        }
+      ],
+      emailSubject: "关于 Tipsy Chat 欧美付费增长的投放合作",
+      emailBody: "您好，\n\n我是易点天下（Yeahmobi）的 Jill，专注中国 App 出海增长。看到 Tipsy Chat 月活已达 307 万、同比增长 65%，UGC 互动叙事与创作激励还带来过单月下载近 10 倍增长，产品势能很好。\n\n我们在欧美市场的效果投放与 AI 产品素材工业化上有成熟经验，希望就 Tipsy Chat 在欧美付费用户的规模化获客聊一次合作，也可配合测试拉美、中东等第二梯队市场。\n\n方便约 15 分钟电话吗？\n\nJill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）",
+      contactNote: "已核到官方邮箱 support@tipsy.chat（服务条款页公示），开发与运营主体为 LIGHTSPEED INTELLIGENCE PTE. LTD.（新加坡）；另可通过官方 Discord 找运营团队。",
     },
     {
       product: "Crushie AI（女性向沉浸式 AI 情感陪伴）",
@@ -964,9 +1030,33 @@ window.INTEL = {
       coopModel: "飞书合作表未列名（基于 9 月 3 日全量缓存核验），按潜在客户跟进",
       agency: "暂无公开数据",
       scale: "sme",
-      contacts: [],
-      channels: [],
-      contactNote: "运营主体为海外注册架构。建议经 App Store 开发者信息或 LinkedIn 搜 Crushie 团队 growth 岗位触达",
+      contacts: [
+        {
+          "name": "",
+          "role": "官方联系（Qianfan Hong Kong Limited / SoulZ AI Inc.）",
+          "email": "contact@crushie.ai",
+          "phone": "",
+          "linkedin": "",
+          "source": "crushie.ai/privacy-policy 及 Google Play 开发者邮箱"
+        }
+      ],
+      channels: [
+        {
+          "label": "最对口：Crushie 官方联系邮箱（隐私政策页 + 商店开发者邮箱）",
+          "email": "contact@crushie.ai",
+          "phone": "",
+          "source": "crushie.ai/privacy-policy"
+        },
+        {
+          "label": "官方 Discord（运营团队在群）",
+          "email": "",
+          "phone": "",
+          "source": "discord.com/invite/A9gbGtwEAj"
+        }
+      ],
+      emailSubject: "关于 Crushie AI 欧美付费用户规模化的合作",
+      emailBody: "您好，\n\n我是易点天下（Yeahmobi）的 Jill，专注中国 App 出海增长。注意到 Crushie AI 在女性向 AI 情感陪伴赛道增长很快，上线一年迭代 44 个版本，单用户付费能力位居全球头部。\n\n我们在欧美市场效果投放与内容素材上有成熟团队，希望就 Crushie 在美国及西欧的付费用户规模化获客、以及拉美/东南亚等新兴市场的测试聊一次合作。\n\n方便约 15 分钟沟通吗？\n\nJill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）",
+      contactNote: "已核到官方邮箱 contact@crushie.ai（隐私政策页与商店开发者邮箱一致）；运营主体为香港/海外注册架构（Qianfan Hong Kong Limited）。",
     },
     {
       product: "Mivora AI（AI 图像应用）",
@@ -981,9 +1071,27 @@ window.INTEL = {
       coopModel: "飞书合作表未列名（基于 9 月 3 日全量缓存核验），按潜在客户跟进",
       agency: "自研自发",
       scale: "sme",
-      contacts: [],
-      channels: [],
-      contactNote: "工商主体为上海子未网络科技；未找到公开商务邮箱。建议企查查/爱企查找工商登记电话，或 LinkedIn 搜索公司员工",
+      contacts: [
+        {
+          "name": "",
+          "role": "开发者对接（Google Play 开发者邮箱 / 上海子未网络科技）",
+          "email": "ziwei51168@gmail.com",
+          "phone": "",
+          "linkedin": "",
+          "source": "Google Play 开发者页公示邮箱（经 updatestar 引用）"
+        }
+      ],
+      channels: [
+        {
+          "label": "最对口：开发者公示邮箱（Google Play）",
+          "email": "ziwei51168@gmail.com",
+          "phone": "",
+          "source": "Google Play 开发者页（经 updatestar 引用）"
+        }
+      ],
+      emailSubject: "关于 Mivora 印度之外市场增长的投放合作",
+      emailBody: "您好，\n\n我是易点天下（Yeahmobi）的 Jill，专注中国 App 出海增长。看到 Mivora 9 月 4 日登顶印度 Google Play 摄影应用榜、并霸榜畅销榜 14 天，印度市场的增长非常扎实。\n\n我们在新兴市场的效果投放与素材本地化上有成熟团队，希望就 Mivora 在东南亚、中东、拉美复制印度增长经验聊一次合作，也欢迎把 App 工厂的新品一并纳入测试。\n\n方便约 15 分钟电话吗？\n\nJill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）",
+      contactNote: "工商主体为上海子未网络科技有限公司（CamSoft AI Magic）。已核到 Google Play 开发者公示邮箱 ziwei51168@gmail.com；建议同时经企查查/爱企查工商登记电话双线触达。",
     },
     // —— 娱乐APP (3 家, 25%) ——
     {
@@ -1022,9 +1130,33 @@ window.INTEL = {
       coopModel: "飞书合作表未列名（基于 9 月 3 日全量缓存核验），按潜在客户跟进",
       agency: "暂无公开数据",
       scale: "sme",
-      contacts: [],
-      channels: [],
-      contactNote: "官网无公开商务邮箱（工商公示法定代表人洪森伟）。建议官网表单+LinkedIn 搜索掌中云商务/买量岗位双线触达",
+      contacts: [
+        {
+          "name": "",
+          "role": "海外发行主体对接（UREELS PTE. LTD.）",
+          "email": "joyreelsplay@gmail.com",
+          "phone": "+65 82651378",
+          "linkedin": "",
+          "source": "App Store JoyReels 开发者/交易商信息公示"
+        }
+      ],
+      channels: [
+        {
+          "label": "最对口：海外发行主体公示邮箱与电话（App Store）",
+          "email": "joyreelsplay@gmail.com",
+          "phone": "+65 82651378",
+          "source": "apps.apple.com JoyReels 页面"
+        },
+        {
+          "label": "关联主体（杭州掌中云文化传媒，爱企查公示）",
+          "email": "zhangzhongyun@zhangzhongyun.com",
+          "phone": "15397192001",
+          "source": "爱企查 aiqicha.baidu.com"
+        }
+      ],
+      emailSubject: "关于 JoyReels 欧美/东南亚买量放大的合作",
+      emailBody: "您好，\n\n我是易点天下（Yeahmobi）的 Jill，专注中国 App 出海增长。看到 JoyReels 8 月在短剧收入榜名次提升 6 位、进入前十，公司在海外短剧上的投入也在持续加大。\n\n我们在短剧出海的效果投放、素材工业化与多语种本地化上有成熟团队，希望就 JoyReels 在欧美、东南亚的付费用户规模化获客聊一次合作。\n\n方便约 15 分钟沟通吗？\n\nJill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）",
+      contactNote: "已核到海外发行主体 UREELS PTE. LTD. 公示邮箱与电话（App Store）；工商主体为福州掌中云科技有限公司，并补充了关联主体（杭州掌中云文化传媒）爱企查公示邮箱电话。",
     },
     {
       product: "FlickReels（海外短剧）",
@@ -1039,9 +1171,39 @@ window.INTEL = {
       coopModel: "飞书合作表未列名（基于 9 月 3 日全量缓存核验），按潜在客户跟进",
       agency: "暂无公开数据",
       scale: "sme",
-      contacts: [],
-      channels: [],
-      contactNote: "未找到公开联系人/邮箱；建议经短剧行业社群（如 shortdramadata 圈层）或 LinkedIn 搜索擎玩网络买量团队",
+      contacts: [
+        {
+          "name": "",
+          "role": "平台运营对接（FARSUN PTE. LTD. / 掌玩网络）",
+          "email": "contact@flickreels.net",
+          "phone": "",
+          "linkedin": "",
+          "source": "pages.farsunpteltd.com 用户协议「联系方式」"
+        }
+      ],
+      channels: [
+        {
+          "label": "最对口：FlickReels 官方联系邮箱（用户协议公示）",
+          "email": "contact@flickreels.net",
+          "phone": "",
+          "source": "pages.farsunpteltd.com User Agreement"
+        },
+        {
+          "label": "协议公示国内侧邮箱（短剧合作）",
+          "email": "Shortdrama@changyingkeji.com",
+          "phone": "",
+          "source": "同上用户协议"
+        },
+        {
+          "label": "协议公示抄送人邮箱（掌玩域名）",
+          "email": "jingyu@zhangwan.com",
+          "phone": "",
+          "source": "同上用户协议"
+        }
+      ],
+      emailSubject: "关于 FlickReels 下载高增长期的投放放大合作",
+      emailBody: "您好，\n\n我是易点天下（Yeahmobi）的 Jill，专注中国 App 出海增长。关注到 FlickReels 7 月下载量环比增长 142%，是中腰部短剧平台里增长最猛的一家。\n\n我们在短剧出海的效果投放、AI 素材工业化以及英语/西语/日语市场本地化上有成熟团队，希望就 FlickReels 的增长放大、以及银发短剧等差异化题材的投放合作聊一次。\n\n方便约 15 分钟沟通吗？\n\nJill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）",
+      contactNote: "已从 FARSUN PTE. LTD. 用户协议核到官方邮箱 contact@flickreels.net，及协议公示的国内侧邮箱两条（含掌玩域名抄送人）；平台由听花岛与掌玩网络联合运营。",
     },
     // —— 金融 (1 家, 8%) ——
     {
@@ -1080,9 +1242,31 @@ window.INTEL = {
       coopModel: "飞书合作表未列名（基于 9 月 3 日全量缓存核验），按潜在客户跟进",
       agency: "自研自发",
       scale: "head",
-      contacts: [],
-      channels: [],
-      contactNote: "疯狂游戏集团（2010 年成立）旗下；未找到公开商务邮箱。建议经微信小游戏生态渠道或 LinkedIn 搜豪腾创想海外发行负责人",
+      contacts: [
+        {
+          "name": "",
+          "role": "官方客服/合作总机（非商务专线）",
+          "email": "tousu@hortorgames.com",
+          "phone": "400-6501866",
+          "linkedin": "",
+          "source": "hortorgames.com 官网及游戏隐私政策公示"
+        }
+      ],
+      channels: [
+        {
+          "label": "最对口：官方总机（400，可转海外发行/商务）",
+          "email": "",
+          "phone": "400-6501866",
+          "source": "hortorgames.com 官网公示"
+        },
+        {
+          "label": "官网公示邮箱（客服/投诉用途，发商务函需转介）",
+          "email": "tousu@hortorgames.com",
+          "phone": "",
+          "source": "遗弃之地隐私政策公示"
+        }
+      ],
+      contactNote: "疯狂游戏集团（2010 年成立）旗下，8 月凭《遗弃之地》首入全球发行商收入 TOP30。已核到官网总机 400-6501866 与公示邮箱 tousu@hortorgames.com（客服通道）。因未找到商务对口邮箱，暂不生成邮件草稿，建议电话切入要海外发行负责人。",
     }
   ],
 
