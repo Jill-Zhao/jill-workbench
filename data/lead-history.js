@@ -1,5 +1,19 @@
 window.LEAD_HISTORY = [
-  // 2026-09-16 新增（保留最近约 60 条，旧条目滚动淘汰）
+  // 2026-09-18 新增（保留最近约 60 条，旧条目滚动淘汰）
+  "AI 漫剧「超级工厂」（短剧/AI 漫剧出海）|湖南秦九网络科技有限公司",
+  "安然环球 AI 短剧出海平台（本地化+投放+归因一体化）|安然环球文化科技有限公司（中国香港）",
+  "AniShort（AI 短剧全流程协作平台）|Eight Eight Digital（八八数字，北京）",
+  "StardustTV（海外短剧平台）|山海星辰",
+  "HelloChinese（学中文 App）|HelloChinese Technology Co., Ltd.",
+  "51Talk 出海业务（AI+真人在线英语）|51Talk Online Education Group（NYSE: COE）",
+  "VMEG（AI 视频翻译/配音/本地化平台）|VMEG AI（创始人胥彪，前腾讯云副总裁）",
+  "Flowith（AI Agent 创作工作台）|Flowith（中国团队/海外运营，10 人以内）",
+  "Hyper3D Rodin（AI 3D 生成平台）|上海影眸科技有限公司（Hyper3D / 影眸科技）",
+  "Felo（多语言 AI 搜索与创作平台）|Felo（金峰创办，日本东京运营）",
+  "Oceanpayment 钱海（全球数字支付服务）|Oceanpayment 钱海网络技术（深圳）",
+  "Age of Origins（《守卫者王国》系 4X 策略长线产品）|Camel Games（北京骆驼，camelgames.com）",
+  "WeRide 文远知行（自动驾驶全球化）|文远知行 WeRide（NASDAQ: WRD / HKEX: 0800）",
+  // —— 历史记录（滚动保留）——
   "Gauth: AI Study Companion（字节教育出海）|字节跳动 ByteDance / GAUTHTECH PTE. LTD.",
   "可灵AI 视频生成（快手旗下）|快手 Kuaishou / 北京可灵",
   "Tipsy Chat（AI 互动叙事陪伴）|Tipsy Chat（国内团队/海外主体）",
@@ -12,7 +26,6 @@ window.LEAD_HISTORY = [
   "iPayLinks 艾贝盘（跨境收付）|iPayLinks Digital Technology（上海总部）",
   "Think Academy 学而思国际（海外校区/线上课）|好未来 TAL Education",
   "遗弃之地 APP 版（小游戏厂商 APP 化）|北京豪腾创想（疯狂游戏集团）",
-  // —— 历史记录（滚动保留）——
   "林间聊愈室 MoodTalker（AI 心理陪伴）|广州心纪源信息科技有限公司",
   "KaDa故事（儿童绘本阅读出海）|杭州红花朵朵科技有限公司",
   "阶跃星辰大模型生态（胃之书/林间聊愈室/ReadPaper/物圆TreLoop）|上海阶跃星辰智能科技有限公司",
