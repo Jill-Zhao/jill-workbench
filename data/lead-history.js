@@ -1,4 +1,15 @@
 window.LEAD_HISTORY = [
+  // 2026-09-21 新增（保留最近约 60 条，旧条目滚动淘汰）
+  "BlinkDrama（AI 短剧，拉美16国霸榜）|Atlas Ventures Culture & Technology Limited（中国香港）",
+  "KalosTV（海外本土化短剧平台，RPD 行业第一）|青榕传媒",
+  "ShotShort（海外短剧平台，印尼为主）|花生书城",
+  "有戏AI（AI 短剧全流程创作平台，150万注册用户）|有戏AI（FullPeace 旗下，运营主体未完全公开）",
+  "Accio / Accio Work（阿里国际 AI 生意 Agent 平台）|阿里巴巴国际站（阿里国际数字商业集团）",
+  "HanLink（AI 中文学习平台，沙特进校）|江西软云科技股份有限公司（NASDAQ: RYET）",
+  "元中文·庄周大模型（出海企业中文培训/AI语言服务）|元中文数字科技（武汉）有限公司",
+  "Chinesia / Talkin / GoSpeak AI（中文出海+语言社交矩阵）|深圳市章鱼时代科技发展有限公司",
+  "金融壹账通（金融科技出海 20 国 200+ 机构）|深圳壹账通智能科技有限公司（平安集团）",
+  "互爱科技（JoJo's GS 出海发行）|互爱科技",
   // 2026-09-19 新增（保留最近约 60 条，旧条目滚动淘汰）
   "Violoop X（桌面级 AI Operator 硬件，Kickstarter 众筹中）|深圳本惟无界科技有限公司（Violoop）",
   "薯塔AI（跨语言课件学习助手，官网 friesai.cn）|深圳思酷智能信息服务有限公司（Skool AI，港中深孵化）",
@@ -51,14 +62,5 @@ window.LEAD_HISTORY = [
   "Gamera Games 独立游戏发行|上海伽马雷影网络科技有限公司",
   "iDrama（海外短剧）|掌阅科技股份有限公司",
   "BonusTV（海外短剧）|杭州剧点网络科技有限公司 / DramaAccess INC",
-  "西湖心辰（西湖大模型 / 造梦日记 / Friday / 聊会小天）|西湖心辰（杭州）科技有限公司",
-  "听象科技 ELEHEAR（AI 助听器）|爱听智能科技（深圳）有限公司",
-  "VinaShort / Doratoon / VinaAgent / VinaRouter / VinaHardware|来画（Laihua / 深圳来画科技）",
-  "Vidu / 生数视频生成大模型|生数科技(Shengshu Technology / 北京生数科技)",
-  "凯叔讲故事 海外版 / Kaishu Story|凯叔讲故事(Beijing Kaishu Story)",
-  "智谱清言 / Zhipu Qingyan / GLM 大模型 API|智谱AI(Zhipu AI / 北京智谱华章)",
-  "Tiger Trade / 老虎国际 / 老虎社区|老虎证券(Tiger Brokers / UP Fintech Holding,TIGR.US)",
-  "雪球 / Xueqiu / 港美股交易|雪球(Xueqiu / 北京雪球信息科技)",
-  "沪江英语 / Hujiang / CCtalk 海外|沪江网校(Hujiang / Shanghai Hujiang Education)",
-  "掌门1对1 海外 / Zhangmen 1-on-1|掌门教育(Zhangmen Education)"
+  "西湖心辰（西湖大模型 / 造梦日记 / Friday / 聊会小天）|西湖心辰（杭州）科技有限公司"
 ];
