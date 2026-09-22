@@ -1,4 +1,15 @@
 window.LEAD_HISTORY = [
+  // 2026-09-22 新增（保留最近约 60 条，旧条目滚动淘汰）
+  "Dino AI（VIPKID 海外 AI 英语学习产品）|VIPKID（北京大米科技有限公司）",
+  "Bubble AI（AI 口语智能体陪练）|北京深模远虑科技有限公司",
+  "海外信贷科技出海（东南亚/拉美/英国布局）|奇富科技 Qifu Technology（NASDAQ: QFIN）",
+  "Seal: of Fate（二次元放置 RPG，海外发行新游）|厦门极致互动网络技术股份有限公司（837011）",
+  "Soda Reels（IAA 免费短剧 App）|成都锦川凌云科技有限公司（LY Technology）",
+  "ShortsWave（海外短剧 App）|南京网眼（ShortsWave 运营方）",
+  "RapidTV / Micro Drama（IAA 免费短剧矩阵）|成都微光",
+  "星擎（AI 出海视频营销）/ 星帆（TikTok Shop AI 操作系统）|奥创天下（米奥兰特 300795 控股子公司）",
+  "花火漫剧（原创海外 AI 漫剧制作）|湖南花火漫剧",
+  "She Swapped My Daughter!（海外仿真人 AI 短剧）|成都心视觉文化",
   // 2026-09-21 新增（保留最近约 60 条，旧条目滚动淘汰）
   "BlinkDrama（AI 短剧，拉美16国霸榜）|Atlas Ventures Culture & Technology Limited（中国香港）",
   "KalosTV（海外本土化短剧平台，RPD 行业第一）|青榕传媒",
