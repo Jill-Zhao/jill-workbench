@@ -1,5 +1,5 @@
 /* Jill 工作台 Service Worker */
-const CACHE = 'jill-v4';
+const CACHE = 'jill-v5';
 // 纯静态壳资源：缓存优先（升级时改 CACHE 名即可强制刷新）
 const SHELL = [
   './assets/style.css',
@@ -13,6 +13,7 @@ const SHELL = [
 const DATA = [
   './data/intel.js',
   './data/xiaohongshu.js',
+  './data/events.js',
   './data/lead-history.js',
   './data/lead-exclude.js',
   './data/food-db.js'

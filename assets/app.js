@@ -15,6 +15,7 @@ const KEY_XHS  = 'jill_xhs_v1';
 const PAGE_INFO = {
   intel : ['行业情报','每日海外榜单与热点，挑能用的看'],
   policy: ['媒体政策','Meta / Google / TikTok 广告规则变动，合规就是聊单切口'],
+  expo  : ['行业活动','出海圈近期活动日历——去哪见客户、能建联谁、怎么用'],
   leads : ['出海线索池','中国公司在海外的表现，这里全是潜在客户'],
   crm   : ['我的客户','建联进度、卡点和跟进建议'],
   xhs   : ['小红书选题','每天 10:00 推送，帮你把内容做起来获客'],
@@ -76,7 +77,9 @@ let curStageFilter = '';
 let curXCat   = 'all';
 let curScale  = 'all';
 let curETag   = 'all';
-let curLScale = 'all';
+let curExpo   = 'all';
+let curExpoLoc= 'all';
+let curLScale = 'sme';
 let foodDate = ymd(new Date());
 let pickedFood = null;
 let editingId  = null;
@@ -461,6 +464,12 @@ function renderPolicies(){
       <div class="card-meta"><span>🗓 ${esc(p.date)}</span>${cats}</div>
       <div class="pol-detail">${esc(p.detail)}</div>
       <div class="pol-biz"><strong>商务视角：</strong>${esc(p.bizValue)}</div>
+      ${p.bizDetail ? `
+      <div class="pol-bizdetail">
+        <div class="bzd-row"><span class="bzd-k">🎯 对中小客户</span><span class="bzd-v">${esc(p.bizDetail.sme)}</span></div>
+        <div class="bzd-row"><span class="bzd-k">💬 开口话术</span><span class="bzd-v">${esc(p.bizDetail.talk)}</span></div>
+        <div class="bzd-row"><span class="bzd-k">⚠️ 风险提示</span><span class="bzd-v">${esc(p.bizDetail.risk)}</span></div>
+      </div>` : ''}
     </div>`;
   }).join('') : '<div class="empty"><p>没有符合条件的政策。</p></div>';
 
@@ -480,6 +489,72 @@ $$('#impactTabs .tab').forEach(t => t.addEventListener('click', ()=>{
 $$('#violTabs .tab').forEach(t => t.addEventListener('click', ()=>{
   $$('#violTabs .tab').forEach(x => x.classList.remove('active'));
   t.classList.add('active'); curViol = t.dataset.viol; renderPolicies();
+}));
+
+/* ============================================================
+   模块二·五：行业活动（data/events.js，每周一自动化更新）
+   ============================================================ */
+function expoCatClass(c){
+  return { '综合':'tag-brand', '游戏':'tag-meta', '短剧':'tag-sme',
+           'AI':'tag-emerging', '金融':'tag-google', '社交泛娱乐':'tag-tiktok' }[c] || 'tag-soft';
+}
+function renderExpos(){
+  const box = $('#expoList');
+  if(!box) return;
+  const E = window.EVENTS || {};
+  $('#expoUpdated').textContent = (E.updatedAt || '').slice(5) || '—';
+
+  const today = ymd(new Date());
+  let list = (E.events || []).filter(e => {
+    const end = e.dateEnd || e.dateStart || '';
+    return end >= today; // 已结束的活动不再展示
+  });
+  list.sort((a,b) => (a.dateStart||'').localeCompare(b.dateStart||''));
+
+  const soon = list.filter(e => (e.dateStart||'') >= today && daysBetween(today, e.dateStart) <= 14).length;
+  const b = $('#badgeExpo');
+  if(soon){ b.textContent = soon; b.classList.add('show'); }
+  else b.classList.remove('show');
+
+  if(curExpo !== 'all')     list = list.filter(e => e.category === curExpo);
+  if(curExpoLoc !== 'all')  list = list.filter(e => e.region  === curExpoLoc);
+
+  box.innerHTML = list.length ? list.map(e => {
+    const d = daysBetween(today, e.dateStart || today);
+    const chip = d <= 0 ? '<span class="countdown soon-chip">进行中 / 即将开始</span>'
+      : d <= 14 ? `<span class="countdown soon-chip">还有 ${d} 天</span>`
+      : `<span class="tag tag-soft">${e.dateStart}</span>`;
+    return `
+    <div class="card">
+      <div class="pol-head">
+        <span class="tag ${expoCatClass(e.category)}">${esc(e.category)}</span>
+        <span class="pol-title">${esc(e.name)}</span>
+        ${chip}
+      </div>
+      <div class="card-meta">
+        <span>🗓 ${esc(e.dates)}</span>
+        <span>📍 ${esc(e.location)} · ${esc(e.venue)}</span>
+        <span>🏢 主办：${esc(e.organizer)}</span>
+        <span>🎫 ${esc(e.cost)}</span>
+      </div>
+      <div class="pol-detail"><b>针对人群：</b>${esc(e.audience)}</div>
+      <div class="pol-detail"><b>活动内容：</b>${esc(e.content)}</div>
+      <div class="pol-biz"><strong>🤝 能建联谁：</strong>${esc(e.whoToMeet)}</div>
+      <div class="card-comment"><b>怎么用：</b>${esc(e.bizValue)}</div>
+      ${e.signoff ? `<div class="card-meta" style="margin-bottom:0"><span>⏰ ${esc(e.signoff)}</span></div>` : ''}
+      ${e.source ? `<div class="card-src"><a href="${esc(e.source)}" target="_blank" rel="noopener">🔗 报名 / 详情（点击核实）</a></div>` : ''}
+    </div>`;
+  }).join('') : '<div class="empty"><p>这个筛选下暂时没有活动。综合类大会（GTC、GICC）通常覆盖全品类，可以切「全部」看看。</p></div>';
+
+  $('#expoNote').innerHTML = E.note ? '💡 ' + esc(E.note) : '';
+}
+$$('#expoTabs .tab').forEach(t => t.addEventListener('click', ()=>{
+  $$('#expoTabs .tab').forEach(x => x.classList.remove('active'));
+  t.classList.add('active'); curExpo = t.dataset.ecat; renderExpos();
+}));
+$$('#expoLocTabs .tab').forEach(t => t.addEventListener('click', ()=>{
+  $$('#expoLocTabs .tab').forEach(x => x.classList.remove('active'));
+  t.classList.add('active'); curExpoLoc = t.dataset.eloc; renderExpos();
 }));
 
 /* ============================================================
@@ -527,6 +602,8 @@ function renderLeads(){
   const q = ($('#leadSearch').value || '').trim().toLowerCase();
   let list = (INTEL.chinaGoingGlobal || []).concat(MANUAL_LEADS);
   if(curLScale === 'sme') list = list.filter(r => r.scale === 'sme');
+  if(curLScale === 'newco') list = list.filter(r => r.newco === true);
+  if(curLScale === 'head') list = list.filter(r => r.scale === 'head');
   if(q) list = list.filter(r => {
     const ppl = (r.contacts||[]).map(c=>`${c.name||''}${c.role||''}${c.email||''}${c.phone||''}`).join('');
     const chs = (r.channels||[]).map(c=>`${c.label||''}${c.email||''}${c.phone||''}`).join('');
@@ -551,7 +628,10 @@ function renderLeads(){
       : coop === 'not'
         ? '<span class="coop-badge coop-no">🟦 未合作</span>'
         : '<span class="coop-badge coop-pending">⚪ 待飞书核验</span>';
-    const scaleBadge = r.scale === 'sme' ? '<span class="coop-badge coop-sme">🚀 中小企业</span>' : '';
+    const readOnly = curLScale === 'head';
+    const scaleBadge = r.scale === 'sme' ? '<span class="coop-badge coop-sme">🚀 中小企业</span>'
+                      : r.newco ? '<span class="coop-badge coop-sme">🆕 新公司</span>'
+                      : r.scale === 'head' ? '<span class="coop-badge" style="background:#eef2ff;color:#3949ab;border:1px solid #c5cae9">🏢 头部大厂</span>' : '';
     const coopInfo = coop === 'cooperated'
       ? (r.coopModel ? esc(r.coopModel) : '（业务模式待补）')
       : (r.agency && r.agency !== '暂无公开数据' ? esc(r.agency) : '—');
@@ -564,6 +644,8 @@ function renderLeads(){
                 : ex ? '🚫 不是我的客户' : '✓ 已在我的客户';
       actions = `<span class="row-suppressed">${tag}</span>` +
         (ex ? `<button class="mini-btn restore" data-restore="${esc(key)}">↩ 恢复推送</button>` : '');
+    } else if(readOnly) {
+      actions = `<span class="row-suppressed">📌 行业动态</span>`;
     } else {
       actions = `<button class="mini-btn" data-lead="${idx}">+ 加为客户</button>` +
         (r.emailSubject && r.emailBody ? `<button class="mini-btn mail-draft" data-email="${idx}" title="查看跟进邮件，一键复制发送">✉️ 跟进邮件</button>` : '') +
@@ -1408,7 +1490,7 @@ function init(){
 
   fillStageSelects();
   renderPulse(); renderRankings(); renderEvents(); renderSmeInsight(); renderAgencyIntel();
-  renderPolicies(); renderLeads(); renderCRM();
+  renderPolicies(); renderExpos(); renderLeads(); renderCRM();
   renderXHS();
   renderFood();
   setupPhoto(); setupVisionSettings();
@@ -1434,7 +1516,7 @@ window.JILL_APP = {
     FOOD     = load(KEY_FOOD, {});
     SETTINGS = load(KEY_SET, { goal: 1500 });
     XHS_MATERIALS = load(KEY_XHS, []);
-    renderLeads(); renderCRM(); renderFood(); renderAgencyIntel(); renderXHS(); renderSmeInsight();
+    renderLeads(); renderCRM(); renderFood(); renderAgencyIntel(); renderXHS(); renderSmeInsight(); renderExpos();
   }
 };
 

@@ -169,6 +169,11 @@ input,select,textarea{font-family:inherit;font-size:14px}
 .pol-biz{font-size:12.8px;background:var(--warn-soft);border-left:3px solid var(--warn);
   padding:9px 13px;border-radius:0 6px 6px 0;line-height:1.65;color:#7c5000}
 .pol-biz strong{color:#5c3d00}
+.pol-bizdetail{margin:2px 0 12px;padding:10px 12px;background:#f5f8ff;border:1px solid #d9e3ff;border-radius:8px}
+.bzd-row{display:flex;gap:10px;font-size:12.6px;line-height:1.6;padding:3px 0}
+.bzd-row + .bzd-row{border-top:1px dashed #e3e9f7}
+.bzd-k{flex:0 0 92px;font-weight:700;color:#3457b0;white-space:nowrap}
+.bzd-v{flex:1;color:var(--txt-2)}
 .countdown{font-size:11px;font-weight:700;padding:3px 8px;border-radius:5px;
   background:var(--danger-soft);color:var(--danger)}
 
@@ -579,3 +584,7 @@ textarea.input{resize:vertical;line-height:1.6}
 .sme-col-title{font-size:14px;font-weight:700;color:var(--txt);margin-bottom:10px}
 .sme-list{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:8px}
 .sme-list li{font-size:13px;line-height:1.6;color:var(--txt-2)}
+
+/* ---------- 行业活动 ---------- */
+.soon-chip{background:var(--brand-soft);color:var(--brand)}
+.expo-note{margin-top:14px;padding:11px 14px;background:#f6f8fb;border:1px dashed #d5dce8;border-radius:10px;font-size:12.5px;color:var(--txt-3);line-height:1.6}
