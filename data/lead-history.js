@@ -1,4 +1,15 @@
 window.LEAD_HISTORY = [
+  // 2026-09-24 新增（保留最近约 60 条，旧条目滚动淘汰）
+  "魔趣视界（AI 短剧出海，自有 App 预计 10 月上线）|南威软件股份有限公司（603636.SH 旗下）",
+  "悟空文化（AIGC 科幻短剧/影视出海）|成都悟空文化科技有限公司（腾讯增资持股 20%）",
+  "前尾猴文化（AI 漫剧/IP 工业化）|哈尔滨市前尾猴文化有限责任公司（阅文集团入股 20%）",
+  "HiWaifu（二次元 AI 情感陪伴）|重庆魔虎科技（海外主体 LANGUAGE POWER MEDIA LIMITED）",
+  "TouchDream AI（AI 短剧/游戏垂直 Agent + YTS 互动引擎）|北京十友互动科技有限公司",
+  "PrettyUp / Motion Ninja 等视频图像创作矩阵|广州光锥元信息科技有限公司",
+  "AIGC 视频内容（元威网络 AI 微短剧资产）|Jinxin Technology Holding Company（NASDAQ: NAMI）",
+  "叫叫阅读国际版（JOJOIN，海外华裔儿童中文阅读）|成都书声科技有限公司",
+  "印尼信贷出海业务（维信卡卡贷/豆豆钱同源技术输出）|维信金科控股有限公司（HKEX: 02003）",
+  "斗破苍穹M:少年崛起（网文大 IP 手游出海）|Joy Star Games",
   // 2026-09-22 新增（保留最近约 60 条，旧条目滚动淘汰）
   "Dino AI（VIPKID 海外 AI 英语学习产品）|VIPKID（北京大米科技有限公司）",
   "Bubble AI（AI 口语智能体陪练）|北京深模远虑科技有限公司",
@@ -53,25 +64,5 @@ window.LEAD_HISTORY = [
   "Crushie AI（女性向 AI 陪伴）|Crushie AI（国内团队/海外主体）",
   "Mivora AI（AI 图像应用）|上海子未网络科技有限公司 CamSoft AI Magic",
   "Perspeak AI（留学生沟通训练）|Perspeak AI（华人创业团队）",
-  "LoveShots（海外短剧）|网易有道 Youdao / NEWSTAR FOCUS（香港）",
-  "JoyReels（海外短剧）|福州掌中云科技有限公司 / UREELS PTE. LTD.",
-  "FlickReels（海外短剧）|擎玩网络 / FARSUN PTE. LTD.（掌玩网络）",
-  "iPayLinks 艾贝盘（跨境收付）|iPayLinks Digital Technology（上海总部）",
-  "Think Academy 学而思国际（海外校区/线上课）|好未来 TAL Education",
-  "遗弃之地 APP 版（小游戏厂商 APP 化）|北京豪腾创想（疯狂游戏集团）",
-  "林间聊愈室 MoodTalker（AI 心理陪伴）|广州心纪源信息科技有限公司",
-  "KaDa故事（儿童绘本阅读出海）|杭州红花朵朵科技有限公司",
-  "阶跃星辰大模型生态（胃之书/林间聊愈室/ReadPaper/物圆TreLoop）|上海阶跃星辰智能科技有限公司",
-  "DeepLang AI 深言科技（AI 写作与办公助手）|北京深言科技有限责任公司",
-  "秒天科技 MSkyTec（AI 与云计算出海服务）|杭州秒天科技有限公司",
-  "锐点智能 SPSofts（AI 内容生成与营销自动化）|中山市锐点智能科技有限公司",
-  "时方元启（AI 产品增长与出海咨询）|北京时方元启科技有限公司",
-  "同盾科技智能风控出海|同盾科技有限公司",
-  "九学王（智慧课堂/AI 学习助手出海）|深圳市九学王信息科技有限公司",
-  "倍进教育（AI+中小学教育）|北京倍进教育科技有限公司",
-  "《沙石镇时光》My Time at Sandrock（独立游戏出海）|重庆帕斯亚科技有限公司 Pathea Games",
-  "Gamera Games 独立游戏发行|上海伽马雷影网络科技有限公司",
-  "iDrama（海外短剧）|掌阅科技股份有限公司",
-  "BonusTV（海外短剧）|杭州剧点网络科技有限公司 / DramaAccess INC",
-  "西湖心辰（西湖大模型 / 造梦日记 / Friday / 聊会小天）|西湖心辰（杭州）科技有限公司"
+                                          "西湖心辰（西湖大模型 / 造梦日记 / Friday / 聊会小天）|西湖心辰（杭州）科技有限公司"
 ];
