@@ -1,4 +1,14 @@
 window.LEAD_HISTORY = [
+  // 2026-10-30 新增（保留最近约 60 条，旧条目滚动淘汰）
+  "AhaWorld / ReadingStars / 俩喵英语（儿童教育出海矩阵）|洪恩 iHuman Inc.（NYSE: IH）",
+  "宝宝巴士互动 App 矩阵（海外 IAA 变现）|宝宝巴士股份有限公司",
+  "Foxit PDF Editor / 福昕 AI 办公套件出海|福建福昕软件开发股份有限公司（688095.SH）",
+  "WPS 国际版 / WPS 365（AI 办公出海）|北京金山办公软件股份有限公司（688111.SH）",
+  "Bank Saqu / WeLab Bank（亚洲数字银行扩张）|WeLab 汇立集团",
+  "听花岛（AI 仿真人短剧出海厂牌）|听花岛（咪蒙系短剧制作公司）",
+  "imely（AI 漫画风角色陪伴，BG/BL/GL 分众运营）|AI HAY PTE. LTD.（新加坡注册，判断为中国团队出海）",
+  "WalkColor（AI 图像创作工具，「织图 Lab」玩法出圈）|WalkColor（1.5 人小团队，创始人吴桐；10 月披露被收购）",
+  "Bus Fever Party!（模拟经营新品，下载月增 330%）|Lumi Games",
   // 2026-09-24 新增（保留最近约 60 条，旧条目滚动淘汰）
   "魔趣视界（AI 短剧出海，自有 App 预计 10 月上线）|南威软件股份有限公司（603636.SH 旗下）",
   "悟空文化（AIGC 科幻短剧/影视出海）|成都悟空文化科技有限公司（腾讯增资持股 20%）",
@@ -63,6 +73,5 @@ window.LEAD_HISTORY = [
   "Tipsy Chat（AI 互动叙事陪伴）|Tipsy Chat（国内团队/海外主体）",
   "Crushie AI（女性向 AI 陪伴）|Crushie AI（国内团队/海外主体）",
   "Mivora AI（AI 图像应用）|上海子未网络科技有限公司 CamSoft AI Magic",
-  "Perspeak AI（留学生沟通训练）|Perspeak AI（华人创业团队）",
-                                          "西湖心辰（西湖大模型 / 造梦日记 / Friday / 聊会小天）|西湖心辰（杭州）科技有限公司"
+  "Perspeak AI（留学生沟通训练）|Perspeak AI（华人创业团队）"
 ];
