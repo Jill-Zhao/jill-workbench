@@ -1,4 +1,15 @@
 window.LEAD_HISTORY = [
+  // 2026-10-31 新增（保留最近约 60 条，旧条目滚动淘汰）
+  "Nimo TV（海外游戏直播）/ 虎牙直播海外业务|虎牙 HUYA Inc.（NYSE: HUYA）",
+  "海外音频社交产品线（全球化音频/语音产品矩阵）|Sound Group Inc.（NASDAQ: SOGP，原荔枝）",
+  "Plants on Fire: Attack & Defend（植物题材轻竞技塔防）|上海身梦科技有限公司",
+  "《弹壳战机》/《弹壳特攻队》/《弓箭传说》|猩球游戏（Habby 长期合作研发商）",
+  "悟空中文 / 悟空国际数学 / 悟空英语（WuKong Chinese 等）|悟空教育 WuKong Education",
+  "超级球球 / 丑小鸭 AI 双语启蒙机器人（安徒生系列）|超级球球（AI 儿童陪伴机器人团队）",
+  "教育机器人（K12 AI 教学 / 中文教学机器人）|北京爱宾果科技有限公司",
+  "Pexo（AI Content Agent，从视频任务切入）|北京极致上下文科技有限公司（Apex Context）",
+  "Moras（达人带货 Agent）/ K2 Prism 多模态内容模型|杭州攀峰智能科技有限公司（K2Lab）",
+  "DeepWork 智能营销工作台 / 云宝 GEO 可见度监测（GEO 生成式引擎优化）|深度云海智能科技（上海）有限公司",
   // 2026-10-30 新增（保留最近约 60 条，旧条目滚动淘汰）
   "AhaWorld / ReadingStars / 俩喵英语（儿童教育出海矩阵）|洪恩 iHuman Inc.（NYSE: IH）",
   "宝宝巴士互动 App 矩阵（海外 IAA 变现）|宝宝巴士股份有限公司",
@@ -53,25 +64,6 @@ window.LEAD_HISTORY = [
   "Gamoji（东南亚游戏陪玩社交平台）|北京唱吧科技股份有限公司（海外主体：PICA 香港有限公司，2024 年注册）",
   "华盛通（海外华人投资平台）·沙特子品牌 Sahm Capital|华盛证券（香港持牌券商，AUL711；运营主体：深圳市时代华盛网络科技有限公司）",
   "Hollywood Merge（二合+换装手游，2026/2 上线）|VoyagerOne Distribution Limited（发行主体注册于爱尔兰；团队背景暂无公开数据）",
-  // 2026-09-18 新增
-  "AI 漫剧「超级工厂」（短剧/AI 漫剧出海）|湖南秦九网络科技有限公司",
-  "安然环球 AI 短剧出海平台（本地化+投放+归因一体化）|安然环球文化科技有限公司（中国香港）",
-  "AniShort（AI 短剧全流程协作平台）|Eight Eight Digital（八八数字，北京）",
-  "StardustTV（海外短剧平台）|山海星辰",
-  "HelloChinese（学中文 App）|HelloChinese Technology Co., Ltd.",
-  "51Talk 出海业务（AI+真人在线英语）|51Talk Online Education Group（NYSE: COE）",
-  "VMEG（AI 视频翻译/配音/本地化平台）|VMEG AI（创始人胥彪，前腾讯云副总裁）",
-  "Flowith（AI Agent 创作工作台）|Flowith（中国团队/海外运营，10 人以内）",
-  "Hyper3D Rodin（AI 3D 生成平台）|上海影眸科技有限公司（Hyper3D / 影眸科技）",
-  "Felo（多语言 AI 搜索与创作平台）|Felo（金峰创办，日本东京运营）",
-  "Oceanpayment 钱海（全球数字支付服务）|Oceanpayment 钱海网络技术（深圳）",
-  "Age of Origins（《守卫者王国》系 4X 策略长线产品）|Camel Games（北京骆驼，camelgames.com）",
-  "WeRide 文远知行（自动驾驶全球化）|文远知行 WeRide（NASDAQ: WRD / HKEX: 0800）",
-  // —— 历史记录（滚动保留）——
-  "Gauth: AI Study Companion（字节教育出海）|字节跳动 ByteDance / GAUTHTECH PTE. LTD.",
-  "可灵AI 视频生成（快手旗下）|快手 Kuaishou / 北京可灵",
-  "Tipsy Chat（AI 互动叙事陪伴）|Tipsy Chat（国内团队/海外主体）",
-  "Crushie AI（女性向 AI 陪伴）|Crushie AI（国内团队/海外主体）",
-  "Mivora AI（AI 图像应用）|上海子未网络科技有限公司 CamSoft AI Magic",
-  "Perspeak AI（留学生沟通训练）|Perspeak AI（华人创业团队）"
+  // —— 2026-09-18 起滚动保留 ——
+  "AI 漫剧「超级工厂」（短剧/AI 漫剧出海）|湖南秦九网络科技有限公司"
 ];
