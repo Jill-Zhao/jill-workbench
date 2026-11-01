@@ -1,4 +1,18 @@
 window.LEAD_HISTORY = [
+  // 2026-11-01 新增（保留最近约 60 条，旧条目滚动淘汰）
+  "Falla（中东北非语聊房社交 App，40+ 国用户）|深圳音果互娱网络科技有限公司",
+  "GENiEX（AI 潮玩对讲机，SEIVOID 寂核原创科幻 IP）|元巅科技（杭州 METAPEX 工作室）",
+  "Today AI（个人 AI 助理，海外公测 + 国内双线）|Today AI（Personal AI 初创，投资方含腾讯/IDG/五源/蚂蚁/红杉中国/传音控股）",
+  "XbotGo Falcon / Chameleon（AI 体育自动追踪相机）|XbotGo",
+  "Moonix 月刻 AI 眼镜|Moonix（月刻）",
+  "Imou Life（智能物联网 App，大华智能家居生态入口）|大华科技（浙江大华技术股份有限公司 002236 旗下）",
+  "Rotate Rings（转环解谜 IAA 休闲游戏，月下载 1000 万+）|HURELAX PTE. LTD.（Hungry Studio 新加坡运营实体）",
+  "Kredivo（印尼/越南 BNPL 先买后付 + 数字信贷）|FinAccel（中资参投，Kredivo 运营方）",
+  "Turtle Learn 旅龟（AI 中文教育平台，150+ 学校）|Kazoo Technology (Hong Kong) Limited",
+  "东南亚 AI 学习产品矩阵（AI 语伴/自适应课程）|睿诺思教育集团",
+  "Ahlan TopOne（沙特语聊房社交 App）|武汉东辰科技（Wuhan Dongchen Technology Co., Ltd.）",
+  "MICO / YoHo 等社交娱乐 App 矩阵（中东为核心增长市场）|赤子城科技（Newborn Town Inc.，HKEX: 9911）",
+  "美图秀秀 / Wink / AirBrush 等影像 AI 产品矩阵（海外订阅）|美图公司（Meitu, Inc.，HKEX: 1357）",
   // 2026-10-31 新增（保留最近约 60 条，旧条目滚动淘汰）
   "Nimo TV（海外游戏直播）/ 虎牙直播海外业务|虎牙 HUYA Inc.（NYSE: HUYA）",
   "海外音频社交产品线（全球化音频/语音产品矩阵）|Sound Group Inc.（NASDAQ: SOGP，原荔枝）",
@@ -52,18 +66,4 @@ window.LEAD_HISTORY = [
   "元中文·庄周大模型（出海企业中文培训/AI语言服务）|元中文数字科技（武汉）有限公司",
   "Chinesia / Talkin / GoSpeak AI（中文出海+语言社交矩阵）|深圳市章鱼时代科技发展有限公司",
   "金融壹账通（金融科技出海 20 国 200+ 机构）|深圳壹账通智能科技有限公司（平安集团）",
-  "互爱科技（JoJo's GS 出海发行）|互爱科技",
-  // 2026-09-19 新增（保留最近约 60 条，旧条目滚动淘汰）
-  "Violoop X（桌面级 AI Operator 硬件，Kickstarter 众筹中）|深圳本惟无界科技有限公司（Violoop）",
-  "薯塔AI（跨语言课件学习助手，官网 friesai.cn）|深圳思酷智能信息服务有限公司（Skool AI，港中深孵化）",
-  "MarsGate AIoT 平台 / AI 陪伴与智能终端方案（uClaw 等）|深圳市集贤科技有限公司（Shenzhen Uascent Technology）",
-  "捏界（AI 短剧剧本创作工作流平台）|捏界科技（深圳）有限责任公司",
-  "SureChinese（新东方海外中文学习，AI 陪练）|新东方教育科技集团（NYSE: EDU / HKEX: 9901）",
-  "TalkMe / ListenLeap（AI 语言学习矩阵，新品 Stances 信息溯源）|Inspired AI（新加坡注册，创始人贾子健）",
-  "剧小白（AIGC 短剧/漫剧全流程创作平台，多语种一键生成）|南宁峰值文化传播有限公司（FZ Entertainment）",
-  "Gamoji（东南亚游戏陪玩社交平台）|北京唱吧科技股份有限公司（海外主体：PICA 香港有限公司，2024 年注册）",
-  "华盛通（海外华人投资平台）·沙特子品牌 Sahm Capital|华盛证券（香港持牌券商，AUL711；运营主体：深圳市时代华盛网络科技有限公司）",
-  "Hollywood Merge（二合+换装手游，2026/2 上线）|VoyagerOne Distribution Limited（发行主体注册于爱尔兰；团队背景暂无公开数据）",
-  // —— 2026-09-18 起滚动保留 ——
-  "AI 漫剧「超级工厂」（短剧/AI 漫剧出海）|湖南秦九网络科技有限公司"
 ];
