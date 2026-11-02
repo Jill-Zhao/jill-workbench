@@ -1,5 +1,17 @@
 window.LEAD_HISTORY = [
-  // 2026-11-01 新增（保留最近约 60 条，旧条目滚动淘汰）
+  // 2026-11-02 新增（保留最近约 60 条，旧条目滚动淘汰）
+  "触手AI（AI 漫剧创作平台）|杭州水母智能科技有限公司",
+  "Ling 系列「随身 AI 伙伴」硬件|上海灵宇宙科技有限公司",
+  "FaceUnity 数字人 / AI 视觉 SDK|杭州相芯科技有限公司",
+  "Timekettle AI 翻译耳机 / 同传设备|深圳市时空壶技术有限公司",
+  "BubblePal AI 毛绒陪伴玩具|深圳市跃然创新科技有限公司",
+  "芙崽 Fuzozo AI 情感陪伴机器人|上海珞博智能科技有限公司",
+  "华策短剧与影视内容出海|浙江华策影视股份有限公司",
+  "宝宝巴士系列儿童 App|宝宝巴士股份有限公司",
+  "洪恩识字 / AhaWorld 儿童 AI 内容|天津洪恩完美未来教育科技有限公司",
+  "极融（海外金融科技）|嘉银科技有限公司",
+  "小游戏与休闲游戏发行（Island in the Air）|邯郸太空船信息科技有限公司",
+  // 2026-11-01 及更早（滚动保留）
   "Falla（中东北非语聊房社交 App，40+ 国用户）|深圳音果互娱网络科技有限公司",
   "GENiEX（AI 潮玩对讲机，SEIVOID 寂核原创科幻 IP）|元巅科技（杭州 METAPEX 工作室）",
   "Today AI（个人 AI 助理，海外公测 + 国内双线）|Today AI（Personal AI 初创，投资方含腾讯/IDG/五源/蚂蚁/红杉中国/传音控股）",
@@ -13,7 +25,6 @@ window.LEAD_HISTORY = [
   "Ahlan TopOne（沙特语聊房社交 App）|武汉东辰科技（Wuhan Dongchen Technology Co., Ltd.）",
   "MICO / YoHo 等社交娱乐 App 矩阵（中东为核心增长市场）|赤子城科技（Newborn Town Inc.，HKEX: 9911）",
   "美图秀秀 / Wink / AirBrush 等影像 AI 产品矩阵（海外订阅）|美图公司（Meitu, Inc.，HKEX: 1357）",
-  // 2026-10-31 新增（保留最近约 60 条，旧条目滚动淘汰）
   "Nimo TV（海外游戏直播）/ 虎牙直播海外业务|虎牙 HUYA Inc.（NYSE: HUYA）",
   "海外音频社交产品线（全球化音频/语音产品矩阵）|Sound Group Inc.（NASDAQ: SOGP，原荔枝）",
   "Plants on Fire: Attack & Defend（植物题材轻竞技塔防）|上海身梦科技有限公司",
@@ -24,7 +35,6 @@ window.LEAD_HISTORY = [
   "Pexo（AI Content Agent，从视频任务切入）|北京极致上下文科技有限公司（Apex Context）",
   "Moras（达人带货 Agent）/ K2 Prism 多模态内容模型|杭州攀峰智能科技有限公司（K2Lab）",
   "DeepWork 智能营销工作台 / 云宝 GEO 可见度监测（GEO 生成式引擎优化）|深度云海智能科技（上海）有限公司",
-  // 2026-10-30 新增（保留最近约 60 条，旧条目滚动淘汰）
   "AhaWorld / ReadingStars / 俩喵英语（儿童教育出海矩阵）|洪恩 iHuman Inc.（NYSE: IH）",
   "宝宝巴士互动 App 矩阵（海外 IAA 变现）|宝宝巴士股份有限公司",
   "Foxit PDF Editor / 福昕 AI 办公套件出海|福建福昕软件开发股份有限公司（688095.SH）",
@@ -34,7 +44,6 @@ window.LEAD_HISTORY = [
   "imely（AI 漫画风角色陪伴，BG/BL/GL 分众运营）|AI HAY PTE. LTD.（新加坡注册，判断为中国团队出海）",
   "WalkColor（AI 图像创作工具，「织图 Lab」玩法出圈）|WalkColor（1.5 人小团队，创始人吴桐；10 月披露被收购）",
   "Bus Fever Party!（模拟经营新品，下载月增 330%）|Lumi Games",
-  // 2026-09-24 新增（保留最近约 60 条，旧条目滚动淘汰）
   "魔趣视界（AI 短剧出海，自有 App 预计 10 月上线）|南威软件股份有限公司（603636.SH 旗下）",
   "悟空文化（AIGC 科幻短剧/影视出海）|成都悟空文化科技有限公司（腾讯增资持股 20%）",
   "前尾猴文化（AI 漫剧/IP 工业化）|哈尔滨市前尾猴文化有限责任公司（阅文集团入股 20%）",
@@ -45,7 +54,6 @@ window.LEAD_HISTORY = [
   "叫叫阅读国际版（JOJOIN，海外华裔儿童中文阅读）|成都书声科技有限公司",
   "印尼信贷出海业务（维信卡卡贷/豆豆钱同源技术输出）|维信金科控股有限公司（HKEX: 02003）",
   "斗破苍穹M:少年崛起（网文大 IP 手游出海）|Joy Star Games",
-  // 2026-09-22 新增（保留最近约 60 条，旧条目滚动淘汰）
   "Dino AI（VIPKID 海外 AI 英语学习产品）|VIPKID（北京大米科技有限公司）",
   "Bubble AI（AI 口语智能体陪练）|北京深模远虑科技有限公司",
   "海外信贷科技出海（东南亚/拉美/英国布局）|奇富科技 Qifu Technology（NASDAQ: QFIN）",
@@ -56,14 +64,9 @@ window.LEAD_HISTORY = [
   "星擎（AI 出海视频营销）/ 星帆（TikTok Shop AI 操作系统）|奥创天下（米奥兰特 300795 控股子公司）",
   "花火漫剧（原创海外 AI 漫剧制作）|湖南花火漫剧",
   "She Swapped My Daughter!（海外仿真人 AI 短剧）|成都心视觉文化",
-  // 2026-09-21 新增（保留最近约 60 条，旧条目滚动淘汰）
   "BlinkDrama（AI 短剧，拉美16国霸榜）|Atlas Ventures Culture & Technology Limited（中国香港）",
   "KalosTV（海外本土化短剧平台，RPD 行业第一）|青榕传媒",
   "ShotShort（海外短剧平台，印尼为主）|花生书城",
   "有戏AI（AI 短剧全流程创作平台，150万注册用户）|有戏AI（FullPeace 旗下，运营主体未完全公开）",
   "Accio / Accio Work（阿里国际 AI 生意 Agent 平台）|阿里巴巴国际站（阿里国际数字商业集团）",
-  "HanLink（AI 中文学习平台，沙特进校）|江西软云科技股份有限公司（NASDAQ: RYET）",
-  "元中文·庄周大模型（出海企业中文培训/AI语言服务）|元中文数字科技（武汉）有限公司",
-  "Chinesia / Talkin / GoSpeak AI（中文出海+语言社交矩阵）|深圳市章鱼时代科技发展有限公司",
-  "金融壹账通（金融科技出海 20 国 200+ 机构）|深圳壹账通智能科技有限公司（平安集团）",
 ];
