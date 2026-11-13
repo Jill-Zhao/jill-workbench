@@ -1,5 +1,14 @@
 window.LEAD_HISTORY = [
-  // 2026-11-12 批次起（保留最近约 60 条，旧条目滚动淘汰）
+  "2026-11-13|叠纸游戏（游戏出海）|叠纸游戏",
+  "2026-11-13|人人租/广州研趣（租赁金融出海）|人人租（CEO 洪国志，020-2818-7591）",
+  "2026-11-13|火花思维 Spark Education（教育出海）|火花思维（learn@sparkedu.com / infoca@sparkedu.com）",
+  "2026-11-13|Sino-Bus 汉和赛诺（教育出海）|Sino-Bus 汉和赛诺",
+  "2026-11-13|自然选择 NatureSelect.ai（AI 视频生成）|自然选择（创始人张晓帆，EVE 累计融资超 $1亿）",
+  "2026-11-13|Sand.ai（AI 视频生成）|Sand.ai",
+  "2026-11-13|沉浸式翻译/上海书同文（AI 翻译工具）|沉浸式翻译（support@immersivetranslate.com）",
+  "2026-11-13|ropet/萌友智能（AI 桌面陪伴硬件）|ropet（CEO 何嘉斌，business@ropetai.com）",
+  "2026-11-13|Solulu（上海 I Don't Care，AI 情感陪伴）|Solulu（创始人把胡）",
+  "2026-11-13|Melolo（字节跳动短剧出海）|Melolo（字节跳动旗下，POLIGON 发行）",
   "2026-11-12|Midoo（AI 语言学习 Agent）|Midoo（创始人 Mark，TalkAI 前创始人）",
   "2026-11-12|Cozyla（家庭 AI 日历硬件 + 订阅）|Cozyla（创始人姚立，前联想全球副总裁）",
   "2026-11-12|天之灵AI（AI 亲人对话 / 数字纪念）|天之灵AI（创始人张翼）",
@@ -49,15 +58,5 @@ window.LEAD_HISTORY = [
   "Today AI（个人 AI 助理，海外公测 + 国内双线）|Today AI（Personal AI 初创，投资方含腾讯/IDG/五源/蚂蚁/红杉中国/传音控股）",
   "XbotGo Falcon / Chameleon（AI 体育自动追踪相机）|XbotGo",
   "Moonix 月刻 AI 眼镜|Moonix（月刻）",
-  "Imou Life（智能物联网 App，大华智能家居生态入口）|大华科技（浙江大华技术股份有限公司 002236 旗下）",
-  "Rotate Rings（转环解谜 IAA 休闲游戏，月下载 1000 万+）|HURELAX PTE. LTD.（Hungry Studio 新加坡运营实体）",
-  "Kredivo（印尼/越南 BNPL 先买后付 + 数字信贷）|FinAccel（中资参投，Kredivo 运营方）",
-  "Turtle Learn 旅龟（AI 中文教育平台，150+ 学校）|Kazoo Technology (Hong Kong) Limited",
-  "东南亚 AI 学习产品矩阵（AI 语伴/自适应课程）|睿诺思教育集团",
-  "Ahlan TopOne（沙特语聊房社交 App）|武汉东辰科技（Wuhan Dongchen Technology Co., Ltd.）",
-  "MICO / YoHo 等社交娱乐 App 矩阵（中东为核心增长市场）|赤子城科技（Newborn Town Inc.，HKEX: 9911）",
-  "美图秀秀 / Wink / AirBrush 等影像 AI 产品矩阵（海外订阅）|美图公司（Meitu, Inc.，HKEX: 1357）",
-  "Nimo TV（海外游戏直播）/ 虎牙直播海外业务|虎牙 HUYA Inc.（NYSE: HUYA）",
-  "海外音频社交产品线（全球化音频/语音产品矩阵）|Sound Group Inc.（NASDAQ: SOGP，原荔枝）",
-  "Plants on Fire: Attack & Defend（植物题材轻竞技塔防）|上海身梦科技有限公司",
+  "Imou Life（智能物联网 App，大华智能家居生态入口）|大华科技（浙江大华技术股份有限公司 002236 旗下）"
 ];
