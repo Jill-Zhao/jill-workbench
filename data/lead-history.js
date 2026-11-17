@@ -1,4 +1,14 @@
 window.LEAD_HISTORY = [
+  "2026-11-17|PeakReel（海外 AI 短剧平台）|南威软件股份有限公司（603636.SH）",
+  "2026-11-17|GOOSEFLIP（AI 短剧 / 漫剧出海平台）|杭州鹅漫文化科技有限公司",
+  "2026-11-17|Zenora（AI 情绪疗愈 / 东方智慧）|高顿教育孵化（ARETEUP EDUCATION TECHNOLOGY）",
+  "2026-11-17|SureChinese（新东方比邻中文 App）|北京比邻东方教育科技有限公司（新东方旗下）",
+  "2026-11-17|C-Lingo 中文学习终端（HSK 学习机 / 扫读笔）|九学王集团（深圳市九学王信息科技）",
+  "2026-11-17|Beni（多地形跟拍机器人）|妙动科技（Mondo Robotics）",
+  "2026-11-17|芙崽 FUZOZO（AI 养成系潮玩）|上海珞博智能科技有限公司（Robopoet）",
+  "2026-11-17|Rokid Glasses（AI 眼镜）|灵伴科技（杭州灵伴科技股份有限公司）",
+  "2026-11-17|洋钱罐 / Easycash（海外现金贷与钱包）|瓴岳科技集团（Fintopia Group）",
+  "2026-11-17|King's Choice（帝国模拟 SLG）|龙腾简合（ONEMT）",
   "2026-11-13|叠纸游戏（游戏出海）|叠纸游戏",
   "2026-11-13|人人租/广州研趣（租赁金融出海）|人人租（CEO 洪国志，020-2818-7591）",
   "2026-11-13|火花思维 Spark Education（教育出海）|火花思维（learn@sparkedu.com / infoca@sparkedu.com）",
@@ -47,16 +57,5 @@ window.LEAD_HISTORY = [
   "FaceUnity 数字人 / AI 视觉 SDK|杭州相芯科技有限公司",
   "Timekettle AI 翻译耳机 / 同传设备|深圳市时空壶技术有限公司",
   "BubblePal AI 毛绒陪伴玩具|深圳市跃然创新科技有限公司",
-  "芙崽 Fuzozo AI 情感陪伴机器人|上海珞博智能科技有限公司",
-  "华策短剧与影视内容出海|浙江华策影视股份有限公司",
-  "宝宝巴士系列儿童 App|宝宝巴士股份有限公司",
-  "洪恩识字 / AhaWorld 儿童 AI 内容|天津洪恩完美未来教育科技有限公司",
-  "极融（海外金融科技）|嘉银科技有限公司",
-  "小游戏与休闲游戏发行（Island in the Air）|邯郸太空船信息科技有限公司",
-  "Falla（中东北非语聊房社交 App，40+ 国用户）|深圳音果互娱网络科技有限公司",
-  "GENiEX（AI 潮玩对讲机，SEIVOID 寂核原创科幻 IP）|元巅科技（杭州 METAPEX 工作室）",
-  "Today AI（个人 AI 助理，海外公测 + 国内双线）|Today AI（Personal AI 初创，投资方含腾讯/IDG/五源/蚂蚁/红杉中国/传音控股）",
-  "XbotGo Falcon / Chameleon（AI 体育自动追踪相机）|XbotGo",
-  "Moonix 月刻 AI 眼镜|Moonix（月刻）",
-  "Imou Life（智能物联网 App，大华智能家居生态入口）|大华科技（浙江大华技术股份有限公司 002236 旗下）"
+  "芙崽 Fuzozo AI 情感陪伴机器人|上海珞博智能科技有限公司"
 ];
