@@ -122,7 +122,6 @@ window.INTEL = {
         markets: "欧美 / 东南亚",
         performance: "双端 320 万下载、410 万美元内购，推广费用已投入 6439 万元",
         comment: "上市公司新品，推广费已经花出去六千万级别——这种客户关心的是「同样的钱能不能买到更多有效量」，不是有没有预算。谈的时候直接问「上一阶段 CPI 和 D7 留存的结构」，能立刻分辨他是真在优化还是在硬扛。",
-        tier: "sme",
         source: "https://www.feitianyingye.com/2026/1107/9613.shtml"
       },
       {
@@ -1256,7 +1255,7 @@ window.INTEL = {
       cooperation: "not",
       coopModel: "",
       agency: "暂无公开数据（获客以口碑与搜索为主，未见规模化买量）",
-      scale: "sme",
+      scale: "head",
       contacts: [],
       channels: [
         {
