@@ -1,14 +1,4 @@
 window.LEAD_HISTORY = [
-  "2026-11-22|Paramia（原 ParaDoor，AI 互动故事 / AI 角色社交）|LIVEWORLD PTE. LTD.（新加坡主体，中国团队；创始人莫雨润/西原，前字节 Flow，参与过星绘、猫箱）",
-  "2026-11-22|Memoket Gem（AI 记忆手环 + Personal Agent App）|穗升科技（Memoket Inc.，创始人王时远，前安克创新全球 CMO / 中国区总裁）",
-  "2026-11-22|Dootchi（AI 角色聊天 / 互动故事）|北京奔赴蔚蓝科技有限公司（Google Play 商店主体 Hello Kirana）",
-  "2026-11-22|Hypit（AI 视频复刻 / 爆款短视频生成）|Hypit（深圳，团队不到 10 人）",
-  "2026-11-22|Crushie AI（AI 恋爱陪伴 / 一对一养成）|Qianfan Hong Kong Limited（SoulZ AI，注册于中国香港）",
-  "2026-11-22|BIMOBIMO（原 BEEMO AI，AI 角色互动 / 偶像陪伴）|Palette Beat Inc.（商店主体 DOKIDOKIii LIMITED，中国香港）",
-  "2026-11-22|Halo Reels / Halo Reels Pro / Halo Reels Max（免费短剧矩阵）|Nutri Plaza（开发者账号；榜单归因指向上海锦榕柚关联团队，工商主体未公开证实）",
-  "2026-11-22|HotMiniDrama / Micro Drama（海外免费短剧平台）|成都微光聚梦文化传播有限公司（品牌 LUMINDREAM，2024-12-25 成立，注册资本 750 万元，法定代表人 闫雯）",
-  "2026-11-22|HSK GO（官方 HSK 学习与考试 App）|Wo Hui Pte Ltd（新加坡，与中文考试 CTI 合作开发）",
-  "2026-11-22|HanBook（中文学习字典 + 课程）|Han Language International HK Limited",
   "2026-11-22|eChineseLearning（1 对 1 在线中文）|eChineseLearning（北京，2006 年起专注海外 1 对 1 中文教学）",
   "2026-11-22|Atome（先买后付 / BNPL）|Advance Intelligence Group（领创集团，新加坡总部，创始与核心团队中国背景）",
   "2026-11-22|Fruit Days（來種水果吧！）/ The Cozy Florist（种花领真花）|RiftSky Games Co., Limited（宝通科技 300031.SZ 间接 100% 持股，2024 年初成立）",
@@ -58,5 +48,15 @@ window.LEAD_HISTORY = [
   "2026-11-12|天之灵AI（AI 亲人对话 / 数字纪念）|天之灵AI（创始人张翼）",
   "2026-11-12|逗逗AI（AI 游戏伙伴）|北京心影随形科技有限公司",
   "2026-11-12|猫箱（AI 角色互动）|字节跳动",
-  "2026-11-12|ClassIn（全球教与学平台）|北京翼鸥教育科技有限公司（EEO）"
+  "2026-11-12|ClassIn（全球教与学平台）|北京翼鸥教育科技有限公司（EEO）",
+  "2026-11-23|Zeemo（AI 视频字幕/多语种翻译 + AI 短剧生成器）|北京蓝色脉动科技有限责任公司（Bluepulse Inc.）",
+  "2026-11-23|Momo: AI Photo & Video Maker（AI 写真/视频生成）|ScaleUp（媒体称国产出海团队，海外主体 info@momoai.co）",
+  "2026-11-23|Uknow.AI（原 CheckMath，AI 拍题答疑学习助手）|Study Evolution Edtech Pte. Ltd.（猿辅导/猿力系出海主体）",
+  "2026-11-23|Superpose（AI 实时拍摄指导相机）|Superpose Labs（美国主体，前 TikTok 高管创立，美图参投）",
+  "2026-11-23|全球说·中文智能体（Talkmate AI Agent）|北京酷语时代教育科技有限公司（全球说 Talkmate）",
+  "2026-11-23|荣耀中文智慧学习硬件（学习硬件+中文内容出海）|荣耀终端有限公司",
+  "2026-11-23|MeloShort（免费短剧平台，1-2 分钟短集 + 广告解锁）|HALOFUN PTE. LTD.（新加坡主体，内容以中国短剧为主）",
+  "2026-11-23|京东追剧福利社（免费短剧 + 剧中同款电商）|京东集团下属子公司",
+  "2026-11-23|Mocasa（菲律宾先买后付 / 数字信用卡 + 小额现金贷）|Philippines Cashtrout Lending Corporation（中国创始团队，CEO Robin Wong）",
+  "2026-11-23|海滩奇缘 Magic Beach-Merge Story（合成休闲游戏，AI 全流程生产管线）|北京魔趣视界网络科技有限公司（南威软件 603636.SH 旗下）"
 ];
