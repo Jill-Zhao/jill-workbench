@@ -1,14 +1,4 @@
 window.LEAD_HISTORY = [
-  "2026-11-22|eChineseLearning（1 对 1 在线中文）|eChineseLearning（北京，2006 年起专注海外 1 对 1 中文教学）",
-  "2026-11-22|Atome（先买后付 / BNPL）|Advance Intelligence Group（领创集团，新加坡总部，创始与核心团队中国背景）",
-  "2026-11-22|Fruit Days（來種水果吧！）/ The Cozy Florist（种花领真花）|RiftSky Games Co., Limited（宝通科技 300031.SZ 间接 100% 持股，2024 年初成立）",
-  "2026-11-20|DecAI（AI 家装设计）|Smart AI DEV（中国出海团队）",
-  "2026-11-20|AI Mirror（AI 图像风格化）|Polyverse Entertainment Inc.（中国团队，美国主体）",
-  "2026-11-20|PalmPay（非洲移动支付）|PALMPAY LIMITED（传音控股等投资）",
-  "2026-11-20|HelloChinese（中文学习 App）|HelloChinese（开发者 Li Chong，北京海淀）",
-  "2026-11-20|悟空中文 / 悟空教育（华裔儿童中文教育）|悟空教育（WuKong Education，总部美国硅谷）",
-  "2026-11-20|丰行文化（短剧出海）|西安丰行广告文化传播有限公司",
-  "2026-11-20|漫森文化（AI 漫剧/短剧内容）|漫森（深圳）文化传媒有限公司",
   "2026-11-20|Saros TV（海外微短剧 App）|HK Dazzling Quartet Limited（母公司杭州苏光网络科技）",
   "2026-11-20|Brain Puzzle 3: Crazy Mind（休闲益智游戏）|广州市小步乐谷科技有限公司（JoyGame Studio）",
   "2026-11-20|Titan Rush: Survival（生存类游戏）|北京掌趣科技股份有限公司（300315.SZ）",
@@ -58,5 +48,15 @@ window.LEAD_HISTORY = [
   "2026-11-23|MeloShort（免费短剧平台，1-2 分钟短集 + 广告解锁）|HALOFUN PTE. LTD.（新加坡主体，内容以中国短剧为主）",
   "2026-11-23|京东追剧福利社（免费短剧 + 剧中同款电商）|京东集团下属子公司",
   "2026-11-23|Mocasa（菲律宾先买后付 / 数字信用卡 + 小额现金贷）|Philippines Cashtrout Lending Corporation（中国创始团队，CEO Robin Wong）",
-  "2026-11-23|海滩奇缘 Magic Beach-Merge Story（合成休闲游戏，AI 全流程生产管线）|北京魔趣视界网络科技有限公司（南威软件 603636.SH 旗下）"
+  "2026-11-23|海滩奇缘 Magic Beach-Merge Story（合成休闲游戏，AI 全流程生产管线）|北京魔趣视界网络科技有限公司（南威软件 603636.SH 旗下）",
+  "2026-11-24|PicWish（佐糖，AI 抠图/修图/图片增强）|WangXu Technology (HK) Co., Limited（深圳团队，ApowerSoft 产品矩阵）",
+  "2026-11-24|Tripo AI（3D 大模型生成 / Tripo Game Hub）|北京三启万物科技有限公司（VAST）",
+  "2026-11-24|AI Marvels（AI 照片/视频创作，HitPaw 系）|深圳软牛科技集团股份有限公司（HitPaw）",
+  "2026-11-24|Hapgeta Social（原 Hapmeta Social，中文名缘宇宙社交）|Super Genius Technology Development (Beijing) Co., Ltd（超天才科技）",
+  "2026-11-24|DramaWave（海外短剧与动漫 App）|SKYWORK AI PTE. LTD.（新加坡主体，昆仑万维体系）",
+  "2026-11-24|PPtutor（华裔少儿中文在线课，4-15 岁）|成都学语教育科技有限公司",
+  "2026-11-24|悟空中文 / WuKong Chinese（含数学、ELA）|WuKong Education（LAN GLOBAL LIMITED，经营主体悟空好老师教育科技（成都））",
+  "2026-11-24|Mocasa（菲律宾 BNPL / 数字信用卡 / 现金贷）|Philippines Cashtrout Lending Corporation（新加坡总部，中国团队）",
+  "2026-11-24|影之刃零（Phantom Blade Zero）|北京灵游坊软件技术有限公司（S-Game）",
+  "2026-11-24|Petpet GO!（合并 + 自走棋轻度休闲）|浙江都乐网络科技有限公司"
 ];

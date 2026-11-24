@@ -1,1138 +1,1093 @@
 /* ============================================================
    Jill 的工作台 · 行业情报数据
    自动生成：每天 9:30（automation-1786957987695）
-   最后更新：2026-11-23 10:30 (GMT+8)
+   最后更新：2026-11-24 09:30 (GMT+8)
    说明：所有数字均来自公开可核实来源，source 字段可直接点开核对。
    查不到的一律写「暂无公开数据」，绝不编造。
    ============================================================ */
 window.INTEL = {
-  updatedAt: "2026-11-23T10:30:00+08:00",
+  updatedAt: "2026-11-24T09:30:00+08:00",
 
   marketPulse: [
     {
-      label: "中国自研游戏出海收入（10月）",
+      label: "中国游戏出海收入（10月）",
       value: "18.95 亿美元，环比 +9.58%、同比 +5.36%",
-      note: "伽马数据口径。环比由降转增，靠的是《浪漫餐厅》《鸣潮》《明日方舟》等长线产品打底，叠加新品《影之刃零》破局。跟游戏客户聊时可以直接用这句：「大盘在回暖，但回暖的钱集中在少数长线产品手里，你的是哪种？」——一句话就能把话题从报价拉到策略。",
+      note: "伽马数据口径。同期国内手游收入 221.36 亿元、同比 -2.2%，端游同比 -15.36%——一句话总结：国内在缩、海外在涨，出海已经不是「选项」而是「活路」。跟还在犹豫要不要出海的客户，这组对比就是最好的开场，不是劝他出海，是把账算给他看。",
       source: "https://www.ce.cn/cysc//newmain/yc/jsxw/202611/t20261118_3298139.shtml"
     },
     {
-      label: "中国厂商在全球手游百强的份额",
-      value: "37 家入围，合计约 20 亿美元，占 39.7%",
-      note: "Sensor Tower 10月口径。榜上前四没动（腾讯、点点互动、柠檬微趣、网易），但第五名往后全是新闻：三七靠两款新游进前五、库洛靠《鸣潮》一个版本连升七位。你手里任何一个中腰部游戏客户，都能对着这份名单聊「榜单挪动靠什么」——答案是素材密度和新品节奏，不是预算规模。",
-      source: "http://mp.weixin.qq.com/s?__biz=MzU2ODg0NzI5NQ==&mid=2247492864&idx=2&sn=7d085bb38e3a2e72dce57b5c0626f0a2&chksm=fd8c4fca1640cb9dd626cbe3d9e21e6b8739122e6f285029eb32e516e77f35540b8df03636d8#rd"
+      label: "10月中国手游海外收入增长榜",
+      value: "《Gossip Harbor》《明日方舟》《鸣潮》前三；《明日方舟》海外累计破 10 亿美元",
+      note: "Sensor Tower 11月19日发布。注意结构：增长榜前三里两个是老产品靠版本更新拉起来的，不是新品。这条对你非常有用——中腰部客户最常见的抱怨是「我们没新品所以不敢投」，你可以直接反问：那《明日方舟》靠一个新版本做到海外累计 10 亿美元，是新品吗？",
+      source: "https://www.gmt8press.com/flash/detail/1616420"
     },
     {
-      label: "海外微短剧市场规模",
-      value: "2026 年超 60 亿美元，同比 +67%；下载前 10 全为中国背景",
-      note: "新华社转载报告口径。截至 9 月底出海微短剧累计约 29 万部、较 2025 年底增长 287.73%，AI 剧占比超六成。盘子在指数级扩大，但下面这条要配套讲给客户：产能涨了三倍、利润没有——这是你切入「结构优化」的最好时机。",
-      source: "https://finance.sina.com.cn/jjxw/2026-11-16/doc-iniyxpxf2706567.shtml"
+      label: "海外短剧 Q3 内购规模",
+      value: "逼近 10 亿美元，环比 +24%；下载量环比 +13%",
+      note: "Sensor Tower 11月5日 Q3 非游出海榜。短剧占中国非游应用出海收入 Top20 的 9 个席位——这个品类不是「有机会」，是「已经是主战场」。你要盯的不是头部那几家（早被同行围死），是 Top20 之外、月流水几百万美金那一层：有量、有预算、缺素材产能和区域结构优化。",
+      source: "https://baijiahao.baidu.com/s?id=1880988546275486625&wfr=spider&for=pc"
     },
     {
-      label: "短剧买量通胀信号",
-      value: "投放素材量 +324%，内购收入只 +13%",
-      note: "DataEye 今年上半年口径。制作端省下的钱正在全部流进买量竞价，业内说「95% 的制作方亏钱」。这组数字是你跟短剧客户开场的王炸：先承认行情难，再谈你能在素材效率、区域结构（北美 CPI 5.28 美元 vs 拉美 0.34 美元）上帮他省——先共情再报价，成单率高得多。",
-      source: "https://finance.sina.com.cn/jjxw/2026-11-16/doc-iniyxpxf2706567.shtml"
+      label: "短剧区域分化（11月）",
+      value: "北美收入 6659 万美元 / 下载 7970 万；东南亚下载 5424 万、收入 5860 万美元",
+      note: "维卓出海研究院数据。北美拼 ARPU（ReelShort 单市场 1867 万美元）、东南亚拼规模（Melolo 800.8 万下载）。这是跟短剧客户谈「预算怎么分」的底层依据：同一个素材包投两个区域，ROI 逻辑完全不同。能张口讲清这张区域表的商务，客户会当成自己人。",
+      source: "https://www.ruyigansu.com/2026/1115/39905.shtml"
     },
     {
-      label: "东南亚数字消费信贷",
-      value: "贷款余额 198 亿美元（2026 上半年），Monee 独占约 45%",
-      note: "Momentum Works 报告。印尼 86 亿、菲律宾 43 亿、泰国 29 亿，前四大玩家（Monee、Grab、GoTo、GCash）合计约 60%。海外现金贷的「单点窗口期已经关闭」是报告原话——对还在观望出海放贷的客户，这句话比任何话术都管用：要么现在进场挤平台系的缝隙市场，要么别进。",
-      source: "https://technode.global/2026/11/18/seas-digital-consumer-credit-loan-book-reaches-estimated-19-8-billion-at-the-end-of-first-half/"
+      label: "短剧的成本悖论",
+      value: "AI 把单部制作费砍掉约 90%，却把投流成本推高约 100%",
+      note: "行业测算口径。制作端省下的钱全流进竞价，所以「降本」不等于「增利」。这句话在任何短剧客户面前都能说，因为它解释了对方为什么越忙越不赚钱。接着给落点：钱省不下来，就只能省在单位获客成本上——素材测试效率、区域结构、渠道冗余，这三件才是现在能动的。",
+      source: "https://www.ruyigansu.com/2026/1115/39905.shtml"
     },
     {
-      label: "海外中文学习盘子",
-      value: "2.1 亿学习者 / HSK 考生首破 100 万",
-      note: "2026 世界中文大会（11月13-15日）发布数据，169 国 1500 多个考点。HSK 3.0 12月13日切换、「说」成为必考——教育类客户今年最后一个确定性投放节点就在眼前，口语陪练类产品的素材两周内必须换完。见过客户先问一句「你们的口语素材改了吗」，比十个寒暄都值钱。",
-      source: "https://www.rmzxw.com.cn/c/2026-11-18/4010697.shtml"
+      label: "非游应用出海（10月）",
+      value: "海外总收入环比 +4.48%；美国占中国非游厂商海外收入 46.1%；美图升至厂商榜第二",
+      note: "Sensor Tower 11月17日榜。美国占比接近一半，说明「去美国化」在非游赛道并不成立——对工具/影像类客户是个提醒：别急着把预算全搬到新兴市场，先看你的品类在美国的单位经济能不能撑住。美图 Q3 付费用户季度新增创近一年新高，影像订阅模型在海外是跑得通的。",
+      source: "https://baijiahao.baidu.com/s?id=1882190960497225549&wfr=spider&for=pc"
     }
   ],
 
   appRankings: {
     game: [
       {
-        name: "王者荣耀 / 无尽冬日 + Kingshot",
-        publisher: "腾讯 / 点点互动 Century Games",
+        name: "影之刃零（Phantom Blade Zero）",
+        publisher: "北京灵游坊（S-Game）",
         isChinese: true,
-        markets: "全球（美/欧/日韩/中东）",
-        performance: "10月全球单品收入：Roblox 约 1.47 亿美元登顶，《王者荣耀》第二（近三个月稳定在 1.2 亿美元上下）；《无尽冬日》连续两个月回落至 5200-5300 万美元（2026 年多数时间在 7500-8500 万档位），《Kingshot》自推广以来首次跌破 5000 万美元",
-        comment: "点点互动是已合作客户。这条最有用的信息是「头部 SLG 也在缩」：无尽冬日的收入档位从 8000 万掉到 5000 万出头，说明大盘的增量不在老产品身上。跟任何 SLG 客户聊，都可以用这个下滑曲线引出「新品拿量窗口比守存量更划算」的话题。",
-        source: "https://view.inews.qq.com/k/20261117A0BOKO00"
+        markets: "全球（PC/PS5，10月29日发售）",
+        performance: "TGA 2026 获 5 项提名（含年度游戏、最佳动作游戏）；发售后 72 小时销量超 400 万套，Metacritic 均分 88",
+        comment: "今年国产单机最硬的一张牌，但对你意义不在「卖得好」，而在「它证明国产团队能靠品质打进欧美核心玩家」。灵游坊只有 90 多人，典型腰部团队——预算不大但决策链极短，一封信就能约到人，官网直接挂了商务邮箱 bd@s-game.com.cn。",
+        source: "http://mp.weixin.qq.com/s?__biz=MzcxMDM2NTQ3MA==&mid=2247492664&idx=4&sn=a8d98774e1c1835c85bbcc91122a2d9f&chksm=f43a8c3d31e3ddb30077e154ac21a70328d10397f8f767dcd857262b1d9488ebe3f98bec1127#rd"
       },
       {
-        name: "Gossip Harbor（浪漫餐厅）",
-        publisher: "柠檬微趣 Microfun",
+        name: "明日方舟：终末地（Arknights: Endfield）",
+        publisher: "鹰角网络 Hypergryph",
         isChinese: true,
-        markets: "美国 / 日本 / 韩国",
-        performance: "10月 IAP 收入约 7400 万美元（8月曾达 7800 万、9月跌破 7000 万），中国发行商榜稳居第三",
-        comment: "已合作客户。混合休闲+剧情化的标杆：一款产品同时吃下美日韩三个市场。给中小休闲团队提案就讲它的素材结构——剧情化美术成本可控、可跨区域复用，比拼买量预算现实得多。",
-        source: "https://view.inews.qq.com/k/20261117A0BOKO00"
+        markets: "全球（含 PC 跨设备）",
+        performance: "Google Play 2026 年度大中华区「年度最佳游戏」+「最佳剧情游戏」双奖；新卡池「祀」进国内畅销榜 Top3",
+        comment: "拿双奖的产品不缺代理，缺的是特定市场的增量。别去找鹰角总部，找他们海外发行链条上的区域负责人。谈资准备：终末地是跨设备产品，PC 和移动端归因口径怎么打通、素材怎么复用——技术型话题比报价更容易破冰。",
+        source: "http://mp.weixin.qq.com/s?__biz=MzcxMDM2NTQ3MA==&mid=2247492664&idx=4&sn=a8d98774e1c1835c85bbcc91122a2d9f&chksm=f43a8c3d31e3ddb30077e154ac21a70328d10397f8f767dcd857262b1d9488ebe3f98bec1127#rd"
       },
       {
-        name: "鸣潮（Wuthering Waves）",
-        publisher: "库洛游戏 Kuro Games",
+        name: "蓝色星原：旅谣",
+        publisher: "上海蛮啾网络 Manjuu",
         isChinese: true,
-        markets: "日本 / 全球",
-        performance: "10月22日新角色锁暝上线当天登上日本 iPhone 角色扮演畅销榜第一；10月移动端预估收入环比 +57%，库洛发行商收入环比 +52%，排名从第十五升至第八",
-        comment: "已合作客户。这是「版本节奏决定收入」的最干净案例：一次角色更新，单月收入拉高五成七。二游客户最认这套逻辑，拿它聊「内容节点前的投放预热怎么排」，比空谈方法论有效。",
-        source: "http://mp.weixin.qq.com/s?__biz=MzU2ODg0NzI5NQ==&mid=2247492864&idx=2&sn=7d085bb38e3a2e72dce57b5c0626f0a2&chksm=fd8c4fca1640cb9dd626cbe3d9e21e6b8739122e6f285029eb32e516e77f35540b8df03636d8#rd"
+        markets: "全球（11月26日定档）",
+        performance: "定档 11.26；全网预约超 500 万；蛮啾代表作《碧蓝航线》曾登顶日本畅销榜",
+        comment: "二游大世界今年的重头戏，定档就在两天后。这类产品「上线首月烧钱最狠、决策最急」——这周联系谈的是首月冲榜期素材产能，晚两周预算已经排完。蛮啾公开的只有 HR 邮箱 hr@manjuu.com，建议同时走 LinkedIn 找发行/市场负责人。",
+        source: "https://gamekee.com/?_wv=1027&k=5xzxlnw"
       },
       {
-        name: "Last Asylum: Plague / Z Route: Redemption",
-        publisher: "三七互娱",
+        name: "Kingshot",
+        publisher: "点点互动 Century Games",
         isChinese: true,
-        markets: "欧美 / 东南亚",
-        performance: "两款策略新游下半年收入逐月爬升，10月合计占三七当月商店预估收入一半以上；三七在该口径下收入同比 +35%，Q3 境外营收 21.69 亿元、同比 +59.31%",
-        comment: "已合作客户。这条的重点是「新品占一半收入」：三七把赌注押在新游上，而且先花推广费、收入分散在后续赛季。给有新品的客户讲这个结构，能自然带出「买量预算要按赛季回收模型排」的方案，而不是单次投放报价。",
-        source: "http://mp.weixin.qq.com/s?__biz=MzU2ODg0NzI5NQ==&mid=2247492864&idx=2&sn=7d085bb38e3a2e72dce57b5c0626f0a2&chksm=fd8c4fca1640cb9dd626cbe3d9e21e6b8739122e6f285029eb32e516e77f35540b8df03636d8#rd"
+        markets: "欧美、全球",
+        performance: "Google Play 2026 年度大中华区「最佳持续影响力游戏」",
+        comment: "点点互动是老客户（易点天下长期合作），这条给你当谈资：SLG 今年靠「持续影响力」拿奖，说明长线运营 > 新品爆发。见老客户时开场很自然：「Kingshot 又拿奖了，今年 SLG 的素材迭代节奏是不是又加快了？」",
+        source: "http://mp.weixin.qq.com/s?__biz=MzcxMDM2NTQ3MA==&mid=2247492664&idx=4&sn=a8d98774e1c1835c85bbcc91122a2d9f&chksm=f43a8c3d31e3ddb30077e154ac21a70328d10397f8f767dcd857262b1d9488ebe3f98bec1127#rd"
       },
       {
-        name: "Mobile Legends: Bang Bang",
-        publisher: "沐瞳科技 Moonton",
+        name: "怪物猎人：旅人",
+        publisher: "腾讯天美 J1（Level Infinite / Garena 联合发行）",
         isChinese: true,
-        markets: "东南亚 / 拉美 / 中东",
-        performance: "10月发行商收入环比 +10%，位列中国厂商榜第九",
-        comment: "沐瞳/字节系在版图内已有同事覆盖，不重复建联。这条的价值是区域信号：MLBB 的增长基本盘在东南亚和拉美，你跟这两个区域的电竞、泛娱乐客户聊天时可以引用它的赛事热度作为市场证据。",
-        source: "http://mp.weixin.qq.com/s?__biz=MzU2ODg0NzI5NQ==&mid=2247492864&idx=2&sn=7d085bb38e3a2e72dce57b5c0626f0a2&chksm=fd8c4fca1640cb9dd626cbe3d9e21e6b8739122e6f285029eb32e516e77f35540b8df03636d8#rd"
+        markets: "日本（贡献 79% 内购）、美国 13%",
+        performance: "上线两周多全球下载约 510 万、内购超 1020 万美元；83 个 Google Play 市场进畅销前 100",
+        comment: "IP 手游的典型样本：日本市场吃掉近八成收入。投放逻辑是「单市场深挖」而非全球铺量。你可以用这个案例反问客户：你的产品在哪一个市场能吃掉 70% 以上收入？答不上来的，就是还没想清楚预算往哪投。",
+        source: "http://mp.weixin.qq.com/s?__biz=MzcxMDM2NTQ3MA==&mid=2247492664&idx=4&sn=a8d98774e1c1835c85bbcc91122a2d9f&chksm=f43a8c3d31e3ddb30077e154ac21a70328d10397f8f767dcd857262b1d9488ebe3f98bec1127#rd"
       },
       {
-        name: "明日方舟海外版",
-        publisher: "悠星网络 Yostar",
+        name: "异环（Neverness to Everness）",
+        publisher: "完美世界 Hotta Studio",
         isChinese: true,
-        markets: "日本 / 韩国 / 欧美",
-        performance: "受《明日方舟》海外版本更新带动，悠星发行商排名一口气上升 14 位、来到第十一",
-        comment: "悠星这种「代理发行商」的客户逻辑值得记住：它自己不研产品，但手握日本二次元发行渠道，预算随版本波动极大。这类公司的投放决策窗口就在版本上线前后两周，错过就要再等一个周期——跟进节奏要对齐它的排播表。",
-        source: "http://mp.weixin.qq.com/s?__biz=MzU2ODg0NzI5NQ==&mid=2247492864&idx=2&sn=7d085bb38e3a2e72dce57b5c0626f0a2&chksm=fd8c4fca1640cb9dd626cbe3d9e21e6b8739122e6f285029eb32e516e77f35540b8df03636d8#rd"
-      },
-      {
-        name: "Roblox",
-        publisher: "Roblox Corporation（美国）",
-        isChinese: false,
         markets: "全球",
-        performance: "10月 IAP 约 1.47 亿美元、环比 +30%，凭万圣节平台级联动「The Hollow」同时拿下收入榜和增长榜双第一",
-        comment: "非中国产品，但值得知道：平台型 UGC 游戏靠「活动节奏」单月拉 30%。你的中小游戏客户如果做 UGC 平台内容或小游戏矩阵，这套「平台级联动活动」的排期思路可以直接抄。",
-        source: "https://appark.ai/cn/blog/mobile-game-revenue-downloads-top30-2026-10"
+        performance: "Google Play 2026 年度大中华区「最佳跨设备游戏」",
+        comment: "完美世界也是老客户。跨设备是今年评奖关键词，背后是「一个用户在手机、PC、主机之间迁移」的归因难题——这正是代理能提供差异化价值的地方。要练的说法：跨端归因做不准，预算就会被重复计算，最后谁都说不清 ROI。",
+        source: "http://mp.weixin.qq.com/s?__biz=MzcxMDM2NTQ3MA==&mid=2247492664&idx=4&sn=a8d98774e1c1835c85bbcc91122a2d9f&chksm=f43a8c3d31e3ddb30077e154ac21a70328d10397f8f767dcd857262b1d9488ebe3f98bec1127#rd"
       },
       {
-        name: "Free Fire India / Free Fire MAX",
-        publisher: "Garena（新加坡）",
-        isChinese: false,
-        markets: "印度 / 东南亚 / 拉美",
-        performance: "10月全球下载第一：Free Fire India 约 3930 万次，Free Fire MAX 另列约 2640 万次",
-        comment: "下载王不是收入王——这条帮你给客户校准预期：新兴市场买量看下载、成熟市场看 ARPU。客户若坚持在印度/拉美冲收入榜，用这组数据先掰正目标，避免后面的 KPI 扯皮。",
-        source: "https://appark.ai/cn/blog/mobile-game-revenue-downloads-top30-2026-10"
-      },
-      {
-        name: "海滩奇缘 Magic Beach-Merge Story",
-        publisher: "北京魔趣视界网络科技（南威软件 603636.SH 旗下）",
+        name: "Top Tycoon: Coin Theme Empire",
+        publisher: "北京匠心趣游（BeheFun）",
         isChinese: true,
-        markets: "全球（16 种语言）",
-        performance: "8月1日登陆 Google Play 面向全球发布，是这支 2026 年 3 月才成立、注册资本 100 万的团队的首款出海合成休闲游戏；后续按年不低于 100 部 AI 短剧 + 年内 4 款游戏的产能规划推进",
-        comment: "典型的「上市公司母体 + 极小子团队」：母公司有算力和 AI 生产线，子团队从零开始学海外买量。这种客户最缺的不是钱是「海外投放经验」，切入点直接给一套合成品类的素材测试框架和区域优先级建议，比谈返点有效。线索池已收录，注意别撞车。",
-        tier: "sme",
-        source: "https://baike.baidu.com/item/%E5%8C%97%E4%BA%AC%E9%AD%94%E8%B6%A3%E8%A7%86%E7%95%8C%E7%BD%91%E7%BB%9C%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/69368952"
+        markets: "美国、印度、土耳其（印度占下载前十市场 57%）",
+        performance: "2026 年 8 月预估月流水约 760 万美元，列中国手游出海收入榜第 22 名；2025 年付费获客占比 88.2%",
+        comment: "重点记这个样板：50-99 人、注册资本 100 万、今年 6 月腾讯刚入股——典型「小而猛」。付费获客占比 88.2% 意味着它对买量依赖远超 Coin Master（33.2%）和 MONOPOLY GO!（27.2%），每天都在为获客成本发愁。这种客户不需要你教育，只需要你给出更便宜的流量结构。",
+        source: "https://www.baijing.cn/article/57314",
+        tier: "sme"
       },
       {
-        name: "Light Up: Logic Puzzle",
-        publisher: "乐信圣文 Oakever Games",
+        name: "Petpet GO!",
+        publisher: "浙江都乐网络科技",
         isChinese: true,
-        markets: "欧美",
-        performance: "解谜益智品类稳定在欧美多国免费榜与收入榜，同开发者账号下产品矩阵密集",
-        comment: "不开发布会、不融资、靠矩阵化产品持续买量的「沉默型客户」。找他们的方式不是等新闻，是扒 Google Play 同开发者账号下的产品数量——账号下产品越多，越需要稳定账户与素材产能。这类公司决策快、预算分散在多产品，适合做长期小额合作起步。",
-        tier: "sme",
-        source: "https://appgrowing.net/blog/tiktok-mini-games-weekly-ranking-nov-12-18-2026"
+        markets: "欧洲 + 中东 44 个国家和地区（英国、法国、德国、俄罗斯、以色列等）",
+        performance: "获苹果 App Store 全球推荐；韩国上线两天登顶免费榜、两周新增 23 万账户；与 A 股上市公司大晟时代（600892）达成战略合作",
+        comment: "24 人参保、2022 年成立、A 轮——标准「小微企业做出爆款」。它的增长几乎没靠大规模投放（韩国靠自传播），意味着一旦正式买量，预算曲线会很陡。切入点不是「帮你投」，而是「帮你把自然量接住」：自然量高的产品最怕投放素材和产品调性打架。",
+        source: "https://qiye.eastday.com/n35/20261105/ccbb77346c2c4eb58af533ede810dc03.html",
+        tier: "sme"
       },
       {
-        name: "Brain Puzzle 3: Crazy Mind",
-        publisher: "广州市小步乐谷科技（JoyGame Studio）",
+        name: "Carnival Tycoon",
+        publisher: "新创娱游",
         isChinese: true,
-        markets: "美国 / 欧洲",
-        performance: "累计 5400 万下载、单日峰值 45 万，重回美区免费榜前列",
-        comment: "十几人团队做到 5400 万下载，靠「一条素材能跑三个市场」的脑洞解谜结构。中小游戏客户最该抄的是素材可复用性优先于买量规模——这句话本身就是你的开场白。",
-        tier: "sme",
-        source: "https://www.feitianyingye.com/2026/1107/9613.shtml"
+        markets: "美国、全球",
+        performance: "2025 年双端曾进入美国手游畅销榜前 100、一度进前 60；与 Top Tycoon 同属「轻度经营 + CM-like」融合赛道",
+        comment: "同赛道第二个样本，说明这不是单点运气而是品类机会。整个 Coin Looter 赛道 2026 上半年全球下载 1.09 亿次、同比 +33%，但内购收入约 10 亿美元、同比 -11%——下载涨、收入跌，背后是变现效率问题。对这类客户的开场就该是：你的量在涨，钱为什么没涨？",
+        source: "https://www.baijing.cn/article/57314",
+        tier: "sme"
       }
     ],
 
     finance: [
       {
-        name: "Monee（原 ShopeePay/SPayLater 体系）",
-        publisher: "Sea Group（冬海）",
-        isChinese: false,
-        markets: "东南亚六国 / 巴西",
-        performance: "Q3 贷款余额 126 亿美元、较 2024 年 Q1 近乎翻两番，占东南亚数字消费信贷约 45%；个人现金贷+平台外 BNPL 已占其余额约 60%",
-        comment: "平台系放贷的统治力样本。它越强，独立放贷 App 的夹缝越清晰——跟还在做东南亚现金贷的中国客户聊，直接问「Monee 的覆盖盲区你打算从哪个国家切入」，用数据逼他做区域取舍，你顺势给分区域投放方案。",
-        source: "https://technode.global/2026/11/18/seas-digital-consumer-credit-loan-book-reaches-estimated-19-8-billion-at-the-end-of-first-half/"
-      },
-      {
-        name: "TikTok Shop 信贷（PIPO）",
-        publisher: "字节跳动",
+        name: "AdaKami（信也科技海外主品牌）",
+        publisher: "信也科技 FinVolution",
         isChinese: true,
-        markets: "泰国 / 菲律宾 / 马来西亚",
-        performance: "PIPO 已在泰菲马三地放贷，Momentum Works 判断「几乎肯定会规模化扩张东南亚消费信贷」；独立购物 App 给了它更大的放贷入口",
-        comment: "字节系已有同事覆盖。这条对你的意义是竞争情报：当 TikTok 自己下场做信贷，你手里做借贷 App 的客户获客成本只会更贵——正好拿来催单：「平台流量 self-consume 之后，外部买量的价格会更高，早进场早锁价。」",
-        source: "https://technode.global/2026/11/18/seas-digital-consumer-credit-loan-book-reaches-estimated-19-8-billion-at-the-end-of-first-half/"
+        markets: "印尼、菲律宾、巴基斯坦",
+        performance: "Q3 国际业务营收占集团比重升至近 20%，新增交易用户连续两季超国内；同期获印尼 OJK「多元金融牌照」，可持牌扩展多品类融资",
+        comment: "头部中资平台里唯一把海外单列为财报分部的一家，它的一举一动就是行业风向标。拿牌照的信号是：从「技术输出 + 助贷撮合」升级为本地持牌多产品经营，资本金和合规成本一起加码。跟中小平台聊可以直接问：头部在买牌照，你在等什么？",
+        source: "http://mp.weixin.qq.com/s?__biz=MzY5MjUwMTk0OA==&mid=2247483764&idx=1&sn=ef9201045a9747259f613325d08372c0&chksm=f5d5b290bd3ee4b4bf7bfc3a492bdf4b847b15101d2043195e38e89f0395cba29f773a6bcbb1#rd"
       },
       {
-        name: "TenPay Global 跨境支付",
-        publisher: "腾讯（财付通国际）",
+        name: "乐信（印尼 / 墨西哥）",
+        publisher: "乐信 LX",
         isChinese: true,
-        markets: "韩国 / 马来西亚 / 全球",
-        performance: "10月与韩国三星钱包、友利银行达成跨境二维码互联互通合作；微信支付「外包内用」已覆盖 16 国 60+ 境外钱包",
-        comment: "腾讯是已合作客户，不必当新线索。但支付互联互通是跨境客户群体的通用话题：给电商、工具、金融客户讲「本币化结算+二维码入口」的趋势，能顺带把你自己的「投放本地化」服务挂上去。",
-        source: "http://www.senn.com.cn/jr/2026/11/18/26157.html"
+        markets: "印尼、墨西哥",
+        performance: "Q3 印尼交易用户环比 +31%、交易额环比 +18%；墨西哥 Fortaprest 下载量与 MAU 连续下滑，拉美第二曲线遇冷",
+        comment: "「印尼热、拉美冷」是今年最清楚的一条资金流向。原因不复杂：墨西哥流量红利见顶，印尼虽被利率上限和 DPD90 上行双压，但复借率和牌照价值还在。跟客户聊区域选择时直接给这个对照，比讲宏观有说服力。",
+        source: "http://mp.weixin.qq.com/s?__biz=MzY5MjUwMTk0OA==&mid=2247483764&idx=1&sn=ef9201045a9747259f613325d08372c0&chksm=f5d5b290bd3ee4b4bf7bfc3a492bdf4b847b15101d2043195e38e89f0395cba29f773a6bcbb1#rd"
       },
       {
-        name: "金融壹账通 OneConnect",
-        publisher: "平安集团旗下（HKEX 6638）",
+        name: "嘉银科技（印尼/墨西哥/菲律宾）",
+        publisher: "嘉银科技 Jiayin",
         isChinese: true,
-        markets: "新加坡 / 印尼 / 泰国 / 越南 / 中东非洲",
-        performance: "累计服务超 200 家海外金融机构；越南新一代银行核心系统、菲律宾智能信贷系统落地，智能信贷方案称可将贷款处理效率提升六成以上",
-        comment: "它做的是 to-B 金融科技输出，不是 C 端买量——但客户群和你高度重叠（各国持牌机构）。跟当地银行的数字化预算走，适合做生态 referral 而不是直接投放客户。留个联系方式，遇到要「贷款审批系统」的客户互相引荐。",
-        source: "https://www.stdaily.com/web/gdxw/2026-11/20/content_616631.html"
+        markets: "印尼、墨西哥、菲律宾",
+        performance: "Q3 印尼本地合作伙伴贷款发放量与新注册用户环比双增；走「本地持牌合作 + 系统输出」轻资产模式",
+        comment: "轻资产模式在利率上限 + 资本门槛双升的市场里抗压性更强，但议价权和利润上限更低——「赚 beta 不赚 alpha」。这句话你可以直接用来判断客户类型：想做规模的找持牌方，想赚钱的做强控。你是乙方，但懂这个区别，客户会高看你一眼。",
+        source: "http://mp.weixin.qq.com/s?__biz=MzY5MjUwMTk0OA==&mid=2247483764&idx=1&sn=ef9201045a9747259f613325d08372c0&chksm=f5d5b290bd3ee4b4bf7bfc3a492bdf4b847b15101d2043195e38e89f0395cba29f773a6bcbb1#rd"
       },
       {
-        name: "OKash / OPay",
-        publisher: "Opera 系（中国背景团队）",
+        name: "奇富科技（海外验证期）",
+        publisher: "奇富科技 360 DigiTech",
         isChinese: true,
-        markets: "尼日利亚 / 非洲",
-        performance: "2026 上半年在尼日利亚新发放贷款 9.28 亿美元、同比翻两倍以上，季度借款人 670 万；OKash 披露年化利率区间 36.5%-360%，当地媒体算出低风险借款人月息复利年化可达约 698%，宽口径逾期率 27.4%",
-        comment: "非洲现金贷的盈利与争议都到了顶点：收入近六成来自放贷，但预期信用损失 1.18 亿美元已超过净利润。给做非洲的客户讲这条，是风险提示也是敲门砖——「利率上限、催收合规、隐私数据读取」三个监管话题，都是你卖「合规投放」的由头。",
-        source: "https://www.bihai123.com/deep/industry/47645.html"
+        markets: "拉美、东南亚（小规模验证）",
+        performance: "Q3 入催率环比 -9%、资金成本环比 -98bp（历史新低）；海外仍处风控 A/B 测试与小规模投放验证阶段，未放量",
+        comment: "这家代表了一大批中资平台：国内利差修复了，出海紧迫性反而下降。行业共识是「海外放不放量看 11 月中下旬财报定调」。你要做的是记名单——这类「已备好预算但按兵不动」的客户，是最好的长期跟进对象，别放弃。",
+        source: "http://mp.weixin.qq.com/s?__biz=MzY5MjUwMTk0OA==&mid=2247483764&idx=1&sn=ef9201045a9747259f613325d08372c0&chksm=f5d5b290bd3ee4b4bf7bfc3a492bdf4b847b15101d2043195e38e89f0395cba29f773a6bcbb1#rd"
       },
       {
-        name: "嘉银金科 JFIN",
-        publisher: "嘉银金科（NASDAQ: JFIN，上海总部）",
+        name: "DiDi Finanzas（滴滴金融）",
+        publisher: "滴滴出行",
         isChinese: true,
-        markets: "越南 / 印尼 / 菲律宾 / 印度 / 墨西哥",
-        performance: "出海业务已覆盖越印菲印墨多国并计划继续扩张；境内「极融」持牌助贷 + 出海双线并行",
-        comment: "上市金融科技公司的出海板块，预算决策在集团层面但出海团队独立。这类客户适合从「新兴市场获客成本对标」切入——他们最想验证的是越南/印尼的 CAC 和回款周期，你手里恰好有跨客户的区域数据。",
-        source: "https://stock.stockstar.com/RB2026112000003496.shtml"
+        markets: "墨西哥、巴西、哥伦比亚",
+        performance: "墨西哥场景入口（行程结束页）持续放量，买量占比降至 71%；对接 CURP Digital 数字身份最快",
+        comment: "「场景获客」是海外现金贷唯一还在变便宜的路径，买量占比降到 71% 说明它用自有流量摊薄 CAC。跟纯买量型客户聊时，这条既是提醒也是钩子：你没有场景，就得靠渠道效率把钱省回来——那正是代理的价值。",
+        source: "http://mp.weixin.qq.com/s?__biz=MzY5MjUwMTk0OA==&mid=2247483803&idx=1&sn=5468974b68ccc9c1f074e5234d659f07&chksm=f587c4d16dbd50f51838579ef529fde09bc6d6fcdd4ac8faa8b1207073c5342fc72d80cba12c#rd"
       },
       {
-        name: "Mocasa（菲律宾先买后付 + 数字信用卡）",
-        publisher: "Philippines Cashtrout Lending Corp.（中国创始团队，CEO Robin Wong）",
+        name: "Mocasa（菲律宾 BNPL / 数字信用卡）",
+        publisher: "Philippines Cashtrout Lending Corporation（新加坡总部，中国团队）",
         isChinese: true,
         markets: "菲律宾",
-        performance: "菲律宾央行持牌（SEC CS201910407 / CA 3015），万事达在菲首家数字信用卡合作伙伴，也是银行体系外首家接入菲央行二维码支付的机构；成立一年半两轮融资超千万美元，获客成本宣称不到 10 美元（当地信用卡约 30 美元）",
-        comment: "新兴金融 App 的教科书样本：小团队+强牌照+场景绑定。它的增长完全靠买量驱动，而菲律宾获客市场正在被 GCash、Maya 挤压——切入点是「二维码线下场景的 O2O 投放」和「小额循环贷的再营销链路」。线索池已收录，可直接发跟进邮件。",
-        tier: "sme",
-        source: "https://www.lyzg168.com/info/225.html"
+        performance: "万事达在菲律宾首家数字信用卡合作伙伴；首家接入菲律宾央行二维码支付体系的非银机构；支持 GCash/Maya/Lazada 钱包放款",
+        comment: "菲律宾牌照 11 月刚解冻（SEC MC No.20），行业从「冻结」转「高价限量准入」，这是今年东南亚最实在的窗口。Mocasa 这类已持牌、有支付场景的玩家接下来一定会加投放——它现在缺的不是资质，是用户规模。",
+        source: "https://play.google.com/store/apps/details?id=com.mocasa.ph&hl=zh",
+        tier: "sme"
       },
       {
-        name: "JuanHand",
-        publisher: "WeFund Lending Corp.（WeLab 汇立集团系）",
+        name: "人人租（租机出海）",
+        publisher: "人人租",
         isChinese: true,
-        markets: "菲律宾",
-        performance: "SEC 注册持牌放贷 App，单笔 2000-50000 比索、期限 91-180 天，为菲律宾主流在线借贷应用之一；重复借款良好用户才可到顶格额度",
-        comment: "WeLab 是港资背景、中国团队主导的金融科技集团，出海板块独立预算。这类持牌小贷 App 的投放痛点非常具体：风控严格的授信漏斗意味着买量要按「注册→授信→支用」分层出价。拿这个漏斗模型聊，比谈返点更容易建立专业感。",
-        tier: "sme",
-        source: "https://loanappreview.com/loan-up-to-50000"
+        markets: "印尼、马来西亚",
+        performance: "启动 IPO 进程，同步披露已在印尼、马来西亚设立子公司，将海外作为下一阶段重点",
+        comment: "租机是今年现金贷被围堵后的「避风港」，但行业调查显示一家系统商一个月能上线 40 多个租机平台，玩法是「租手机但不发货、一键寄卖」——实质变相放款。这类客户要接得非常小心：资质不清的宁可先放一放，标准是「有没有真实交付能力」。",
+        source: "http://mp.weixin.qq.com/s?__biz=MzY5MjUwMTk0OA==&mid=2247483764&idx=1&sn=ef9201045a9747259f613325d08372c0&chksm=f5d5b290bd3ee4b4bf7bfc3a492bdf4b847b15101d2043195e38e89f0395cba29f773a6bcbb1#rd",
+        tier: "sme"
       },
       {
-        name: "Tala",
-        publisher: "Tala（美国/硅谷背景，聚焦新兴市场）",
-        isChinese: false,
-        markets: "菲律宾 / 肯尼亚 / 墨西哥 / 印度",
-        performance: "菲律宾累计服务 500 万+ 客户、还款率 90%，2027 年迎菲十年运营节点；宣布以菲律宾为支点向 ASEAN 扩张，推广 Credit-as-a-Service 模式",
-        comment: "非中国公司，但它扩 ASEAN 的时间表对你有用：新市场进入=本地买量从零起步，是代理商最容易被采购的阶段。留意它在越南/印尼的动作，先于它找当地服务商建联就有机会。",
-        tier: "sme",
-        source: "https://insiderph.com/tala-eyes-asean-expansion-builds-on-philippine-experience"
+        name: "洋钱罐（印尼 / 尼日利亚）",
+        publisher: "北京瓴岳科技",
+        isChinese: true,
+        markets: "印尼、尼日利亚",
+        performance: "尼日利亚走「钱包闭环」：放款、回收、再投放全部在奈拉内循环，利润留当地扩表不汇回；回本效率为样本内最优市场之一",
+        comment: "这是「汇率风险怎么解」的标准答案，也是能当谈资的专业细节：奈拉近 30 日贬 7.4%，本币闭环等于把汇率敞口变成纸面敞口。客户听到这种话，会立刻明白你懂他们的报表，而不只是懂投广告。",
+        source: "http://mp.weixin.qq.com/s?__biz=MzY5MjUwMTk0OA==&mid=2247483803&idx=1&sn=5468974b68ccc9c1f074e5234d659f07&chksm=f587c4d16dbd50f51838579ef529fde09bc6d6fcdd4ac8faa8b1207073c5342fc72d80cba12c#rd",
+        tier: "sme"
       }
     ],
 
     ai: [
       {
-        name: "Tipsy",
-        publisher: "中国背景团队",
+        name: "Gauth（AI 全学科答疑）",
+        publisher: "字节跳动（GAUTHTECH PTE. LTD.）",
         isChinese: true,
-        markets: "美国 / 日本",
-        performance: "AI 陪伴 IAP 收入榜第一、月入约 1.3 亿元（近乎第二名 Zeta 的两倍）；10月起陆续从其主要市场 iOS 下架，目前仍未全面回归",
-        comment: "AI 陪伴赛道的收入天花板被 iOS 整改砸碎了：第一名带头下架。这条对你有两层用法——对还在冲这个赛道的客户是风险警示（NSFW 变现路径已被制度性切断），对做合规产品的客户是机会窗口（头部腾出的流量正在再分配）。",
-        source: "https://view.inews.qq.com/w2/20261118A0E0I200?refer=wx_hot"
+        markets: "美国、英国为主，全球",
+        performance: "截至 2026 年 9 月全球累计安装超 2 亿次、MAU 约 5341 万；9月1日全面上线 AI Course，首批 200 多门 AI 数学课",
+        comment: "字节的体量你签不动，但它是你「品类对标」的弹药库。跟中小教育客户聊，最有用的一句是：Gauth 都从拍照搜题升级成系统化课程了，说明单点工具的天花板已经到了——你要么做深课程，要么做窄场景。这话能帮客户想清楚定位，也帮你想清楚他值不值得投。",
+        source: "https://news.qq.com/rain/a/20261101A07QEZ00"
       },
       {
-        name: "Zeta / Wrtn 系三款",
-        publisher: "Zeta（中国团队）/ Wrtn（韩国）",
+        name: "Question.AI / Tizz",
+        publisher: "作业帮（小船出海）",
         isChinese: true,
-        markets: "美国 / 韩国 / 日本",
-        performance: "Zeta 月入约 6500 万元居 AI 陪伴第二，也已从 iOS 下架；韩国 Wrtn 旗下 3 款产品分别主打美韩日市场，合计月入超 9000 万元",
-        comment: "韩方产品没有随 iOS 整改下架的报道，正在承接中方腾出的流量——「谁的合规做得早，谁吃下架红利」就是这条的教训。给 AI 社交客户做提案时把合规审核成本直接写进方案，反而比低价更打动他们。",
-        source: "https://view.inews.qq.com/w2/20261118A0E0I200?refer=wx_hot"
+        markets: "北美、东南亚",
+        performance: "2024 年 4 月登顶美国 App Store 教育类第一，此后长期居前列；差异化是「阶梯式解析」",
+        comment: "作业帮今年还在推校内产品（云思 AI 智慧教学 PAD），说明它在两条腿走路。这类公司的海外投放预算稳定、决策规范，切入路径是「先做供应商备选，再等一个季度的比价」。别指望一次见面成单，指望的是进池子。",
+        source: "https://news.qq.com/rain/a/20261101A07QEZ00"
       },
       {
-        name: "Heyyyy",
-        publisher: "游戏行业转型团队（华人核心）",
+        name: "Uknow.AI",
+        publisher: "猿辅导",
         isChinese: true,
-        markets: "美国",
-        performance: "AI 陪伴整改潮中反向冲量，升至美国 iOS 娱乐畅销榜第 34 名；同期蹭名产品「Tipsy AI」短期骗到 7000+ 下载",
-        comment: "下架潮的最大赢家是它——产品越干净、接住外溢流量的能力越强。这条是给 AI 陪伴客户最有说服力的「合规即增长」案例：素材和商店页提前过审，比竞品快一步就是真金白银。",
-        tier: "sme",
-        source: "https://zgeo.net/news/ai-companion-ios-delisting-nsfw-content-moderation"
+        markets: "越南、日本、印尼、马来西亚",
+        performance: "越南同类应用用户活跃度排名第一，已覆盖四国",
+        comment: "猿辅导的出海打法是「先东南亚、再东亚」，和大多数教育公司相反。这个反常识点很好用：你可以问客户，为什么越南能跑出第一？因为竞争密度低、获客便宜。选市场的第一步不是看规模，是看竞争密度。",
+        source: "https://news.qq.com/rain/a/20261101A07QEZ00"
       },
       {
-        name: "Popia",
+        name: "商汤小浣熊（AI 办公智能体）",
+        publisher: "商汤科技",
+        isChinese: true,
+        markets: "国内为主，海外待观察",
+        performance: "AI 产品周榜（11/9-11/15）总榜飙升 40 名至第 31 位；11月2日发布日日新 SenseNova 6.8 Flash，客户端限免一个月",
+        comment: "办公类 AI 的国内打法是「限免换装机」，海外还没真正开始。这类大厂子产品出海时最容易踩的坑是「把国内素材直接翻译」，你跟他们的增长团队聊素材本地化，比聊返点更对口。",
+        source: "https://news.qq.com/rain/a/20261121A06QRV00"
+      },
+      {
+        name: "Meshy（AI 3D 生成）",
+        publisher: "Meshy AI（中国团队）",
+        isChinese: true,
+        markets: "全球（欧美开发者为主）",
+        performance: "AI 产品周榜海外榜上升 6 名至第 22 位；3D 生成赛道头部之一",
+        comment: "3D 生成的客户画像很特殊：用户是游戏开发者、设计师，投放渠道偏开发者社区和搜索，不是纯信息流。你要是能说出「这类产品 Google 搜索 + YouTube 教程的组合比 Meta 更划算」，对方会立刻把你从「又一个代理」升格成「懂行的」。",
+        source: "https://news.qq.com/rain/a/20261121A06QRV00"
+      },
+      {
+        name: "Zeemo（AI 视频字幕/多语种翻译 + AI 短剧生成）",
+        publisher: "北京蓝色脉动（Bluepulse）",
+        isChinese: true,
+        markets: "全球（印度区域语言见长，欧美主力）",
+        performance: "11月上半月全球 AI 工具下载增长榜第 28 名；中国团队产品本期共 19 款上榜，Zeemo 是下载榜代表之一",
+        comment: "小团队跑出全球增长榜的典型：产品切中「短剧多语种素材产能」这个刚需。这类公司预算不大但试错意愿强，是新人最容易拿到第一单的客户类型——不要求你有多深的关系，只要求你真的懂他的产品。",
+        source: "http://www.98ch.com/article/ai-tools-column-88-newly-listed-domestic-beauty.html",
+        tier: "sme"
+      },
+      {
+        name: "Popia（AI 角色社区 / 陪伴）",
         publisher: "北京元石科技（问小白团队）",
         isChinese: true,
-        markets: "美国",
-        performance: "10月18日-11月16日统计周期内取代 Tizz 进入 AI 陪伴收入前十",
-        comment: "头部集体下架的空位被国内小团队补上了。元石这种「大模型团队做垂类 App」的客户，投放预算跟着产品迭代走、决策极快——他们不缺模型缺的是海外增长方法论，用榜单数据敲门最好使。",
-        tier: "sme",
-        source: "https://zgeo.net/news/ai-companion-ios-delisting-nsfw-content-moderation"
+        markets: "全球（欧洲、拉美、中东和北非）",
+        performance: "10/26-11/8 全球 AI 社交收入增长榜第 2 名；本期共 13 款中国开发者产品进入四大榜单 Top30",
+        comment: "AI 陪伴是今年出海最卷也最赚钱的细分：105 款活跃产品里 23 款是今年上线的新品。卷意味着两件事——素材消耗极大、合规风险极高（年龄分级、内容审核）。你能提供的价值就是「在合规边界内把量跑出来」。",
+        source: "http://www.98ch.com/article/ai-social-column-two-months-launch-new-products.html",
+        tier: "sme"
       },
       {
-        name: "Momo: AI Photo & Video Maker",
-        publisher: "ScaleUp（媒体称国产出海团队，主体 info@momoai.co）",
+        name: "Superpose（AI 拍照姿势指导）",
+        publisher: "Superpose Labs（华人团队，美图参投）",
         isChinese: true,
-        markets: "美国 / 欧洲",
-        performance: "冲上美国 App Store 应用免费榜 Top2、一周下载约 120 万；Google Play 摄影榜第 7、累计 840 万+ 安装，靠复古写真/职业头像/舞蹈视频多场景拆分素材",
-        comment: "AI 写真的又一匹黑马，打法值得抄给你的中小客户：同一套生成能力拆成「求职头像」「社交出片」两条素材线分别投、分别统计。这类爆款窗口期短，谁先跟进谁吃量——发现类似新品就第一时间建联。",
-        tier: "sme",
-        source: "https://www.ypxx.net/tech/4903918.shtml"
+        markets: "美国为主",
+        performance: "完成约 220 万美元融资，美图入局；主打「AI 提升出片率」",
+        comment: "极小团队的样本：一个具体到「不会摆姿势」的痛点，就能撑起一个美国市场产品。这类客户最适合「小预算快速验证」的打法——先给 3000-5000 美元做两周素材测试，跑出 CPI 再谈长期。别一上来就谈年度框架，会把人吓跑。",
+        source: "http://www.yfch.cc/topics/article/",
+        tier: "sme"
       },
       {
-        name: "Zeemo（绘影字幕海外版）",
-        publisher: "北京蓝色脉动科技（Bluepulse Inc.）",
+        name: "PicWish（佐糖，AI 抠图/修图）",
+        publisher: "WangXu Technology (HK) Co., Limited（深圳团队）",
         isChinese: true,
-        markets: "全球（印度区域语言见长）",
-        performance: "11月上半月全球 AI 工具下载增长榜第 28 名；从字幕工具扩展到 AI 视频生成、配音和发布的一站式创意工作室，10月上线 AI Short Drama Generator（跨集角色一致性）、11月上线说话视频直接翻译成多语种口播",
-        comment: "中国出海 AI 工具的隐形冠军型选手：字幕+多语种翻译正好卡在短剧出海的命门上。它把「AI 短剧生成器」做进产品，说明它已经盯上短剧工具市场——这类客户按产品发布节奏投新品测试，是最容易建立合作的切入点。",
-        tier: "sme",
-        source: "http://www.98ch.com/article/ai-tools-column-88-newly-listed-domestic-beauty.html"
+        markets: "全球（欧美 + 东南亚）",
+        performance: "Google Play 累计千万级安装；与 ApowerMirror、LightPDF、GitMind 同属一个产品矩阵",
+        comment: "工具矩阵型公司的特点是「一个投放团队养多个产品」，扩量时最看重的是账户稳定性和多产品归因隔离。你的切入点很具体：多产品共用一个 BM 容易被 VAN 连坐，怎么隔离风险。这是技术型卖点，也是今年代理真正的护城河。",
+        source: "https://play.google.com/store/apps/details?id=com.wangxutech.picwish&hl=zh_CN",
+        tier: "sme"
       },
       {
-        name: "Superpose",
-        publisher: "Superpose Labs（美国，两位前 TikTok 高管创立，美图参投）",
+        name: "AI Marvels（照片/视频 AI 创作）",
+        publisher: "深圳软牛科技集团（HitPaw）",
         isChinese: true,
-        markets: "美国 / iOS",
-        performance: "9月15日完成 220 万美元种子轮（Khosla Ventures 领投、美图参投），AI 实时指导拍摄姿势、一张照片生成四个版本",
-        comment: "美图作为已合作客户开始做 AI 影像赛道的产业投资——围绕它投的公司会形成一个小生态。前 TikTok 高管的团队大概率熟悉买量，切入点是「iOS 摄影类目关键词+Apple Ads」的精细运营，而不是大水漫灌。",
-        tier: "sme",
-        source: "http://mp.weixin.qq.com/s?__biz=MjM5NzI2NzA3Mg==&mid=2648484849&idx=1&sn=d67939a675bf3157ba388ddc5212cf8a&chksm=bfbf39618f7c3761c86cb8c3b38d0f7d5c039ac482d74be220496afc0f8a8b0e8164a1315203#rd"
-      },
-      {
-        name: "美图公司",
-        publisher: "美图（1357.HK）",
-        isChinese: true,
-        markets: "全球（美/日韩/东南亚）",
-        performance: "入选 2026 年度影响力出海品牌；截至 9 月付费订阅用户 1983 万、单季净增约 139 万（近四个季度新高），国际市场付费用户增速持续领先；11月将 AI 拍照应用公司 Superpose 招入投资版图",
-        comment: "已合作客户。订阅用户单季净增 139 万意味着它的买量在持续加码——海外订阅类 App 的投放预算跟订阅增速强相关，可以顺着「国际付费用户增速」这个话题跟对接人约季度复盘会。",
-        source: "https://baijiahao.baidu.com/s?id=1880983502316753069&wfr=spider&for=pc"
-      },
-      {
-        name: "Retake",
-        publisher: "Codeway（土耳其/巴塞罗那）",
-        isChinese: false,
-        markets: "全球（8 语种）",
-        performance: "全球用户突破 3800 万、过去 12 个月增长 48%，每月生成 200 万+ 张修图；为每个用户单独训练专属小模型",
-        comment: "非中国公司，但「个性化小模型」是 AI 修图类产品的下一代叙事。你的 AI 图像客户若还在卷大模型 API 成本，拿 Retake 的「一人一模型」思路帮他们降推理成本——技术话题聊到位，代理合作自然跟进来。",
-        source: "https://fortune.com/press-releases/codeway-retake-reaches-38-million-users-personal-ai-model-2026-11-18/"
-      },
-      {
-        name: "Photogenik",
-        publisher: "独立开发者 Niki Victoria（TikTok 时尚博主）",
-        isChinese: false,
-        markets: "美国 / 印度",
-        performance: "累计下载约 51.9 万（iOS），11月4日登上印度 App Store 摄影与录像榜第 2；周订阅 5.99 美元起，近一月收入约 1 万美元",
-        comment: "创作者个人做 AI 工具的新样本：自带 157 万粉丝，早期用户不靠买量。这类客户买量需求会出现在「自然流量见顶」之后，现在接触正合适——用「达人自带流量的付费放大」作为切入点，符合他们的心理模型。",
-        tier: "sme",
-        source: "http://mp.weixin.qq.com/s?__biz=MjM5NzI2NzA3Mg==&mid=2648484849&idx=1&sn=d67939a675bf3157ba388ddc5212cf8a&chksm=bfbf39618f7c3761c86cb8c3b38d0f7d5c039ac482d74be220496afc0f8a8b0e8164a1315203#rd"
+        markets: "全球（繁中、欧美）",
+        performance: "Google Play 2.3 万条评价；母公司为国家级专精特新「小巨人」，牛小影用户规模超 100 万",
+        comment: "「专精特新」标签意味着它拿得到政策和资金支持，投放不会断。这类客户最痛的是「订阅转化」而不是「下载量」——素材带来的人不付费，等于白烧。谈的时候直接问：你的 trial 到付费转化是多少？问对问题就已经赢了一半。",
+        source: "https://play.google.com/store/apps/details?id=com.hitpaw.photo.enhancer&hl=zh_HK",
+        tier: "sme"
       }
     ],
 
     education: [
       {
-        name: "Question.AI",
-        publisher: "作业帮（小船出海教育科技）",
+        name: "新东方比邻 · SureChinese 2.0",
+        publisher: "新东方教育科技集团（NYSE: EDU）",
         isChinese: true,
-        markets: "美国 / 印尼 / 东南亚",
-        performance: "登顶过美国 App Store 教育榜；母公司旗下 AI 陪伴新品 Tizz 冲进 AI 陪伴收入前十后遭 iOS 下架（10月新规波及），教育主品牌不受影响",
-        comment: "作业帮在版图内已有同事覆盖，不重复建联。这条值得记的是「大厂出海子品牌预算独立」：同一集团内教育产品与 AI 陪伴产品的投放预算互不通用，碰到集团客户要问清楚「谈的是哪条业务线的预算」。",
-        source: "https://eu.36kr.com/en/p/4075075172783238"
+        markets: "北美、东南亚（金边已签约共建中文教育基地）",
+        performance: "11月15日发布 2.0：1000+ 导学视频、7000+ 听说读写练习、支持 12 种系统语言、对标 HSK3.0 的 1-4 级；累计注册破 20 万、MAU 超 4 万、续订率 53.06%",
+        comment: "53.06% 的续订率在教育出海产品里算很健康——说明它的用户是真需求。HSK3.0 12月13日切换、「说」成必考项，这是今年教育类最后一个确定性投放节点：口语陪练类产品两周内必须把素材换完，你要是能提前提醒客户这件事，就是专业。",
+        source: "https://m.163.com/edu/article/LC69DV7J0531MZZN.html"
       },
       {
-        name: "Gauth",
-        publisher: "字节跳动",
+        name: "LingoAce · Tutor Luna",
+        publisher: "LingoAce（新加坡/武汉）",
         isChinese: true,
-        markets: "全球",
-        performance: "全球用户已超 3 亿，为字节系教育出海旗舰",
-        comment: "字节系已有同事覆盖。3 亿用户的体量意味着它的增长重心早就在存量运营而非纯拉新——你的教育类中小客户与其对标它的投放量，不如对标它的「搜题→订阅」转化链路设计。",
-        source: "https://caifuhao.eastmoney.com/news/20261120125902330080400"
+        markets: "东南亚、美国、欧洲（214 个国家和地区）",
+        performance: "2026 年推出 AI 英语学习产品 Tutor Luna；累计服务学员超 73 万、交付 2700 万节课、9000+ 教师；自 2024 年起持续盈利",
+        comment: "这条赛道里少数把账算平的公司，说明「高客单 1v1 + 轻量 AI 产品」的双层结构是跑得通的。它的投放逻辑是「用低价 AI 产品拉新、用 1v1 变现」，你聊的时候要按两层预算来设计，而不是给一个笼统的方案。",
+        source: "https://www.lingoace.com/about-us"
       },
       {
-        name: "Uknow.AI（原 CheckMath）",
-        publisher: "Study Evolution Edtech Pte. Ltd.（猿辅导/猿力系出海主体）",
+        name: "悟空中文 / WuKong Chinese",
+        publisher: "WuKong Education（LAN GLOBAL LIMITED，总部新西兰奥克兰）",
         isChinese: true,
-        markets: "东南亚 / 全球",
-        performance: "Google Play 累计 1000 万+ 安装、4.5 星（19.6 万条评价）；猿辅导旗下 Uknow.AI 在越南活跃用户排第一，与 Gauth、Question.AI 并称中国 AI 教育出海「御三家」",
-        comment: "「御三家」里唯一还没被反复谈烂的一家，而且出海主体在新加坡、团队独立。拍题答疑类产品的买量高度依赖「开学季+考试季」节点，越南活跃第一说明它已经验证了东南亚打法——切入点是帮它把「越南模型」复制到印尼和巴西。",
-        source: "https://caifuhao.eastmoney.com/news/20261120125902330080400"
+        markets: "美国、加拿大、澳洲、新西兰（118 个国家和地区）",
+        performance: "服务 40 多万个家庭；在美加澳新长期市占率第一；创始人称每 3 个学员有 2 个来自老学员推荐",
+        comment: "口碑驱动型公司最怕「增长见顶」——推荐链条的天花板就是它的天花板。这类客户对你的价值点是「第二增长曲线」：新市场（中东、拉美）或新产品线（数学、ELA）的冷启动。现有英语/中文课不用你，新业务才用你。",
+        source: "https://www.wukongsch.com/blog/zh/wukong-chinese-14-post-47838/"
       },
       {
-        name: "小猿AI",
-        publisher: "猿辅导集团",
+        name: "Chinesia（章鱼时代，AI 中文）",
+        publisher: "深圳市章鱼时代科技（Octopus Times）",
         isChinese: true,
-        markets: "国内为主（100+ 学习场景）",
-        performance: "发布首个教育 AI 范式「小猿AI」，自研猿力大模型+DeepSeek-R1 矩阵，覆盖作业批改、五重错因分析、个性化讲题",
-        comment: "猿辅导不在版图排除名单里、飞书合作表也未列名——国内教育大厂的出海子产品是标准「母大子小」结构。别急着推海外投放，先聊它的 Uknow.AI 出海线，国内 AI 产品是敲门砖。",
-        source: "https://browse.cc/news/474596.html"
-      },
-      {
-        name: "Talkmate 中文智能体",
-        publisher: "北京酷语时代教育科技（全球说）",
-        isChinese: true,
-        markets: "全球（25 种对话语言 / 7 种教学语言）",
-        performance: "11月世界中文大会发布移动端，主打 104 位中华文化人物对话、HSK 数字人导师、CSCA 备考五大模块；联合国教科文组织世界语言地图项目合作伙伴",
-        comment: "「AI 中文学习」赛道新入场的成熟玩家：有联合国背书、有课程资产，缺的是海外获客引擎。中文学习用户的获客渠道高度分散（华人社区/孔院/社交媒体），正好是你的差异化打法能讲出价值的市场。线索池已收录。",
-        source: "https://c.m.163.com/news/a/LC3VKUCT0514R9OJ.html"
-      },
-      {
-        name: "荣耀中文智慧学习硬件",
-        publisher: "荣耀终端",
-        isChinese: true,
-        markets: "全球",
-        performance: "在世界中文大会亮相「荣耀中文智慧学习硬件」，与新版 Chinesia App、智慧宫阿语 AI 中文 App 并列为民企中文出海代表产品",
-        comment: "荣耀体量大、在版图内有覆盖，这条真正的信号是「学习硬件出海」品类活了：大厂开始把中文教育装进硬件卖到海外。你手里的硬件出海客户（学习机/词典笔）可以借这个热度谈「硬件+内容订阅」的组合投放。",
-        source: "https://www.163.com/dy/article/LC0TBS7N0514R9OJ.html"
-      },
-      {
-        name: "Chinesia（章鱼时代）",
-        publisher: "深圳市章鱼时代科技发展有限公司",
-        isChinese: true,
-        markets: "全球",
-        performance: "Chinesia App 全球累计下载突破 500 万；Chinesia Live 进校中文课+直播小班课，业务延伸至 HSK 备考、来华留学与文化研学；大会期间拿下金牌合作伙伴、金牌数字教材、AI 典型案例三项认可",
-        comment: "11月19日线索池推过这家，不再重复推送，但它在大会连拿三个奖项说明投放预算会跟着荣誉加码——如果你上周已加为客户，这周正好用「下载破 500 万」约复盘会，顺势谈追加预算。",
-        tier: "sme",
-        source: "https://news.haiwainet.cn/n/2026/1118/c3541089-32999342.html"
-      },
-      {
-        name: "智慧宫阿语 AI 中文 App",
-        publisher: "智慧宫国际文化传播集团（银川）",
-        isChinese: true,
-        markets: "中东 / 阿语国家",
-        performance: "阿语版 AI 中文 App 在世界中文大会发布，配套《智慧学中文》教材体系；中阿语言教育互译赛道持续加码",
-        comment: "中东中文教育是稀缺的蓝海切口：阿语本地化投放能力是稀缺资源，而中东恰是你的重点市场。这条客户用「阿语素材产能+沙特/阿联酋渠道」切入，谈成概率比卷欧美教育盘高得多。",
-        tier: "sme",
-        source: "https://www.163.com/dy/article/LC0TBS7N0514R9OJ.html"
-      },
-      {
-        name: "HSK GO",
-        publisher: "Wo Hui Pte Ltd（新加坡，与中文考试 CTI 合作）",
-        isChinese: true,
-        markets: "全球",
-        performance: "官方 HSK 学习与考试 App；HSK 3.0 于 12月13日切换、「说」成为必考项，2026 年 HSK 考生首破 100 万",
-        comment: "考试节点型产品：HSK 3.0 切换前的两周是它全年最大的投放窗口。如果上周已建联，本周该给的不是方案是排期表——把「口语素材替换+考点国家定向」的排期做到具体日期，客户照抄就能跑。",
-        tier: "sme",
+        markets: "200+ 国家和地区，14 种 UI 语言",
+        performance: "APP 全球累计下载突破 500 万；3.0 版本定档 2026 年 12 月全球上线；获世界中文大会「金牌数字教材」等三项认可",
+        comment: "3.0 在 12 月上线，这是它今年最大的一次投放窗口——新品上线前的两周是商务介入的最佳时点，因为预算还在排。章鱼时代是深圳民营公司，决策比大厂快得多，值得你今天就发信。",
         source: "https://www.rmzxw.com.cn/c/2026-11-18/4010697.shtml"
       },
       {
-        name: "Speak",
-        publisher: "Speak（美国）",
-        isChinese: false,
-        markets: "美国 / 日韩 / 拉美",
-        performance: "AI 口语学习赛道流水增长最快的头部产品之一，全球教育 App 榜常客",
-        comment: "非中国公司，但它是「AI 口语付费意愿」的定价锚：你的中文口语陪练客户（HSK 口语、AI 汉语陪练）在定价和订阅设计上都在对标它。聊客户时引用它的订阅结构，显得你懂产品而不只是懂投放。",
-        source: "https://www.cyzone.cn/article/792613.html"
+        name: "全球说 · 中文智能体",
+        publisher: "全球说 Talkmate",
+        isChinese: true,
+        markets: "欧美、繁中、非洲（与泛非出海等六家签战略协议）",
+        performance: "世界中文大会（11/13-15）期间上线移动端；104 个中华文化数字人支持多语种对话；联合首师大推出 CSCA 模考系统",
+        comment: "联合国教科文组织全球伙伴这块牌子，让它在海外谈合作时非常好用。它现在的阶段是「有品牌、缺规模」，最需要的是把「来华留学」人群的流量做起来——这条线索的人群很窄（备考 HSK/CSCA 的外国学生），窄人群恰恰适合精准投放。",
+        source: "https://finance.sina.com.cn/roll/2026-11-17/doc-iniyzswf7650497.shtml",
+        tier: "sme"
       },
       {
-        name: "新东方比邻中文（Blingo）",
-        publisher: "新东方教育科技集团（NYSE: EDU）",
+        name: "PPtutor（华裔少儿中文）",
+        publisher: "成都学语教育科技",
         isChinese: true,
-        markets: "北美 / 全球华裔家庭",
-        performance: "华裔青少儿中文课+AI 赋能中文学习，世界中文大会期间 CEO 乔蕾公开谈「AI 教中文」路线",
-        comment: "新东方在版图内有覆盖，这条的用法是话题弹药：华裔家庭的中文教育是「代际执念」型需求，LTV 长但获客慢。跟做华裔儿童教育的中小客户聊，用比邻证明赛道成立，再帮他们找差异化的获客渠道。",
-        source: "https://caifuhao.eastmoney.com/news/20261120125902330080400"
+        markets: "北美、欧洲、东南亚（120 个国家、50 万+ 华裔家庭）",
+        performance: "A 轮、473 人、2025 年国家级高新技术企业；课程对标 YCT/HSK，4-15 岁 1v1 与小班课",
+        comment: "典型的「中型教育公司」：有规模、有教研、但增长靠投放硬拉。这类客户对代理的诉求最实在——降 CAC。你要准备的不是 PPT，是同类客户的分区域 CPI 区间，哪怕是公开数据也行，能对上话就行。",
+        source: "https://www.qcc.com/cmainmember/c4bbe232db0386a982c0bbffc867aee5",
+        tier: "sme"
+      },
+      {
+        name: "智慧宫 · 阿语 AI 中文 App",
+        publisher: "智慧宫国际文化传播集团",
+        isChinese: true,
+        markets: "中东北非（阿语区）",
+        performance: "新版阿语 AI 中文 APP 在 2026 世界中文大会亮相；中阿语言教育与互译方向",
+        comment: "中东是目前最被低估的中文教育市场：沙特 58% 的社媒用户每天看短视频，付费能力强，但中文内容供给严重不足。这类「区域专精」客户单市场预算不大，但如果你能给它一个别人给不了的中东媒体组合，成单会很快。",
+        source: "https://www.rmzxw.com.cn/c/2026-11-18/4010697.shtml",
+        tier: "sme"
+      },
+      {
+        name: "eChineseLearning",
+        publisher: "eChineseLearning（北京，2006 年起）",
+        isChinese: true,
+        markets: "欧美成人 1v1 中文",
+        performance: "暂无公开数据（老牌 1v1 中文机构，以欧美成人为主）",
+        comment: "老牌 1v1 机构这两年最大的问题是被 AI 陪练抢走了「入门级」用户。你可以用这个判断开场：AI 抢走的是低价段，留下的是「要考试、要商务、要长期陪练」的高价段——你的投放素材就该往这两个人群收，而不是继续铺泛学习人群。",
+        source: "https://www.echineselearning.com/",
+        tier: "sme"
+      },
+      {
+        name: "HelloChinese",
+        publisher: "HelloChinese（北京，独立开发者起家）",
+        isChinese: true,
+        markets: "全球（欧美为主）",
+        performance: "暂无公开数据（老牌中文学习 App，长期居 App Store 教育类前列）",
+        comment: "独立开发者起家的产品，最懂「小预算怎么活」。跟这类客户谈合作，别谈框架和量级，谈「一个市场 + 一个月 + 一条素材线」的最小验证单元，成功率最高。",
+        source: "https://www.hellochinese.cc/",
+        tier: "sme"
       }
     ]
   },
 
   hotEvents: [
     {
-      title: "苹果 10月新规引发 AI 陪伴大清洗：收入前十下架 5 款",
+      title: "《影之刃零》获 TGA 2026 五项提名，发售后 72 小时销量超 400 万套",
+      date: "2026-11-20",
+      summary: "北京灵游坊（S-Game）的《影之刃零》获年度游戏、游戏指导、音乐、艺术指导、最佳动作游戏五项提名；发售后 72 小时销量超 400 万套，Metacritic 均分 88。团队仅 90 余人。",
+      bizValue: "这是今年最值得跟进的腰部游戏公司：90 人团队做出全球级产品，说明它的「下一款」一定会被资本追着投——预算会在明年初集中释放。官网公开商务邮箱 bd@s-game.com.cn，现在就发信，你抢的是它还没被同行围住的窗口。",
+      source: "http://mp.weixin.qq.com/s?__biz=MzcxMDM2NTQ3MA==&mid=2247492664&idx=4&sn=a8d98774e1c1835c85bbcc91122a2d9f&chksm=f43a8c3d31e3ddb30077e154ac21a70328d10397f8f767dcd857262b1d9488ebe3f98bec1127#rd",
+      tag: "high-growth"
+    },
+    {
+      title: "《蓝色星原：旅谣》定档 11 月 26 日，预约破 500 万",
+      date: "2026-11-24",
+      summary: "蛮啾网络（《碧蓝航线》研发商）的二游大世界新品定档 11 月 26 日，全网预约超 500 万，将是 2026 年末最大的一次二游买量战役之一。",
+      bizValue: "定档当天就是投放冲刺日。这类产品的首月预算通常是全年最集中的一次，而且愿意为「抢量速度」付出溢价。如果你能在这两天把「首周素材产能 + 多市场并行测试」的方案递到发行负责人手上，比任何时点都有效。",
+      source: "https://gamekee.com/?_wv=1027&k=5xzxlnw",
+      tag: "high-growth"
+    },
+    {
+      title: "Google Play 公布 2026 年度大中华区最佳游戏名单",
+      date: "2026-11-19",
+      summary: "《明日方舟：终末地》获年度最佳游戏与最佳剧情游戏，《异环》获最佳跨设备游戏，《Kingshot》《绝区零》获最佳持续影响力游戏，《Abyssal Soul》获最佳独立游戏。",
+      bizValue: "这份名单就是一份「谁有钱且有海外野心」的清单。跨设备、持续影响力这两个奖项关键词，正好对应代理最能讲的归因与素材迭代话题——拿着名单逐个查它们的海外发行负责人，比盲扫效率高十倍。",
+      source: "http://mp.weixin.qq.com/s?__biz=MzcxMDM2NTQ3MA==&mid=2247492664&idx=4&sn=a8d98774e1c1835c85bbcc91122a2d9f&chksm=f43a8c3d31e3ddb30077e154ac21a70328d10397f8f767dcd857262b1d9488ebe3f98bec1127#rd"
+    },
+    {
+      title: "高顿孵化 AI 情绪出海应用 Zenora（禅伴），订阅 9.99 美元/月",
+      date: "2026-11-06",
+      summary: "以 CPA/CFA 培训起家的高顿推出 Zenora，把易经、五行、佛经与 AI 结合，做冥想、起卦、读经、AI 禅师对话；运营主体为澳洲公司 ARETEUP EDUCATION TECHNOLOGY，目前安卓体验版已上线、iOS 内测预约，订阅 9.99 美元/月。",
+      bizValue: "「母大子小」的典型：母公司 7000 人、150+ 分校，但这个出海产品是小团队独立跑、预算独立。这类项目最缺的不是钱，是出海投放的经验和素材本地化能力——而且决策链短，你直接对项目负责人就行，不用过集团采购。",
+      source: "https://www.163.com/dy/article/LB0DIVRF05568DTV.html",
+      tag: "emerging"
+    },
+    {
+      title: "顾雏军 AI 社交 App「缘宇宙」更名 Hapgeta，下载 230 万、欧盟商标在申请",
       date: "2026-11-18",
-      summary: "苹果 10月16日更新审核规则（禁止生成未经同意的私密影像、禁止隐藏未记录功能，违者下架+封号）后，AI 陪伴 IAP 收入前十的《Tipsy》《PolyBuzz》《Zeta》《Chai》《Tizz》已从主要市场 iOS 下架，赛道月收入格局被重写",
-      bizValue: "这是本月最重要的合规事件：AI 社交/陪伴客户的 NSFW 变现路径被制度性切断。两条用法——对踩线客户：别碰，赛道在洗牌不是窗口；对合规客户：头部腾出的流量正在流向《Heyyyy》《Popia》这类干净产品，帮他们抢窗口期，讲「合规即增长」。",
-      source: "https://view.inews.qq.com/w2/20261118A0E0I200?refer=wx_hot"
+      summary: "Hapgeta Social（原 Hapmeta Social，中文名缘宇宙社交）11 月 17 日拿到美国商标注册证，欧盟商标仍在申请；官方披露已有 230 万次下载、161 万注册用户，下月全面升级。因名称含 Meta 遭商标抗辩而改名。",
+      bizValue: "改名 = 品牌资产归零重来，这是最需要投放的时候（新名字没有认知，全靠买量建立）。而且它是小团队、决策快、有明确出海动作。切入点很具体：商标切换期的品牌词保护 + 新名称冷启动，这两件事你现在就能给方案。",
+      source: "https://m.163.com/all/article/LC5UURBE051186CN.html",
+      tag: "emerging"
     },
     {
-      title: "Meta 泰国「No ID, No Ads」11月1日生效",
-      date: "2026-11-01",
-      summary: "泰国《电子交易委员会通知第 2 号》生效：所有面向泰国市场的付费广告（含外国广告主）须先完成广告主身份验证，Meta 覆盖 Facebook/Instagram；代理代投场景下代理、广告主、付款方都可能被要求验证",
-      bizValue: "泰国是你客户的重点市场之一。政策字面已生效但 Meta 实际执行滞后（不少账户尚未收到验证通知）——这反而是机会：现在帮客户把公司注册文件、授权文件备齐，等验证通知来时你的客户第一批过审，竞品在排队。",
-      source: "https://pay2.house/blogs/article/meta-changes-advertiser-verification-rules-what-media-buyers-need-to-know-in-november-2026"
+      title: "AI 社交 App Elys 开发商 Nature Select A+ 轮融资超 1 亿美元",
+      date: "2026-11-20",
+      summary: "据 5Y Capital 披露，AI 社交应用 Elys 的开发商 Nature Select 截至 2026 年 11 月在 A+ 轮累计募资超 1 亿美元，投资方含启明创投、源码资本、经纬中国；新版本 11 月正式发布。",
+      bizValue: "AI 社交今年最猛的一笔融资，钱到手第一件事一定是买量。这类公司的问题是「预算大、时间紧、对 ROI 极度敏感」，所以它不会给慢公司机会。你要准备的是「两周内能起量的账户与素材方案」，而不是年度框架。",
+      source: "https://www.gatebase.co/zh-tw/news/detail/nature-select-raises-over-100m-in-series-a-for-ai-social-app-elys-25444886",
+      tag: "high-growth"
     },
     {
-      title: "Meta 金融广告主验证改为强制，覆盖 10 个地区",
-      date: "2026-10-26",
-      summary: "Meta 更新金融产品与服务广告政策措辞：金融广告主验证由「可能要求」改为强制，适用地区包括澳大利亚、中国香港、印度、爱尔兰、以色列、西班牙、中国台湾、泰国、英国、美国，涵盖贷款、保险、投资等品类",
-      bizValue: "直接命中你做海外现金贷/助贷客户的命门：这十个地区的金融投放没资质进不了场。反过来这是你的专业价值——「有没有金融验证资质、能不能过 Financial Services Verification」应该成为你跟金融客户开口的第一个问题。",
-      source: "https://pay2.house/blogs/article/meta-changes-advertiser-verification-rules-what-media-buyers-need-to-know-in-november-2026"
+      title: "快手游戏内测 AI 互动玩法创作平台「Yoola」",
+      date: "2026-11-20",
+      summary: "Yoola 面向独立开发者、小团队与互动创作者，用自然语言描述即可生成、修改玩法，测试审核后可直发快手站内，用户无需下载；平台支持激励广告分成，计划提供千万级流量与单款最高 10 万元奖金。",
+      bizValue: "这是「小游戏供给端」的一次放量：大量小团队会因为这个平台第一次有产品可上线。它们没有投放能力、也没有代理资源——这就是你的上游鱼塘。你可以做一件事：整理一份「Yoola 上线团队名单」，逐个触达，成本极低。",
+      source: "http://mp.weixin.qq.com/s?__biz=MzcxMDM2NTQ3MA==&mid=2247492664&idx=4&sn=a8d98774e1c1835c85bbcc91122a2d9f&chksm=f43a8c3d31e3ddb30077e154ac21a70328d10397f8f767dcd857262b1d9488ebe3f98bec1127#rd",
+      tag: "cooperation"
     },
     {
-      title: "Meta 收紧美国投资类广告：仅限持牌机构",
-      date: "2026-10-29",
-      summary: "Meta 更新美国投资产品与投资机会广告政策：包括投教内容在内的投资类广告，仅允许完成 Meta 金融服务验证的合格经纪商或持牌金融顾问投放；DM 引导投资类依旧禁止",
-      bizValue: "美国是投资类客户最贵也最重要的市场，这道门槛会淘汰一大批灰产玩家。合规持牌客户的广告成本可能因此下降（竞价对手变少）——这是跟持牌客户谈「趁窗口加预算」的最好由头。",
-      source: "https://pay2.house/blogs/article/meta-changes-advertiser-verification-rules-what-media-buyers-need-to-know-in-november-2026"
+      title: "浙江都乐《Petpet GO!》获苹果全球推荐，覆盖欧洲与中东 44 国",
+      date: "2026-11-05",
+      summary: "《Petpet GO!》获 App Store 全球推荐，覆盖英法德澳西葡荷俄以等 44 个欧洲及中东国家和地区；此前在韩国上线两天登顶免费榜、两周新增 23 万账户，增长主要来自自传播。公司与 A 股上市公司大晟时代（600892）达成战略合作。",
+      bizValue: "自然量爆发之后，接下来一定是「要不要接付费」的决策点——这是你介入的最佳时点。24 人参保的小微团队，预算可能只有几万美元，但一旦跑通就是长期客户。别嫌小，这是你练手和积累案例的最好对象。",
+      source: "https://qiye.eastday.com/n35/20261105/ccbb77346c2c4eb58af533ede810dc03.html",
+      tag: "high-growth"
     },
     {
-      title: "Google 澄清：AI 名人形象广告即使加 AI 标注也不允许",
-      date: "2026-11-11",
-      summary: "Google 更新 Unacceptable Business Practices 中公众人物冒用条款：使用 AI 生成/编辑的名人形象广告一律不允许，加 AI 披露标签也无法豁免，执法口径不变",
-      bizValue: "游戏、AI 数字人客户常踩这条线（AI 名人口播、名人脸换装）。审核季被拒会直接拖慢节日投放——现在就把客户素材库里「像谁」的素材筛一遍，帮他们提前排雷，你的专业度立刻显性化。",
-      source: "https://www.jxtgroup.com/this-week-google-meta-ads-nov-17-2026"
+      title: "腾讯入股北京匠心互娱，Top Tycoon 8 月月流水约 760 万美元",
+      date: "2026-11-05",
+      summary: "广西腾讯创业投资入股北京匠心互娱（2026 年 6 月成立），持股 26.875%；其关联团队匠心趣游的《Top Tycoon》8 月预估月流水约 760 万美元、列中国手游出海收入榜第 22 名，《My Home My World》累计收入超 5 亿元。",
+      bizValue: "腾讯入股意味着「有钱了要放量」，而且它 88.2% 靠付费获客——这是最纯粹的买量型客户，预算和你直接挂钩。同赛道 Coin Looter 上半年下载 +33% 但内购 -11%，说明它正卡在「量涨钱不涨」的坎上，这就是你的切入话术。",
+      source: "https://www.baijing.cn/article/57314",
+      tag: "cooperation"
     },
     {
-      title: "Google 细化性内容广告政策（执法口径不变）",
-      date: "2026-11-16",
-      summary: "Google Ads 性内容政策新增大量禁止/允许示例（裸露、性用品、性娱乐、暗示性内容等），官方明确执法不变；性内容广告不能投 YouTube/展示网络/图片广告",
-      bizValue: "短剧、AI 写真类素材最容易在「暗示性」示例里误伤（双关画面、emoji 暗示是重灾区）。给短剧客户做「素材合规自查清单」是本周最好的低成本服务动作——被拒一条素材的成本比清单贵十倍。",
-      source: "https://insights.topkee.com.sg/dynamic/google-expands-clarifies-sexual-content-advertising-policy"
+      title: "AI 工具榜 88% 新上榜，国产 AI 美妆双周下载 64 万",
+      date: "2026-11-20",
+      summary: "98出海统计 11/01-11/14：全球 AI 工具下载增长 Top50 中 44 款为本期新上榜，其中 23 款是 2026 年新上线产品；中国团队产品共 19 款上榜，覆盖内容型、图像、视频与垂类工具。",
+      bizValue: "「88% 新上榜」意味着这个赛道每周都在换人——新品多、生命周期短、投放试错频繁。这对代理是好事：客户换得快，说明没有人被长期绑定。你要做的是把「快速验证」做成标准产品（小额起步、两周出结论），专门吃这一批新品。",
+      source: "http://www.98ch.com/article/ai-tools-column-88-newly-listed-domestic-beauty.html",
+      tag: "emerging"
     },
     {
-      title: "Google 个性化广告定向新增四类禁止兴趣",
-      date: "2026-11",
-      summary: "Google Ads 更新个性化广告政策：禁止基于「假冒商品、危险品、失信行为、不当内容」四类兴趣定向建受众，自定义受众与受众信号均受约束",
-      bizValue: "影响所有用自定义细分/兴趣信号的客户账户。本周值得做的事：帮重点客户跑一遍受众清单，删掉可能踩线的兴趣定向——小动作，但能避免节日投放期账户突然降速。",
-      source: "https://uamaster.net/4-new-restrictions-on-interest-based-targeting/"
+      title: "土耳其给游戏公司最高 70% 买量补贴",
+      date: "2026-11-19",
+      summary: "土耳其以最高 70% 的海外广告、推广与营销费用补助（一般项目 50%），叠加品牌、税收与研发支持；腾讯今年先后投资当地 Circle Games（2500 万美元 A 轮）与 Flow Games。",
+      bizValue: "这条信息对你的价值不是「去土耳其」，而是「拿它当谈判参照」：当客户抱怨投放成本高，你可以告诉他有些市场是政府帮你出钱的。反过来，如果你手上有想进土耳其的中国客户，这就是一个可以立刻讲的故事。",
+      source: "http://mp.weixin.qq.com/s?__biz=MzcxMDM2NTQ3MA==&mid=2247492664&idx=4&sn=a8d98774e1c1835c85bbcc91122a2d9f&chksm=f43a8c3d31e3ddb30077e154ac21a70328d10397f8f767dcd857262b1d9488ebe3f98bec1127#rd",
+      tag: "cooperation"
     },
     {
-      title: "伽马数据：10月自研游戏出海收入 18.95 亿美元，环比转正",
-      date: "2026-11-18",
-      summary: "中国自研游戏海外收入环比 +9.58%、同比 +5.36%；《Gossip Harbor》《鸣潮》《明日方舟》长线打底，《影之刃零》等新品贡献增量，出海大盘呈「长线托底、新品破局」结构",
-      bizValue: "大盘回暖的官方背书。给犹豫要不要追加 Q4 预算的游戏客户看这张图：「环比转正+新品破局」意味着现在上新品的窗口比守存量划算——顺势推你的新品冷启动方案。",
-      source: "https://www.ce.cn/cysc//newmain/yc/jsxw/202611/t20261118_3298139.shtml"
+      title: "DramaBox 与 GoodShort 传出合并，头部短剧开始收敛",
+      date: "2026-11-09",
+      summary: "10 月，内购收入第一的 DramaBox 与第五的 GoodShort 传出合并，两家原本在同一批广告位上互相抬价。合并后董事长陈瑞卿表示「两家不竞争了，还要和别人竞争，投入只会更多」。",
+      bizValue: "头部合并对你是好消息也是坏消息：好消息是竞价会稍微理性一点，坏消息是它们合并后议价能力更强、对代理更强势。真正该抢的是「第二梯队」——它们现在最怕被合并后的头部挤出广告位，正需要有人帮它们抢量。",
+      source: "https://finance.sina.com.cn/stock/t/2026-11-09/doc-iniycmua3351293.shtml"
     },
     {
-      title: "字节海外短剧 PineDrama 上线 9 个月下载破亿",
-      date: "2026-11",
-      summary: "字节旗下免费短剧 App PineDrama 全球累计下载破 1 亿次、日活约 700 万，巴西+印尼贡献 82% 下载、美国贡献近半收入；9月单月下载超 1200 万；与 TikTok 账号互通、内容部分打通",
-      bizValue: "字节系已有同事覆盖。真正的情报是「免费+广告」模式在海外被验证成立：IAA 在投产品数量上半年增长 150%。手里做付费短剧的客户要回答「免费的会不会抢走我的用户」——把这个问题的答案做成你的提案第一页。",
-      tag: "high-growth",
-      source: "https://m.ikjzd.com/news/738242"
-    },
-    {
-      title: "10月海外短剧百强榜：82 部由中国厂商主投",
+      title: "字节 PineDrama 上线 9 个月下载破 1 亿，海外短剧格局重排",
       date: "2026-11-07",
-      summary: "10月海外短剧百强榜中 82 部作品主投方为中国厂商，NetShort 占 63 席、DramaBox 占 9 席；2026 年 1-9 月下载前三为昆仑万维 FreeReels（2.3 亿+）、ReelShort（1.9 亿+）、NetShort，字节 PineDrama 亦居下载前三",
-      bizValue: "中国厂商的垄断性份额（82/100）是行业谈资级别的事实。对短剧新客户，这是「赛道成立」的证据；对已入场的客户，这是「份额集中、后来者要找差异化」的警钟——两种讲法都能引出你的投放结构方案。",
-      source: "https://news.mydrivers.com/1/1163/1163937.htm"
+      summary: "被称为「海外版红果」的 PineDrama 于 2026 年 1 月上线，约 9 个月后累计下载突破 1 亿次、日活约 700 万；超四成下载来自印尼和印度，美国贡献 36% 的应用内购收入。",
+      bizValue: "字节用免费模式把短剧的下载天花板又抬高了一档，直接后果是「付费短剧的获客成本更贵了」。这条数据是你跟中小短剧客户谈「免费/付费双轨」的最好引子——不是让它们学字节，是让它们算清楚自己的 LTV 撑不撑得住现在的 CPI。",
+      source: "https://www.nbd.com.cn/articles/2026-11-07/4641349.html"
     },
     {
-      title: "出海微短剧累计 29 万部，AI 剧占比超六成",
-      date: "2026-11-16",
-      summary: "截至 9 月底中国出海微短剧累计约 29 万部、较 2025 年底增长 287.73%，AI 剧占比超六成；ReelShort 新剧 AI 占比从上半年不足 5% 升至 9 月的 90%；AI 短剧单部成本约 10-20 万元（真人剧 50-100 万）",
-      bizValue: "AI 剧的边际成本只有真人剧两到五成，产能爆炸导致买量通胀（素材 +324%）。给短剧客户的落点是：内容成本低了，但投流占总成本 50-80%——省下的制作费该不该加到买量上，需要一套回收模型，这正是你能提供的。",
-      source: "https://finance.sina.com.cn/jjxw/2026-11-16/doc-iniyxpxf2706567.shtml"
+      title: "ReelShort 与 AIS 的合作订阅超 800 万，东南亚运营商计费成标配",
+      date: "2026-11-09",
+      summary: "ReelShort 在泰国与 AIS 打包（月费 39 泰铢）、在印尼/菲律宾/新加坡与 Telkomsel、Globe、Singtel 合作，四家运营商合计覆盖超 2.75 亿移动连接；MPA 称其与 AIS 的合作订阅已超 800 万。中文在线旗下 FlareFlow 11 月 2 日也在 AIS PLAY 开设专区。",
+      bizValue: "运营商计费解决的是「信用卡渗透率低」这个死结。这条趋势对你意味着：短剧客户的钱会从「纯买量」分一部分到「渠道分成」，你的角色要跟着变——从卖流量变成帮它设计「运营商 + 买量」的组合。谁先会算这笔账，谁就拿到下一年的预算。",
+      source: "https://finance.sina.com.cn/stock/t/2026-11-09/doc-iniycmua3351293.shtml"
     },
     {
-      title: "短剧投流渠道高度集中：Meta 系吃下 65%",
-      date: "2026-11-16",
-      summary: "点点数据口径：海外短剧投流 Meta 系约 65%、Google 系约 20%、TikTok 约 10%；2025 年北美短剧 App 平均 CPI 5.28 美元，拉美仅 0.34 美元；2026 Q1 拉美短剧安装量同比暴涨 913%",
-      bizValue: "两句话就能跟客户建立专业感：①你的投流账户 65% 押在 Meta，单一平台政策风险没对冲；②北美拉新贵 15 倍，同样的预算在拉美能买 15 倍用户。区域再平衡方案是最容易落地的首次合作切入点。",
-      source: "https://finance.sina.com.cn/jjxw/2026-11-16/doc-iniyxpxf2706567.shtml"
+      title: "菲律宾 SEC 解除线上借贷平台注册冻结（MC No.20）",
+      date: "2026-11-02",
+      summary: "菲律宾 SEC 发布 MC No.20 解除自 2021 年起近五年的 OLP 注册冻结，改为高价限量准入：融资公司单平台实缴资本 2000 万比索、运营 5 个平台须 1 亿比索；单一主体最多 5 个平台，存量机构 12 个月过渡期。",
+      bizValue: "冻结转准入，意味着未来 6-12 个月会有一批新平台拿到牌照并开始投放——这是你能提前布局的名单。同时提醒客户：门票价格翻了几倍，中小玩家会被挡在门外，所以「先拿牌再展业」的成本已经是五年前的数倍。",
+      source: "http://mp.weixin.qq.com/s?__biz=MzY5MjUwMTk0OA==&mid=2247483764&idx=1&sn=ef9201045a9747259f613325d08372c0&chksm=f5d5b290bd3ee4b4bf7bfc3a492bdf4b847b15101d2043195e38e89f0395cba29f773a6bcbb1#rd"
     },
     {
-      title: "MeloShort：免费短剧矩阵的中腰部样本",
+      title: "印尼 OJK 拟将网贷不良认定从 90 天放宽至 180 天",
+      date: "2026-11-05",
+      summary: "OJK 就 P2P 监管规则修订征求意见，拟把数字贷款「不良」认定从逾期 90 天放宽到 180 天，与银行五级分类口径对齐。背景是行业 TWP90 从 7 月 4.32% 升至 8 月 4.73%，融资余额 8 月达 106.94 万亿印尼盾（同比 +22.07%）。",
+      bizValue: "报表会变好，但真实资产不会——这句话你一定要会说，因为它区分了「懂行」和「不懂行」。对客户的实用含义：如果你服务的平台在用 180 天口径美化报表，它的资金方迟早会盯回收率，那时候投放纪律会被收得更紧。",
+      source: "http://mp.weixin.qq.com/s?__biz=MzY5MjUwMTk0OA==&mid=2247483764&idx=1&sn=ef9201045a9747259f613325d08372c0&chksm=f5d5b290bd3ee4b4bf7bfc3a492bdf4b847b15101d2043195e38e89f0395cba29f773a6bcbb1#rd"
+    },
+    {
+      title: "墨西哥 AML 新协议 11 月 30 日全面生效",
+      date: "2026-11-05",
+      summary: "墨西哥 SHCP 第 115/2026 号反洗钱协议 11 月 30 日全面生效（受益所有人穿透、客户风险分级为强制项，自动化监测 2027 年 6 月上线）；同期 CNBV 人脸生物识别核验 90 个工作日适配期已在 11 月初到期。",
+      bizValue: "这条是硬 deadline：还没做完 KYC/AML 改造的墨西哥客户，11 月底之后可能直接失去展业资格。你手上如果有墨西哥金融客户，今天发一条提醒就是「无事献殷勤」的最好版本——不推销，只提醒，关系立刻不一样。",
+      source: "http://mp.weixin.qq.com/s?__biz=MzY5MjUwMTk0OA==&mid=2247483764&idx=1&sn=ef9201045a9747259f613325d08372c0&chksm=f5d5b290bd3ee4b4bf7bfc3a492bdf4b847b15101d2043195e38e89f0395cba29f773a6bcbb1#rd"
+    },
+    {
+      title: "欧盟 CCD II 11 月 20 日生效，BNPL 首次全欧纳入信贷监管",
       date: "2026-11-20",
-      summary: "MeloShort（HALOFUN PTE. LTD.，新加坡主体）Google Play 累计下载突破 1000 万（AppBrain 口径 3200 万）、4.5 星 9.8 万条评价，近期稳居日本娱乐免费榜前列，主打 1-2 分钟短集+广告解锁",
-      bizValue: "IAA 免费短剧榜单里的高置信度中腰部玩家。它的存在证明「不进前五也能有千万级盘子」——用这条说服犹豫的短剧团队入场：头部吃 IAP，中腰部吃 IAA，投放结构完全不同。线索池已收录。",
-      tag: "emerging",
-      source: "https://www.appbrain.com/app/meloshort-movies-dramas/com.drama.happy.look"
+      summary: "消费信贷指令 II 全欧生效：每笔 BNPL 交易前须做信用评估（须接入征信数据库）、给予 14 天无理由撤销权、标准化成本披露（含有效年化利率）、禁止宣传「免费/无风险」。行业测算商户端批准率或下降 10%-15%。",
+      bizValue: "欧洲模式一向是东南亚、拉美监管的参照系——所以这条不只是欧洲的事。跟做分期的客户聊，直接问：你的批核流程能不能扛住「征信库 + 14 天撤销 + 年化披露」这三件事？答不上来的，明年进不了欧洲。",
+      source: "http://mp.weixin.qq.com/s?__biz=MzY5MjUwMTk0OA==&mid=2247483764&idx=1&sn=ef9201045a9747259f613325d08372c0&chksm=f5d5b290bd3ee4b4bf7bfc3a492bdf4b847b15101d2043195e38e89f0395cba29f773a6bcbb1#rd"
     },
     {
-      title: "Momo AI 写真冲上美国 App Store 免费榜 Top2",
-      date: "2026-11",
-      summary: "AI 图像生成 App「Momo」（ScaleUp）一周下载约 120 万、登上美国 App Store 应用免费榜第 2；靠复古写真、职业头像、舞蹈视频等成片场景拆分素材投放，同时在跑 Apple Ads",
-      bizValue: "AI 写真品类的爆款窗口又开了。把「成片场景拆分投放」的方法论原样打包给你的 AI 图像客户：素材分两条线（求职头像/社交出片）、分开统计、先验证再放量。方法论现成，客户照抄就能跑。",
-      tag: "high-growth",
-      source: "https://www.ypxx.net/tech/4903918.shtml"
+      title: "Meta 对中国大陆广告主全面铺开支付宝企业验证",
+      date: "2026-11-05",
+      summary: "11 月初起，Meta 面向中国大陆广告主的「支付宝企业验证」扩大覆盖，OE 快速开户通道全面接入法人人脸识别核验；被标记风险的存量账户在复审解封时也需完成验证。Meta 目标是 2026 年底已验证广告主贡献收入占比从 70% 升至 90%。",
+      bizValue: "开户变难 = 你的价值变大。以前客户觉得「自己也能开」，现在必须过法人扫脸这一关，而很多中小客户的法人根本配合不了。你可以把「开户陪跑」做成一个免费引流服务，先把人拉进来，再谈投放。",
+      source: "https://wemedia.adamroi.com/en/meta-11-%e6%9c%88%e6%96%b0%e8%a7%84%e8%90%bd%e5%9c%b0%ef%bc%9a%e5%b9%bf%e5%91%8a%e5%bc%80%e6%88%b7%e5%bc%ba%e5%88%b6%e6%b3%95%e4%ba%ba%e6%94%af%e4%bb%98%e5%ae%9d%e6%89%ab%e8%84%b8%e9%aa%8c%e8%af%81"
     },
     {
-      title: "Superpose 获 220 万美元种子轮，美图参投",
-      date: "2026-11-20",
-      summary: "前 TikTok 高管创立的 AI 拍照指导应用 Superpose 完成 220 万美元种子轮（Khosla Ventures 领投、美图/OVTR 跟投），7月上线 iOS，主打实时拍摄指导与一拍多版本",
-      bizValue: "美图用投资扩 AI 影像生态——围绕已合作客户的生态圈是低门槛建联路径：被美图投的公司天然信任中国服务商。这家还有个具体切入点：iOS 摄影类目的 Apple Ads 精细化运营。",
-      tag: "emerging",
-      source: "https://www.superposelabs.ai/news/superpose-launch/"
+      title: "TikTok Shop 美区内容与 AI 直播红线收紧",
+      date: "2026-11-06",
+      summary: "11月6日美区更新内容政策，推广内容须与商品详情页及实物一致，禁止虚假稀缺性宣传；11月1日起《优质短视频与直播合规要求》处罚升级，违规直接接入账号健康分（AHR），真人须在直播现场开口。",
+      bizValue: "做美区电商的客户 11 月起最怕的是「分数掉下去」，因为 AHR 低于 100 会连带大促报名、直播流量、商品推荐位一起受影响。你能提供的价值是「合规前提下的素材重做」——这不是广告服务，是救火服务，客户愿意付钱。",
+      source: "https://kuajingren.com/40022.html"
     },
     {
-      title: "Heyyyy 承接 AI 陪伴下架流量，冲进美国娱乐畅销榜",
+      title: "TikTok Shop 美区 11 月 9 日起禁止赌博、抽奖与付费盲盒玩法",
+      date: "2026-11-09",
+      summary: "更新后的美国卖家指引禁止在直播与短视频中开展彩票、抽奖、付费随机奖励（如转盘、幸运铲）等活动；合规盲盒仍可通过标准商品listing销售；免费赠品只能通过官方 LIVE Giveaway 功能。",
+      bizValue: "和 Google/Meta 不同，TikTok Shop 是「一刀切禁止」而不是「持牌可投」。如果你有做「盲盒/抽奖」引流玩法的电商客户，这条要第一时间提醒——被下架一次，前面的投放全白费。",
+      source: "https://igaminghouse.net/en/regulation/articles/tiktok-shop-tightens-us-ban-on-gambling-sweepstakes-and-paid-mystery-prizes"
+    },
+    {
+      title: "泰国 11 月 1 日起广告投放强制 KYC",
+      date: "2026-11-01",
+      summary: "所有希望在泰国社媒向泰国用户投放广告的广告主，投放前必须完成身份验证（KYC），初期重点要求 TikTok、LINE、Meta（FB/IG）与 Google 配合「无身份验证不得投放」；规则也覆盖受雇推广的第三方创作者，平台须留存广告主身份至少 90 天。",
+      bizValue: "东南亚各国正在把「合规动作前置」。对你是机会：客户不懂 KYC 流程、也懒得跑，你帮他把这件事做完，就是最自然的进门理由。记住一句话：身份验证只代表主体可追溯，不代表商品获批——违规反而更容易被追到源头。",
+      source: "https://www.toutiao.com/a7704505396743914010"
+    },
+    {
+      title: "巨量引擎宣布 2027 年起取消代理商返点",
+      date: "2026-11-03",
+      summary: "10月30日巨量引擎通知：自 2027 年 1 月 1 日起取消代理商合作伙伴返点，改为下调刊例价、优化框架优惠直接让利客户；对代理商的激励改为「考核制 + 排名制」。",
+      bizValue: "这条是行业级地震：靠返点差额活着的代理会先出局。对你的现实意义是——你跟客户谈的时候，「返点」这张牌正在失效，能拿出来比的只剩账户安全、素材产能、归因能力。越早把话术从「我能返你几个点」换成「我能让你的量跑得更稳」，越安全。",
+      source: "https://finance.sina.com.cn/jjxw/2026-11-03/doc-inixmnpy9981324.shtml"
+    },
+    {
+      title: "Google Play 10 月新政：多项权限收紧，年末审核趋严",
+      date: "2026-11-10",
+      summary: "Google 更新无障碍服务（isAccessibilityTool）披露要求、审核规避条款、应用质量要求（2027 年 2 月前完成内存/混淆/免点登录优化）；11 月起 EEA 与英国开发者须申报交易者身份（2027 年 2 月 1 日前完成）；日本市场销售授权须在 12 月 1 日前完成。",
+      bizValue: "「年末审核趋严」这件事每年都发生，但客户每年都会被打个措手不及。你可以提前两周给所有在投客户发一条清单式提醒（日本授权 12/1、EEA 身份 2027/2/1），这条不赚钱的消息，往往比十条推销更有用。",
+      source: "https://baijingapp.com/article/57401"
+    },
+    {
+      title: "2026 世界中文大会：海外学习者 2.1 亿，HSK 考生首破 100 万",
       date: "2026-11-18",
-      summary: "AI 陪伴整改潮中，合规产品《Heyyyy》（游戏转型团队、华人核心）iOS 下载与收入同步走高，升至美国 iOS 娱乐畅销榜第 34 名；蹭名产品「Tipsy AI」短期骗到 7000+ 下载后被识别",
-      bizValue: "「合规者吃红利」的实锤案例。给 AI 社交客户的提案里直接引用：竞品下架的 30 天窗口里，谁的商店页干净、谁先恢复投放谁受益——帮客户在窗口期抢量，是最能出效果、最容易续费的一单。",
-      tag: "high-growth",
-      source: "https://zgeo.net/news/ai-companion-ios-delisting-nsfw-content-moderation"
-    },
-    {
-      title: "魔趣视界（南威软件系）首款出海游戏 + AI 短剧产线亮相",
-      date: "2026-11-18",
-      summary: "南威软件（603636.SH）旗下 2026 年 3 月成立的北京魔趣视界，8月1日发布首款出海合成游戏《海滩奇缘》（16 语种），并完成首部海外 AI 短剧《红酒女王的复仇》，规划年产 100 部 AI 真人短剧",
-      bizValue: "「上市公司算力底座 + 极小出海团队」的新样本：母公司给资源，子团队缺海外投放经验。这类客户首次合作从「素材测试框架+区域优先级」切入，别一上来谈大盘量。线索池已收录。",
-      tag: "emerging",
-      source: "https://caifuhao.eastmoney.com/news/20261118094016568212270"
-    },
-    {
-      title: "Codeway Retake 用户破 3800 万，年增 48%",
-      date: "2026-11-18",
-      summary: "土耳其/巴塞罗那公司 Codeway 旗下 AI 修图应用 Retake 全球用户破 3800 万、过去 12 个月增长 48%，月生成照片 200 万+；核心壁垒是为每位用户单独训练专属小模型",
-      bizValue: "非中国公司的对标样本：个性化小模型让 AI 修图摆脱「大模型 API 成本黑洞」。你的 AI 图像客户如果正被推理成本压利润，用这条引出「成本结构优化」话题——技术聊到位，代理合作是顺水推舟。",
-      tag: "high-growth",
-      source: "https://fortune.com/press-releases/codeway-retake-reaches-38-million-users-personal-ai-model-2026-11-18/"
-    },
-    {
-      title: "中文在线 FlareFlow 登陆泰国 AIS PLAY，短剧多端分发提速",
-      date: "2026-11-11",
-      summary: "中文在线（300364.SZ）旗下 FlareFlow 登陆泰国电信运营商 AIS 旗下 AIS PLAY 独立专区，此前已与泰国正大集团、拉美运营商 Digicel 合作，累计上线近 7000 部剧集、覆盖 200+ 国家、注册用户 5200 万",
-      bizValue: "版图内客户动态：短剧分发从「纯 App」走向「运营商/电视大屏专区」，混合变现+多端分发成为新标配。对短剧客户讲这条，证明「渠道结构」比「投流预算」更决定生死——你的跨端投放方案正好接住。",
-      tag: "cooperation",
-      source: "https://jnzstatic.cs.com.cn/zzb/htmlInfo/137987.html"
-    },
-    {
-      title: "东南亚数字消费信贷达 198 亿美元，独立放贷窗口期关闭",
-      date: "2026-11-18",
-      summary: "Momentum Works：2026 上半年东南亚数字消费信贷余额约 198 亿美元（印尼 86 亿/菲律宾 43 亿/泰国 29 亿），Monee 占约 45%，四大平台合计 60%；报告判断新独立玩家实现规模化和风投级退出的窗口已经关闭",
-      bizValue: "对金融出海客户是最硬的风险提示，也是最硬的催单话术：窗口关闭意味着要么立刻进场吃存量竞争前的最后红利，要么放弃。帮你把「进场」的具体动作（分国家、分品类、分牌照）摆到桌面上谈。",
-      source: "https://technode.global/2026/11/18/seas-digital-consumer-credit-loan-book-reaches-estimated-19-8-billion-at-the-end-of-first-half/"
-    },
-    {
-      title: "HSK 考生首破 100 万，HSK 3.0 于 12月13日切换",
-      date: "2026-11-18",
-      summary: "2026 世界中文大会发布：海外中文学习者 2.1 亿，HSK 考生首次突破 100 万人次、全球 169 国 1500+ 考点；HSK 3.0 标准 12月13日启用，口语「说」成为必考项",
-      bizValue: "教育客户今年最后一个确定性节点只剩三周：口语陪练、AI 汉语对话类产品的素材必须两周内全部换成「口语向」。带着这个日期去找所有中文教育客户，帮他们排节点排期——不用谈新预算，先把既有预算排对位置。",
+      summary: "11月13-15日大会披露：海外中文学习使用者达 2.1 亿人，2026 年中文水平考试考生首次突破 100 万人次，全球 169 个国家设 1500 多个考点；92 个国家把中文纳入国民教育体系。同期发布国际中文教育垂直大模型「语飞」。",
+      bizValue: "这是教育客户今年最大的一波「确定性需求」。加上 HSK3.0 12 月 13 日切换、「说」成必考项，口语陪练类产品有且只有这一个窗口——你现在联系，卖的是「赶在考试改革前把素材换完」的紧迫感。",
       source: "https://www.rmzxw.com.cn/c/2026-11-18/4010697.shtml"
     },
     {
-      title: "YouTube 短剧播放量达 65 亿次并推出 Shorts Series 追剧功能",
-      date: "2026-11",
-      summary: "YouTube 官方数据显示今年上半年平台微短剧播放量达 65 亿次，并推出 Shorts Series 功能支持创作者按季/集整理 Shorts；官方下场做短剧承载",
-      bizValue: "短剧的第三极流量入口出现（此前 Meta 65%/Google 20%/TikTok 10%）。给短剧客户的增量建议：把 YouTube 频道当「剧集市」运营再导流 App——这正是 W2A（Web to App）链路的天然场景，你的新服务抓手。",
-      source: "https://finance.sina.com.cn/jjxw/2026-11-11/doc-iniyitse8579105.shtml"
-    },
-    {
-      title: "Lemonpeel（孟买）获 100 万美元 Pre-种子轮",
-      date: "2026-11-19",
-      summary: "印度 AI 视频制作服务商 Lemonpeel 完成 100 万美元 Pre-种子轮（Shastra VC 领投），接入 300+ 视频模型（含 Veo/Kling/Seedance）做企业级 AI 视频交付，客户含多家 NIFTY50 企业，业务延伸至阿联酋",
-      bizValue: "两个信号：①可灵、Seedance 被海外专业团队当基础设施用——中国 AI 视频模型出海的「卖铲人」故事成立；②新兴市场企业开始为 AI 内容付订阅费。你手里做 AI 视频工具/模型出海的客户，可以用这条谈「B 端订阅获客」的差异化打法。",
-      tag: "emerging",
-      source: "https://www.itbear.com.cn/html/2026-11/1587766.html"
-    },
-    {
-      title: "昆仑万维短剧矩阵：FreeReels 下载第一 + DramaWave 收入第三",
-      date: "2026-11-19",
-      summary: "昆仑万维 2026 上半年 AI 短剧平台业务收入 15.35 亿元、同比 +163.28%（毛利率 67.49%），但公司整体销售费用 33.40 亿元、扣非净亏 4.58 亿元；FreeReels 前 9 个月下载超 2.3 亿居出海第一、DramaWave 收入榜第三",
-      bizValue: "A 股公司给「短剧烧钱换份额」提供了最透明的账本：收入翻倍增长但买量费用同样巨大。跟短剧客户聊「昆仑的账」——增长是真的，利润是买量换的，你的价值就是帮他把买量效率做高一点，亏少一点。",
-      source: "https://m.10jqka.com.cn/20261119/c681976116.shtml"
-    },
-    {
-      title: "京东内测「追剧福利社」，短剧入口价值被电商巨头重估",
-      date: "2026-11-14",
-      summary: "京东低调内测独立短剧产品「京东追剧福利社」（免费模式，看剧领福利、剧中同款直接购买），认证主体为京东集团下属子公司；此前淘宝「AI剧百万激励计划」、拼多多、美团均已入局，微信绿泡泡短剧月活已达 1.56 亿",
-      bizValue: "电商巨头集体做短剧=品牌定制短剧需求爆发（中文在线已上线国际品牌定制短剧）。你的新机会在 B 端：帮品牌客户做「短剧内容种草+效果投放」的组合，这比卷 C 端订阅客户的竞争小、客单价高。",
-      source: "https://www.thepaper.cn/newsDetail_forward_34505440"
+      title: "11 月出海现金贷行业投放进入收缩周期，TikTok 贷款素材拒绝率升至 31%",
+      date: "2026-11-05",
+      summary: "监测显示大型平台月初回补仅 +12.1%（低于 15% 阈值），判定 11 月投放大盘收缩、全月素材量同比 10 月下降 10%-15%；TikTok 贷款类素材拒绝率从 22% 跳升至 31%，Meta 在墨西哥、巴西、印尼 CPM 环比 +9%，12 家平台把预算移至 Google UAC。",
+      bizValue: "渠道端在同时收紧和涨价，这是「渠道冗余」最值钱的时刻。你可以直接对客户说：单一 TikTok 渠道的素材存活率已经不足 70%，一周内必须做双渠道冗余——这句话是有数据支撑的，不是销售话术。",
+      source: "http://mp.weixin.qq.com/s?__biz=MzY5MjUwMTk0OA==&mid=2247483757&idx=1&sn=20f456c5ebca7dea7d799e8dd6c7236d&chksm=f5e55650b7aacfd373ffad113d1bd0216ccb1ca675959bac5f410e4f91264934602aaa5daf3f#rd"
     }
   ],
 
   policies: [
     {
       platform: "Meta",
-      title: "泰国「No ID, No Ads」强制广告主身份验证（11月1日生效）",
-      date: "2026-11-01",
-      detail: "泰国《电子交易委员会通知第 2 号》生效：覆盖 Facebook/Instagram 等社交平台，所有面向泰国市场的付费广告须先验证广告主身份（含外国广告主与代理代投场景），需提交公司注册文件、代表人信息、付款方信息；一年内完成过验证的可豁免重复验证；平台须留存验证信息至少 90 天",
+      title: "【6 天内生效】中国大陆广告主支付宝企业验证全面铺开，开户须法人扫脸",
+      date: "2026-11-05",
+      detail: "11 月初起，Meta 面向中国大陆广告主的支付宝企业验证扩大覆盖，OE 快速开户通道全面接入「法定代表人身份信息 + 人脸识别 + 营业执照关联核验」三重校验；被标记风险的存量账户在复审解封时同样需完成验证。Meta 目标：2026 年底已验证广告主贡献收入占比从 70% 提升至 90%。",
       impact: "高",
-      categories: ["加白名单/资质", "金融", "电商", "游戏"],
-      bizValue: "泰国投放前先查账户验证状态、备齐文件。注意：Meta 实际执行仍滞后（多数账户尚未收到通知），窗口期正好用来提前准备——别等批量冻结时一起排队申诉。",
-      source: "https://pay2.house/blogs/article/meta-changes-advertiser-verification-rules-what-media-buyers-need-to-know-in-november-2026"
+      categories: ["加白名单/资质", "隐私"],
+      bizValue: "开户门槛抬高的直接后果是「客户自己开不出来」。你可以马上做一件事：把开户所需材料清单（营业执照、法人身份证、法人可配合扫脸的时间窗口）整理成一页纸发给所有在谈客户，先做服务再谈投放。这一招几乎不花成本，但会让客户觉得你比别家靠谱。",
+      source: "https://wemedia.adamroi.com/en/meta-11-%e6%9c%88%e6%96%b0%e8%a7%84%e8%90%bd%e5%9c%b0%ef%bc%9a%e5%b9%bf%e5%91%8a%e5%bc%80%e6%88%b7%e5%bc%ba%e5%88%b6%e6%b3%95%e4%ba%ba%e6%94%af%e4%bb%98%e5%ae%9d%e6%89%ab%e8%84%b8%e9%aa%8c%e8%af%81"
     },
     {
       platform: "Meta",
-      title: "金融服务广告主验证改为强制（10 个地区）",
-      date: "2026-10-26",
-      detail: "金融产品与服务广告政策措辞更新：广告主验证从「可能要求」改为强制；适用澳大利亚、中国香港、印度、爱尔兰、以色列、西班牙、中国台湾、泰国、英国、美国，涵盖贷款、保险、投资及其他金融服务；需按地区与产品完成 Financial Services Verification 或提交牌照",
+      title: "网络博彩与赌博广告：19 个市场一律禁投，持牌也不行",
+      date: "2026-11-12",
+      detail: "Meta 对网络博彩/赌博广告采取「授权制」：须在 Business Suite 授权与验证页申请，按市场逐一申报，且不得向 18 岁以下投放。同时对 19 个市场一律不开放（含印度、印尼、菲律宾、泰国、越南、马来西亚、沙特、韩国等），即使持有当地牌照也不可投。社交赌场游戏与免费游戏无需授权，但不得提供任何金钱价值奖励、须限 18+。",
+      impact: "高",
+      categories: ["金融", "游戏"],
+      bizValue: "如果你手上有棋牌、社交赌场、竞猜类客户，先看它的目标市场在不在那 19 个里——在的话别接投放、直接建议换市场，否则钱烧完连账户都保不住。反过来，「社交赌场」这个口子是合规的，你可以主动帮客户把产品定位改到这一侧再投。",
+      source: "https://www.facebook.com/business/help/345214789920228"
+    },
+    {
+      platform: "Meta",
+      title: "VAN 风控把「连坐」变成常态，同 IP/设备/支付即同风险集群",
+      date: "2026-11-12",
+      detail: "Meta 2026 年全面铺开的 VAN 机制，把同一 IP、设备、支付方式和操作轨迹下的 BM、广告账户、主页、像素划为同一风险集群；一个账户违规，整个集群连带限流或封停。同期 Advantage+ 成为 Sales/App/Leads 的默认形态，手工调价空间被压缩。",
+      impact: "高",
+      categories: ["加白名单/资质", "隐私"],
+      bizValue: "这是今年代理真正能拉开差距的地方：账户隔离做不做得住。多产品共用一个 BM 的客户（工具矩阵型公司特别常见）风险最大。你可以提供「账户架构体检」——不卖投放，先帮他看结构，这一招对 PicWish 这类多产品公司特别有效。",
+      source: "https://tech.china.com/articles/20261112/202611121977278.html"
+    },
+    {
+      platform: "Google",
+      title: "Google Play 10 月新政：权限、无障碍、审核规避多线收紧",
+      date: "2026-11-10",
+      detail: "10 月更新收紧多项权限与 API：进一步明确 isAccessibilityTool 标志的使用条件与不同类别应用的信息披露要求；把「向审核人员展示与实际体验不同的功能」「刻意隐藏违规内容」明确写入政策；新增应用质量要求（内存占用、代码混淆比例、免点登录），要求 2027 年 2 月前完成优化。",
+      impact: "中",
+      categories: ["隐私", "加白名单/资质"],
+      bizValue: "很多工具类客户会踩「无障碍服务」这条线（自动点击、悬浮窗），一旦被判违规，账号权重直接掉。你能提供的价值是「上架前自查」：把他的权限清单过一遍。这种前置服务最容易换来后续的投放合作。",
+      source: "https://baijingapp.com/article/57401"
+    },
+    {
+      platform: "Google",
+      title: "Google Play 个人贷款政策：60 天内还清一律不许上架",
+      date: "2026-11-10",
+      detail: "金融类应用须完成 Play Console 的 Financial features declaration，类目须设为 Finance，商店页须披露最短/最长还款期、最高 APR 与代表性总成本示例；贷款不得要求 60 天内全额还清；美国市场 APR 须低于 36%；禁止读取通讯录与照片等敏感权限。适用范围包含导流型与撮合型应用。",
+      impact: "高",
+      categories: ["现金贷", "金融", "隐私"],
+      bizValue: "这是现金贷客户上架的头号杀手。记住三个数字：60 天、36% APR、禁读通讯录——跟客户聊的时候直接问这三个，他会立刻知道你懂这行。答不上的，说明产品还没准备好上架，先别谈投放。",
+      source: "https://app369.com/fix/google-play-personal-loans-policy"
+    },
+    {
+      platform: "Google",
+      title: "Google Play 加密交易所/钱包新增「许可豁免」申请通道",
+      date: "2026-11-10",
+      detail: "Google 修订加密交易所与钱包应用的注册政策，为依法免于许可或注册的服务商设立单独申请流程，开发者须说明豁免依据并提供证明文件；认可资质范围扩大至香港证监会 VATP 牌照与阿联酋 CMA 授权；韩国仍须完成 VASP 申报。各国监管要求依然有效。",
+      impact: "中",
+      categories: ["金融", "加白名单/资质"],
+      bizValue: "这条对做 Web3 钱包/交易所的客户是明确利好：以前「无牌不能上架」，现在「依法豁免可以申请」。如果你有这类客户，这就是一个自然的触达理由——政策刚开的口子，谁先提交谁先上架。",
+      source: "https://cryptomoneytimes.com/?story=cryptomoneytimes-20261111-03"
+    },
+    {
+      platform: "Google",
+      title: "赌博广告认证 9 月 14 日起提高门槛，牌照状态与合规历史权重上升",
+      date: "2026-11-01",
+      detail: "Google Ads 自 2026 年 9 月 14 日起提高赌博认证标准，牌照状态与历史合规记录权重更高，重复违规可能被吊销认证；管理多个账户的代理机构面临额外审查。8 月 10 日起，程序化赌博广告通过 Authorized Buyers 扩展至另外 37 个市场。",
+      impact: "中",
+      categories: ["游戏", "金融"],
+      bizValue: "持牌博彩是少数「高预算 + 高门槛」的品类：门槛越高，能做的代理越少。如果团队有认证能力，这就是一个别人进不来的池子。但注意：一个账号不能同时持有「网络赌博」和「社交赌场」两类认证。",
+      source: "https://igamingmarketingtoday.com/gambling-advertising-rules-2026"
+    },
+    {
+      platform: "TikTok",
+      title: "TikTok Shop 美区内容政策 11 月 6 日更新，虚假稀缺性被禁",
+      date: "2026-11-06",
+      detail: "美区卖家内容政策更新：短视频与直播中的推广内容必须与商品详情页信息及实物一致；禁止「最后 X 件」「全网最低」等虚假稀缺性与无依据表述；违规可能触发平台处罚，直接影响流量与成交。",
+      impact: "中",
+      categories: ["电商"],
+      bizValue: "做美区电商的客户，11 月起话术要全部重写。你可以提供一份「高风险话术替换表」（把「最后 3 件」换成具体库存数字、把「全网最低」换成比价截图），这种小工具最容易建立专业感。",
+      source: "https://digsoho.com/news/tiktok-shop-content-policy-update"
+    },
+    {
+      platform: "TikTok",
+      title: "TikTok Shop 跨境卖家 AI 内容标注指引 11 月 13 日更新",
+      date: "2026-11-13",
+      detail: "跨境卖家学院更新 AI 生成内容指引：AI 完整生成或实质性修改的内容须标注（写实合成人脸/声音/数字人、改变人物言论或场景含义等）；基础剪辑（裁剪、调色、降噪）无需单独披露；产品必须与买家实收一致，AI 不得添加未随货附件、不得伪造代言。违规可限制分发、移除内容或限制账号。",
+      impact: "中",
+      categories: ["电商", "AI"],
+      bizValue: "AI 素材是今年投放效率的关键，但「不标注」正在变成硬违规。你给客户的价值点是「AI 素材合规流水线」：什么必须标、怎么标、导出后标注会不会丢——这类细节没人愿意研究，你研究了就是壁垒。",
+      source: "https://cedcommerce.com/blog?p=128817"
+    },
+    {
+      platform: "TikTok",
+      title: "泰国 11 月 1 日起广告投放强制 KYC，无验证不得投放",
+      date: "2026-11-01",
+      detail: "泰国要求所有向泰国用户投放社媒广告的广告主在投放前完成身份验证，初期重点要求 TikTok、LINE、Meta（FB/IG）与 Google 配合；规则覆盖受雇推广的第三方创作者；平台须在广告服务结束后留存广告主身份与联系方式至少 90 天。个人需人脸核验匹配身份证，法人可用商业发展部证明或护照，有效期一年。",
+      impact: "高",
+      categories: ["加白名单/资质", "电商"],
+      bizValue: "泰国是东南亚短剧、电商、游戏的重要市场，KYC 卡住的是「开户第一步」。如果客户 12 月要在泰国投年货节，现在就该动。你可以主动帮他排期：法人证件准备 → 平台提交 → 审核周期，把这件事当项目来管。",
+      source: "https://www.toutiao.com/a7704505396743914010"
+    },
+    {
+      platform: "TikTok",
+      title: "TikTok Shop 美区 11 月 9 日起禁赌博、抽奖与付费随机奖励",
+      date: "2026-11-09",
+      detail: "更新后的美国卖家指引禁止在购物活动（含直播与视频）中开展彩票、下注、抽奖、幸运抽奖或「付费获得不确定奖品」的玩法，明确点名 mystery rewards、lucky scoops、prize wheels；合规盲盒仍可通过标准商品 listing 销售；免费赠品只能用官方 LIVE Giveaway，且不得要求付费或用转盘决定。",
+      impact: "中",
+      categories: ["电商", "游戏"],
+      bizValue: "TikTok Shop 走的是「一刀切禁止」，比 Google/Meta 的「持牌可投」更狠。做盲盒、抽卡引流的电商客户要立刻改玩法——你可以顺势推「合规互动玩法替代方案」（官方 LIVE Giveaway + 明码赠品），能马上落地。",
+      source: "https://igaminghouse.net/en/regulation/articles/tiktok-shop-tightens-us-ban-on-gambling-sweepstakes-and-paid-mystery-prizes"
+    },
+    {
+      platform: "TikTok",
+      title: "TikTok Shop 美区处罚升级：内容违规直接扣账号健康分（AHR）",
+      date: "2026-11-01",
+      detail: "11 月 1 日起《优质短视频与直播合规要求》处罚升级：内容违规从「违规积分（90 天清零）」改为直接接入账号健康分 AHR。AHR 满分 1000、起步 200，150 分即 7 天不能报名新增大促，100 分限制延长至 14 天并削减直播流量，50 分停用 28 天，0 分永久停用。直播要求真人在场、话术当场说出；静态图片/数字人占屏不得超过 50%。",
+      impact: "高",
+      categories: ["电商"],
+      bizValue: "美区黑五网一就在 11 月中下旬，政策 11 月 1 日生效、只有 10 天缓冲——恰好是最不能出分的 10 天。如果你有客户在做美区直播，这条现在发过去就是救火；错过这个节点，客户可能整个大促都报不上名。",
+      source: "https://kuajingren.com/40022.html"
+    },
+    {
+      platform: "多平台",
+      title: "菲律宾 SEC MC No.20 解除 OLP 注册冻结，改为高价限量准入",
+      date: "2026-11-02",
+      detail: "菲律宾 SEC 以 MC No.20 取代 2021 年的 MC10 冻结令，重开融资/借贷公司数字平台注册：融资公司单平台实缴资本 2000 万比索、运营 5 个平台须 1 亿比索，借贷公司 1000-5000 万比索，单一主体最多 5 个平台，存量机构 12 个月过渡；推行单一经营许可证，放款前强制披露总额、实收金额、名义/有效利率、费用、还款表与期限并取得借款人明示确认。",
+      impact: "高",
+      categories: ["现金贷", "金融", "加白名单/资质"],
+      bizValue: "这是今年东南亚金融出海最实在的一个政策窗口：冻结五年后重开，意味着一批新平台会陆续拿牌、陆续开始买量。你要做的是提前建名单（谁在收牌照、谁在做合规改造），第一批投放预算永远给最早出现的那个人。",
+      source: "http://mp.weixin.qq.com/s?__biz=MzY5MjUwMTk0OA==&mid=2247483764&idx=1&sn=ef9201045a9747259f613325d08372c0&chksm=f5d5b290bd3ee4b4bf7bfc3a492bdf4b847b15101d2043195e38e89f0395cba29f773a6bcbb1#rd"
+    },
+    {
+      platform: "多平台",
+      title: "墨西哥 AML 协议 11 月 30 日全面生效，KYC 改造是硬 deadline",
+      date: "2026-11-30",
+      detail: "SHCP 第 115/2026 号反洗钱协议 11 月 30 日全面生效，受益所有人穿透与客户风险分级为强制项，自动化监测 2027 年 6 月上线；CNBV 人脸生物识别核验决议的 90 个工作日适配期已于 11 月初到期。同期墨西哥《数字经济法》把 CURP Digital 与数字档案写入金融服务合同核验机制。",
+      impact: "高",
+      categories: ["现金贷", "金融", "隐私"],
+      bizValue: "「降摩擦」和「提审计」在同时推进：开户更快，但每一笔身份核验都要可量化、可复核、可审计。对客户的现实提醒是：11 月底前没做完改造，可能直接丧失展业资格——这条比任何投放建议都紧急，值得你单独发一封邮件。",
+      source: "http://mp.weixin.qq.com/s?__biz=MzY5MjUwMTk0OA==&mid=2247483764&idx=1&sn=ef9201045a9747259f613325d08372c0&chksm=f5d5b290bd3ee4b4bf7bfc3a492bdf4b847b15101d2043195e38e89f0395cba29f773a6bcbb1#rd"
+    },
+    {
+      platform: "多平台",
+      title: "欧盟 CCD II 11 月 20 日生效，BNPL 首次全欧纳入信贷监管",
+      date: "2026-11-20",
+      detail: "每笔 BNPL 交易前须做信用评估（须接入征信数据库而非仅平台内数据）、给予 14 天无理由撤销权、标准化成本披露（含有效年化利率）、禁止宣传「免费/无风险」。行业测算商户端 BNPL 批准率或下降 10%-15%，小玩家将被合规成本挤出。",
       impact: "高",
       categories: ["金融", "现金贷"],
-      bizValue: "海外现金贷客户的准入门槛又抬高一级。有牌照的客户要尽快完成验证锁定资格；没牌照的别硬闯，建议改走其他地区或合规化改造——这正是展示你专业度的开场问题。",
-      source: "https://pay2.house/blogs/article/meta-changes-advertiser-verification-rules-what-media-buyers-need-to-know-in-november-2026"
+      bizValue: "欧洲的监管路径通常会在 2-3 年后被东南亚、拉美照抄，所以这条对布局新兴市场的客户也有预警价值。你可以用一个问题开场：你的授信模型接的是平台内数据还是征信库？答案决定了你明年能不能进欧洲。",
+      source: "http://mp.weixin.qq.com/s?__biz=MzY5MjUwMTk0OA==&mid=2247483764&idx=1&sn=ef9201045a9747259f613325d08372c0&chksm=f5d5b290bd3ee4b4bf7bfc3a492bdf4b847b15101d2043195e38e89f0395cba29f773a6bcbb1#rd"
     },
     {
-      platform: "Meta",
-      title: "美国投资类广告仅限持牌机构投放",
-      date: "2026-10-29",
-      detail: "美国投资产品与投资机会广告（含投教内容）只允许完成 Meta 金融服务验证的合格经纪公司或持牌金融顾问投放；DM 引导投资的禁令继续有效",
+      platform: "多平台",
+      title: "日本市场销售授权须 12 月 1 日前完成，否则款项可能全球被扣",
+      date: "2026-12-01",
+      detail: "Google Play 通知：如向日本境内销售商品，或从日本向境外销售商品，须在 2026 年 12 月 1 日前完成相关授权要求，否则可能导致款项在全球范围内被暂扣。",
       impact: "高",
-      categories: ["金融"],
-      bizValue: "美国投资类投放的灰色玩家将被清场。持牌客户可趁竞价对手减少的窗口加预算；未持牌客户一律劝停，避免连坐封号。",
-      source: "https://pay2.house/blogs/article/meta-changes-advertiser-verification-rules-what-media-buyers-need-to-know-in-november-2026"
-    },
-    {
-      platform: "Meta",
-      title: "设备端 Pixel 转化衡量上线（11月12日起）",
-      date: "2026-11-12",
-      detail: "Meta 启用 on-device 转化衡量：用广告主已收集的第一方信息（如邮箱）在设备端匹配广告浏览与购买；EU/UK 不适用；11月12-18 日归因数据系统性上浮，Meta 建议期间避免大幅调整投放结构；可在 Events Manager 按 Pixel 关闭",
-      impact: "中",
-      categories: ["电商", "游戏", "AI"],
-      bizValue: "黑五前后 Meta 报告购买数会虚高——帮客户统一对比口径，别让「归因上浮」误导加预算决策。能提前讲清这件事的代理，客户信任度直接上一个台阶。",
-      source: "https://www.neongrowth.com/articles/ad-platform-updates-you-need-to-know-before-bfcm"
-    },
-    {
-      platform: "Meta",
-      title: "Advantage+ 创意自动化默认开启 + 商业条款责任争议",
-      date: "2026-11-20",
-      detail: "Meta Advantage+ 创意工具开始默认把静态商品图自动生成视频、并自动应用折扣（Offer Merchandising）；原定 11月20日生效的新商业条款把 AI 生成/改动内容的责任全部推给广告主（不以是否选择开启为前提），生效日期在多方质疑下已推迟且未定",
-      impact: "中",
-      categories: ["电商", "AI", "隐私"],
-      bizValue: "黑五前必检两处：Advantage+ 创意里的自动生成开关、Commerce Manager 的自动改价设置。AI 责任条款虽然推迟，但按「已生效」做预案——提醒客户素材出问题不能指望平台兜底。",
-      source: "https://www.neongrowth.com/articles/ad-platform-updates-you-need-to-know-before-bfcm"
-    },
-    {
-      platform: "Meta",
-      title: "加密货币广告需书面许可（Authorizations and Verifications 流程）",
-      date: "2026-11",
-      detail: "加密广告属受限类目：须持 Meta 认可辖区牌照（如美国 FinCEN MSB/纽约 BitLicense、德国 BaFin、新加坡 MAS），在 Business Suite 的 Authorizations and Verifications 提交申请、上传经公证的英文翻译牌照、签署加密广告附录；审核约 48 个工作小时，许可≠单条广告必过审",
-      impact: "中",
-      categories: ["金融"],
-      bizValue: "Web3 客户的准入清单已经很具体：牌照辖区核验+公证翻译+附录签署。帮客户把这套材料前置准备，比临时过审省两周时间。",
-      source: "https://flexe.io/services/facebook-ads-crypto/"
-    },
-    {
-      platform: "Google",
-      title: "AI 名人形象广告即使标注 AI 也不允许",
-      date: "2026-11-11",
-      detail: "Unacceptable Business Practices 公众人物冒用条款澄清：使用 AI 生成/编辑的名人形象或声音的广告一律不允许，附加 AI 披露标签不构成豁免，执法口径不变；AI 头像、AI 配音、UGC 风格视频均在审查范围",
-      impact: "中",
-      categories: ["游戏", "AI", "电商"],
-      bizValue: "节日投放前扫一遍客户素材库：所有「像名人」的 AI 素材直接下架，等被拒再改就赶不上节点了。",
-      source: "https://www.jxtgroup.com/this-week-google-meta-ads-nov-17-2026"
-    },
-    {
-      platform: "Google",
-      title: "性内容广告政策细化（新增大量禁止/允许示例）",
-      date: "2026-11-16",
-      detail: "裸露、部分裸露、性用品、性娱乐、暗示性内容（双关图像、emoji 暗示、姿势强调等）新增成对示例；执法不变：强受限类仅在性内容搜索词下投放，性内容广告不可投 YouTube/展示网络/图片广告；暂停前至少 7 天警告",
-      impact: "中",
-      categories: ["短剧", "游戏", "AI"],
-      bizValue: "短剧与 AI 写真素材最易在「暗示性」新示例里误伤。给客户出一份素材自查清单（重点查双关画面与文案），一次被拒的成本比清单高十倍。",
-      source: "https://insights.topkee.com.sg/dynamic/google-expands-clarifies-sexual-content-advertising-policy"
-    },
-    {
-      platform: "Google",
-      title: "个性化广告禁止四类内容兴趣定向",
-      date: "2026-11",
-      detail: "个性化广告政策更新：禁止基于假冒商品、危险品与服务、失信行为、不当内容四类兴趣创建受众/自定义细分/受众信号；对敏感话题（医疗、金融等）定向未一刀切",
-      impact: "中",
-      categories: ["隐私", "电商", "游戏"],
-      bizValue: "帮客户跑一遍现有受众清单，删掉踩线兴趣。账户降速往往先于封禁通知——受众合规是最低成本的预防动作。",
-      source: "https://uamaster.net/4-new-restrictions-on-interest-based-targeting/"
-    },
-    {
-      platform: "Google",
-      title: "PMax/搜索自动化默认开启范围再扩大",
-      date: "2026-11-12",
-      detail: "Google Ads Editor 2.14 对新搜索广告系列默认开启 AI Max（可按系列关闭）；PMax 与 Shopping 的 Smart Bidding Exploration 扩容（目标 ROAS 下方 5-30% 容差）；Sourced Videos 默认从社媒/落地页/YouTube 抓取视频素材；12月4日起新系列默认从落地页抽取图片；家庭收入定向与漏斗式再营销控制上线",
-      impact: "中",
-      categories: ["电商", "游戏"],
-      bizValue: "默认开的东西越来越多，节日周想保留控制权就必须逐系列检查。把「黑五前自动化设置体检」做成标准服务项，客户会记住是谁帮他们省了预算。",
-      source: "https://www.neongrowth.com/articles/ad-platform-updates-you-need-to-know-before-bfcm"
-    },
-    {
-      platform: "Google",
-      title: "Smart Bidding 学习期上限 7 天 + Search Journey Awareness 文档化",
-      date: "2026-11-17",
-      detail: "Google 帮助页确认 Smart Bidding「学习中」状态最长 7 天，预算/目标调整不再触发学习期；Search Journey Awareness 让未出价的转化动作（注册、加购）自动参与出价预测，无法关闭",
-      impact: "低",
-      categories: ["电商", "AI"],
-      bizValue: "两个实操点：评估新系列效果至少给 7 天或 2 个转化周期；次要转化动作会偷偷影响出价，帮客户清理重复/失效的转化目标。",
-      source: "https://www.jxtgroup.com/this-week-google-meta-ads-nov-17-2026"
-    },
-    {
-      platform: "Google",
-      title: "无效流量 Overview 上线：2026 年无效线索平均减少 30%",
-      date: "2026-11-12",
-      detail: "Google Ads 新增无效流量卡片，展示计费前过滤的无效活动与后续退款；官方称 2026 年广告主暴露于无效线索的比例平均已降 30%",
-      impact: "低",
-      categories: ["金融", "电商"],
-      bizValue: "线索类客户（教育、金融）最爱问「线索为什么水」。用这卡片逐系列对账 CRM 里的垃圾线索——这是建立「数据透明」信任感的现成工具。",
-      source: "https://www.jxtgroup.com/this-week-google-meta-ads-nov-17-2026"
-    },
-    {
-      platform: "TikTok",
-      title: "Other Products and Services 政策更新（假币等明确禁列）",
-      date: "2026-10-17",
-      detail: "TikTok 广告政策「其他产品与服务」部分更新（2026年10月版），明确将假币及其制造/分销工具列为不合适的商业产品与服务示例",
-      impact: "低",
-      categories: ["金融", "电商"],
-      bizValue: "口径收紧的信号：TikTok 对金融周边类目的容忍度在下降。虚拟币、打金类客户素材建议提前自查。",
-      source: "https://www.auditsocials.com/policy-tracker"
-    },
-    {
-      platform: "TikTok",
-      title: "TopSearch CPM 广告位上线 + 搜索曝光份额可追踪",
-      date: "2026-11-02",
-      detail: "TikTok 推出按 CPM 计费的 TopSearch（指定关键词首位赞助位），并开放 TikTok Search 曝光份额追踪；GMV Max 新增 Pro 与 Growth Autopilot，将佣金/优惠券/推荐费纳入盈利优化",
-      impact: "中",
-      categories: ["电商", "游戏"],
-      bizValue: "搜索竞价早期通常便宜，适合电商客户先测词；应用客户把搜索曝光份额做进周报，等于多一个展示专业度的指标。",
-      source: "https://www.neongrowth.com/articles/ad-platform-updates-you-need-to-know-before-bfcm"
-    },
-    {
-      platform: "TikTok",
-      title: "归因窗口对比功能上线（1/7/28 天）",
-      date: "2026-11-10",
-      summary: "",
-      detail: "TikTok Ads 支持对比 1 天、7 天、28 天不同归因窗口下的转化量、成本与回报，帮助区分短期与长期转化贡献",
-      impact: "中",
-      categories: ["电商", "游戏", "短剧"],
-      bizValue: "短剧、游戏这类长决策链路的产品用 28 天窗口看真实回收。帮客户把三个窗口跑成对比报表，投后汇报的专业度立刻拉满。",
-      source: "https://mjzj.com/article/g4j8ur41zzlt"
-    },
-    {
-      platform: "OpenAI",
-      title: "ChatGPT Ads 出价体系调整：Target CPA/CPC 上线，Max Bid/CPC 将停用",
-      date: "2026-11-12",
-      detail: "ChatGPT Ads 新增 Target CPA 与 Target CPC 出价、优化商品 Feed 地域定向与筛选；原 Maximize Results 更名 Intelligent Bidding，Max Bid 与 Max CPC 计划 2027年1月1日停用，相关账户需提前迁移",
-      impact: "中",
-      categories: ["电商", "AI"],
-      bizValue: "新渠道的冷启动窗口比老渠道便宜得多。Q1 前帮想试 AI 搜索渠道的客户完成迁移+试投，是最容易讲出新故事的增量服务。",
-      source: "https://mjzj.com/article/g4j8ur41zzlt"
-    },
-    {
-      platform: "广电总局",
-      title: "《微短剧发展管理办法》施行 + 低俗化专项治理（11月1日起）",
-      date: "2026-11-01",
-      detail: "9月1日《微短剧发展管理办法》施行：AI 微短剧须在每集明显位置添加提示标识、不得使用诱导沉迷/过度消费的算法模型；11月1日起广电总局部署新一轮微短剧低俗化同质化专项治理，平台激励同步向真人剧与重点正向题材倾斜",
-      impact: "中",
-      categories: ["短剧", "AI"],
-      bizValue: "AI 标识义务+低俗治理=出海前的内容合规成本上升，但也是卖点：帮短剧客户把「AI 标识合规+素材去低俗化」做成出海前 checklist，国内合规的剧出海投审通过率更高。",
-      source: "https://finance.sina.com.cn/jjxw/2026-11-16/doc-iniyxpxf2706567.shtml"
+      categories: ["加白名单/资质", "电商"],
+      bizValue: "这条最狠的地方是「全球扣款」而不是「日本扣款」——很多客户会误以为只影响日本收入。如果你有日本收入的客户，这几天必须提醒到位。这种「替客户避免事故」的动作，是新人最快建立信任的方式。",
+      source: "https://baijingapp.com/article/57401"
     }
   ],
 
   agencyIntel: [
     {
-      title: "巨量引擎 2027 年起取消代理商返点，改考核+排名制",
-      date: "2026-11-06",
-      summary: "巨量引擎计划自 2027年1月1日起取消代理商合作伙伴返点，转为下调刊例价、优化框架优惠，以考核制和排名制激励代理商",
-      source: "https://www.sinoclick.com/news/article/1000048958",
-      bizValue: "国内是先行指标：海外代理体系的固定返点大概率同步收缩（Meta 一级代理返点已从约 3% 走向归零）。给客户做预期管理：选服务商别只看返点，账户结构、信号质量、申诉能力才是长期变量。",
+      title: "巨量引擎 2027 年起取消返点，改「考核 + 排名」激励",
+      date: "2026-11-03",
+      summary: "10 月 30 日巨量引擎后台通知：自 2027 年 1 月 1 日起取消代理商合作伙伴返点政策，改为下调刊例价、优化框架优惠直接让利客户；对代理商的激励调整为考核制与排名制相结合。",
+      source: "界面新闻（新浪财经转载）",
+      bizValue: "返点时代正式结束。你手里的牌要换：从「我能返几个点」变成「我能让你的账户更稳、素材更多、归因更准」。如果客户还拿别家的高返点来压你，直接告诉他 2027 年的政策已经定了——高返点是不可持续的承诺。",
       impact: "高"
     },
     {
-      title: "代理商行业报告：从返点红利转向服务竞争",
-      date: "2026-11-18",
-      summary: "行业研究报告判断：传统固定返点进一步收缩，Google 侧「能力基金、新客获取、客户激活」成为激励重点；Meta 考核合规账户、有效消耗与客户留存；TikTok 强化渠道销售合作与自动化支持；开户、代投、创意、数据分析、AI 工具成为返点之外的收入来源",
-      source: "https://www.sinoclick.com/news/article/1000048958",
-      bizValue: "这份报告等于把「未来三年怎么当代理商」写清楚了。你的自我包装可以照此升级：不卖返点，卖「AI 创意产能+跨平台数据能力+客户留存服务」。",
-      impact: "中"
-    },
-    {
-      title: "泰国 No ID, No Ads 实际执行滞后（代理侧观察）",
-      date: "2026-11",
-      summary: "泰国法规 11月1日已生效，但 Meta 实际落地不明显：多数广告账户尚未收到验证通知或文件要求，Meta 也未发布泰国专属执行指南；行业建议按「已生效」提前准备公司注册与授权文件",
-      source: "https://famesolutely.com/marketing-tips/thailands-new-meta-advertising-rules-what-businesses-and-marketing-agencies-must-know-in-2026/2026",
-      bizValue: "执行窗口=服务窗口。现在主动帮泰国投放客户备齐验证材料，等通知来了你的客户第一批过审——低成本高感知的动作。",
-      impact: "中"
-    },
-    {
-      title: "TikTok 推出 Channel Sales Partner Program，渠道下沉中小企业",
-      date: "2026-11",
-      summary: "TikTok 2026 年推出 Channel Sales Partner Program，强调通过营销平台、API 连接、自动化和持续支持帮中小企业激活、管理和扩大广告活动；首批合作伙伴与适用市场范围有限",
-      source: "https://www.sinoclick.com/news/article/1000048958",
-      bizValue: "TikTok 在给中小企业搭「低门槛通道」——你的 SME 客户如果嫌 TikTok 开户麻烦，先查这条通道的资格门槛，比硬走大代理体系快。",
-      impact: "中"
-    },
-    {
-      title: "短剧投流渠道集中度与成本结构：Meta 65% / 投流占总成本 50-80%",
-      date: "2026-11-16",
-      summary: "点点数据口径：海外短剧投流 Meta 系约 65%、Google 系约 20%、TikTok 约 10%；业内称短剧投流成本占总流水的六成到八成；北美 CPI 5.28 美元 vs 拉美 0.34 美元",
-      source: "https://finance.sina.com.cn/jjxw/2026-11-16/doc-iniyxpxf2706567.shtml",
-      bizValue: "谈短剧客户必备的三组数：渠道集中度、投流占比、区域 CPI 差。把「对冲 Meta 单平台风险」和「拉美再平衡」做成固定提案模块。",
-      impact: "高"
-    },
-    {
-      title: "W2A（Web to App）成为短剧投放标配抓手",
-      date: "2026-11",
-      summary: "Mintegral《短剧出海营销指南》：W2A 通过定制落地页适配不同市场的受众偏好、支付方式与合规差异，配合深度链接直接跳转应用内指定页面，显著提升买量转化；配合 Android/iOS 分端 ROAS 定预算、每系列留足创意数量",
-      source: "https://e.yeyulingfeng.com/a/457812.html",
-      bizValue: "给短剧客户的技术型提案切入点：W2A 落地页矩阵+深度链接配置，属于「你帮我搭一次、长期收服务费」的活，比一次性代投粘性高。",
-      impact: "中"
-    },
-    {
-      title: "Meta 加密广告书面许可流程细则（48 工作小时）",
-      date: "2026-11-15",
-      summary: "加密广告申请入口已从表单迁移至 Business Suite 的 Authorizations and Verifications：核验牌照辖区、上传公证翻译件、签署 Cryptocurrency Ads Addendum，约 48 个工作小时出结果；许可获批后单条广告仍可能因创意/落地页被拒",
-      source: "https://flexe.io/services/facebook-ads-crypto/",
-      bizValue: "Web3 客户服务清单：牌照辖区核验→公证翻译→附录签署→过审后仍需素材合规。把流程做成 SOP，客户按小时数付你的专业溢价。",
-      impact: "中"
-    },
-    {
-      title: "Facebook 开户路径与养户节奏（代理侧共识）",
-      date: "2026-11",
-      summary: "行业共识：月投放低于 3000 美元直开更省成本，大预算+多账户矩阵走代理更划算；新户有初始限额与学习期（约 50 次转化退出），建议日预算 20-50 美元跑 7-14 天再放量；支付异常、落地页与广告不符、同主体多户互导是三大封户主因",
-      source: "https://www.chwang.com/ask/212263353232",
-      bizValue: "对中小客户的标准话术：先小额养户再放量，别一上来就抢单日几百刀——封户申诉要 1-3 个工作日，节点期一天都输不起。",
-      impact: "低"
-    },
-    {
-      title: "Google 无效流量透明化：无效线索平均降 30%",
+      title: "Meta 中国大陆一级代理缩至 10 家，返点业内口径降至 3% 左右",
       date: "2026-11-12",
-      summary: "Google Ads 新增无效流量 Overview 卡片（计费前过滤+事后退款），官方称 2026 年无效线索暴露平均减少 30%；建议按系列对比 CRM 垃圾线索",
-      source: "https://www.jxtgroup.com/this-week-google-meta-ads-nov-17-2026",
-      bizValue: "教育、金融线索客户的核心痛点是「线索水分」。逐系列对账的动作成本低、感知强，适合做成首月服务标配。",
-      impact: "低"
+      summary: "截至 2026 年 9 月下旬，Meta 官方合作伙伴目录中中国大陆一级代理为 10 家（飞书逸途、钛动科技、省广集团、蓝标传媒、维卓、GatherOne、猎豹移动、雨果跨境、YinoLink 易诺、熊猫新媒）。Meta 2026 年大幅收紧返点，业内统一口径约 3%，部分代理已通知客户返点为 0。",
+      source: "中华网科技《Facebook 广告代理商行业研究（2026—2027）》",
+      bizValue: "名单只有 10 家，意味着「开户通道」本身就是稀缺资源——这是你面对客户时最硬的一张牌。同时注意：别再用高返点做承诺，行业内已经有人因为承诺不兑现被客户投诉。",
+      impact: "高"
     },
     {
-      title: "BFCM 前多平台自动化设置体检清单",
-      date: "2026-11",
-      summary: "黑五周（11月27日）前需检查：Meta 的 Advantage+ 创意自动生成与 Offer Merchandising 自动改价（Commerce Manager 关闭）、Pixel 端上衡量口径；Google 的 PMax Sourced Videos/图片抽取（12月4日默认开启）、AI Max 默认开启、Smart Bidding Exploration 容差；Microsoft PMax 缺设备定向与受众排除",
-      source: "https://www.neongrowth.com/articles/ad-platform-updates-you-need-to-know-before-bfcm",
-      bizValue: "这是本季度最实用的服务动作：一页体检清单发给所有电商客户，谁能帮忙做体检谁就拿到节后复盘会的席位。",
+      title: "Google 返点归零更彻底，代理转向「绩效服务费 + 成本抵扣」双轨",
+      date: "2026-11-13",
+      summary: "Google 返点在 2025 年 1 月起对新客户正式取消，早于 Meta 且更彻底；行业正转向「绩效服务费 + 返点抵扣成本」双轨。开户是否单独收费、转化追踪部署是否含在服务费内、PMax 素材更新有没有月度交付量、封号申诉是否额外计费，成为合同审查重点。",
+      source: "《2026—2027 年 Google 广告代理商行业研究报告》",
+      bizValue: "客户会越来越会问「你收的服务费对应什么交付物」。你要提前把服务清单写清楚（账户搭建、素材量、归因部署、申诉响应时效），这比降价有用得多——因为降价没有底线，清单有。",
       impact: "中"
     },
     {
-      title: "短剧「投流通胀」数据链：素材 +324% vs 收入 +13%",
-      date: "2026-11-16",
-      summary: "DataEye：2026 上半年海外短剧广告投放素材量 1961 万组、同比 +324%，同期内购收入增速仅 13%；AI 降低制作成本后省下的钱大量流入买量竞价，业内判断 95% 以上内容从业者亏钱",
-      source: "https://finance.sina.com.cn/jjxw/2026-11-16/doc-iniyxpxf2706567.shtml",
-      bizValue: "「投流通胀」是今年最硬的行业叙事。客户再砍你服务费时用这组数据反问：素材量涨三倍收入只涨一成三，你的解法是提高每条素材的效率——这正是你收费的理由。",
+      title: "海外户返点套利窗口收紧：尼日利亚户 20%+、阿根廷户 16%+ 已不可持续",
+      date: "2026-11-03",
+      summary: "Google 返点归零后，部分广告主转向「海外户」，通过阿根廷、尼日利亚等地代理开户以获取更优返点（尼日利亚户 20% 以上、阿根廷户 16% 以上）；该窗口已被 Google 逐步收紧。业内提醒：承诺 10% 以上超高返点的代理，往往在汇率、开户费甚至盗刷上找补。",
+      source: "界面新闻 / 大数跨境",
+      bizValue: "如果有客户拿「某家给我 15 个点」来压价，你可以直接问他：这个户是哪个主体开的、封了谁负责、赔付怎么算。高返点通常对应高封号率，最后损失的是他的预算，不是那点返点。这套话术能救下不少单子。",
+      impact: "中"
+    },
+    {
+      title: "现金贷渠道端同时收紧与涨价：TikTok 拒绝率 31%、Meta CPM +9%",
+      date: "2026-11-05",
+      summary: "近 72 小时三大变化：TikTok 贷款类素材拒绝率从 22% 升至 31%（新审批队列）；Meta 在墨西哥、巴西、印尼 CPM 环比 +9%；12 家平台把预算从 TikTok 移至 Google UAC，UAC 份额单日 +2.4pp、竞价同步走高。行业预计本周 CAC 再升 3%-5%。",
+      source: "出海现金贷监控报告（2026/11/02）",
+      bizValue: "客户最痛的不是 CPI 涨，是「素材过不了审」。你能提供的差异化服务是「预审 + 多版本备份」：同一卖点做 5 个版本，避免一拒全停。这条能力在金融品类里比任何返点都值钱。",
       impact: "高"
     },
     {
-      title: "AI 陪伴下架潮后的投放合规红线清单",
-      date: "2026-11-18",
-      summary: "苹果 10月16日新规划两条红线（未经同意的私密影像、隐藏未记录功能，违者下架+封号）；AI 陪伴收入前十已有 5 款从 iOS 下架；Chai 官方表态「永远不会提供无限制的 AI 聊天机器人」并强制内容过滤",
-      source: "https://zgeo.net/news/ai-companion-ios-delisting-nsfw-content-moderation",
-      bizValue: "给 AI 社交客户的投放前置审核清单：角色形象、未成年人内容、版权侵权三项扩大审核是趋势。帮客户在素材/商店页层预审，比出事后再救账户值钱十倍。",
-      impact: "高"
+      title: "换壳 App 存活率跌至 52%，商店开始比对开发者关联图谱",
+      date: "2026-11-05",
+      summary: "监测显示 10 月新上架贷款 App 中位生存期仅 38 天（9 月 61 天、8 月 84 天）；「改包名 + 换开发者主体」形态存活率从 64% 降至 52%；23 款换壳复归 App 中 11 款被二次移除；转 H5/PWA 的 5 款仍全部存活但拿不到商店榜单流量。",
+      source: "出海现金贷监控报告（2026/11/05）",
+      bizValue: "这条是劝退话术：换壳的期望收益已经转负，二次下架后主体还会进跨市场黑名单。如果有客户想做「多马甲」策略，直接把这个数字给他——38 天生存期 vs 162 天回本周期，数学上不成立。",
+      impact: "中"
+    },
+    {
+      title: "短剧支付通道从「应用商店」迁向「运营商计费 + 自有网页商店」",
+      date: "2026-11-09",
+      summary: "泰国 AIS 把 ReelShort VIP 打包进 5G 套餐（39 泰铢/月，对标原价 599 泰铢）；True 的 TaTang 用 TrueMoney 钱包付费；两家运营商都在绕开信用卡与 15%-30% 的商店抽成。MPA 把「运营商合作」与「自有网页商店」并列为 ReelShort 的降本因素。",
+      source: "钛媒体（新浪财经转载）",
+      bizValue: "这条直接影响你能卖什么：客户的钱有一部分不再走「买量」而走「渠道分成」，你的方案里必须出现「运营商/钱包合作 + 买量」的组合。谁先能跟客户算这笔账，谁就不只是「投广告的」。",
+      impact: "中"
+    },
+    {
+      title: "RCS 商用定价明牌，与 SMS 同价：验证码与还款提醒的结构性降本通道",
+      date: "2026-11-02",
+      summary: "10 月各家 CPaaS 集中透明化 RCS for Business 报价：Twilio 美国富媒体短信 0.0083 美元/段（与 SMS 同价，另加运营商费）、Sinch Rich 0.0078 美元、Telnyx 低至 0.0065 美元/段；Infobip 覆盖 27 国。行业提示各家 SMS 回退计费口径不透明，签约前须锁定书面报价。",
+      source: "出海现金贷日报（2026/11/02）",
+      bizValue: "金融客户的「触达成本」可以单独做生意：验证码、放款通知、还款提醒，量极大且必须稳定。同价换已读回执 + 品牌认证，这是能直接算成钱的方案。你把它当增值服务送出去，客户对你的依赖会明显上升。",
+      impact: "低"
+    },
+    {
+      title: "Meta Advantage+ 已占部分美国代理花费 60%-70%，优化师手艺在贬值",
+      date: "2026-11-03",
+      summary: "Advantage+ 在部分美国代理商 Meta 花费中占比已达 60%-70%；Meta 的 Andromeda 引擎对素材数量的胃口极大，反而带来更多素材工作。据《华尔街日报》，Meta 计划到 2026 年底让品牌只提供产品图片和预算目标，由 AI 完成创作与定向。",
+      source: "界面新闻《巨量引擎取消返点》",
+      bizValue: "自动化吃掉的是「调参」，吃不掉的是「素材产能」和「数据信号干净度」。你个人要押注的能力是这两个：能持续产出可测试的素材矩阵、能把回传和归因部署对。这两件事在 2027 年依然值钱。",
+      impact: "中"
+    },
+    {
+      title: "土耳其买量补贴最高 70%：政府替游戏公司付广告费",
+      date: "2026-11-19",
+      summary: "土耳其商务部服务出口体系对合格海外广告、推广与营销费用按 50% 补助，指定国家项目最高 70%；平台佣金、托管、人员及品牌建设亦有支持，品牌计划年度上限最高 5 亿里拉；合格软件服务出口所得税扣除比例可至 100%。补助为先付款后申请，回款前仍有现金流压力。",
+      source: "Enjoy出海（游戏研究所 Pro 转引）",
+      bizValue: "这条不是让你去土耳其，是给你一个「结构性省钱」的谈资：同样的预算，在不同市场能买到的东西不一样。如果你有客户在考虑新市场，这个政策可以作为进入土耳其的额外理由。",
+      impact: "低"
+    },
+    {
+      title: "Google 赌博广告程序化渠道扩至 37 个新市场",
+      date: "2026-11-01",
+      summary: "自 2026 年 8 月 10 日起，Google 通过 Authorized Buyers 把程序化赌博广告扩展至另外 37 个市场；同时自 9 月 14 日起提高赌博认证门槛，牌照状态与合规历史权重上升，重复违规可吊销认证，多账户代理面临额外审查。",
+      source: "iGaming Marketing Today",
+      bizValue: "「品类窄 + 门槛高」= 竞争少。如果团队能做持牌博彩的程序化投放，这是一个几乎没人抢的池子。但前提是合规必须干净，一次吊销就永久出局。",
+      impact: "低"
     }
   ],
 
   smeInsight: {
     painPoints: [
-      "买量通胀吞掉利润：短剧素材量同比 +324% 但内购收入只 +13%，投流占总成本 50-80%；中小 App 制作端省的钱全进了竞价，单位获客成本逐月走高——这不是投放手艺问题，是结构问题，客户自己往往只看到 ROAS 掉。",
-      "平台政策高频变动且执行口径漂移：Meta 金融验证强制化、泰国 No ID No Ads、苹果 AI 应用下架潮（收入前十下架 5 款）、Google AI 名人素材禁令——一个季度内四大平台全动了规则，中小团队没有合规人手，踩一次红线就是一个季度的收入。",
-      "归因口径漂移：Meta 设备端衡量让 11 月中旬起报告转化系统性上浮，TikTok/OpenAI 相继改归因与出价体系；客户内部报表、代理报表、平台报表三个口径对不上，预算决策全部失真。",
-      "渠道与区域集中度过高：短剧客户 65% 预算押在 Meta，北美 CPI（5.28 美元）是拉美（0.34 美元）的 15 倍却仍默认先投北美——单一平台+单一市场的结构性风险，多数中小客户从未做过量化。",
-
+      "预算不大但要求不低：中小 App 月投放多在 2-10 万美元区间，却要和头部抢同一批广告位，CPI 被头部抬上去、自己又没有议价能力，最后只能靠缩量维持 ROI。",
+      "素材产能是死穴：一个 3-5 人的增长团队一周能产出的可测试素材常常不到 20 条，而现在的算法（Advantage+、Andromeda）对素材数量的胃口是过去的数倍，产能直接决定能不能起量。",
+      "账户与合规风险承受力极低：VAN 连坐、AHR 扣分、KYC 与资质要求，任何一次封号或下架对小团队都是致命的——他们没有第二个主体、也没有法务团队去申诉。",
+      "数据不会看：装了归因 SDK 但没人看得懂 cohort 和 LTV，投放决策靠「昨天 ROI 好不好」，导致预算在渠道之间来回横跳，永远跑不出稳定模型。"
     ],
     needs: [
-      "合规开户与资质代办：Meta 金融服务验证（10 地区强制）、泰国广告主身份验证、加密广告书面许可、AI 应用商店过审——中小客户最缺的是「有人告诉我交什么、怎么交、多久下来」。",
-      "区域预算再平衡：用「北美 5.28 vs 拉美 0.34 美元 CPI」「拉美短剧安装 +913%」的数据模型，把客户从北美单一市场拉出来做 2-3 个高性价比市场的组合测试——这是最容易做出效果差异的服务。",
-      "归因口径统一与数据回传校准：帮客户在 Meta on-device 衡量、TikTok 多窗口归因、OpenAI 新出价体系切换后重建统一报表，三个口径说清楚各自代表什么——数据信任是长期合作的锚。",
-      "AI 内容的合规与效率双修：素材去低俗化自查、AI 标识合规、素材差异化测试框架（如 AI 写真按成片场景拆线投放）、W2A 落地页矩阵——既要能过审、又要比同行便宜地拿到量。"
+      "要一个「能起量的稳定账户结构」，而不是最便宜的报价：账户隔离、备用主体、申诉通道，这三件事对小团队的价值远高于多返 1-2 个点。",
+      "要「素材外包 + 快速测试」的能力：每周稳定交付 30-50 条可测素材，按测试结果快速收敛，而不是一次性给一堆「精品」。",
+      "要「一个市场打透」的方案，而不是全球铺开：先在一个国家把 CPI 和 LTV 跑正再复制。小预算铺多市场 = 每个市场都不够起量。",
+      "要一个能对话的人：出问题时能立刻找到、能给出判断，而不是排队等工单。中小客户对「响应速度」的敏感度远超对价格的敏感度。"
     ],
     entryPoints: [
-      "用「AI 陪伴下架潮」敲 AI 社交客户的门：「收入前十下架了 5 款，你的素材和商店页合规了吗？」——合规自查+窗口期抢量方案，一周内就能出结果，是今年最容易成单的切入点。",
-      "用「黑五体检清单」敲电商客户：Advantage+ 自动改价、PMax 默认开启项、on-device 归因口径——黑五前主动送一页体检清单，节后复盘会自然归你主持。",
-      "用「HSK 3.0 12月13日切换+口语必考」敲中文教育客户：只剩三周的确定性节点，帮客户把口语素材替换和考点国家定向排到具体日期——不用争取新预算，先把存量预算排对位置，再顺势谈 Q1。",
-      "用「拉美 CPI 0.34 美元+安装量 +913%」敲短剧和工具客户：做一份「北美预算 30% 迁移拉美的测试方案」，小额起步两周出数据——用数据说话的测试，比任何折扣都容易让客户点头。"
+      "开场用「你的品类今年的大盘数据 + 一个同类产品的具体数字」，不要用自我介绍开场。例：「你们这个赛道 10 月海外收入涨了 9.58%，但增长榜前三全是老产品靠版本更新拉起来的——你们的新版本节奏怎么排？」",
+      "第一次沟通不谈框架，只提一个「两周最小验证」：3000-5000 美元、一个市场、一条素材线，跑出 CPI 再谈长期。这个提案几乎不会被拒绝，因为它把客户的风险降到最低。",
+      "用「免费的前置服务」换信任：开户陪跑（Meta 支付宝验证）、上架前权限自查（Google Play 政策）、账户架构体检（VAN 隔离）。这三件事你现在就能做，成本极低。",
+      "跟进节奏要有由头：政策生效日（12/1 日本授权、12/13 HSK3.0）、产品上线日（蓝色星原 11/26、Chinesia 3.0 12 月）、财报日（11 月中下旬中概互金）——每个节点都是一次自然的再触达理由，不要空手问「考虑得怎么样」。"
     ]
   },
 
   chinaGoingGlobal: [
     {
-      product: "Zeemo（AI 视频字幕/多语种翻译 + AI 短剧生成器）",
-      company: "北京蓝色脉动科技有限责任公司（Bluepulse Inc.）",
-      hq: "北京",
+      product: "PicWish（佐糖，AI 抠图/修图/图片增强）",
+      company: "WangXu Technology (HK) Co., Limited（深圳团队，ApowerSoft 产品矩阵）",
+      hq: "深圳 / 中国香港",
       category: "AI应用",
-      markets: "全球（印度区域语言见长，欧美主力）",
-      revenue: "暂无公开数据（国内版绘影字幕 + 海外版 Zeemo 双线）",
-      recent: "11月上半月全球 AI 工具下载增长榜第 28 名；10月上线 AI Short Drama Generator（跨集角色一致性）；11月上线说话视频直接翻译成多语种口播，从字幕工具升级为一站式 AI 创意工作室",
-      website: "https://zeemo.ai",
+      markets: "全球（欧美 + 东南亚），Google Play 千万级安装",
+      revenue: "暂无公开数据（与 ApowerMirror、LightPDF、GitMind 同属一个产品矩阵，多产品订阅制）",
+      recent: "11 月产品持续更新（版本 2.4.x），AI 抠图、图片增强、证件照、AI 背景为主要付费点；同一主体在 Google Play 上运营多个工具类 App，形成矩阵化投放",
+      website: "https://picwish.com/",
       cooperation: "not",
       coopModel: "",
-      agency: "暂无公开数据",
+      agency: "自研自发（工具矩阵自建增长团队）",
       scale: "sme",
       contacts: [],
       channels: [
-        { label: "支持邮箱（最对口）", email: "support@zeemo.ai", phone: "+86 134 0110 9027", source: "Google Play 开发者信息" }
+        { label: "支持邮箱（最对口）", email: "support@picwish.com", phone: "+86 136 5140 3970", source: "Google Play 开发者信息页" },
+        { label: "开发者主邮箱", email: "admin@apowersoft.com", phone: "", source: "Google Play 开发者信息页" }
       ],
-      contactNote: "Google Play 开发者邮箱与电话均可核实；LinkedIn 搜索 Bluepulse/Zeemo 增长负责人可进一步定位实名联系人",
-      emailSubject: "Zeemo AI 短剧生成器的海外买量打法探讨——多语种素材产能正是短剧客户最缺的",
-      emailBody: "您好！我是易点天下 Yeahmobi 的 Jill，专注中国 AI 应用与短剧出海的增长服务。看到 Zeemo 上线了 AI Short Drama Generator 和多语种口播翻译，把字幕工具做成了短剧生产的一环——这个卡位非常准：现在出海短剧素材量同比涨了三倍、收入只涨一成三，多语种素材产能正是最稀缺的。我们能帮的是把这套产能对接到海外买量侧：AI 工具类产品的关键词矩阵、分区域素材测试，以及短剧客户的联合投放，都跑过完整链路。方便的话约 15 分钟，聊聊 Zeemo 新功能上线期的投放节奏怎么排？——Jill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）"
+      contactNote: "Google Play 开发者页公开了支持邮箱、开发者邮箱与电话，可直接触达；未找到公开的实名增长/市场负责人，建议同时在 LinkedIn 搜 WangXu Technology / ApowerSoft 的 Growth 或 Marketing 岗。飞书合作表未列名，按潜在客户跟进。",
+      emailSubject: "PicWish 多产品矩阵的账户隔离与素材测试——工具出海最容易踩的 VAN 连坐问题",
+      emailBody: "您好！我是易点天下 Yeahmobi 的 Jill，专注中国工具与 AI 应用出海的增长服务。看到 PicWish 与 ApowerMirror、LightPDF、GitMind 在同一个主体下并行运营，多产品共用投放体系在今年的 Meta VAN 机制下风险不小——同一 IP、设备或支付轨迹会被划进同一风险集群，一个账户出问题会连带整组限流。我们能帮上的有两个方向：一是按产品线做账户与像素隔离，把连坐风险切开；二是为抠图、证件照这类高转化功能做分区域素材矩阵，用测试结果决定预算分配。方便约 15 分钟，先聊聊你们现在几个产品是共用还是分开投放的？——Jill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）"
     },
     {
-      product: "Momo: AI Photo & Video Maker（AI 写真/视频生成）",
-      company: "ScaleUp（媒体称国产出海团队，海外主体 info@momoai.co）",
-      hq: "海外主体（团队背景国产，媒体归因）",
+      product: "Tripo AI（3D 大模型生成 / Tripo Game Hub）",
+      company: "北京三启万物科技有限公司（VAST）",
+      hq: "北京（北京经济技术开发区）",
       category: "AI应用",
-      markets: "美国 / 欧洲",
-      revenue: "订阅制为主（Google Play 累计 840 万+ 安装、4.4 星 34.8 万条评价）",
-      recent: "冲上美国 App Store 应用免费榜 Top2、一周下载约 120 万；Google Play 摄影榜第 7；靠复古写真、职业头像、舞蹈视频等多成片场景拆分素材，同时在跑 Apple Ads",
-      website: "https://momoai.co",
+      markets: "全球（欧美开发者与游戏团队为主）",
+      revenue: "暂无公开数据（2026 年 3 月完成 5000 万美元 A 轮，阿里、恒旭资本等联合投资）",
+      recent: "2026 年推出 Tripo Game Hub 开发者 API 积分计划，向游戏开发者发放最高 500 万美元等值积分；3D 生成模型持续迭代，主打 2D 图转 3D 模型",
+      website: "https://www.tripo3d.ai/",
       cooperation: "not",
       coopModel: "",
-      agency: "暂无公开数据",
+      agency: "自研自发（PLG + 开发者社区驱动）",
       scale: "sme",
       contacts: [],
       channels: [
-        { label: "开发者邮箱（最对口）", email: "info@momoai.co", phone: "", source: "Google Play / AppBrain 开发者信息" }
+        { label: "商务/合作邮箱（最对口）", email: "lisawu@vastai3d.com", phone: "", source: "innoHere 企业档案（VAST）" },
+        { label: "开发者生态邮箱", email: "tripogame@vastai3d.com", phone: "", source: "Tripo 官方博客 Game Hub 计划" }
       ],
-      contactNote: "开发者邮箱公开可核实；主体工商信息未完全公开，接触时以产品合作为切入点",
-      emailSubject: "Momo 美国免费榜 Top2 之后的放量打法——AI 写真的成片场景拆分测试",
-      emailBody: "您好！我是易点天下 Yeahmobi 的 Jill，专注中国 AI 应用出海的增长服务。恭喜 Momo 冲上美国 App Store 免费榜 Top2——一周 120 万下载的量级在 AI 写真品类是实打实的头部表现。我们观察到这个品类的爆款窗口很短，上榜后的关键是「成片场景拆分投放」：求职头像、社交出片两条素材线分开统计、分别放量，并在 Apple Ads 上抢品类词。我们服务过多款 AI 图像/视频类 App 的海外冷启动与放量，可以免费出一份 Momo 当前的素材结构与关键词诊断。约 15 分钟聊聊？——Jill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）"
+      contactNote: "官方博客与企业档案均公开了 @vastai3d.com 邮箱，属对口合作邮箱；未找到实名负责人。公司 2023 年成立、强融资（A 轮 5000 万美元），属新兴企业。飞书合作表未列名，按潜在客户跟进。",
+      emailSubject: "Tripo Game Hub 拉来的开发者，怎么变成付费用户——3D 生成的获客结构聊聊",
+      emailBody: "您好！我是易点天下 Yeahmobi 的 Jill，专注中国 AI 应用出海的增长服务。看到 Tripo 在做 Game Hub 的 API 积分计划，用积分换开发者的使用深度，这个思路很适合 3D 生成这种「先试后买」的产品。这类产品的获客有个共性难点：开发者人群不吃信息流，更吃搜索、教程和社区口碑，所以渠道配比和普通 App 完全不同。我们能帮的是把「搜索 + 视频教程 + 开发者社区」这条线搭起来，并用回传数据判断哪条线带来的付费转化最高。方便约 15 分钟，聊聊你们现在开发者获取主要靠哪几个渠道？——Jill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）"
     },
     {
-      product: "Uknow.AI（原 CheckMath，AI 拍题答疑学习助手）",
-      company: "Study Evolution Edtech Pte. Ltd.（猿辅导/猿力系出海主体）",
-      hq: "新加坡（中国团队，猿辅导系）",
-      category: "AI应用",
-      markets: "东南亚（越南活跃第一）/ 全球",
-      revenue: "暂无公开数据（Google Play 累计 1000 万+ 安装，4.5 星）",
-      recent: "与字节 Gauth（3 亿用户）、作业帮 Question.AI 并称中国 AI 教育出海「御三家」，Uknow.AI 在越南活跃用户排第一；出海主体 Study Evolution Edtech Pte. Ltd. 独立运营",
-      website: "https://www.uknowai.com",
-      cooperation: "not",
-      coopModel: "",
-      agency: "暂无公开数据",
-      scale: "head",
-      contacts: [],
-      channels: [
-        { label: "支持邮箱（最对口）", email: "support@uknowai.com", phone: "+86 173 0125 1224", source: "Google Play 开发者信息" }
-      ],
-      contactNote: "开发者邮箱/电话公开可核实；开发者账号邮箱 studyevolution@kanyun.com（猿力系）亦可作备用渠道",
-      emailSubject: "Uknow.AI 越南第一之后：印尼/巴西的拍题产品增长复制方案",
-      emailBody: "您好！我是易点天下 Yeahmobi 的 Jill，专注中国教育科技出海的增长服务。看到 Uknow.AI 在越南活跃用户排到第一、Google Play 累计破千万安装——「御三家」里你们把东南亚单国模型跑通得很扎实。拍题答疑产品的增长高度依赖开学季和考试季节点，越南的打法复制到印尼、巴西时，素材语言、考试日历和机型分布都要重排。我们做过多个学习类 App 的东南亚放量，可以先免费出一版「越南模型迁移印尼」的对比诊断。约 15 分钟聊聊？——Jill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）"
-    },
-    {
-      product: "Superpose（AI 实时拍摄指导相机）",
-      company: "Superpose Labs（美国主体，前 TikTok 高管创立，美图参投）",
-      hq: "美国（创始团队华人，Melody Chu & Jing Liu，均前 TikTok）",
-      category: "AI应用",
-      markets: "美国 / iOS",
-      revenue: "暂无公开数据（2026年9月完成 220 万美元种子轮）",
-      recent: "9月15日获 Khosla Ventures 领投、美图/OVTR 参投的 220 万美元种子轮；主打实时测光/构图指导、一拍生成四个版本",
-      website: "https://www.superposelabs.ai",
-      cooperation: "not",
-      coopModel: "",
-      agency: "暂无公开数据",
-      scale: "sme",
-      contacts: [],
-      channels: [],
-      contactNote: "未找到公开商务邮箱；官网 superposelabs.ai 有 News 页可留言，LinkedIn 搜索 Melody Chu（联合创始人/CEO）可实名触达",
-      emailSubject: "",
-      emailBody: ""
-    },
-    {
-      product: "全球说·中文智能体（Talkmate AI Agent）",
-      company: "北京酷语时代教育科技有限公司（全球说 Talkmate）",
-      hq: "北京海淀",
-      category: "教育",
-      markets: "全球（25 种对话语言 / 7 种教学语言，阿语等小语种见长）",
-      revenue: "暂无公开数据（300+ 技术与课程知识产权，UNESCO 世界语言地图项目合作伙伴）",
-      recent: "11月世界中文大会发布中文智能体移动端：104 位中华文化人物对话、HSK 数字人导师、CSCA 备考系统（2026/2027 学年起留学本科必考）、来华游学/留学一站式服务；与腾讯云、TikTok 为生态伙伴",
-      website: "https://www.talkmate.com",
-      cooperation: "not",
-      coopModel: "",
-      agency: "暂无公开数据",
-      scale: "head",
-      contacts: [],
-      channels: [
-        { label: "商务合作邮箱（最对口）", email: "bd@talkmate.com", phone: "400-0688-056", source: "Apple App Store 应用介绍页 / 官方隐私政策" }
-      ],
-      contactNote: "bd@talkmate.com（商务）与 service@talkmate.com（客服）均为官方公开渠道；实名联系人可在 LinkedIn 搜 Talkmate 增长/市场负责人",
-      emailSubject: "中文智能体海外获客打法探讨——2.1 亿学习者盘子里的 AI 中文学习",
-      emailBody: "您好！我是易点天下 Yeahmobi 的 Jill，专注中国教育科技出海的增长服务。在世界中文大会上看到 Talkmate 中文智能体把「学中文-懂中国-来中国」做成了一站式产品，UNESCO 背书加上 104 位人物对话的产品形态，在 AI 中文学习赛道非常稀缺。海外中文学习者的获客链路高度分散：华人社区、孔院渠道、社媒自然流各占一块，付费投放要做「HSK 考点国家+华裔家庭」双定向。我们正好在这条链路上有成熟打法，可以免费出一份 Talkmate 各语言市场冷启动诊断。约 15 分钟聊聊？——Jill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）"
-    },
-    {
-      product: "荣耀中文智慧学习硬件（学习硬件+中文内容出海）",
-      company: "荣耀终端有限公司",
+      product: "AI Marvels（AI 照片/视频创作，HitPaw 系）",
+      company: "深圳软牛科技集团股份有限公司（HitPaw）",
       hq: "深圳",
+      category: "AI应用",
+      markets: "全球（繁中、欧美为主）",
+      revenue: "暂无公开数据（牛小影用户规模超 100 万；HitPaw 为国家级专精特新「小巨人」）",
+      recent: "AI Marvels 11 月 4 日更新，主推 AI 舞蹈视频、动漫滤镜、动态照片；每周更新模板与 AI 功能，靠「模板化」维持高频使用",
+      website: "https://www.hitpaw.com/",
+      cooperation: "not",
+      coopModel: "",
+      agency: "自研自发",
+      scale: "head",
+      contacts: [],
+      channels: [
+        { label: "支持邮箱（最对口）", email: "support@hitpaw.com", phone: "", source: "Google Play 应用页与 HitPaw 官网" }
+      ],
+      contactNote: "官网与 Google Play 均公开 support@hitpaw.com，属客服/支持邮箱，非商务对口；未找到实名增长负责人。建议同时通过官网「Business/Affiliate」入口或 LinkedIn 找软牛科技海外增长负责人。飞书合作表未列名，按潜在客户跟进。",
+      emailSubject: "AI Marvels 的模板周更节奏，怎么让订阅转化跟上素材量",
+      emailBody: "您好！我是易点天下 Yeahmobi 的 Jill，专注中国工具与 AI 应用出海的增长服务。AI Marvels 每周更新模板和 AI 玩法的节奏在同类产品里算很快，这类「模板驱动」的产品有个典型矛盾：素材能带来大量下载，但 trial 到付费的转化跟不上，等于白烧。我们看到贵司产品在 Google Play 有 2.3 万条评价、评分被点数机制拖累，说明用户对价值感知是有的、但对计费方式有怨气——这恰好是可以用素材和落地页重新教育的地方。方便约 15 分钟，聊聊你们现在的 trial 转化和分区域 CPI？——Jill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）"
+    },
+    {
+      product: "Hapgeta Social（原 Hapmeta Social，中文名缘宇宙社交）",
+      company: "Super Genius Technology Development (Beijing) Co., Ltd（超天才科技）",
+      hq: "北京海淀（上地三街金隅嘉华大厦）",
+      category: "娱乐APP",
+      markets: "全球（Google Play 跨境上线，欧美 + 东南亚）",
+      revenue: "暂无公开数据（官方披露 230 万次下载、161 万注册用户）",
+      recent: "11 月 17 日拿到美国商标注册证，欧盟商标仍在申请；因名称含 Meta 遭商标抗辩，从 Hapmeta Social 更名为 Hapgeta Social；官方称下月将全面升级，主打数字人 + 数字宠物 + 跨语言交流",
+      website: "https://hapgetasocial.com/",
+      cooperation: "not",
+      coopModel: "",
+      agency: "自研自发（团队规模小，无公开代理）",
+      scale: "sme",
+      contacts: [],
+      channels: [
+        { label: "开发者邮箱（最对口）", email: "SuperGeniusUS@hotmail.com", phone: "+86 133 2114 5376", source: "Google Play 开发者信息页" },
+        { label: "产品支持邮箱", email: "hapgetasocialservice@hapgetasocial.com", phone: "", source: "Google Play 应用支持信息" }
+      ],
+      contactNote: "Google Play 开发者页公开了北京主体邮箱与手机号，可直接触达决策层（小团队通常就是创始人/负责人本人看邮件）；未找到实名联系人，建议邮件中直接称呼「Hapgeta 团队负责人」。飞书合作表未列名，按潜在客户跟进。",
+      emailSubject: "Hapgeta 更名后的品牌词重建——新名字冷启动这一个月最关键的投放动作",
+      emailBody: "您好！我是易点天下 Yeahmobi 的 Jill，专注中国社交与娱乐 App 出海的增长服务。看到 Hapgeta Social 11 月 17 日拿到美国商标注册证、同时因为商标抗辩从 Hapmeta 改名，恭喜落地——但改名对投放是件大事：原有品牌词的搜索流量会断，用户搜旧名字会找不到你，而新名字在算法眼里是从零开始。我们在社交类产品上跑过完整的「更名过渡」链路：旧词承接、新词建立、商店页 ASO 同步改，加上分区域的内容素材重做，避免下载量在切换期掉一半。方便约 15 分钟，聊聊你们下月升级版的推广节奏？——Jill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）"
+    },
+    {
+      product: "DramaWave（海外短剧与动漫 App）",
+      company: "SKYWORK AI PTE. LTD.（新加坡主体，昆仑万维体系）",
+      hq: "新加坡（母公司昆仑万维，北京）",
+      category: "娱乐APP",
+      markets: "全球（东南亚、北美、拉美、中东等 40+ 市场）",
+      revenue: "暂无公开数据（Google Play 头部短剧应用之一，与 ReelShort、DramaBox 同列第一梯队讨论）",
+      recent: "持续扩充短剧 + 动漫内容，11 月仍在高频投放；越南媒体调查指出其登记主体为新加坡 SKYWORK AI PTE. LTD.，属昆仑万维体系",
+      website: "https://www.dramawave.com/",
+      cooperation: "not",
+      coopModel: "",
+      agency: "昆仑万维体系内发行（集团自有投放团队）",
+      scale: "head",
+      contacts: [],
+      channels: [
+        { label: "团队邮箱（最对口）", email: "dramawaveteam@gmail.com", phone: "+65 8226 3629", source: "Google Play 开发者信息页" },
+        { label: "开发者备用邮箱", email: "thevocicstar@gmail.com", phone: "", source: "Google Play 开发者信息页" }
+      ],
+      contactNote: "Google Play 开发者页公开了团队邮箱与新加坡电话，可直接触达；属「母大子小」——母公司昆仑万维为上市公司，但短剧 App 团队独立运营、预算独立。未找到实名负责人。飞书合作表未列名，按潜在客户跟进。",
+      emailSubject: "短剧在东南亚的第二个入口：运营商计费 + 买量怎么配比",
+      emailBody: "您好！我是易点天下 Yeahmobi 的 Jill，专注中国短剧与娱乐 App 出海的增长服务。今年短剧有个明显变化：泰国 AIS 把 ReelShort 的 VIP 打包进 5G 套餐、True 的 TaTang 用钱包付费，运营商渠道正在替平台解决「信用卡渗透率低 + 商店抽成」两件事。对 DramaWave 这种在东南亚已有规模的产品，这意味着预算结构要重算——不是把所有钱压在 Meta 和 TikTok 上，而是把运营商带来的低成本用户和买量用户分开算 LTV。我们在多市场做过这种双轨的测算和投放，方便约 15 分钟聊聊你们东南亚的用户结构？——Jill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）"
+    },
+    {
+      product: "PPtutor（华裔少儿中文在线课，4-15 岁）",
+      company: "成都学语教育科技有限公司",
+      hq: "成都（天府新区）",
       category: "教育",
-      markets: "全球",
-      revenue: "荣耀集团未单独披露学习硬件收入",
-      recent: "11月世界中文大会亮相「荣耀中文智慧学习硬件」，与新版 Chinesia App、智慧宫阿语 AI 中文 App 并列为民企中文出海代表；大厂学习硬件品类开始搭载中文教育内容出海",
-      website: "https://www.hihonor.com",
+      markets: "北美、欧洲、东南亚（120 个国家、50 万+ 华裔家庭）",
+      revenue: "暂无公开数据（A 轮，2021 年完成数千万人民币；参保 473 人）",
+      recent: "2025 年获国家级高新技术企业认定；课程对标 YCT/HSK，主推 1v1 与小班课；旗下另有面向泰国的 Linbing 品牌",
+      website: "https://www.pptutor.com/",
       cooperation: "not",
       coopModel: "",
-      agency: "暂无公开数据",
-      scale: "head",
-      contacts: [],
-      channels: [],
-      contactNote: "未找到学习硬件业务的公开对口邮箱；飞书合作表未列名，按潜在客户跟进；建议从荣耀海外教育内容生态合作岗或 LinkedIn 荣耀海外市场团队切入",
-      emailSubject: "",
-      emailBody: ""
-    },
-    {
-      product: "MeloShort（免费短剧平台，1-2 分钟短集 + 广告解锁）",
-      company: "HALOFUN PTE. LTD.（新加坡主体，内容以中国短剧为主）",
-      hq: "新加坡",
-      category: "娱乐APP",
-      markets: "日本 / 东南亚 / 全球",
-      revenue: "暂无公开数据（AppBrain 口径累计 3200 万下载、Google Play 1000 万+ 安装、4.5 星）",
-      recent: "稳居日本娱乐免费榜前列；11月持续高频更新（2.69 版本）；主打全量免费+广告解锁模式，是海外 IAA 免费短剧赛道的高置信度中腰部玩家",
-      website: "https://play.google.com/store/apps/details?id=com.drama.happy.look",
-      cooperation: "not",
-      coopModel: "",
-      agency: "暂无公开数据",
+      agency: "自研自发（以私域 + 口碑转介绍为主）",
       scale: "head",
       contacts: [],
       channels: [
-        { label: "支持邮箱（最对口）", email: "luyimiao40@gmail.com", phone: "", source: "Google Play 开发者信息" }
+        { label: "公司事务邮箱（最对口）", email: "affair@pptutor.com", phone: "+86 158 8115 5560", source: "Google Play 开发者信息页" },
+        { label: "支持团队邮箱", email: "xiaoqing.chen@pptutor.com", phone: "+86 199 5026 6768", source: "Google Play 应用支持信息" }
       ],
-      contactNote: "开发者邮箱公开可核实；主体 HALOFUN PTE. LTD. 注册于新加坡（3 Phillip Street），LinkedIn 搜索 HALOFUN 运营/增长岗位可定位实名联系人",
-      emailSubject: "MeloShort 日本娱乐榜打法复盘——免费短剧的 IAA 放量窗口",
-      emailBody: "您好！我是易点天下 Yeahmobi 的 Jill，专注中国短剧出海的增长服务。看到 MeloShort 在日本娱乐免费榜稳居前列、累计下载已过千万——免费+广告解锁的模式在 IAA 赛道跑出了自己的位置。海外短剧投流有两个硬约束：Meta 系吃掉约 65% 的投流量、北美 CPI 是拉美的 15 倍，免费短剧尤其需要做「拉美/东南亚起量+日本高 ARPU 补收」的区域组合。我们服务过多款出海短剧 App 的分区域投放，可以先免费出一份 MeloShort 当前素材结构与区域配比诊断。约 15 分钟聊聊？——Jill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）"
+      contactNote: "Google Play 开发者页公开了公司事务邮箱、支持邮箱与两个手机号；支持邮箱带具体人名（xiaoqing.chen），可作为实名联系人线索。飞书合作表未列名，按潜在客户跟进。",
+      emailSubject: "HSK3.0 12 月 13 日切换，「说」成必考项——PPtutor 的素材窗口只剩三周",
+      emailBody: "您好！我是易点天下 Yeahmobi 的 Jill，专注中国教育产品出海的增长服务。今年 12 月 13 日 HSK3.0 正式切换、「说」成为必考项，这对做华裔少儿中文的机构是一次确定性极强的需求窗口：家长的搜索词会从「中文课」变成「口语/HSK 口语」，素材和落地页如果不跟着改，转化会直接掉。PPtutor 覆盖 120 个国家、50 万华裔家庭，盘子够大，关键是把这波搜索需求接住。我们能帮的是分区域的搜索词矩阵 + 口语场景化素材测试，先跑美加澳新四个核心市场。方便约 15 分钟聊聊？——Jill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）"
     },
     {
-      product: "京东追剧福利社（免费短剧 + 剧中同款电商）",
-      company: "京东集团下属子公司",
-      hq: "北京",
-      category: "娱乐APP",
-      markets: "国内为主（内测阶段）",
-      revenue: "暂无公开数据（内测）",
-      recent: "11月低调内测独立短剧产品，免费模式主打「看剧领福利、剧中同款直接买、京东发货」，已上线同名小程序；继淘宝 AI 剧激励计划、拼多多、美团后电商巨头再入局短剧",
-      website: "https://www.jd.com",
+      product: "悟空中文 / WuKong Chinese（含数学、ELA）",
+      company: "WuKong Education（LAN GLOBAL LIMITED，经营主体悟空好老师教育科技（成都））",
+      hq: "新西兰奥克兰（全球总部）/ 成都（研发与教师基地）",
+      category: "教育",
+      markets: "美国、加拿大、澳洲、新西兰（118 个国家和地区）",
+      revenue: "暂无公开数据（B 轮；服务 40 多万个家庭）",
+      recent: "2026 年产品线扩展至数学与 ELA（WuKong: Chinese, Math & ELA）；在美加澳新长期保持市占率第一，创始人称每 3 个学员有 2 个来自老学员推荐",
+      website: "https://www.wukongsch.com/",
       cooperation: "not",
       coopModel: "",
-      agency: "暂无公开数据",
+      agency: "自研自发（口碑与私域驱动）",
       scale: "head",
       contacts: [],
-      channels: [],
-      contactNote: "内测阶段无公开产品团队联系方式；飞书合作表未列名，按潜在客户跟进；建议从京东零售内容生态/短剧业务线 BD 渠道切入",
-      emailSubject: "",
-      emailBody: ""
+      channels: [
+        { label: "IT/账号邮箱（最对口）", email: "it.account@wukongsch.com", phone: "+1 405-294-1042", source: "Google Play 开发者信息页" },
+        { label: "支持团队邮箱", email: "wukong.wukongsch@gmail.com", phone: "", source: "Google Play 应用支持信息" }
+      ],
+      contactNote: "Google Play 开发者页公开了 @wukongsch.com 邮箱与美国电话；未见商务/增长对口邮箱，建议同时通过官网合作入口或 LinkedIn 找 WuKong Education 的增长负责人。飞书合作表未列名，按潜在客户跟进。",
+      emailSubject: "从中文到数学、ELA：WuKong 新科目在美国的冷启动怎么打",
+      emailBody: "您好！我是易点天下 Yeahmobi 的 Jill，专注中国教育产品出海的增长服务。看到 WuKong 今年把产品线从中文扩展到数学和 ELA，这个方向我理解——中文赛道的口碑天花板比较明显，新科目是第二增长曲线。但新科目在美国面对的是完全不同的竞品：数学有 Khan、IXL，ELA 有大量本地产品，家长不会因为「中文教得好」就买单。我们做过教育类新科目的冷启动，核心是把「华裔家庭的信任资产」迁移到新科目的具体场景上（比如用中文思维讲数学题）。方便约 15 分钟聊聊你们新科目的获客尝试？——Jill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）"
     },
     {
-      product: "Mocasa（菲律宾先买后付 / 数字信用卡 + 小额现金贷）",
-      company: "Philippines Cashtrout Lending Corporation（中国创始团队，CEO Robin Wong）",
-      hq: "菲律宾马尼拉（中国背景创始团队）",
+      product: "Mocasa（菲律宾 BNPL / 数字信用卡 / 现金贷）",
+      company: "Philippines Cashtrout Lending Corporation（新加坡总部，中国团队）",
+      hq: "新加坡 / 菲律宾马卡蒂",
       category: "金融",
-      markets: "菲律宾",
-      revenue: "暂无公开数据（成立一年半两轮融资合计超千万美元，贝塔斯曼 A 轮领投）",
-      recent: "菲律宾 SEC 持牌（CS201910407 / CA 3015）；万事达在菲首家数字信用卡合作伙伴、银行体系外首家接入菲央行二维码支付；QR Ph 线下商户覆盖百万级；Google Play 4.4 星 3.57 万条评价，11月持续迭代",
-      website: "https://www.mocasa.com",
+      markets: "菲律宾（PSEC 注册号 CS201910407，CA 3015）",
+      revenue: "暂无公开数据（2022 年完成千万美金级融资）",
+      recent: "万事达在菲律宾首家数字信用卡合作伙伴；首家接入菲律宾央行二维码支付体系的非银机构；11 月应用更新至 3.2.6，放款支持 GCash/Maya/Lazada 钱包",
+      website: "https://www.mocasa.com/",
       cooperation: "not",
       coopModel: "",
-      agency: "暂无公开数据",
-      scale: "sme",
-      contacts: [
-        { name: "Robin Wong", role: "CEO", email: "", phone: "", linkedin: "https://www.linkedin.com/search/results/all/?keywords=Robin%20Wong%20Mocasa", source: "36氪早期项目报道" }
-      ],
-      channels: [
-        { label: "用户支持邮箱（最对口）", email: "support.user@mocasa.com", phone: "+63 917 628 0481", source: "Google Play 开发者信息 / 官网" }
-      ],
-      contactNote: "CEO Robin Wong 为 36氪实名报道联系人（未公开邮箱）；support.user@mocasa.com 为官方公开渠道，可在邮件中请转商务/增长团队",
-      emailSubject: "Mocasa 菲律宾 QR Ph 场景的增长合作——BNPL 获客的结构性机会",
-      emailBody: "您好！我是易点天下 Yeahmobi 的 Jill，专注中国金融科技出海的增长服务。关注到 Mocasa 作为万事达在菲首家数字信用卡伙伴、又率先接入央行 QR Ph 体系，线下场景壁垒做得非常扎实——这正是 BNPL 品类里最稀缺的「高频入口」。获客侧我们看到两个具体机会：一是 QR Ph 线下商户场景的 O2O 投放（线下扫码用户再营销链路），二是小额循环贷用户的分层出价（注册-授信-支用漏斗）。我们服务过多款东南亚持牌借贷 App，可以免费出一份菲律宾市场的获客成本对标诊断。约 15 分钟聊聊？——Jill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）"
-    },
-    {
-      product: "海滩奇缘 Magic Beach-Merge Story（合成休闲游戏，AI 全流程生产管线）",
-      company: "北京魔趣视界网络科技有限公司（南威软件 603636.SH 旗下，本源万象集团 51% 控股）",
-      hq: "北京",
-      category: "游戏",
-      markets: "全球（16 种语言）",
-      revenue: "暂无公开数据（2026年3月成立、注册资本 100 万，法定代表人黄海峰）",
-      recent: "8月1日登陆 Google Play 面向全球发布首款出海合成游戏；已完成首部海外 AI 短剧《红酒女王的复仇》，规划年产不少于 100 部 AI 真人短剧、年内推出 4 款游戏",
-      website: "https://www.linewell.com",
-      cooperation: "not",
-      coopModel: "",
-      agency: "暂无公开数据",
+      agency: "自研自发",
       scale: "sme",
       contacts: [],
       channels: [
-        { label: "母公司联系邮箱（最对口）", email: "kf@linewell.com", phone: "0595-68288999", source: "南威软件官网" }
+        { label: "官方支持邮箱（最对口）", email: "support.user@mocasa.com", phone: "", source: "Google Play 应用页「关于我们」" }
       ],
-      contactNote: "子公司无独立公开渠道；可通过母公司 kf@linewell.com / 0595-68288999 转接，或经微信「本源万象官微」触达；LinkedIn 搜索黄海峰（法定代表人）可实名触达",
-      emailSubject: "海滩奇缘海外冷启动打法探讨——AI 管线产能如何转化为买量优势",
-      emailBody: "您好！我是易点天下 Yeahmobi 的 Jill，专注中国游戏出海的增长服务。关注到魔趣视界把 AI 全流程生产管线用在了《海滩奇缘》上——16 语种、AI 美术+剧情+多语言本地化，这款合成休闲游戏的内容产能是同团队规模的几倍。产能优势要变成买量优势，关键在素材测试密度：AI 管线正好支持「一天跑几十组素材假设」，我们有一套合成品类的素材测试框架和区域优先级模型，可以先免费出一份《海滩奇缘》的素材结构诊断。另外魔趣的 AI 短剧产线出海在即，投放侧的坑我们也可以提前帮你们标出来。约 15 分钟聊聊？——Jill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）"
+      contactNote: "Google Play 应用页公开了官方支持邮箱与马卡蒂办公地址、持牌信息，但无商务/增长对口邮箱与电话；建议通过 LinkedIn 搜 Mocasa / Cashtrout 的 Growth 或 Marketing 负责人。飞书合作表未列名，按潜在客户跟进。",
+      emailSubject: "菲律宾牌照解冻后，Mocasa 抢规模的窗口只有 6-12 个月",
+      emailBody: "您好！我是易点天下 Yeahmobi 的 Jill，专注中国金融科技出海东南亚的增长服务。11 月菲律宾 SEC 发了 MC No.20，解除近五年的 OLP 注册冻结，改成高价限量准入——这意味着接下来半年会有一批新平台拿牌进场，先跑出规模的那家会拿到最便宜的流量。Mocasa 已经是万事达在菲律宾的首家数字信用卡伙伴、也接入了央行二维码体系，资质和场景都在，现在缺的是用户规模。我们在菲律宾做过现金贷与 BNPL 的分层投放（按授信通过率倒推素材人群），方便约 15 分钟聊聊你们现在的获客结构？——Jill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）"
+    },
+    {
+      product: "影之刃零（Phantom Blade Zero）",
+      company: "北京灵游坊软件技术有限公司（S-Game）",
+      hq: "北京海淀",
+      category: "游戏",
+      markets: "全球（PC / PS5，10 月 29 日发售）",
+      revenue: "暂无公开数据（TGA 5 项提名；发售后 72 小时销量超 400 万套）",
+      recent: "TGA 2026 获年度游戏、游戏指导、音乐、艺术指导、最佳动作游戏五项提名；Metacritic 均分 88；团队 93 人，A+ 轮累计融资 4 次",
+      website: "http://soulframegame.com/",
+      cooperation: "not",
+      coopModel: "",
+      agency: "自研自发（与平台方合作发行）",
+      scale: "head",
+      contacts: [],
+      channels: [
+        { label: "商务合作邮箱（最对口）", email: "bd@s-game.com.cn", phone: "010-62516201", source: "灵游坊官网「联系我们」页" }
+      ],
+      contactNote: "官网「联系我们」直接公开了商务合作邮箱与总机，是线索池里最对口的一个渠道；未找到实名商务负责人，建议邮件后 3 个工作日电话跟进。飞书合作表未列名，按潜在客户跟进。",
+      emailSubject: "《影之刃零》之后的下一款：海外发行的素材与区域节奏想提前聊",
+      emailBody: "您好！我是易点天下 Yeahmobi 的 Jill，专注中国游戏出海的增长服务。先恭喜《影之刃零》拿到 TGA 五项提名、72 小时 400 万套——90 多人团队做到这个成绩，海外口碑已经立住了。我注意到这款产品在欧美和日本的口碑曲线不太一样，动作类产品通常会在日本和欧美走出两套完全不同的素材语言。如果下一款产品或 DLC 要做全球发行，前期把「区域素材语言 + 首周抢量节奏」定下来，能省掉很多试错预算。方便约 15 分钟，先认识一下，聊聊你们后续的发行节奏？——Jill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）"
+    },
+    {
+      product: "Petpet GO!（合并 + 自走棋轻度休闲）",
+      company: "浙江都乐网络科技有限公司",
+      hq: "浙江绍兴上虞（e游小镇）",
+      category: "游戏",
+      markets: "欧洲 + 中东 44 国（英法德澳西葡荷俄以等），此前韩国登顶免费榜",
+      revenue: "暂无公开数据（A 轮，注册资本 1020.41 万元；参保 24 人）",
+      recent: "获苹果 App Store 全球推荐，覆盖 44 个欧洲及中东国家和地区；韩国上线两天登顶免费榜、两周新增 23 万账户，增长主要来自自传播；与 A 股上市公司大晟时代（600892）达成全面战略合作",
+      website: "https://dulehuyu.com/",
+      cooperation: "not",
+      coopModel: "",
+      agency: "自研自发 + 与上市公司战略合作",
+      scale: "sme",
+      contacts: [],
+      channels: [
+        { label: "公司 HR 邮箱（已核实）", email: "hr@zjdule.com", phone: "0575-82818991", source: "工商黄页 / 企查查公开信息" },
+        { label: "财务负责人邮箱", email: "ganshuting@zjdule.com", phone: "", source: "企查查公开工商登记信息" }
+      ],
+      contactNote: "目前只查到工商登记公开的 HR 邮箱与座机，没有商务对口邮箱；24 人小团队通常座机能直接转负责人，建议先电话再补邮件。飞书合作表未列名，按潜在客户跟进。",
+      emailSubject: "Petpet GO! 苹果 44 国推荐之后：自然量怎么接、付费要不要现在开",
+      emailBody: "您好！我是易点天下 Yeahmobi 的 Jill，专注中国休闲游戏出海的增长服务。恭喜 Petpet GO! 拿到苹果在欧洲和中东 44 国的推荐——韩国那波「两天登顶、两周 23 万新增、几乎没投广告」的成绩说明产品自传播力很强。这种时候通常面临一个选择：现在开始买量放大，还是等自然量跑完再说。我的建议是「先小额测试、把自然量的用户画像摸清再放大」，因为自然量高的产品最怕投放素材和产品调性打架，反而把转化拉低。我们在欧洲和中东的休闲品类有现成的分区域测试方案，方便约 15 分钟聊聊？——Jill｜易点天下 Yeahmobi（A股上市，专注中国出海企业的海外增长服务）"
     }
   ]
 };
