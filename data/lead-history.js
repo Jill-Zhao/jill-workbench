@@ -1,4 +1,14 @@
 window.LEAD_HISTORY = [
+  "2026-11-27|Reel.AI（全球首款 AI 短剧 App）|上海井英科技有限公司（Creative Fitting HK Limited）",
+  "2026-11-27|灵境AI（AI 漫剧创作平台）|灵境万维（杭州）智能科技有限公司",
+  "2026-11-27|Hugmi（AI 伴侣 App）|上海言序无界网络科技有限公司",
+  "2026-11-27|HelloChinese（学中文 App）|HelloChinese（北京团队）",
+  "2026-11-27|TopShort（日本竖屏短剧 App）|上海嘉书科技有限公司（Jowo Media）",
+  "2026-11-27|Kalos TV（海外短剧 App）|杭州青榕文化传媒有限公司（Storyverse Co., Limited）",
+  "2026-11-27|iDrama（海外短剧平台）|掌阅科技股份有限公司（HK Good Drama Technology Limited）",
+  "2026-11-27|WeLab 汇立集团（数字银行 WeLab Bank / Bank Saqu）|WeLab Limited（香港）",
+  "2026-11-27|乐牛游戏（《神火大陆》《斗破苍穹》全球化发行）|广州乐牛软件科技有限公司",
+  "2026-11-27|Plotza（新兴海外短剧 App）|广州秦九网络科技有限公司",
   "2026-11-26|鹅漫 GOOSEFLIP（AI 短剧出海欧洲 / 小语种译制发行）|杭州鹅漫文化科技有限公司",
   "2026-11-26|JoyReels（海外短剧 App，11 月收入黑马）|福州掌中云科技有限公司（海外主体 UREELS PTE. LTD.）",
   "2026-11-26|EVE / Elys（3D AI 伴侣 / AI 原生社交网络）|自然选择（深圳）智能有限公司（NatureSelect）",
@@ -57,6 +67,5 @@ window.LEAD_HISTORY = [
   "2026-11-19|AI 短剧多语种出海（改编自《马甲》等，英/西/葡三语版本）|长沙四五六文化有限公司（四五六文化传媒）",
   "2026-11-19|X Wallet / Zero Finance / X Pay（AI 智能信贷 + 海外现金贷）|零在科技金融集团有限公司（0093.HK，深圳总部+香港主体零在金融香港有限公司）",
   "2026-11-19|Barren Survival: Oasis Ark（荒漠求生 SLG）|成都乐梦星游科技有限公司",
-  "2026-11-18|WayShot（AI 相机）|浪漫极客（北京）科技有限公司",
-  "2026-11-18|Today AI（AI 资讯与助手）|汇翮（上海）智能科技有限公司"
+  "2026-11-18|WayShot（AI 相机）|浪漫极客（北京）科技有限公司"
 ];
